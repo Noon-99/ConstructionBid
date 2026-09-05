@@ -1,0 +1,542 @@
+{
+  "project_id": "row_house",
+  "breakdown_by_category": [
+    {
+      "category": "Roofing",
+      "items": [
+        {
+          "item_name": "Roof replacement system (assembly) - TPO",
+          "scope_item": "roof replacement",
+          "quantity": 3500.0,
+          "unit": "SF",
+          "unit_cost": 25.0,
+          "material_cost": 12.0,
+          "labor_cost": 5.25,
+          "equipment_cost": 2.0,
+          "waste_factor": 0.05,
+          "multipliers": {},
+          "subtotal": 162618.75,
+          "rule_matched": "roof_assembly",
+          "evidence": "Tear-off scope (full): Remove existing roof membrane; Disposal requirement: Remove existing roof membrane; System type (EPDM): Roof assembly and accessories; Insulation material: Unknown; Insulation thickness NOT FOUND - evidence: Thickness/material not found; Quantity: Roof area = 8000.0 SF; Perimeter: Roof perimeter = 360.0 LF | CONFIDENCE ISSUES: INSULATION THICKNESS MISSING - pricing may be inaccurate. Thickness not found in documents. | Manual override applied",
+          "notes": [
+            "System type: TPO",
+            "Tear-off: included",
+            "Insulation: 3.5 in"
+          ],
+          "quantity_source": "from_drawing",
+          "quantity_confidence": 0.85,
+          "quantity_evidence": {
+            "evidence_snippet": "Tear-off scope (full): Remove existing roof membrane; Disposal requirement: Remove existing roof membrane; System type (EPDM): Roof assembly and accessories; Insulation material: Unknown; Insulation thickness NOT FOUND - evidence: Thickness/material not found; Quantity: Roof area = 8000.0 SF; Perimeter: Roof perimeter = 360.0 LF | CONFIDENCE ISSUES: INSULATION THICKNESS MISSING - pricing may be inaccurate. Thickness not found in documents. | Manual override applied"
+          },
+          "detail_refs": [],
+          "profile_id": "default_national",
+          "multiplier_breakdown": [
+            "labor_rate: US_DEFAULT general ($75/hr → $35/hr)"
+          ],
+          "override_source": "manual_override"
+        },
+        {
+          "item_name": "Roof tear-off & disposal",
+          "scope_item": "roof tear-off",
+          "quantity": 3500.0,
+          "unit": "SF",
+          "unit_cost": 4.0,
+          "material_cost": 0.0,
+          "labor_cost": 2.8000000000000003,
+          "equipment_cost": 1.7999999999999998,
+          "waste_factor": 0.0,
+          "multipliers": {},
+          "subtotal": 30100.000000000004,
+          "rule_matched": "roof_tearoff",
+          "evidence": "Tear-off scope (full): Remove existing roof membrane; Disposal requirement: Remove existing roof membrane; System type (EPDM): Roof assembly and accessories; Insulation material: Unknown; Insulation thickness NOT FOUND - evidence: Thickness/material not found; Quantity: Roof area = 8000.0 SF; Perimeter: Roof perimeter = 360.0 LF | CONFIDENCE ISSUES: INSULATION THICKNESS MISSING - pricing may be inaccurate. Thickness not found in documents. | Manual override applied",
+          "notes": [
+            "Tear-off scope: full",
+            "Disposal: Remove existing roof membrane"
+          ],
+          "quantity_source": "from_drawing",
+          "quantity_confidence": 0.85,
+          "quantity_evidence": {
+            "evidence_snippet": "Tear-off scope (full): Remove existing roof membrane; Disposal requirement: Remove existing roof membrane; System type (EPDM): Roof assembly and accessories; Insulation material: Unknown; Insulation thickness NOT FOUND - evidence: Thickness/material not found; Quantity: Roof area = 8000.0 SF; Perimeter: Roof perimeter = 360.0 LF | CONFIDENCE ISSUES: INSULATION THICKNESS MISSING - pricing may be inaccurate. Thickness not found in documents. | Manual override applied",
+            "tearoff_scope": "full",
+            "assumed": false
+          },
+          "detail_refs": [],
+          "profile_id": "default_national",
+          "multiplier_breakdown": [
+            "labor_rate: US_DEFAULT general ($75/hr → $35/hr)",
+            "equipment_rate: US_DEFAULT dumpster (+20%)"
+          ],
+          "override_source": "manual_override"
+        },
+        {
+          "item_name": "Roof edge metal / coping (ASSUMED - review required)",
+          "scope_item": "roof_edge_metal",
+          "quantity": 360.0,
+          "unit": "LF",
+          "unit_cost": 25.0,
+          "material_cost": 15.0,
+          "labor_cost": 10.5,
+          "equipment_cost": 0.5,
+          "waste_factor": 0.05,
+          "multipliers": {},
+          "subtotal": 19278.0,
+          "rule_matched": "roof_edge_metal",
+          "evidence": "Roof perimeter and edge metal requirements",
+          "notes": [
+            "Quantity: 360 LF",
+            "⚠️ Edge metal length not specified - using roof perimeter as estimate. Review required."
+          ],
+          "quantity_source": "heuristic",
+          "quantity_confidence": 0.5,
+          "quantity_evidence": {
+            "source": "perimeter_length"
+          },
+          "detail_refs": [],
+          "profile_id": "default_national",
+          "multiplier_breakdown": [
+            "labor_rate: US_DEFAULT general ($75/hr → $35/hr)"
+          ],
+          "override_source": "manual_override"
+        },
+        {
+          "item_name": "Roof base flashing (ASSUMED - review required)",
+          "scope_item": "roof_base_flashing",
+          "quantity": 360.0,
+          "unit": "LF",
+          "unit_cost": 18.0,
+          "material_cost": 10.0,
+          "labor_cost": 8.75,
+          "equipment_cost": 0.3,
+          "waste_factor": 0.05,
+          "multipliers": {},
+          "subtotal": 14004.899999999998,
+          "rule_matched": "roof_base_flashing",
+          "evidence": "Roof perimeter flashing requirements",
+          "notes": [
+            "Quantity: 360 LF",
+            "⚠️ Base flashing length not specified - using roof perimeter as estimate. Review required."
+          ],
+          "quantity_source": "heuristic",
+          "quantity_confidence": 0.5,
+          "quantity_evidence": {
+            "source": "perimeter_length"
+          },
+          "detail_refs": [],
+          "profile_id": "default_national",
+          "multiplier_breakdown": [
+            "labor_rate: US_DEFAULT general ($75/hr → $35/hr)"
+          ],
+          "override_source": "manual_override"
+        },
+        {
+          "item_name": "roof membrane removal",
+          "scope_item": "roof membrane removal",
+          "quantity": 1.0,
+          "unit": "EA",
+          "unit_cost": 25.0,
+          "material_cost": 12.0,
+          "labor_cost": 5.25,
+          "equipment_cost": 2.0,
+          "waste_factor": 0.0,
+          "multipliers": {},
+          "subtotal": 25.0,
+          "rule_matched": "roof_assembly",
+          "evidence": "Remove existing roof membrane",
+          "notes": [
+            "Matched rule: roof_assembly"
+          ],
+          "quantity_source": "heuristic",
+          "quantity_confidence": 0.2,
+          "quantity_evidence": {
+            "evidence_snippet": "Default fallback quantity"
+          },
+          "detail_refs": [],
+          "profile_id": "default_national",
+          "multiplier_breakdown": [
+            "labor_rate: US_DEFAULT general ($75/hr → $35/hr)"
+          ],
+          "override_source": "unknown"
+        },
+        {
+          "item_name": "roof membrane installation",
+          "scope_item": "roof membrane installation",
+          "quantity": 1.0,
+          "unit": "EA",
+          "unit_cost": 25.0,
+          "material_cost": 12.0,
+          "labor_cost": 5.25,
+          "equipment_cost": 2.0,
+          "waste_factor": 0.0,
+          "multipliers": {},
+          "subtotal": 25.0,
+          "rule_matched": "roof_assembly",
+          "evidence": "Roof assembly and accessories",
+          "notes": [
+            "Matched rule: roof_assembly"
+          ],
+          "quantity_source": "heuristic",
+          "quantity_confidence": 0.2,
+          "quantity_evidence": {
+            "evidence_snippet": "Default fallback quantity"
+          },
+          "detail_refs": [],
+          "profile_id": "default_national",
+          "multiplier_breakdown": [
+            "labor_rate: US_DEFAULT general ($75/hr → $35/hr)"
+          ],
+          "override_source": "unknown"
+        }
+      ],
+      "subtotal": 226051.65
+    },
+    {
+      "category": "Masonry",
+      "items": [
+        {
+          "item_name": "parapet",
+          "scope_item": "parapet",
+          "quantity": 1.0,
+          "unit": "EA",
+          "unit_cost": 85.0,
+          "material_cost": 38.5,
+          "labor_cost": 44.0,
+          "equipment_cost": 5.0,
+          "waste_factor": 0.1,
+          "multipliers": {},
+          "subtotal": 93.5,
+          "rule_matched": "parapet_rebuild",
+          "evidence": "Install new parapet coping per detail 2/A-101",
+          "notes": [
+            "Matched rule: parapet_rebuild"
+          ],
+          "quantity_source": "heuristic",
+          "quantity_confidence": 0.2,
+          "quantity_evidence": {
+            "evidence_snippet": "Default fallback quantity"
+          },
+          "detail_refs": [],
+          "profile_id": "default_national",
+          "multiplier_breakdown": [],
+          "override_source": "unknown"
+        }
+      ],
+      "subtotal": 93.5
+    },
+    {
+      "category": "Waterproofing",
+      "items": [
+        {
+          "item_name": "flashing",
+          "scope_item": "flashing",
+          "quantity": 1.0,
+          "unit": "EA",
+          "unit_cost": 28.0,
+          "material_cost": 12.96,
+          "labor_cost": 8.75,
+          "equipment_cost": 1.0,
+          "waste_factor": 0.08,
+          "multipliers": {},
+          "subtotal": 30.240000000000002,
+          "rule_matched": "flashing_install",
+          "evidence": "Install new flashing per detail 2/A-101",
+          "notes": [
+            "Matched rule: flashing_install"
+          ],
+          "quantity_source": "heuristic",
+          "quantity_confidence": 0.2,
+          "quantity_evidence": {
+            "evidence_snippet": "Default fallback quantity"
+          },
+          "detail_refs": [],
+          "profile_id": "default_national",
+          "multiplier_breakdown": [
+            "labor_rate: US_DEFAULT general ($55/hr → $35/hr)"
+          ],
+          "override_source": "unknown"
+        }
+      ],
+      "subtotal": 30.240000000000002
+    }
+  ],
+  "breakdown_by_scope_item": [
+    {
+      "item_name": "Roof replacement system (assembly) - TPO",
+      "scope_item": "roof replacement",
+      "quantity": 3500.0,
+      "unit": "SF",
+      "unit_cost": 25.0,
+      "material_cost": 12.0,
+      "labor_cost": 5.25,
+      "equipment_cost": 2.0,
+      "waste_factor": 0.05,
+      "multipliers": {},
+      "subtotal": 162618.75,
+      "rule_matched": "roof_assembly",
+      "evidence": "Tear-off scope (full): Remove existing roof membrane; Disposal requirement: Remove existing roof membrane; System type (EPDM): Roof assembly and accessories; Insulation material: Unknown; Insulation thickness NOT FOUND - evidence: Thickness/material not found; Quantity: Roof area = 8000.0 SF; Perimeter: Roof perimeter = 360.0 LF | CONFIDENCE ISSUES: INSULATION THICKNESS MISSING - pricing may be inaccurate. Thickness not found in documents. | Manual override applied",
+      "notes": [
+        "System type: TPO",
+        "Tear-off: included",
+        "Insulation: 3.5 in"
+      ],
+      "quantity_source": "from_drawing",
+      "quantity_confidence": 0.85,
+      "quantity_evidence": {
+        "evidence_snippet": "Tear-off scope (full): Remove existing roof membrane; Disposal requirement: Remove existing roof membrane; System type (EPDM): Roof assembly and accessories; Insulation material: Unknown; Insulation thickness NOT FOUND - evidence: Thickness/material not found; Quantity: Roof area = 8000.0 SF; Perimeter: Roof perimeter = 360.0 LF | CONFIDENCE ISSUES: INSULATION THICKNESS MISSING - pricing may be inaccurate. Thickness not found in documents. | Manual override applied"
+      },
+      "detail_refs": [],
+      "profile_id": "default_national",
+      "multiplier_breakdown": [
+        "labor_rate: US_DEFAULT general ($75/hr → $35/hr)"
+      ],
+      "override_source": "manual_override"
+    },
+    {
+      "item_name": "Roof tear-off & disposal",
+      "scope_item": "roof tear-off",
+      "quantity": 3500.0,
+      "unit": "SF",
+      "unit_cost": 4.0,
+      "material_cost": 0.0,
+      "labor_cost": 2.8000000000000003,
+      "equipment_cost": 1.7999999999999998,
+      "waste_factor": 0.0,
+      "multipliers": {},
+      "subtotal": 30100.000000000004,
+      "rule_matched": "roof_tearoff",
+      "evidence": "Tear-off scope (full): Remove existing roof membrane; Disposal requirement: Remove existing roof membrane; System type (EPDM): Roof assembly and accessories; Insulation material: Unknown; Insulation thickness NOT FOUND - evidence: Thickness/material not found; Quantity: Roof area = 8000.0 SF; Perimeter: Roof perimeter = 360.0 LF | CONFIDENCE ISSUES: INSULATION THICKNESS MISSING - pricing may be inaccurate. Thickness not found in documents. | Manual override applied",
+      "notes": [
+        "Tear-off scope: full",
+        "Disposal: Remove existing roof membrane"
+      ],
+      "quantity_source": "from_drawing",
+      "quantity_confidence": 0.85,
+      "quantity_evidence": {
+        "evidence_snippet": "Tear-off scope (full): Remove existing roof membrane; Disposal requirement: Remove existing roof membrane; System type (EPDM): Roof assembly and accessories; Insulation material: Unknown; Insulation thickness NOT FOUND - evidence: Thickness/material not found; Quantity: Roof area = 8000.0 SF; Perimeter: Roof perimeter = 360.0 LF | CONFIDENCE ISSUES: INSULATION THICKNESS MISSING - pricing may be inaccurate. Thickness not found in documents. | Manual override applied",
+        "tearoff_scope": "full",
+        "assumed": false
+      },
+      "detail_refs": [],
+      "profile_id": "default_national",
+      "multiplier_breakdown": [
+        "labor_rate: US_DEFAULT general ($75/hr → $35/hr)",
+        "equipment_rate: US_DEFAULT dumpster (+20%)"
+      ],
+      "override_source": "manual_override"
+    },
+    {
+      "item_name": "Roof edge metal / coping (ASSUMED - review required)",
+      "scope_item": "roof_edge_metal",
+      "quantity": 360.0,
+      "unit": "LF",
+      "unit_cost": 25.0,
+      "material_cost": 15.0,
+      "labor_cost": 10.5,
+      "equipment_cost": 0.5,
+      "waste_factor": 0.05,
+      "multipliers": {},
+      "subtotal": 19278.0,
+      "rule_matched": "roof_edge_metal",
+      "evidence": "Roof perimeter and edge metal requirements",
+      "notes": [
+        "Quantity: 360 LF",
+        "⚠️ Edge metal length not specified - using roof perimeter as estimate. Review required."
+      ],
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.5,
+      "quantity_evidence": {
+        "source": "perimeter_length"
+      },
+      "detail_refs": [],
+      "profile_id": "default_national",
+      "multiplier_breakdown": [
+        "labor_rate: US_DEFAULT general ($75/hr → $35/hr)"
+      ],
+      "override_source": "manual_override"
+    },
+    {
+      "item_name": "Roof base flashing (ASSUMED - review required)",
+      "scope_item": "roof_base_flashing",
+      "quantity": 360.0,
+      "unit": "LF",
+      "unit_cost": 18.0,
+      "material_cost": 10.0,
+      "labor_cost": 8.75,
+      "equipment_cost": 0.3,
+      "waste_factor": 0.05,
+      "multipliers": {},
+      "subtotal": 14004.899999999998,
+      "rule_matched": "roof_base_flashing",
+      "evidence": "Roof perimeter flashing requirements",
+      "notes": [
+        "Quantity: 360 LF",
+        "⚠️ Base flashing length not specified - using roof perimeter as estimate. Review required."
+      ],
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.5,
+      "quantity_evidence": {
+        "source": "perimeter_length"
+      },
+      "detail_refs": [],
+      "profile_id": "default_national",
+      "multiplier_breakdown": [
+        "labor_rate: US_DEFAULT general ($75/hr → $35/hr)"
+      ],
+      "override_source": "manual_override"
+    },
+    {
+      "item_name": "roof membrane removal",
+      "scope_item": "roof membrane removal",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 25.0,
+      "material_cost": 12.0,
+      "labor_cost": 5.25,
+      "equipment_cost": 2.0,
+      "waste_factor": 0.0,
+      "multipliers": {},
+      "subtotal": 25.0,
+      "rule_matched": "roof_assembly",
+      "evidence": "Remove existing roof membrane",
+      "notes": [
+        "Matched rule: roof_assembly"
+      ],
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2,
+      "quantity_evidence": {
+        "evidence_snippet": "Default fallback quantity"
+      },
+      "detail_refs": [],
+      "profile_id": "default_national",
+      "multiplier_breakdown": [
+        "labor_rate: US_DEFAULT general ($75/hr → $35/hr)"
+      ],
+      "override_source": "unknown"
+    },
+    {
+      "item_name": "roof membrane installation",
+      "scope_item": "roof membrane installation",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 25.0,
+      "material_cost": 12.0,
+      "labor_cost": 5.25,
+      "equipment_cost": 2.0,
+      "waste_factor": 0.0,
+      "multipliers": {},
+      "subtotal": 25.0,
+      "rule_matched": "roof_assembly",
+      "evidence": "Roof assembly and accessories",
+      "notes": [
+        "Matched rule: roof_assembly"
+      ],
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2,
+      "quantity_evidence": {
+        "evidence_snippet": "Default fallback quantity"
+      },
+      "detail_refs": [],
+      "profile_id": "default_national",
+      "multiplier_breakdown": [
+        "labor_rate: US_DEFAULT general ($75/hr → $35/hr)"
+      ],
+      "override_source": "unknown"
+    },
+    {
+      "item_name": "parapet",
+      "scope_item": "parapet",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 85.0,
+      "material_cost": 38.5,
+      "labor_cost": 44.0,
+      "equipment_cost": 5.0,
+      "waste_factor": 0.1,
+      "multipliers": {},
+      "subtotal": 93.5,
+      "rule_matched": "parapet_rebuild",
+      "evidence": "Install new parapet coping per detail 2/A-101",
+      "notes": [
+        "Matched rule: parapet_rebuild"
+      ],
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2,
+      "quantity_evidence": {
+        "evidence_snippet": "Default fallback quantity"
+      },
+      "detail_refs": [],
+      "profile_id": "default_national",
+      "multiplier_breakdown": [],
+      "override_source": "unknown"
+    },
+    {
+      "item_name": "flashing",
+      "scope_item": "flashing",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 28.0,
+      "material_cost": 12.96,
+      "labor_cost": 8.75,
+      "equipment_cost": 1.0,
+      "waste_factor": 0.08,
+      "multipliers": {},
+      "subtotal": 30.240000000000002,
+      "rule_matched": "flashing_install",
+      "evidence": "Install new flashing per detail 2/A-101",
+      "notes": [
+        "Matched rule: flashing_install"
+      ],
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2,
+      "quantity_evidence": {
+        "evidence_snippet": "Default fallback quantity"
+      },
+      "detail_refs": [],
+      "profile_id": "default_national",
+      "multiplier_breakdown": [
+        "labor_rate: US_DEFAULT general ($55/hr → $35/hr)"
+      ],
+      "override_source": "unknown"
+    }
+  ],
+  "breakdown_by_building": {},
+  "subtotals": {
+    "Roofing": 226051.65,
+    "Masonry": 93.5,
+    "Waterproofing": 30.240000000000002
+  },
+  "total_cost": 226175.38999999998,
+  "material_cost_total": 112.46000000000001,
+  "labor_cost_total": 90.55,
+  "equipment_cost_total": 14.6,
+  "waste_cost_total": 9806.851700000001,
+  "cost_justification": [
+    "Roof replacement system (assembly): 3500.0 SF × $25.00/SF = $162,618.75",
+    "Roof tear-off & disposal: 3500.0 SF × $4.00/SF = $30,100.00",
+    "Roof edge metal/coping (ASSUMED from perimeter): 360.0 LF × $25.00/LF = $19,278.00",
+    "Roof base flashing (ASSUMED from perimeter): 360.0 LF × $18.00/LF = $14,004.90",
+    "roof membrane removal: 1.0 EA @ $25.00/EA = $25.00",
+    "roof membrane installation: 1.0 EA @ $25.00/EA = $25.00",
+    "parapet: 1.0 EA @ $85.00/EA = $93.50",
+    "flashing: 1.0 EA @ $28.00/EA = $30.24"
+  ],
+  "missing_data_warnings": [
+    "Manual overrides applied to roof assembly for testing.",
+    "Edge metal/coping not specified - using perimeter length 360.0 LF as estimate. Review required.",
+    "Base flashing not specified - using perimeter length 360.0 LF as estimate. Review required.",
+    "Heuristic quantity used for roof membrane removal: 1.0 EA (confidence: 20.0%)",
+    "Heuristic quantity used for roof membrane installation: 1.0 EA (confidence: 20.0%)",
+    "No cost rule found for scope item: roof insulation",
+    "No cost rule found for scope item: roof area",
+    "Heuristic quantity used for parapet: 1.0 EA (confidence: 20.0%)",
+    "Heuristic quantity used for flashing: 1.0 EA (confidence: 20.0%)"
+  ],
+  "rules_used": [
+    "roof_assembly",
+    "roof_tearoff",
+    "roof_edge_metal",
+    "roof_base_flashing",
+    "parapet_rebuild",
+    "flashing_install"
+  ],
+  "profile_id": "default_national"
+}

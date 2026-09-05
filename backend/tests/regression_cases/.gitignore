@@ -1,0 +1,2 @@
+# Ignore sample PDFs for regression and acceptance cases
+*.pdf

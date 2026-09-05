@@ -1,0 +1,287 @@
+{
+  "project_id": "f1935fc0",
+  "assemblies": [
+    {
+      "id": "parapet_repair_001",
+      "title": "Parapet Repair and Rebuild",
+      "division": "04 Masonry",
+      "unit": "LF",
+      "quantity": 20.0,
+      "related_bid_item_ids": [
+        "0"
+      ],
+      "components": [
+        {
+          "name": "Existing Parapet Demolition",
+          "unit": "LF",
+          "qty": 20.0,
+          "unit_cost": 25.0,
+          "total_cost": 500.0,
+          "cost_source": "ruleset",
+          "notes": "Demolition and removal of existing parapet"
+        },
+        {
+          "name": "Concrete Block CMU (8\" x 8\" x 16\")",
+          "unit": "EA",
+          "qty": 30.0,
+          "unit_cost": 2.5,
+          "total_cost": 75.0,
+          "cost_source": "ruleset",
+          "notes": "CMU blocks for parapet rebuild, waste_factor applied"
+        },
+        {
+          "name": "Mortar Mix Type N",
+          "unit": "Bag",
+          "qty": 5.0,
+          "unit_cost": 8.0,
+          "total_cost": 40.0,
+          "cost_source": "ruleset",
+          "notes": "Mortar bags per LF of parapet"
+        },
+        {
+          "name": "Aluminum Coping (6\" Width)",
+          "unit": "LF",
+          "qty": 21.0,
+          "unit_cost": 45.0,
+          "total_cost": 945.0,
+          "cost_source": "ruleset",
+          "notes": "Aluminum coping with 5% waste"
+        },
+        {
+          "name": "Flashing (Aluminum, 6\" Width)",
+          "unit": "LF",
+          "qty": 21.0,
+          "unit_cost": 8.5,
+          "total_cost": 178.5,
+          "cost_source": "ruleset",
+          "notes": "Base flashing under coping"
+        },
+        {
+          "name": "Anchoring (L-Brackets, Galvanized)",
+          "unit": "EA",
+          "qty": 5.0,
+          "unit_cost": 3.5,
+          "total_cost": 17.5,
+          "cost_source": "ruleset",
+          "notes": "Anchors every 4 LF"
+        },
+        {
+          "name": "Sealant (Caulk, Polyurethane)",
+          "unit": "LF",
+          "qty": 40.0,
+          "unit_cost": 2.25,
+          "total_cost": 90.0,
+          "cost_source": "ruleset",
+          "notes": "Sealant for coping joints (both sides)"
+        }
+      ],
+      "labor": [
+        {
+          "trade": "mason",
+          "crew": [
+            "mason",
+            "laborer"
+          ],
+          "hours": 6.4,
+          "rate": 65.0,
+          "total_cost": 416.0,
+          "basis": "Productivity: 25 LF/day, 8 hours/day"
+        },
+        {
+          "trade": "foreman",
+          "crew": [
+            "foreman"
+          ],
+          "hours": 1.6,
+          "rate": 85.0,
+          "total_cost": 136.0,
+          "basis": "Supervision: 2 hours/day"
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Scaffolding",
+          "unit": "Week",
+          "qty": 1.0,
+          "unit_cost": 450.0,
+          "total_cost": 450.0,
+          "basis": "Scaffold required for parapet work, minimum 1 week"
+        }
+      ],
+      "assumptions": [
+        "Access via existing stair or ladder",
+        "Weather permitting",
+        "No structural engineering required if existing parapet height maintained"
+      ],
+      "spec_refs": [
+        "04 21 13",
+        "07 56 00"
+      ],
+      "evidence_refs": [],
+      "ruleset_used": "row_house_repair.yml"
+    },
+    {
+      "id": "brick_repointing_001",
+      "title": "Brick Repointing",
+      "division": "04 Masonry",
+      "unit": "SF",
+      "quantity": 300.0,
+      "related_bid_item_ids": [
+        "2"
+      ],
+      "components": [
+        {
+          "name": "Mortar Mix Type N",
+          "unit": "Bag",
+          "qty": 45.0,
+          "unit_cost": 8.0,
+          "total_cost": 360.0,
+          "cost_source": "ruleset",
+          "notes": "Mortar bags per SF of repointing"
+        },
+        {
+          "name": "Joint Tooling",
+          "unit": "SF",
+          "qty": 300.0,
+          "unit_cost": 0.5,
+          "total_cost": 150.0,
+          "cost_source": "ruleset",
+          "notes": "Joint raking and tooling"
+        },
+        {
+          "name": "Cleanup (Power Washing)",
+          "unit": "SF",
+          "qty": 300.0,
+          "unit_cost": 0.75,
+          "total_cost": 225.0,
+          "cost_source": "ruleset",
+          "notes": "Surface cleaning before repointing"
+        }
+      ],
+      "labor": [
+        {
+          "trade": "mason",
+          "crew": [
+            "mason",
+            "laborer"
+          ],
+          "hours": 48.0,
+          "rate": 65.0,
+          "total_cost": 3120.0,
+          "basis": "Productivity: 50 SF/day, 8 hours/day"
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Scaffolding",
+          "unit": "Week",
+          "qty": 2.0,
+          "unit_cost": 450.0,
+          "total_cost": 900.0,
+          "basis": "Scaffold required for exterior masonry work"
+        }
+      ],
+      "assumptions": [
+        "Existing mortar joints raked to 3/4\" depth",
+        "Weather permitting"
+      ],
+      "spec_refs": [
+        "04 05 13"
+      ],
+      "evidence_refs": [],
+      "ruleset_used": "row_house_repair.yml"
+    },
+    {
+      "id": "lintel_replacement_001",
+      "title": "Lintel Replacement",
+      "division": "05 Metals",
+      "unit": "EA",
+      "quantity": 1.0,
+      "related_bid_item_ids": [
+        "3"
+      ],
+      "components": [
+        {
+          "name": "Steel Lintel (Galvanized, Size per Detail)",
+          "unit": "EA",
+          "qty": 1.0,
+          "unit_cost": 125.0,
+          "total_cost": 125.0,
+          "cost_source": "ruleset",
+          "notes": "Pre-fabricated steel lintel"
+        },
+        {
+          "name": "Lintel Removal (Demolition)",
+          "unit": "EA",
+          "qty": 1.0,
+          "unit_cost": 75.0,
+          "total_cost": 75.0,
+          "cost_source": "ruleset",
+          "notes": "Removal of existing lintel"
+        },
+        {
+          "name": "Mortar Bed",
+          "unit": "EA",
+          "qty": 0.5,
+          "unit_cost": 15.0,
+          "total_cost": 7.5,
+          "cost_source": "ruleset",
+          "notes": "Mortar bags per lintel"
+        },
+        {
+          "name": "Shims and Leveling",
+          "unit": "EA",
+          "qty": 1.0,
+          "unit_cost": 5.0,
+          "total_cost": 5.0,
+          "cost_source": "ruleset",
+          "notes": "Steel shims for leveling"
+        }
+      ],
+      "labor": [
+        {
+          "trade": "steel",
+          "crew": [
+            "steel",
+            "laborer"
+          ],
+          "hours": 4.0,
+          "rate": 75.0,
+          "total_cost": 300.0,
+          "basis": "4 hours per lintel (removal + installation)"
+        },
+        {
+          "trade": "mason",
+          "crew": [
+            "mason"
+          ],
+          "hours": 2.0,
+          "rate": 65.0,
+          "total_cost": 130.0,
+          "basis": "2 hours per lintel for brickwork support"
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Scaffolding",
+          "unit": "Week",
+          "qty": 1.0,
+          "unit_cost": 450.0,
+          "total_cost": 450.0,
+          "basis": "Scaffold required for lintel work"
+        }
+      ],
+      "assumptions": [
+        "Lintel size determined from detail drawings",
+        "Temporary support required during removal"
+      ],
+      "spec_refs": [
+        "05 12 00"
+      ],
+      "evidence_refs": [],
+      "ruleset_used": "row_house_repair.yml"
+    }
+  ],
+  "generated_at": "2026-01-03T20:41:15.086201",
+  "version": "1.0"
+}

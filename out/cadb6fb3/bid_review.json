@@ -1,0 +1,149 @@
+{
+  "project_id": "cadb6fb3",
+  "total_bid": 19604.97,
+  "line_items": [
+    {
+      "line_item_id": "line_item_0",
+      "line_item_index": 0,
+      "division": "08 Openings",
+      "title": "Remove existing double-hung windows",
+      "quantity": 20.0,
+      "unit": "ea",
+      "unit_cost": 450.0,
+      "total_cost": 9450.0,
+      "rule_refs": [
+        {
+          "rule_name": "Window Replacement",
+          "yaml_file": "window_replacement.yml",
+          "match_keywords_used": []
+        }
+      ],
+      "multipliers_applied": [
+        {
+          "name": "waste",
+          "factor": 0.05
+        },
+        {
+          "name": "profile: labor_rate: US_DEFAULT general ($65/hr → $35/hr)",
+          "factor": 1.0
+        }
+      ],
+      "quantity_source": "explicit_takeoff",
+      "evidence_refs": [
+        {
+          "page_number": 1,
+          "sheet_id": null,
+          "snippet": "W-1 3'-0\" x 5'-0\" Qty 12 double-hung",
+          "bbox": null,
+          "bbox_source": "none"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "line_item_id": "line_item_1",
+      "line_item_index": 1,
+      "division": "08 Openings",
+      "title": "Install new thermally broken aluminum windows",
+      "quantity": 20.0,
+      "unit": "ea",
+      "unit_cost": 450.0,
+      "total_cost": 9450.0,
+      "rule_refs": [
+        {
+          "rule_name": "Window Replacement",
+          "yaml_file": "window_replacement.yml",
+          "match_keywords_used": [
+            "install"
+          ]
+        }
+      ],
+      "multipliers_applied": [
+        {
+          "name": "waste",
+          "factor": 0.05
+        },
+        {
+          "name": "profile: labor_rate: US_DEFAULT general ($65/hr → $35/hr)",
+          "factor": 1.0
+        }
+      ],
+      "quantity_source": "explicit_takeoff",
+      "evidence_refs": [
+        {
+          "page_number": 1,
+          "sheet_id": null,
+          "snippet": "W-1 3'-0\" x 5'-0\" Qty 12 double-hung",
+          "bbox": null,
+          "bbox_source": "none"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "line_item_id": "line_item_2",
+      "line_item_index": 2,
+      "division": "08 Openings",
+      "title": "Reference glazing head/jamb detail",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 450.0,
+      "total_cost": 472.5,
+      "rule_refs": [
+        {
+          "rule_name": "Window Replacement",
+          "yaml_file": "window_replacement.yml",
+          "match_keywords_used": []
+        }
+      ],
+      "multipliers_applied": [
+        {
+          "name": "waste",
+          "factor": 0.05
+        },
+        {
+          "name": "profile: labor_rate: US_DEFAULT general ($65/hr → $35/hr)",
+          "factor": 1.0
+        }
+      ],
+      "quantity_source": "heuristic",
+      "evidence_refs": [
+        {
+          "page_number": 1,
+          "sheet_id": null,
+          "snippet": "Default fallback quantity",
+          "bbox": null,
+          "bbox_source": "none"
+        }
+      ],
+      "flags": [
+        "heuristic_quantity"
+      ]
+    },
+    {
+      "line_item_id": "line_item_3",
+      "line_item_index": 3,
+      "division": "01 General Requirements",
+      "title": "Supplemental Insurance",
+      "quantity": 1.0,
+      "unit": "lump",
+      "unit_cost": 232.47,
+      "total_cost": 232.47,
+      "rule_refs": [],
+      "multipliers_applied": [],
+      "quantity_source": "unknown",
+      "evidence_refs": [],
+      "flags": []
+    }
+  ],
+  "recovery_performed": false,
+  "recovery_pages": [],
+  "compliance_adjustments": [
+    "Supplemental Insurance: +1.20% of base scope ($232.47) (Government/public project detected). Additional coverage required for public/government projects."
+  ],
+  "compliance_costs": {
+    "insurance": 232.47
+  },
+  "compliance_total": 232.47,
+  "generated_at": "2026-01-24T01:28:42.610778"
+}

@@ -1,0 +1,266 @@
+{
+  "project_id": "6060ae75",
+  "generated_at": "2026-01-03T20:57:22.422066",
+  "zones": [
+    {
+      "zone_id": "roof_plane",
+      "zone_name": "roof_plane",
+      "zone_type": "work_zone",
+      "total_cost": 0.0,
+      "division_breakdown": {},
+      "top_line_items": [],
+      "linked_line_item_ids": [],
+      "attribution_method": "none"
+    },
+    {
+      "zone_id": "parapet_perimeter",
+      "zone_name": "parapet_perimeter",
+      "zone_type": "work_zone",
+      "total_cost": 0.0,
+      "division_breakdown": {},
+      "top_line_items": [],
+      "linked_line_item_ids": [],
+      "attribution_method": "none"
+    },
+    {
+      "zone_id": "roof_edge",
+      "zone_name": "roof_edge",
+      "zone_type": "work_zone",
+      "total_cost": 19278.0,
+      "division_breakdown": {
+        "01 General Requirements": 19278.0
+      },
+      "top_line_items": [
+        {
+          "line_item_index": 2,
+          "title": "Roof edge metal / coping (ASSUMED - review required)",
+          "division": "01 General Requirements",
+          "total_cost": 19278.0,
+          "contribution_percent": 100.0,
+          "evidence_refs": []
+        }
+      ],
+      "linked_line_item_ids": [
+        2
+      ],
+      "attribution_method": "keyword_fallback"
+    },
+    {
+      "zone_id": "roof_coping",
+      "zone_name": "roof_coping",
+      "zone_type": "work_zone",
+      "total_cost": 19278.0,
+      "division_breakdown": {
+        "01 General Requirements": 19278.0
+      },
+      "top_line_items": [
+        {
+          "line_item_index": 2,
+          "title": "Roof edge metal / coping (ASSUMED - review required)",
+          "division": "01 General Requirements",
+          "total_cost": 19278.0,
+          "contribution_percent": 100.0,
+          "evidence_refs": []
+        }
+      ],
+      "linked_line_item_ids": [
+        2
+      ],
+      "attribution_method": "keyword_fallback"
+    },
+    {
+      "zone_id": "front_façade_band",
+      "zone_name": "front_façade_band",
+      "zone_type": "work_zone",
+      "total_cost": 0.0,
+      "division_breakdown": {},
+      "top_line_items": [],
+      "linked_line_item_ids": [],
+      "attribution_method": "none"
+    },
+    {
+      "zone_id": "rear_façade_band",
+      "zone_name": "rear_façade_band",
+      "zone_type": "work_zone",
+      "total_cost": 0.0,
+      "division_breakdown": {},
+      "top_line_items": [],
+      "linked_line_item_ids": [],
+      "attribution_method": "none"
+    },
+    {
+      "zone_id": "left_side_band",
+      "zone_name": "left_side_band",
+      "zone_type": "work_zone",
+      "total_cost": 0.0,
+      "division_breakdown": {},
+      "top_line_items": [],
+      "linked_line_item_ids": [],
+      "attribution_method": "none"
+    },
+    {
+      "zone_id": "right_side_band",
+      "zone_name": "right_side_band",
+      "zone_type": "work_zone",
+      "total_cost": 0.0,
+      "division_breakdown": {},
+      "top_line_items": [],
+      "linked_line_item_ids": [],
+      "attribution_method": "none"
+    },
+    {
+      "zone_id": "lintel_band_front",
+      "zone_name": "lintel_band_front",
+      "zone_type": "work_zone",
+      "total_cost": 0.0,
+      "division_breakdown": {},
+      "top_line_items": [],
+      "linked_line_item_ids": [],
+      "attribution_method": "none"
+    },
+    {
+      "zone_id": "lintel_band_rear",
+      "zone_name": "lintel_band_rear",
+      "zone_type": "work_zone",
+      "total_cost": 0.0,
+      "division_breakdown": {},
+      "top_line_items": [],
+      "linked_line_item_ids": [],
+      "attribution_method": "none"
+    },
+    {
+      "zone_id": "lintel_band_left",
+      "zone_name": "lintel_band_left",
+      "zone_type": "work_zone",
+      "total_cost": 0.0,
+      "division_breakdown": {},
+      "top_line_items": [],
+      "linked_line_item_ids": [],
+      "attribution_method": "none"
+    },
+    {
+      "zone_id": "lintel_band_right",
+      "zone_name": "lintel_band_right",
+      "zone_type": "work_zone",
+      "total_cost": 0.0,
+      "division_breakdown": {},
+      "top_line_items": [],
+      "linked_line_item_ids": [],
+      "attribution_method": "none"
+    },
+    {
+      "zone_id": "flashing_roof_edge",
+      "zone_name": "flashing_roof_edge",
+      "zone_type": "work_zone",
+      "total_cost": 33282.899999999994,
+      "division_breakdown": {
+        "01 General Requirements": 33282.899999999994
+      },
+      "top_line_items": [
+        {
+          "line_item_index": 2,
+          "title": "Roof edge metal / coping (ASSUMED - review required)",
+          "division": "01 General Requirements",
+          "total_cost": 19278.0,
+          "contribution_percent": 57.92163543441228,
+          "evidence_refs": []
+        },
+        {
+          "line_item_index": 3,
+          "title": "Roof base flashing (ASSUMED - review required)",
+          "division": "01 General Requirements",
+          "total_cost": 14004.899999999998,
+          "contribution_percent": 42.078364565587734,
+          "evidence_refs": []
+        }
+      ],
+      "linked_line_item_ids": [
+        2,
+        3
+      ],
+      "attribution_method": "keyword_fallback"
+    },
+    {
+      "zone_id": "flashing_window_head",
+      "zone_name": "flashing_window_head",
+      "zone_type": "work_zone",
+      "total_cost": 0.0,
+      "division_breakdown": {},
+      "top_line_items": [],
+      "linked_line_item_ids": [],
+      "attribution_method": "none"
+    },
+    {
+      "zone_id": "masonry_repair_band_upper",
+      "zone_name": "masonry_repair_band_upper",
+      "zone_type": "work_zone",
+      "total_cost": 0.0,
+      "division_breakdown": {},
+      "top_line_items": [],
+      "linked_line_item_ids": [],
+      "attribution_method": "none"
+    },
+    {
+      "zone_id": "masonry_repair_band_lower",
+      "zone_name": "masonry_repair_band_lower",
+      "zone_type": "work_zone",
+      "total_cost": 0.0,
+      "division_breakdown": {},
+      "top_line_items": [],
+      "linked_line_item_ids": [],
+      "attribution_method": "none"
+    },
+    {
+      "zone_id": "masonry_repair_band_mid",
+      "zone_name": "masonry_repair_band_mid",
+      "zone_type": "work_zone",
+      "total_cost": 0.0,
+      "division_breakdown": {},
+      "top_line_items": [],
+      "linked_line_item_ids": [],
+      "attribution_method": "none"
+    },
+    {
+      "zone_id": "foundation_band",
+      "zone_name": "foundation_band",
+      "zone_type": "work_zone",
+      "total_cost": 0.0,
+      "division_breakdown": {},
+      "top_line_items": [],
+      "linked_line_item_ids": [],
+      "attribution_method": "none"
+    },
+    {
+      "zone_id": "water_table_band",
+      "zone_name": "water_table_band",
+      "zone_type": "work_zone",
+      "total_cost": 0.0,
+      "division_breakdown": {},
+      "top_line_items": [],
+      "linked_line_item_ids": [],
+      "attribution_method": "none"
+    },
+    {
+      "zone_id": "crack_repair_zone_front",
+      "zone_name": "crack_repair_zone_front",
+      "zone_type": "work_zone",
+      "total_cost": 0.0,
+      "division_breakdown": {},
+      "top_line_items": [],
+      "linked_line_item_ids": [],
+      "attribution_method": "none"
+    },
+    {
+      "zone_id": "crack_repair_zone_rear",
+      "zone_name": "crack_repair_zone_rear",
+      "zone_type": "work_zone",
+      "total_cost": 0.0,
+      "division_breakdown": {},
+      "top_line_items": [],
+      "linked_line_item_ids": [],
+      "attribution_method": "none"
+    }
+  ],
+  "max_cost": 33282.899999999994,
+  "min_cost": 19278.0
+}

@@ -1,0 +1,24 @@
+{
+  "project_id": "e331ba35",
+  "final_project_type": "row_house",
+  "original_project_type": "row_house",
+  "overall_confidence": 0.8,
+  "indicators": [
+    {
+      "indicator_type": "sheet_type",
+      "indicator_value": "3 elevation sheet(s)",
+      "strength": "strong",
+      "confidence_contribution": 0.15
+    },
+    {
+      "indicator_type": "building_context",
+      "indicator_value": "row_context=True",
+      "strength": "strong",
+      "confidence_contribution": 0.15
+    }
+  ],
+  "routing_decision": "row_house_path",
+  "routing_reason": "project_type=row_house and scope_type=repair",
+  "was_overridden": false,
+  "override_reasons": []
+}

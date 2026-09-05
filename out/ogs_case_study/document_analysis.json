@@ -1,0 +1,75 @@
+{
+  "project_type": "unknown",
+  "scope_type": "repair",
+  "sheets": [
+    {
+      "sheet_id": "A-1",
+      "page_number": 1,
+      "sheet_type": "notes",
+      "title": null
+    }
+  ],
+  "where_scope_lives": [
+    {
+      "sheet_id": "A-1",
+      "page_number": 1,
+      "location_type": "general_notes",
+      "evidence": "Notes regarding repair scope",
+      "confidence": 0.8
+    }
+  ],
+  "where_quantities_live": [],
+  "where_materials_live": [],
+  "building_context": {
+    "building_type": "unknown",
+    "is_row_context": false,
+    "building_ids": [],
+    "addresses": [
+      "2317 Greene St, Ogdensburg, NY"
+    ],
+    "evidence": "Address provided in the document"
+  },
+  "site_context": null,
+  "key_dimensions": {
+    "width": null,
+    "depth": null,
+    "height": null,
+    "area": null,
+    "evidence": "No dimensions found",
+    "confidence": 0.0
+  },
+  "critical_expected_items": [],
+  "confidence": 0.7,
+  "missing_fields": [
+    "where_quantities_live",
+    "where_materials_live",
+    "key_dimensions"
+  ],
+  "resolved_project_type": null,
+  "resolved_scope_type": null,
+  "resolution_notes": [],
+  "primary_division": "07",
+  "primary_trade": "roofing",
+  "trade_detection_confidence": 0.9,
+  "labor_regime": "unknown",
+  "labor_regime_confidence": 0.0,
+  "labor_regime_evidence": null,
+  "procurement_context": {
+    "is_public_project": true,
+    "detection_confidence": 0.95,
+    "indicators": [
+      "Issued by New York State Office of General Services",
+      "Public project indicated by O.G.S. PROJECT NO.",
+      "References Department of Transportation"
+    ],
+    "notes": [
+      "The presence of government agency names strongly indicates a public sector project."
+    ],
+    "source_pages": [
+      1
+    ]
+  },
+  "requires_prevailing_wage": true,
+  "requires_bonds": true,
+  "issuing_authority": "New York State Office of General Services"
+}

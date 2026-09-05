@@ -1,0 +1,128 @@
+{
+  "project_id": "9f180a3b",
+  "pages": [
+    {
+      "page_number": 1,
+      "sheet_id": "Q0069110613-11",
+      "sheet_title": "DRAWING LIST & UNITS",
+      "page_types": [
+        "schedule",
+        "notes"
+      ],
+      "indicators": [
+        "compliance"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "page_number": 2,
+      "sheet_id": "Q0091016131",
+      "sheet_title": "PLAN VIEW",
+      "page_types": [
+        "plan"
+      ],
+      "indicators": [],
+      "confidence": 0.9
+    },
+    {
+      "page_number": 3,
+      "sheet_id": "A-1",
+      "sheet_title": "Front Elevation",
+      "page_types": [
+        "elevation"
+      ],
+      "indicators": [
+        "dimensions"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "page_number": 4,
+      "sheet_id": "A-1",
+      "sheet_title": "Right Side Elevation",
+      "page_types": [
+        "elevation"
+      ],
+      "indicators": [
+        "dimensions"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "page_number": 5,
+      "sheet_id": "Q009011613-11",
+      "sheet_title": "REAR ELEVATION",
+      "page_types": [
+        "elevation"
+      ],
+      "indicators": [
+        "dimensions"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "page_number": 6,
+      "sheet_id": "A-1",
+      "sheet_title": "Proposed Parapet Reconstruction Section Detail",
+      "page_types": [
+        "detail"
+      ],
+      "indicators": [
+        "lintel",
+        "dimensions"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "page_number": 7,
+      "sheet_id": "Q006/10161-11",
+      "sheet_title": "Brick Coating Procedure",
+      "page_types": [
+        "detail"
+      ],
+      "indicators": [
+        "compliance"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "page_number": 8,
+      "sheet_id": "Q00011013-11",
+      "sheet_title": "Tree Protection Plan",
+      "page_types": [
+        "plan"
+      ],
+      "indicators": [],
+      "confidence": 0.9
+    },
+    {
+      "page_number": 9,
+      "sheet_id": "B-2",
+      "sheet_title": "NYC Compliance Values",
+      "page_types": [
+        "notes",
+        "compliance"
+      ],
+      "indicators": [
+        "compliance"
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "created_at": "2026-01-08T15:56:20.621250",
+  "total_pages": 9,
+  "indexed_pages": 9,
+  "cached_pages": 0,
+  "started_at": "2026-01-08T15:55:05.659401",
+  "finished_at": "2026-01-08T15:56:20.621198",
+  "metrics": {
+    "indexed_pages_count": 9,
+    "cache_hit_rate": 0.0,
+    "retries_count": 0,
+    "failed_pages_count": 0,
+    "total_api_calls": 9,
+    "fast_mode_metadata": {
+      "fast_mode": false
+    }
+  }
+}

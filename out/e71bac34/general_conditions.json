@@ -1,0 +1,90 @@
+{
+  "project_id": "e71bac34",
+  "building_type": "row_house",
+  "building_height_ft": 15.0,
+  "estimated_duration_weeks": 2.0,
+  "region_id": "US_DEFAULT",
+  "items": [
+    {
+      "item_id": "gc_001",
+      "title": "Project Management & Supervision",
+      "division": "01 50 00",
+      "category": "management",
+      "quantity": 2.0,
+      "unit": "week",
+      "unit_cost": 800.0,
+      "total_cost": 1600.0,
+      "basis": "Project duration: 2.0 weeks",
+      "trigger": null,
+      "region_factor": 1.0
+    },
+    {
+      "item_id": "gc_004",
+      "title": "Temporary Utilities (Power & Water)",
+      "division": "01 55 00",
+      "category": "utilities",
+      "quantity": 2.0,
+      "unit": "week",
+      "unit_cost": 200.0,
+      "total_cost": 400.0,
+      "basis": "Temporary utilities for 2.0 weeks",
+      "trigger": null,
+      "region_factor": 1.0
+    },
+    {
+      "item_id": "gc_005",
+      "title": "Daily Cleanup & Debris Removal",
+      "division": "01 74 00",
+      "category": "cleanup",
+      "quantity": 2.0,
+      "unit": "week",
+      "unit_cost": 400.0,
+      "total_cost": 800.0,
+      "basis": "Daily cleanup for 2.0 weeks",
+      "trigger": null,
+      "region_factor": 1.0
+    },
+    {
+      "item_id": "gc_006",
+      "title": "Safety Equipment & First Aid",
+      "division": "01 75 00",
+      "category": "safety",
+      "quantity": 2.0,
+      "unit": "week",
+      "unit_cost": 150.0,
+      "total_cost": 300.0,
+      "basis": "Safety supplies for 2.0 weeks",
+      "trigger": null,
+      "region_factor": 1.0
+    },
+    {
+      "item_id": "gc_007",
+      "title": "Permits & Filing Fees",
+      "division": "01 29 00",
+      "category": "permits",
+      "quantity": 1.0,
+      "unit": "lump_sum",
+      "unit_cost": 500.0,
+      "total_cost": 500.0,
+      "basis": "Permits for row_house project in US_DEFAULT",
+      "trigger": null,
+      "region_factor": 1.0
+    },
+    {
+      "item_id": "gc_009",
+      "title": "Mobilization & Demobilization",
+      "division": "01 50 00",
+      "category": "mobilization",
+      "quantity": 1.0,
+      "unit": "lump_sum",
+      "unit_cost": 2000.0,
+      "total_cost": 2000.0,
+      "basis": "One-time setup and breakdown",
+      "trigger": null,
+      "region_factor": 1.0
+    }
+  ],
+  "total_cost": 5600.0,
+  "total_cost_percent_of_base": null,
+  "generated_at": "2026-01-03T16:30:58.965391"
+}

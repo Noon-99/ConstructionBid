@@ -1,0 +1,78 @@
+{
+  "project_id": "1ef59f26",
+  "assemblies": [
+    {
+      "id": "brick_repointing_001",
+      "title": "Brick Repointing",
+      "division": "04 Masonry",
+      "unit": "SF",
+      "quantity": 1200.0,
+      "related_bid_item_ids": [
+        "1"
+      ],
+      "components": [
+        {
+          "name": "Mortar Mix Type N",
+          "unit": "Bag",
+          "qty": 180.0,
+          "unit_cost": 8.0,
+          "total_cost": 1440.0,
+          "cost_source": "ruleset",
+          "notes": "Mortar bags per SF of repointing"
+        },
+        {
+          "name": "Joint Tooling",
+          "unit": "SF",
+          "qty": 1200.0,
+          "unit_cost": 0.5,
+          "total_cost": 600.0,
+          "cost_source": "ruleset",
+          "notes": "Joint raking and tooling"
+        },
+        {
+          "name": "Cleanup (Power Washing)",
+          "unit": "SF",
+          "qty": 1200.0,
+          "unit_cost": 0.75,
+          "total_cost": 900.0,
+          "cost_source": "ruleset",
+          "notes": "Surface cleaning before repointing"
+        }
+      ],
+      "labor": [
+        {
+          "trade": "mason",
+          "crew": [
+            "mason",
+            "laborer"
+          ],
+          "hours": 192.0,
+          "rate": 65.0,
+          "total_cost": 12480.0,
+          "basis": "Productivity: 50 SF/day, 8 hours/day"
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Scaffolding",
+          "unit": "Week",
+          "qty": 5.0,
+          "unit_cost": 450.0,
+          "total_cost": 2250.0,
+          "basis": "Scaffold required for exterior masonry work"
+        }
+      ],
+      "assumptions": [
+        "Existing mortar joints raked to 3/4\" depth",
+        "Weather permitting"
+      ],
+      "spec_refs": [
+        "04 05 13"
+      ],
+      "evidence_refs": [],
+      "ruleset_used": "row_house_repair.yml"
+    }
+  ],
+  "generated_at": "2026-01-24T20:38:56.381789",
+  "version": "1.0"
+}

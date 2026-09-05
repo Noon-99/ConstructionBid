@@ -1,0 +1,84 @@
+{
+  "project_id": "adb4959e",
+  "profile_id": "us_default_v1",
+  "items": [
+    {
+      "item_id": "scaffold_001",
+      "title": "Scaffolding",
+      "division": "01",
+      "quantity": 6.0,
+      "unit": "week",
+      "unit_cost": 1000.0,
+      "total_cost": 6000.0,
+      "reason": "Required for exterior masonry work above 6ft per OSHA requirements",
+      "source": "contractor_profile",
+      "confidence": 1.0,
+      "evidence_refs": [],
+      "blocking": true
+    },
+    {
+      "item_id": "dumpster_001",
+      "title": "Debris Removal / Dumpster Rental",
+      "division": "01",
+      "quantity": 2.0,
+      "unit": "each",
+      "unit_cost": 400.0,
+      "total_cost": 800.0,
+      "reason": "Required for debris removal from masonry and demo work",
+      "source": "contractor_profile",
+      "confidence": 1.0,
+      "evidence_refs": [],
+      "blocking": false
+    },
+    {
+      "item_id": "dust_control_001",
+      "title": "Dust Control & Daily Cleanup",
+      "division": "01",
+      "quantity": 40.0,
+      "unit": "day",
+      "unit_cost": 600.0,
+      "total_cost": 24000.0,
+      "reason": "Required for daily cleanup and dust control during masonry work",
+      "source": "contractor_profile",
+      "confidence": 0.8,
+      "evidence_refs": [],
+      "blocking": false
+    },
+    {
+      "item_id": "weather_protection_001",
+      "title": "Temporary Weather Protection",
+      "division": "01",
+      "quantity": null,
+      "unit": null,
+      "unit_cost": null,
+      "total_cost": null,
+      "reason": "Required for parapet work to protect exposed masonry during construction",
+      "source": "rules",
+      "confidence": 0.9,
+      "evidence_refs": [],
+      "blocking": false
+    },
+    {
+      "item_id": "special_inspections_001",
+      "title": "Special Inspections Allowance",
+      "division": "01",
+      "quantity": 1.0,
+      "unit": "LS",
+      "unit_cost": 1200.0,
+      "total_cost": 1200.0,
+      "reason": "Required for structural/lintel work per building code requirements",
+      "source": "rules",
+      "confidence": 1.0,
+      "evidence_refs": [],
+      "blocking": true
+    }
+  ],
+  "region_resolution": {
+    "region_id": "US_DEFAULT",
+    "confidence": 0.0,
+    "evidence": [
+      "No location signals found, using default region"
+    ]
+  },
+  "created_at": "2025-12-25T13:27:09.791457"
+}

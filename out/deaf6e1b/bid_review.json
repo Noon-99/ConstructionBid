@@ -1,0 +1,97 @@
+{
+  "project_id": "deaf6e1b",
+  "total_bid": 5435.0,
+  "line_items": [
+    {
+      "line_item_id": "line_item_0",
+      "line_item_index": 0,
+      "division": "04 Masonry",
+      "title": "parapet repair",
+      "quantity": 40.0,
+      "unit": "LF",
+      "unit_cost": 97.74999999999999,
+      "total_cost": 4301.0,
+      "rule_refs": [
+        {
+          "rule_name": "parapet_rebuild",
+          "yaml_file": "parapet_rebuild.yml",
+          "match_keywords_used": [
+            "parapet",
+            "repair"
+          ]
+        }
+      ],
+      "multipliers_applied": [
+        {
+          "name": "height",
+          "factor": 1.15
+        },
+        {
+          "name": "waste",
+          "factor": 0.1
+        }
+      ],
+      "quantity_source": "derived_from_dimensions",
+      "evidence_refs": [
+        {
+          "page_number": 3,
+          "sheet_id": null,
+          "snippet": "Dimensions found in elevation views",
+          "bbox": null,
+          "bbox_source": "none"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "line_item_id": "line_item_1",
+      "line_item_index": 1,
+      "division": "05 Metals",
+      "title": "lintel replacement",
+      "quantity": 2.0,
+      "unit": "EA",
+      "unit_cost": 540.0,
+      "total_cost": 1134.0,
+      "rule_refs": [
+        {
+          "rule_name": "lintel_replacement",
+          "yaml_file": "lintel_replacement.yml",
+          "match_keywords_used": [
+            "lintel",
+            "replacement"
+          ]
+        }
+      ],
+      "multipliers_applied": [
+        {
+          "name": "height",
+          "factor": 1.2
+        },
+        {
+          "name": "waste",
+          "factor": 0.05
+        },
+        {
+          "name": "profile: labor_rate: US_DEFAULT steel ($55/hr → $65/hr)",
+          "factor": 1.0
+        }
+      ],
+      "quantity_source": "heuristic",
+      "evidence_refs": [
+        {
+          "page_number": 1,
+          "sheet_id": null,
+          "snippet": "Extracted number from description: Replace 2nd Floor Window Lintels as per S-011, Details 1 - Typical Steel Lintel Schedule",
+          "bbox": null,
+          "bbox_source": "none"
+        }
+      ],
+      "flags": [
+        "heuristic_quantity"
+      ]
+    }
+  ],
+  "recovery_performed": false,
+  "recovery_pages": [],
+  "generated_at": "2025-12-30T19:51:32.394946"
+}

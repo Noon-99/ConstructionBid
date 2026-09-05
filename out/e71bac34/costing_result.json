@@ -1,0 +1,18 @@
+{
+  "project_id": "row_house",
+  "breakdown_by_category": [],
+  "breakdown_by_scope_item": [],
+  "breakdown_by_building": {
+    "B-1": []
+  },
+  "subtotals": {},
+  "total_cost": 0.0,
+  "material_cost_total": 0.0,
+  "labor_cost_total": 0.0,
+  "equipment_cost_total": 0.0,
+  "waste_cost_total": 0.0,
+  "cost_justification": [],
+  "missing_data_warnings": [],
+  "rules_used": [],
+  "profile_id": "default_national"
+}

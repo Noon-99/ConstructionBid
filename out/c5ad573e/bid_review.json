@@ -1,0 +1,280 @@
+{
+  "project_id": "c5ad573e",
+  "total_bid": 21716.24,
+  "line_items": [
+    {
+      "line_item_id": "line_item_0",
+      "line_item_index": 0,
+      "division": "04 Masonry",
+      "title": "parapet repair",
+      "quantity": 20.0,
+      "unit": "LF",
+      "unit_cost": 85.0,
+      "total_cost": 1870.0,
+      "rule_refs": [
+        {
+          "rule_name": "parapet_rebuild",
+          "yaml_file": "parapet_rebuild.yml",
+          "match_keywords_used": [
+            "parapet",
+            "repair"
+          ]
+        }
+      ],
+      "multipliers_applied": [
+        {
+          "name": "height",
+          "factor": 1.0
+        },
+        {
+          "name": "waste",
+          "factor": 0.1
+        }
+      ],
+      "quantity_source": "derived_from_dimensions",
+      "evidence_refs": [
+        {
+          "page_number": 1,
+          "sheet_id": null,
+          "snippet": "No explicit dimensions found. (with fallback from Stage 1)",
+          "bbox": null,
+          "bbox_source": "none"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "line_item_id": "line_item_1",
+      "line_item_index": 1,
+      "division": "04 Masonry",
+      "title": "brick rebuild",
+      "quantity": 300.0,
+      "unit": "SF",
+      "unit_cost": 45.0,
+      "total_cost": 15525.0,
+      "rule_refs": [
+        {
+          "rule_name": "brick_rebuild",
+          "yaml_file": "brick_rebuild.yml",
+          "match_keywords_used": [
+            "brick",
+            "rebuild"
+          ]
+        }
+      ],
+      "multipliers_applied": [
+        {
+          "name": "height",
+          "factor": 1.0
+        },
+        {
+          "name": "waste",
+          "factor": 0.15
+        },
+        {
+          "name": "profile: material_multiplier: US_DEFAULT brick (+10%)",
+          "factor": 1.0
+        }
+      ],
+      "quantity_source": "derived_from_dimensions",
+      "evidence_refs": [
+        {
+          "page_number": 1,
+          "sheet_id": null,
+          "snippet": "No explicit dimensions found. (with fallback from Stage 1)",
+          "bbox": null,
+          "bbox_source": "none"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "line_item_id": "line_item_2",
+      "line_item_index": 2,
+      "division": "04 Masonry",
+      "title": "repointing",
+      "quantity": 300.0,
+      "unit": "SF",
+      "unit_cost": 12.0,
+      "total_cost": 3780.0,
+      "rule_refs": [
+        {
+          "rule_name": "repointing",
+          "yaml_file": "repointing.yml",
+          "match_keywords_used": [
+            "repoint"
+          ]
+        }
+      ],
+      "multipliers_applied": [
+        {
+          "name": "height",
+          "factor": 1.0
+        },
+        {
+          "name": "waste",
+          "factor": 0.05
+        },
+        {
+          "name": "profile: material_multiplier: US_DEFAULT mortar (+10%)",
+          "factor": 1.0
+        }
+      ],
+      "quantity_source": "derived_from_dimensions",
+      "evidence_refs": [
+        {
+          "page_number": 1,
+          "sheet_id": null,
+          "snippet": "No explicit dimensions found. (with fallback from Stage 1)",
+          "bbox": null,
+          "bbox_source": "none"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "line_item_id": "line_item_3",
+      "line_item_index": 3,
+      "division": "05 Metals",
+      "title": "lintel replacement",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 450.0,
+      "total_cost": 472.5,
+      "rule_refs": [
+        {
+          "rule_name": "lintel_replacement",
+          "yaml_file": "lintel_replacement.yml",
+          "match_keywords_used": [
+            "lintel",
+            "replacement"
+          ]
+        }
+      ],
+      "multipliers_applied": [
+        {
+          "name": "height",
+          "factor": 1.0
+        },
+        {
+          "name": "waste",
+          "factor": 0.05
+        },
+        {
+          "name": "profile: labor_rate: US_DEFAULT steel ($55/hr → $65/hr)",
+          "factor": 1.0
+        }
+      ],
+      "quantity_source": "heuristic",
+      "evidence_refs": [
+        {
+          "page_number": 1,
+          "sheet_id": null,
+          "snippet": "Default fallback quantity",
+          "bbox": null,
+          "bbox_source": "none"
+        }
+      ],
+      "flags": [
+        "heuristic_quantity"
+      ]
+    },
+    {
+      "line_item_id": "line_item_4",
+      "line_item_index": 4,
+      "division": "01 General Requirements",
+      "title": "crack repairs",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 35.0,
+      "total_cost": 38.5,
+      "rule_refs": [
+        {
+          "rule_name": "crack_repair",
+          "yaml_file": "crack_repair.yml",
+          "match_keywords_used": [
+            "crack",
+            "repair"
+          ]
+        }
+      ],
+      "multipliers_applied": [
+        {
+          "name": "height",
+          "factor": 1.0
+        },
+        {
+          "name": "waste",
+          "factor": 0.1
+        },
+        {
+          "name": "profile: labor_rate: US_DEFAULT general ($55/hr → $35/hr)",
+          "factor": 1.0
+        }
+      ],
+      "quantity_source": "heuristic",
+      "evidence_refs": [
+        {
+          "page_number": 1,
+          "sheet_id": null,
+          "snippet": "Default fallback quantity",
+          "bbox": null,
+          "bbox_source": "none"
+        }
+      ],
+      "flags": [
+        "heuristic_quantity"
+      ]
+    },
+    {
+      "line_item_id": "line_item_5",
+      "line_item_index": 5,
+      "division": "07 Thermal and Moisture Protection",
+      "title": "flashing installation",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 28.0,
+      "total_cost": 30.240000000000002,
+      "rule_refs": [
+        {
+          "rule_name": "flashing_install",
+          "yaml_file": "flashing_install.yml",
+          "match_keywords_used": [
+            "flashing",
+            "install"
+          ]
+        }
+      ],
+      "multipliers_applied": [
+        {
+          "name": "height",
+          "factor": 1.0
+        },
+        {
+          "name": "waste",
+          "factor": 0.08
+        },
+        {
+          "name": "profile: labor_rate: US_DEFAULT general ($55/hr → $35/hr)",
+          "factor": 1.0
+        }
+      ],
+      "quantity_source": "heuristic",
+      "evidence_refs": [
+        {
+          "page_number": 1,
+          "sheet_id": null,
+          "snippet": "Default fallback quantity",
+          "bbox": null,
+          "bbox_source": "none"
+        }
+      ],
+      "flags": [
+        "heuristic_quantity"
+      ]
+    }
+  ],
+  "recovery_performed": false,
+  "recovery_pages": [],
+  "generated_at": "2026-01-03T01:27:16.987931"
+}

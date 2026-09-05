@@ -1,0 +1,43 @@
+{
+  "total_pages": 1,
+  "stage05_indexed_pages_count": 1,
+  "stage1_selected_pages": [
+    {
+      "page_number": 1,
+      "page_index_labels": {
+        "page_types": [
+          "cover"
+        ],
+        "indicators": [],
+        "confidence": 0.9
+      },
+      "reason": "index: types: cover"
+    }
+  ],
+  "stage2_selected_pages": [
+    {
+      "page_number": 1,
+      "page_index_labels": {
+        "page_types": [
+          "cover"
+        ],
+        "indicators": [],
+        "confidence": 0.9
+      },
+      "reason": "stage2: stage1: sheets, stage1: where_materials_live, stage1: where_quantities_live, stage1: where_scope_lives"
+    }
+  ],
+  "rescue_stage2_selected_pages": [
+    {
+      "page_number": 1,
+      "page_index_labels": {
+        "page_types": [
+          "cover"
+        ],
+        "indicators": [],
+        "confidence": 0.9
+      },
+      "reason": "rescue: high-signal page_index"
+    }
+  ]
+}

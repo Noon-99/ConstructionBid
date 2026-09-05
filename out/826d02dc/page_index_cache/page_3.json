@@ -1,0 +1,12 @@
+{
+  "page_number": 3,
+  "sheet_id": "A-1",
+  "sheet_title": "Typical Detail",
+  "page_types": [
+    "detail"
+  ],
+  "indicators": [
+    "dimensions"
+  ],
+  "confidence": 0.85
+}

@@ -1,0 +1,59 @@
+{
+  "project_id": "9f180a3b",
+  "passed": true,
+  "score": 0.925,
+  "issues": [
+    {
+      "code": "DIMENSION_CONFLICT_RESOLVED",
+      "severity": "warning",
+      "message": "Dimension conflict resolved: width: resolved from 2 sources",
+      "affected_fields": [
+        "authoritative_dimensions"
+      ],
+      "recommended_action": "Review authoritative dimension sources"
+    },
+    {
+      "code": "DIMENSION_CONFLICT_RESOLVED",
+      "severity": "warning",
+      "message": "Dimension conflict resolved: depth: resolved from 2 sources",
+      "affected_fields": [
+        "authoritative_dimensions"
+      ],
+      "recommended_action": "Review authoritative dimension sources"
+    }
+  ],
+  "missing_critical_items": [],
+  "conflicts": {
+    "dimensions": {
+      "issues": [
+        {
+          "code": "DIMENSION_CONFLICT_RESOLVED",
+          "severity": "warning",
+          "message": "Dimension conflict resolved: width: resolved from 2 sources",
+          "affected_fields": [
+            "authoritative_dimensions"
+          ],
+          "recommended_action": "Review authoritative dimension sources"
+        },
+        {
+          "code": "DIMENSION_CONFLICT_RESOLVED",
+          "severity": "warning",
+          "message": "Dimension conflict resolved: depth: resolved from 2 sources",
+          "affected_fields": [
+            "authoritative_dimensions"
+          ],
+          "recommended_action": "Review authoritative dimension sources"
+        }
+      ],
+      "authoritative": {
+        "width": 40.0,
+        "depth": 60.0,
+        "height": 30.0,
+        "confidence": 0.9
+      }
+    }
+  },
+  "rerun_performed": false,
+  "rerun_notes": [],
+  "created_at": "2026-01-08T15:56:31.718806"
+}

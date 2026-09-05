@@ -1,0 +1,32 @@
+name: CMU Wall Demolition
+keywords:
+  - cmu demo
+  - block wall demo
+  - masonry demo
+  - wall removal
+  - existing wall demo
+
+unit_type: SF  # Square Feet
+base_unit_cost: 8.50
+material_cost_per_unit: 0.00  # Demo is labor/equipment only
+labor_hours_per_unit: 0.12
+labor_rate: 55.00
+equipment_cost_per_unit: 2.00  # Skid steer, dumpster
+
+waste_factor: 0.00  # No waste for demo
+
+division: "02 Existing Conditions"
+category: "Demo"
+
+notes: |
+  CMU wall demolition includes:
+  - Removal of existing CMU walls
+  - Disposal of debris
+  - Site cleanup
+  - Temporary shoring if required (separate item)
+
+
+
+
+
+

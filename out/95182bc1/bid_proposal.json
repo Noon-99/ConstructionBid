@@ -1,0 +1,117 @@
+{
+  "project_id": "95182bc1",
+  "summary": {
+    "total_cost": 173.74,
+    "cost_by_division": {
+      "01 General Requirements": 50.0,
+      "04 Masonry": 93.5,
+      "07 Thermal and Moisture Protection": 30.240000000000002
+    }
+  },
+  "line_items": [
+    {
+      "division": "01 General Requirements",
+      "description": "roof membrane removal",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 25.0,
+      "total_cost": 25.0,
+      "basis": "Remove existing roof membrane. Qty source: Quantity estimated (heuristic)",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2
+    },
+    {
+      "division": "01 General Requirements",
+      "description": "roof membrane installation",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 25.0,
+      "total_cost": 25.0,
+      "basis": "Roofing specific requirements. Qty source: Quantity estimated (heuristic)",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2
+    },
+    {
+      "division": "04 Masonry",
+      "description": "parapet",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 85.0,
+      "total_cost": 93.5,
+      "basis": "Install new parapet coping per detail 2/A-101. Qty source: Quantity estimated (heuristic)",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2
+    },
+    {
+      "division": "07 Thermal and Moisture Protection",
+      "description": "flashing",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 28.0,
+      "total_cost": 30.240000000000002,
+      "basis": "Install new flashing at parapet per detail 2/A-101. Qty source: Quantity estimated (heuristic)",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2
+    }
+  ],
+  "allowances": [],
+  "alternates": [],
+  "clarifications": [
+    {
+      "text": "Roof trade detected but roof area (SF) not extracted — cannot price roof replacement. Expand page selection or improve roof plan extraction. Look for roof plan dimensions, roof area callouts, or calculate from building footprint.. Re-read pages containing roof plans, roof dimensions, or roof area calculations. If roof plan exists, extract roof outline dimensions and calculate area. If only building footprint available, use that as roof area estimate with low confidence.",
+      "severity": "critical"
+    },
+    {
+      "text": "Missing or invalid authoritative width dimension. Re-read pages with dimension callouts",
+      "severity": "critical"
+    },
+    {
+      "text": "Missing or invalid authoritative depth dimension. Re-read pages with dimension callouts",
+      "severity": "critical"
+    },
+    {
+      "text": "Missing or invalid authoritative height dimension. Re-read elevation pages",
+      "severity": "critical"
+    },
+    {
+      "text": "Missing authoritative dimensions: width, depth, height. Re-read pages with dimension callouts",
+      "severity": "critical"
+    },
+    {
+      "text": "Missing critical scope items: lintel, brick_or_repoint, crack_repair. Found 2/5 required items.. Re-read pages containing scope information",
+      "severity": "critical"
+    },
+    {
+      "text": "Cost data missing: Heuristic quantity used for roof membrane removal: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: Heuristic quantity used for roof membrane installation: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: No cost rule found for scope item: roof insulation. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: No cost rule found for scope item: roof area. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: Heuristic quantity used for parapet: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: Heuristic quantity used for flashing: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+      "severity": "warning"
+    }
+  ],
+  "generated_at": "2025-12-21T12:33:34.097614",
+  "estimate_mode": "conceptual",
+  "bid_ready": true,
+  "bid_mode": "conceptual"
+}

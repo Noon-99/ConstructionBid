@@ -1,0 +1,194 @@
+{
+  "project_type": "row_house",
+  "scope_type": "repair",
+  "scope_of_work": [
+    {
+      "page_number": 4,
+      "sheet_id": "A-100",
+      "evidence_snippet": "Remove existing roof membrane - entire roof",
+      "item": "roof membrane removal",
+      "description": "Remove existing roof membrane - MUST specify scope: 'full' (entire roof), 'partial' (specific areas), or 'none' (overlay). Include disposal requirements if mentioned.",
+      "location": "entire roof"
+    },
+    {
+      "page_number": 4,
+      "sheet_id": "A-100",
+      "evidence_snippet": "TPO single-ply membrane",
+      "item": "roof membrane installation",
+      "description": "Install new [EPDM/TPO/PVC/modified bitumen] roof membrane - MUST include system type",
+      "location": "entire roof"
+    },
+    {
+      "page_number": 4,
+      "sheet_id": "A-100",
+      "evidence_snippet": "2 inch polyisocyanurate insulation R-20",
+      "item": "roof insulation",
+      "description": "Install roof insulation - MUST include thickness (inches), material type, R-value if mentioned, and number of layers if mentioned",
+      "location": "entire roof"
+    },
+    {
+      "page_number": 4,
+      "sheet_id": "A-100",
+      "evidence_snippet": "Roof area is 8,000 SF",
+      "item": "roof area",
+      "description": "Roof replacement area",
+      "location": "entire roof"
+    }
+  ],
+  "material_specifications": [
+    {
+      "page_number": 4,
+      "sheet_id": "A-100",
+      "evidence_snippet": "TPO single-ply membrane",
+      "material_name": "TPO Roof Membrane",
+      "specification": "TPO single-ply membrane",
+      "application": "Roof membrane",
+      "detail_sheet": "D-1"
+    },
+    {
+      "page_number": 4,
+      "sheet_id": "A-100",
+      "evidence_snippet": "2 inch polyisocyanurate insulation R-20",
+      "material_name": "Polyisocyanurate Insulation",
+      "specification": "2 inch polyisocyanurate insulation R-20",
+      "application": "Roof insulation",
+      "detail_sheet": "D-1"
+    }
+  ],
+  "quantity_takeoff": [
+    {
+      "page_number": 4,
+      "sheet_id": "A-100",
+      "evidence_snippet": "Roof area is 8,000 SF",
+      "item": "Roof area",
+      "quantity": 8000.0,
+      "unit": "SF",
+      "is_computed": false,
+      "computation_formula": null,
+      "input_dimensions": {},
+      "evidence_missing": false
+    },
+    {
+      "page_number": 4,
+      "sheet_id": "A-100",
+      "evidence_snippet": "Calculated from building dimensions",
+      "item": "Roof perimeter",
+      "quantity": 360.0,
+      "unit": "LF",
+      "is_computed": true,
+      "computation_formula": "2 * (width + depth)",
+      "input_dimensions": {
+        "width": 100.0,
+        "depth": 80.0
+      },
+      "evidence_missing": false
+    },
+    {
+      "page_number": 4,
+      "sheet_id": "A-100",
+      "evidence_snippet": "Edge metal specification not found",
+      "item": "Edge metal",
+      "quantity": null,
+      "unit": "LF",
+      "is_computed": false,
+      "computation_formula": null,
+      "input_dimensions": {},
+      "evidence_missing": true
+    },
+    {
+      "page_number": 4,
+      "sheet_id": "A-100",
+      "evidence_snippet": "Base flashing specification not found",
+      "item": "Base flashing",
+      "quantity": null,
+      "unit": "LF",
+      "is_computed": false,
+      "computation_formula": null,
+      "input_dimensions": {},
+      "evidence_missing": true
+    }
+  ],
+  "geometry_for_3d": {
+    "site_context": {
+      "building_type": "commercial",
+      "row_of_buildings": [],
+      "subject_building_id": null,
+      "addresses": [
+        "2317 Greene St, Ogdensburg, NY"
+      ],
+      "evidence": "Location map and building address (with fallback from Stage 1)"
+    },
+    "dimensions": {
+      "width": null,
+      "depth": null,
+      "height": null,
+      "evidence": "fallback_from_stage1",
+      "computation_formula": null,
+      "input_pages": []
+    },
+    "work_zones": [
+      {
+        "zone_name": "roof_plane",
+        "z_min": 0.0,
+        "z_max": null,
+        "facade_region": "entire roof",
+        "page_number": 1,
+        "sheet_id": null,
+        "evidence": "Roof plan"
+      }
+    ],
+    "evidence_missing": []
+  },
+  "validation_metadata": {
+    "pages_used": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "passes": 1,
+    "detail": "high",
+    "post_extraction_notes": [
+      "post-coverage rescue rerun executed"
+    ]
+  },
+  "evidence_missing": [
+    "lintels"
+  ],
+  "room_program": null,
+  "structural_notes": null,
+  "authoritative_dimensions": null,
+  "institutional_geometry_for_3d": null,
+  "room_schedule": null,
+  "structural_elements": null,
+  "building_envelope": null,
+  "openings": null,
+  "lintels": null,
+  "detail_graph": null,
+  "warranty_and_insurance": {
+    "warranty": {
+      "manufacturer_warranty": "20-year TPO warranty",
+      "manufacturer_warranty_duration": "20 years",
+      "workmanship_warranty": "2-year workmanship warranty",
+      "workmanship_warranty_duration": "2 years",
+      "warranty_evidence": "Page 5, Section 07 50 00: 'Manufacturer warranty: 20-year TPO warranty' or 'Workmanship warranty: 2 years'"
+    },
+    "insurance": {
+      "general_liability_required": true,
+      "general_liability_limit": "$2,000,000",
+      "workers_compensation_required": true,
+      "workers_compensation_limit": "$1,000,000",
+      "umbrella_insurance_required": true,
+      "umbrella_insurance_limit": "$5,000,000",
+      "insurance_evidence": "Page 1, General Requirements: 'Contractor shall maintain general liability insurance of $2,000,000'"
+    },
+    "bonds": {
+      "performance_bond_required": true,
+      "performance_bond_amount": "100% of contract",
+      "payment_bond_required": true,
+      "payment_bond_amount": "100% of contract",
+      "bond_evidence": "Page 1, General Requirements: 'Performance bond required: 100% of contract value'"
+    }
+  }
+}

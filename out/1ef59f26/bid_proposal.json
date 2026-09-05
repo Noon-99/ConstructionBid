@@ -1,0 +1,159 @@
+{
+  "project_id": "1ef59f26",
+  "summary": {
+    "total_cost": 78268.61,
+    "cost_by_division": {
+      "01 General Requirements": 7792.61,
+      "04 Masonry": 70476.0
+    },
+    "base_scope_cost": 75476.0,
+    "allowances_total": 5000.0,
+    "compliance_costs": {
+      "bond": 1886.9,
+      "insurance": 905.71
+    },
+    "compliance_total": 2792.61,
+    "contingency_recommendation_pct": null,
+    "contingency_recommendation_amount": null
+  },
+  "line_items": [
+    {
+      "division": "04 Masonry",
+      "description": "Cracked brick wall repair",
+      "quantity": 1200.0,
+      "unit": "SF",
+      "unit_cost": 38.5,
+      "total_cost": 50820.0,
+      "basis": "For brick crack repair, follow S-102, Detail 3-Existing. Qty source: Quantity computed from dimensions. Page 1. Formula: width * height. Compliance adjustments: prevailing_wage_multiplier: 50% ($55/hr → $82/hr) - DOT/public work",
+      "confidence": 0.8,
+      "quantity_source": "computed_from_dimensions",
+      "quantity_confidence": 0.75
+    },
+    {
+      "division": "04 Masonry",
+      "description": "Repointing brick arch lintel",
+      "quantity": 1200.0,
+      "unit": "SF",
+      "unit_cost": 15.600000000000001,
+      "total_cost": 19656.0,
+      "basis": "Repoint brick arch lintel as per S-102 Detail 6, Brick Arch Repairs.. Qty source: Quantity computed from dimensions. Page 1. Formula: width * height. Compliance adjustments: prevailing_wage_multiplier: 50% ($55/hr → $82/hr) - DOT/public work",
+      "confidence": 0.8,
+      "quantity_source": "computed_from_dimensions",
+      "quantity_confidence": 0.75
+    },
+    {
+      "division": "01 General Requirements",
+      "description": "Performance & Payment Bonds",
+      "quantity": 1.0,
+      "unit": "lump",
+      "unit_cost": 1886.9,
+      "total_cost": 1886.9,
+      "basis": "Required for public/government project",
+      "confidence": 0.9,
+      "quantity_source": "allowance",
+      "quantity_confidence": 0.9
+    },
+    {
+      "division": "01 General Requirements",
+      "description": "Supplemental Insurance",
+      "quantity": 1.0,
+      "unit": "lump",
+      "unit_cost": 905.71,
+      "total_cost": 905.71,
+      "basis": "Additional insurance requirements for public project",
+      "confidence": 0.9,
+      "quantity_source": "allowance",
+      "quantity_confidence": 0.9
+    }
+  ],
+  "allowances": [
+    {
+      "name": "Shoring and bracing installation",
+      "amount": 5000.0,
+      "notes": "THE CONTRACTOR SHALL INSTALL ADEQUATE SHORING AND BRACING FOR ALL STRUCTURAL OR REMOVAL TASKS"
+    }
+  ],
+  "alternates": [],
+  "clarifications": [
+    {
+      "text": "Cost data missing: No cost rule found for scope item: Masonry wall reconstruction. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: No cost rule found for scope item: Construction fence installation. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: No cost rule found for scope item: Minor details for construction. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: No cost rule found for scope item: Protection of construction area. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: No cost rule found for scope item: Cutting, patching, and repairing. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: No cost rule found for scope item: Removal of piping and wiring. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: No cost rule found for scope item: Masonry construction standards. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: No cost rule found for scope item: Brick installation. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: No cost rule found for scope item: Matching existing brick. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: No cost rule found for scope item: Noise management plan. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: No cost rule found for scope item: Lead hazard protection. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: No cost rule found for scope item: Dust and debris removal. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: No cost rule found for scope item: Water supply for construction. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: No cost rule found for scope item: Drainage for water removal. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: No cost rule found for scope item: Dust control during construction. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Compliance adjustment applied: Prevailing wage multiplier applied: +50% to labor rates (Government/public project detected). Required for public/government projects per Davis-Bacon or state prevailing wage laws.",
+      "severity": "info"
+    },
+    {
+      "text": "Compliance adjustment applied: Performance & Payment Bonds: +2.50% of base scope ($1,886.90) (Government/public project detected). Required for public/government contracts to protect the owner.",
+      "severity": "info"
+    },
+    {
+      "text": "Compliance adjustment applied: Supplemental Insurance: +1.20% of base scope ($905.71) (Government/public project detected). Additional coverage required for public/government projects.",
+      "severity": "info"
+    },
+    {
+      "text": "Compliance cost adders included in total: Bond $1,886.90, Insurance $905.71",
+      "severity": "info"
+    }
+  ],
+  "generated_at": "2026-01-24T20:38:56.361264",
+  "estimate_mode": "conceptual",
+  "bid_ready": true,
+  "bid_mode": "conceptual"
+}

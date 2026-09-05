@@ -1,0 +1,276 @@
+{
+  "project_id": "row_house",
+  "breakdown_by_category": [
+    {
+      "category": "Roofing",
+      "items": [
+        {
+          "item_name": "roof membrane removal",
+          "scope_item": "roof membrane removal",
+          "quantity": 1.0,
+          "unit": "EA",
+          "unit_cost": 25.0,
+          "material_cost": 12.0,
+          "labor_cost": 5.25,
+          "equipment_cost": 2.0,
+          "waste_factor": 0.0,
+          "multipliers": {},
+          "subtotal": 25.0,
+          "rule_matched": "roof_assembly",
+          "evidence": "Remove existing roof membrane",
+          "notes": [
+            "Matched rule: roof_assembly"
+          ],
+          "quantity_source": "heuristic",
+          "quantity_confidence": 0.2,
+          "quantity_evidence": {
+            "evidence_snippet": "Default fallback quantity"
+          },
+          "detail_refs": [],
+          "profile_id": "default_national",
+          "multiplier_breakdown": [
+            "labor_rate: US_DEFAULT general ($75/hr → $35/hr)"
+          ]
+        },
+        {
+          "item_name": "roof membrane installation",
+          "scope_item": "roof membrane installation",
+          "quantity": 1.0,
+          "unit": "EA",
+          "unit_cost": 25.0,
+          "material_cost": 12.0,
+          "labor_cost": 5.25,
+          "equipment_cost": 2.0,
+          "waste_factor": 0.0,
+          "multipliers": {},
+          "subtotal": 25.0,
+          "rule_matched": "roof_assembly",
+          "evidence": "Roofing specific requirements",
+          "notes": [
+            "Matched rule: roof_assembly"
+          ],
+          "quantity_source": "heuristic",
+          "quantity_confidence": 0.2,
+          "quantity_evidence": {
+            "evidence_snippet": "Default fallback quantity"
+          },
+          "detail_refs": [],
+          "profile_id": "default_national",
+          "multiplier_breakdown": [
+            "labor_rate: US_DEFAULT general ($75/hr → $35/hr)"
+          ]
+        }
+      ],
+      "subtotal": 50.0
+    },
+    {
+      "category": "Masonry",
+      "items": [
+        {
+          "item_name": "parapet",
+          "scope_item": "parapet",
+          "quantity": 1.0,
+          "unit": "EA",
+          "unit_cost": 85.0,
+          "material_cost": 38.5,
+          "labor_cost": 44.0,
+          "equipment_cost": 5.0,
+          "waste_factor": 0.1,
+          "multipliers": {},
+          "subtotal": 93.5,
+          "rule_matched": "parapet_rebuild",
+          "evidence": "Install new parapet coping per detail 2/A-101",
+          "notes": [
+            "Matched rule: parapet_rebuild"
+          ],
+          "quantity_source": "heuristic",
+          "quantity_confidence": 0.2,
+          "quantity_evidence": {
+            "evidence_snippet": "Default fallback quantity"
+          },
+          "detail_refs": [],
+          "profile_id": "default_national",
+          "multiplier_breakdown": []
+        }
+      ],
+      "subtotal": 93.5
+    },
+    {
+      "category": "Waterproofing",
+      "items": [
+        {
+          "item_name": "flashing",
+          "scope_item": "flashing",
+          "quantity": 1.0,
+          "unit": "EA",
+          "unit_cost": 28.0,
+          "material_cost": 12.96,
+          "labor_cost": 8.75,
+          "equipment_cost": 1.0,
+          "waste_factor": 0.08,
+          "multipliers": {},
+          "subtotal": 30.240000000000002,
+          "rule_matched": "flashing_install",
+          "evidence": "Install new flashing at parapet per detail 2/A-101",
+          "notes": [
+            "Matched rule: flashing_install"
+          ],
+          "quantity_source": "heuristic",
+          "quantity_confidence": 0.2,
+          "quantity_evidence": {
+            "evidence_snippet": "Default fallback quantity"
+          },
+          "detail_refs": [],
+          "profile_id": "default_national",
+          "multiplier_breakdown": [
+            "labor_rate: US_DEFAULT general ($55/hr → $35/hr)"
+          ]
+        }
+      ],
+      "subtotal": 30.240000000000002
+    }
+  ],
+  "breakdown_by_scope_item": [
+    {
+      "item_name": "roof membrane removal",
+      "scope_item": "roof membrane removal",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 25.0,
+      "material_cost": 12.0,
+      "labor_cost": 5.25,
+      "equipment_cost": 2.0,
+      "waste_factor": 0.0,
+      "multipliers": {},
+      "subtotal": 25.0,
+      "rule_matched": "roof_assembly",
+      "evidence": "Remove existing roof membrane",
+      "notes": [
+        "Matched rule: roof_assembly"
+      ],
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2,
+      "quantity_evidence": {
+        "evidence_snippet": "Default fallback quantity"
+      },
+      "detail_refs": [],
+      "profile_id": "default_national",
+      "multiplier_breakdown": [
+        "labor_rate: US_DEFAULT general ($75/hr → $35/hr)"
+      ]
+    },
+    {
+      "item_name": "roof membrane installation",
+      "scope_item": "roof membrane installation",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 25.0,
+      "material_cost": 12.0,
+      "labor_cost": 5.25,
+      "equipment_cost": 2.0,
+      "waste_factor": 0.0,
+      "multipliers": {},
+      "subtotal": 25.0,
+      "rule_matched": "roof_assembly",
+      "evidence": "Roofing specific requirements",
+      "notes": [
+        "Matched rule: roof_assembly"
+      ],
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2,
+      "quantity_evidence": {
+        "evidence_snippet": "Default fallback quantity"
+      },
+      "detail_refs": [],
+      "profile_id": "default_national",
+      "multiplier_breakdown": [
+        "labor_rate: US_DEFAULT general ($75/hr → $35/hr)"
+      ]
+    },
+    {
+      "item_name": "parapet",
+      "scope_item": "parapet",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 85.0,
+      "material_cost": 38.5,
+      "labor_cost": 44.0,
+      "equipment_cost": 5.0,
+      "waste_factor": 0.1,
+      "multipliers": {},
+      "subtotal": 93.5,
+      "rule_matched": "parapet_rebuild",
+      "evidence": "Install new parapet coping per detail 2/A-101",
+      "notes": [
+        "Matched rule: parapet_rebuild"
+      ],
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2,
+      "quantity_evidence": {
+        "evidence_snippet": "Default fallback quantity"
+      },
+      "detail_refs": [],
+      "profile_id": "default_national",
+      "multiplier_breakdown": []
+    },
+    {
+      "item_name": "flashing",
+      "scope_item": "flashing",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 28.0,
+      "material_cost": 12.96,
+      "labor_cost": 8.75,
+      "equipment_cost": 1.0,
+      "waste_factor": 0.08,
+      "multipliers": {},
+      "subtotal": 30.240000000000002,
+      "rule_matched": "flashing_install",
+      "evidence": "Install new flashing at parapet per detail 2/A-101",
+      "notes": [
+        "Matched rule: flashing_install"
+      ],
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2,
+      "quantity_evidence": {
+        "evidence_snippet": "Default fallback quantity"
+      },
+      "detail_refs": [],
+      "profile_id": "default_national",
+      "multiplier_breakdown": [
+        "labor_rate: US_DEFAULT general ($55/hr → $35/hr)"
+      ]
+    }
+  ],
+  "breakdown_by_building": {},
+  "subtotals": {
+    "Roofing": 50.0,
+    "Masonry": 93.5,
+    "Waterproofing": 30.240000000000002
+  },
+  "total_cost": 173.74,
+  "material_cost_total": 75.46000000000001,
+  "labor_cost_total": 63.25,
+  "equipment_cost_total": 10.0,
+  "waste_cost_total": 11.7692,
+  "cost_justification": [
+    "roof membrane removal: 1.0 EA @ $25.00/EA = $25.00",
+    "roof membrane installation: 1.0 EA @ $25.00/EA = $25.00",
+    "parapet: 1.0 EA @ $85.00/EA = $93.50",
+    "flashing: 1.0 EA @ $28.00/EA = $30.24"
+  ],
+  "missing_data_warnings": [
+    "Heuristic quantity used for roof membrane removal: 1.0 EA (confidence: 20.0%)",
+    "Heuristic quantity used for roof membrane installation: 1.0 EA (confidence: 20.0%)",
+    "No cost rule found for scope item: roof insulation",
+    "No cost rule found for scope item: roof area",
+    "Heuristic quantity used for parapet: 1.0 EA (confidence: 20.0%)",
+    "Heuristic quantity used for flashing: 1.0 EA (confidence: 20.0%)"
+  ],
+  "rules_used": [
+    "roof_assembly",
+    "parapet_rebuild",
+    "flashing_install"
+  ],
+  "profile_id": "default_national"
+}

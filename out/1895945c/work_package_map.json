@@ -1,0 +1,25 @@
+{
+  "project_id": "1895945c",
+  "packages": [
+    {
+      "id": "package_001",
+      "title": "General Work",
+      "division": "09 Finishes",
+      "trade": "General",
+      "estimated_cost": 472.5,
+      "priority": "low",
+      "confidence": 0.8,
+      "basis_refs": [],
+      "member_zone_ids": [],
+      "member_line_item_ids": [
+        "0"
+      ]
+    }
+  ],
+  "zone_to_package": {},
+  "line_item_to_package": {
+    "0": "package_001"
+  },
+  "generated_at": "2026-01-03T17:11:58.707507",
+  "version": "1.0"
+}

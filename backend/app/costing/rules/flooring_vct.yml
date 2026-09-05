@@ -1,0 +1,39 @@
+# Flooring - VCT (Vinyl Composition Tile) (Phase 7.1)
+# Room-based finish rule for institutional projects
+
+name: "Flooring - VCT"
+category: "Finishes"
+description: "Vinyl composition tile flooring based on room area"
+
+# Keywords that match this rule
+keywords:
+  - "vct"
+  - "vinyl composition tile"
+  - "vinyl tile"
+  - "flooring"
+  - "tile flooring"
+
+# Quantity calculation
+quantity_source: "from_drawing"
+quantity_formula: "room_area_sf"
+
+# Unit cost (per SF of floor area)
+unit_cost: 3.50  # $/SF
+unit: "SF"
+
+# Cost breakdown
+material_cost_per_unit: 1.80
+labor_cost_per_unit: 1.50
+equipment_cost_per_unit: 0.20
+
+# Notes
+notes:
+  - "Includes adhesive and installation"
+  - "Standard 12x12 VCT tile"
+  - "Waste factor included in unit cost"
+
+
+
+
+
+

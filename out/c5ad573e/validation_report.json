@@ -1,0 +1,77 @@
+{
+  "project_id": "c5ad573e",
+  "passed": true,
+  "score": 0.8875,
+  "issues": [
+    {
+      "code": "DIMENSION_CONFLICT_RESOLVED",
+      "severity": "warning",
+      "message": "Dimension conflict resolved: width: resolved from 2 sources",
+      "affected_fields": [
+        "authoritative_dimensions"
+      ],
+      "recommended_action": "Review authoritative dimension sources"
+    },
+    {
+      "code": "DIMENSION_CONFLICT_RESOLVED",
+      "severity": "warning",
+      "message": "Dimension conflict resolved: depth: resolved from 2 sources",
+      "affected_fields": [
+        "authoritative_dimensions"
+      ],
+      "recommended_action": "Review authoritative dimension sources"
+    },
+    {
+      "code": "DIMENSION_CONFLICT_RESOLVED",
+      "severity": "warning",
+      "message": "Dimension conflict resolved: height: resolved from 2 sources",
+      "affected_fields": [
+        "authoritative_dimensions"
+      ],
+      "recommended_action": "Review authoritative dimension sources"
+    }
+  ],
+  "missing_critical_items": [],
+  "conflicts": {
+    "dimensions": {
+      "issues": [
+        {
+          "code": "DIMENSION_CONFLICT_RESOLVED",
+          "severity": "warning",
+          "message": "Dimension conflict resolved: width: resolved from 2 sources",
+          "affected_fields": [
+            "authoritative_dimensions"
+          ],
+          "recommended_action": "Review authoritative dimension sources"
+        },
+        {
+          "code": "DIMENSION_CONFLICT_RESOLVED",
+          "severity": "warning",
+          "message": "Dimension conflict resolved: depth: resolved from 2 sources",
+          "affected_fields": [
+            "authoritative_dimensions"
+          ],
+          "recommended_action": "Review authoritative dimension sources"
+        },
+        {
+          "code": "DIMENSION_CONFLICT_RESOLVED",
+          "severity": "warning",
+          "message": "Dimension conflict resolved: height: resolved from 2 sources",
+          "affected_fields": [
+            "authoritative_dimensions"
+          ],
+          "recommended_action": "Review authoritative dimension sources"
+        }
+      ],
+      "authoritative": {
+        "width": 20.0,
+        "depth": 30.0,
+        "height": 15.0,
+        "confidence": 0.6999999999999998
+      }
+    }
+  },
+  "rerun_performed": false,
+  "rerun_notes": [],
+  "created_at": "2026-01-02T20:27:03.638617"
+}

@@ -1,0 +1,43 @@
+{
+  "project_id": "4fe79f19",
+  "project_name": null,
+  "location": null,
+  "issuing_authority": "New York State Office of General Services",
+  "bid_submission_date": null,
+  "base_scope_cost": 473832.9,
+  "compliance_total": 0.0,
+  "total_bid": 473832.9,
+  "compliance_delta_pct": 0.0,
+  "compliance_breakdown": {},
+  "compliance_adjustments": [],
+  "prevailing_wage_applied": false,
+  "bonds_required": true,
+  "insurance_applied": false,
+  "procurement_indicators": [
+    "Issued by New York State Office of General Services",
+    "Public project indicated by O.G.S. project number",
+    "References to Department of Transportation"
+  ],
+  "procurement_notes": [
+    "The presence of government agency names strongly indicates a public sector project."
+  ],
+  "evidence_references": [
+    {
+      "type": "procurement_pages",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "description": "Pages flagged for procurement indicators"
+    }
+  ],
+  "confidence_pct": 76.25,
+  "confidence_explanation": "This bid requires review before submission. Some quantities are estimated or evidence is incomplete.",
+  "summary": "This project moved from a base scope of $473,833 to a compliance-aware total of $473,833. Bond requirements were included to satisfy public agency standards. Key compliance cues included: Issued by New York State Office of General Services, Public project indicated by O.G.S. project number, References to Department of Transportation",
+  "recommendations": [
+    "Coordinate with surety providers to lock bond pricing against the detected requirements.",
+    "Review procurement notes for additional submission obligations."
+  ]
+}

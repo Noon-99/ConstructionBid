@@ -1,0 +1,36 @@
+{
+  "project_id": "fafe8c54",
+  "final_project_type": "row_house",
+  "original_project_type": "row_house",
+  "overall_confidence": 0.9299999999999999,
+  "indicators": [
+    {
+      "indicator_type": "sheet_type",
+      "indicator_value": "1 elevation sheet(s)",
+      "strength": "moderate",
+      "confidence_contribution": 0.1
+    },
+    {
+      "indicator_type": "sheet_type",
+      "indicator_value": "1 plan sheet(s)",
+      "strength": "moderate",
+      "confidence_contribution": 0.08
+    },
+    {
+      "indicator_type": "building_context",
+      "indicator_value": "row_context=True",
+      "strength": "strong",
+      "confidence_contribution": 0.15
+    },
+    {
+      "indicator_type": "building_context",
+      "indicator_value": "Multiple building IDs: 1",
+      "strength": "moderate",
+      "confidence_contribution": 0.1
+    }
+  ],
+  "routing_decision": "row_house_path",
+  "routing_reason": "project_type=row_house and scope_type=repair",
+  "was_overridden": false,
+  "override_reasons": []
+}

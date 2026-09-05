@@ -1,0 +1,24 @@
+{
+  "project_id": "d095547f",
+  "final_project_type": "unknown",
+  "original_project_type": "unknown",
+  "overall_confidence": 0.76,
+  "indicators": [
+    {
+      "indicator_type": "sheet_type",
+      "indicator_value": "1 plan sheet(s)",
+      "strength": "moderate",
+      "confidence_contribution": 0.08
+    },
+    {
+      "indicator_type": "location_type",
+      "indicator_value": "room_schedule",
+      "strength": "strong",
+      "confidence_contribution": 0.18
+    }
+  ],
+  "routing_decision": "fallback_row_house",
+  "routing_reason": "Uncertain typology (unknown+unknown) - falling back to row_house extractor",
+  "was_overridden": false,
+  "override_reasons": []
+}

@@ -1,0 +1,145 @@
+{
+  "project_id": "cb35f940",
+  "generated_at": "2026-01-03T21:05:13.706311",
+  "coverage_score": 0.16666666666666666,
+  "dominant_trades": [
+    "roofing",
+    "masonry",
+    "windows",
+    "pavement",
+    "structure",
+    "interiors"
+  ],
+  "matched_trades": [
+    "roofing"
+  ],
+  "missing_trades": [
+    {
+      "trade": "masonry",
+      "confidence": 0.880597014925373,
+      "evidence_pages": [
+        2,
+        4,
+        5
+      ],
+      "missing_features": [
+        "detail",
+        "scope"
+      ]
+    },
+    {
+      "trade": "windows",
+      "confidence": 0.8208955223880596,
+      "evidence_pages": [
+        2,
+        4,
+        5
+      ],
+      "missing_features": [
+        "detail",
+        "materials",
+        "quantity",
+        "scope"
+      ]
+    },
+    {
+      "trade": "pavement",
+      "confidence": 0.8208955223880596,
+      "evidence_pages": [
+        2,
+        4,
+        5
+      ],
+      "missing_features": [
+        "quantity",
+        "scope"
+      ]
+    },
+    {
+      "trade": "structure",
+      "confidence": 0.8208955223880596,
+      "evidence_pages": [
+        2,
+        4,
+        5
+      ],
+      "missing_features": [
+        "detail",
+        "scope"
+      ]
+    },
+    {
+      "trade": "interiors",
+      "confidence": 0.8208955223880596,
+      "evidence_pages": [
+        2,
+        4,
+        5
+      ],
+      "missing_features": [
+        "materials",
+        "quantity",
+        "scope"
+      ]
+    }
+  ],
+  "trade_features": {
+    "roofing": {
+      "expected": [
+        "detail",
+        "materials",
+        "plan",
+        "quantity",
+        "scope"
+      ],
+      "matched": [
+        "detail",
+        "materials",
+        "plan",
+        "quantity",
+        "scope"
+      ]
+    },
+    "masonry": {
+      "expected": [
+        "detail",
+        "scope"
+      ],
+      "matched": []
+    },
+    "windows": {
+      "expected": [
+        "detail",
+        "materials",
+        "quantity",
+        "scope"
+      ],
+      "matched": []
+    },
+    "pavement": {
+      "expected": [
+        "quantity",
+        "scope"
+      ],
+      "matched": []
+    },
+    "structure": {
+      "expected": [
+        "detail",
+        "plan",
+        "scope"
+      ],
+      "matched": [
+        "plan"
+      ]
+    },
+    "interiors": {
+      "expected": [
+        "materials",
+        "quantity",
+        "scope"
+      ],
+      "matched": []
+    }
+  }
+}

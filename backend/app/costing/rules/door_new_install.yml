@@ -1,0 +1,26 @@
+name: Door New Install
+category: Finishes
+description: Install new door in opening
+keywords:
+  - new door
+  - door new
+  - door install
+  - door installation
+unit: EA
+base_unit_cost: 450.0
+material_cost_per_unit: 260.0
+labor_hours_per_unit: 2.5
+labor_rate: 65.0
+equipment_cost_per_unit: 0.0
+waste_factor: 0.05
+multipliers:
+  default: 1.0
+  steel: 1.5
+  wood: 0.95
+  aluminum: 1.15
+
+
+
+
+
+

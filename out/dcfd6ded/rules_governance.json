@@ -1,0 +1,47 @@
+{
+  "project_id": "dcfd6ded",
+  "generated_at": "2026-01-23T23:50:54.128190",
+  "missing_rules": [
+    {
+      "item_name": "roof insulation",
+      "description": "Install roof insulation - MUST include thickness (inches), material type, R-value if mentioned, and number of layers if mentioned",
+      "page_number": 4,
+      "sheet_id": "A-100",
+      "evidence_snippet": "2 inch polyisocyanurate insulation R-20",
+      "detected_keywords": [
+        "roof",
+        "insulation"
+      ],
+      "probable_trade": "roofing",
+      "draft_generated": false,
+      "draft_filename": null,
+      "metadata": {
+        "labor_regime": "prevailing_wage",
+        "requires_prevailing_wage": true,
+        "requires_bonds": true
+      }
+    },
+    {
+      "item_name": "roof area",
+      "description": "Roof replacement area",
+      "page_number": 4,
+      "sheet_id": "A-100",
+      "evidence_snippet": "Roof area is 8,000 SF",
+      "detected_keywords": [
+        "roof",
+        "area"
+      ],
+      "probable_trade": "roofing",
+      "draft_generated": false,
+      "draft_filename": null,
+      "metadata": {
+        "labor_regime": "prevailing_wage",
+        "requires_prevailing_wage": true,
+        "requires_bonds": true
+      }
+    }
+  ],
+  "notes": [
+    "Cost engine detected scope items without matching YAML rules. Review and author new rules using the governance helper."
+  ]
+}

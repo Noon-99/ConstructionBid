@@ -1,0 +1,29 @@
+[
+  {
+    "package_id": "pkg_flashing_and_waterproofing",
+    "title": "Flashing & Waterproofing",
+    "line_item_ids": [
+      "bid_item_001"
+    ],
+    "subtotal": 472.5,
+    "keywords_matched": [
+      "flashing"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "package_id": "pkg_other",
+    "title": "Other Work",
+    "line_item_ids": [
+      "bid_item_000",
+      "bid_item_002",
+      "labor_embedded",
+      "overhead",
+      "profit",
+      "contingency"
+    ],
+    "subtotal": 1711.5,
+    "keywords_matched": [],
+    "confidence": 0.3
+  }
+]

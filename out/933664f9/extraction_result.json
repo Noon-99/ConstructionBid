@@ -1,0 +1,129 @@
+{
+  "project_type": "row_house",
+  "scope_type": "repair",
+  "scope_of_work": [
+    {
+      "page_number": 4,
+      "sheet_id": "A-4",
+      "evidence_snippet": "Remove existing windows and install new thermally broken frames",
+      "item": "Remove existing double-hung windows",
+      "description": "Demo W-1 units and prep openings for new thermally broken frames",
+      "location": "South elevation"
+    },
+    {
+      "page_number": 5,
+      "sheet_id": "A-5",
+      "evidence_snippet": "Install new thermally broken aluminum windows with specified sealant",
+      "item": "Install new thermally broken aluminum windows",
+      "description": "New W-1 units to be installed with proper anchorage and sealant",
+      "location": "North elevation"
+    }
+  ],
+  "material_specifications": [
+    {
+      "page_number": 2,
+      "sheet_id": "A-2",
+      "evidence_snippet": "Provide thermally broken aluminum frames per AAMA 2605",
+      "material_name": "Thermally broken aluminum frame",
+      "specification": "AAMA 2605 powder coat",
+      "application": "New W-1 window units",
+      "detail_sheet": "A-2"
+    },
+    {
+      "page_number": 3,
+      "sheet_id": "A-3",
+      "evidence_snippet": "Use Low-E insulated glazing with specified SHGC",
+      "material_name": "Low-E insulated glazing",
+      "specification": "IGU with SHGC of 0.25",
+      "application": "All new window units",
+      "detail_sheet": "A-3"
+    }
+  ],
+  "quantity_takeoff": [
+    {
+      "page_number": 1,
+      "sheet_id": "A-1",
+      "evidence_snippet": "W-1 3'-0\" x 5'-0\" Qty 12 double-hung",
+      "item": "W-1 windows",
+      "quantity": 12.0,
+      "unit": "ea",
+      "is_computed": false,
+      "computation_formula": null,
+      "input_dimensions": {
+        "width_in": 36.0,
+        "height_in": 60.0
+      },
+      "evidence_missing": false
+    },
+    {
+      "page_number": 1,
+      "sheet_id": "A-1",
+      "evidence_snippet": "W-2 4'-0\" x 6'-0\" Qty 8 casement",
+      "item": "W-2 windows",
+      "quantity": 8.0,
+      "unit": "ea",
+      "is_computed": false,
+      "computation_formula": null,
+      "input_dimensions": {
+        "width_in": 48.0,
+        "height_in": 72.0
+      },
+      "evidence_missing": false
+    }
+  ],
+  "geometry_for_3d": {
+    "site_context": {
+      "building_type": "unknown",
+      "row_of_buildings": [
+        "B-1"
+      ],
+      "subject_building_id": "B-1",
+      "addresses": [
+        "123 Main St"
+      ],
+      "evidence": "fallback_from_stage1"
+    },
+    "dimensions": {
+      "width": 20.0,
+      "depth": 30.0,
+      "height": 15.0,
+      "evidence": "fallback_from_stage1",
+      "computation_formula": null,
+      "input_pages": []
+    },
+    "work_zones": [],
+    "evidence_missing": []
+  },
+  "validation_metadata": {
+    "pages_used": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "passes": 1,
+    "detail": "high",
+    "post_extraction_notes": [
+      "post-coverage rescue rerun executed"
+    ]
+  },
+  "evidence_missing": [],
+  "room_program": null,
+  "structural_notes": null,
+  "authoritative_dimensions": null,
+  "institutional_geometry_for_3d": null,
+  "room_schedule": null,
+  "structural_elements": null,
+  "building_envelope": null,
+  "openings": null,
+  "lintels": null,
+  "detail_graph": null,
+  "warranty_and_insurance": null
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "package_id": "pkg_parapet_reconstruction",
+    "title": "Parapet Reconstruction",
+    "line_item_ids": [
+      "item_0",
+      "item_1",
+      "item_2"
+    ],
+    "subtotal": 495012.5,
+    "keywords_matched": [
+      "coping",
+      "roof edge"
+    ],
+    "confidence": 0.7333333333333333
+  },
+  {
+    "package_id": "pkg_flashing_and_waterproofing",
+    "title": "Flashing & Waterproofing",
+    "line_item_ids": [
+      "item_3",
+      "item_4",
+      "item_5"
+    ],
+    "subtotal": 14054.899999999998,
+    "keywords_matched": [
+      "flashing",
+      "membrane"
+    ],
+    "confidence": 0.6999999999999998
+  },
+  {
+    "package_id": "pkg_other",
+    "title": "Other Work",
+    "line_item_ids": [
+      "item_6",
+      "item_7"
+    ],
+    "subtotal": 18835.5,
+    "keywords_matched": [],
+    "confidence": 0.3
+  }
+]

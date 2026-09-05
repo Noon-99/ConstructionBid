@@ -1,0 +1,50 @@
+{
+  "project_id": "dcfd6ded",
+  "project_name": null,
+  "location": null,
+  "issuing_authority": "New York State Office of General Services",
+  "bid_submission_date": null,
+  "base_scope_cost": 509067.4,
+  "compliance_total": 18835.5,
+  "total_bid": 527902.9,
+  "compliance_delta_pct": 3.7,
+  "compliance_breakdown": {
+    "bond": 12726.69,
+    "insurance": 6108.81
+  },
+  "compliance_adjustments": [
+    "Prevailing wage multiplier applied: +50% to labor rates (Government/public project detected). Required for public/government projects per Davis-Bacon or state prevailing wage laws.",
+    "Performance & Payment Bonds: +2.50% of base scope ($12,726.69) (Government/public project detected). Required for public/government contracts to protect the owner.",
+    "Supplemental Insurance: +1.20% of base scope ($6,108.81) (Government/public project detected). Additional coverage required for public/government projects."
+  ],
+  "prevailing_wage_applied": false,
+  "bonds_required": true,
+  "insurance_applied": true,
+  "procurement_indicators": [
+    "Bid submission date suggests public procurement process",
+    "Department of Transportation referenced",
+    "New York State Office of General Services mentioned",
+    "Public project indicated by O.G.S. project number"
+  ],
+  "procurement_notes": [
+    "Strong indicators of a public sector project based on agency names and procurement language."
+  ],
+  "evidence_references": [
+    {
+      "type": "procurement_pages",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "description": "Pages flagged for procurement indicators"
+    }
+  ],
+  "confidence_pct": 76.25,
+  "confidence_explanation": "This bid requires review before submission. Some quantities are estimated or evidence is incomplete.",
+  "summary": "This project moved from a base scope of $509,067 to a compliance-aware total of $527,903. Compliance uplift represented 3.7% of the base scope. Bond requirements were included to satisfy public agency standards. Key compliance cues included: Bid submission date suggests public procurement process, Department of Transportation referenced, New York State Office of General Services mentioned, Public project indicated by O.G.S. project number",
+  "recommendations": [
+    "Review procurement notes for additional submission obligations."
+  ]
+}

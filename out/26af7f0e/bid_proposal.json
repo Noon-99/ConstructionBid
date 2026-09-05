@@ -1,0 +1,37 @@
+{
+  "project_id": "26af7f0e",
+  "summary": {
+    "total_cost": 0.0,
+    "cost_by_division": {},
+    "base_scope_cost": 0.0,
+    "allowances_total": 0.0,
+    "compliance_costs": {
+      "bond": 0.0,
+      "insurance": 0.0
+    },
+    "compliance_total": 0.0,
+    "contingency_recommendation_pct": null,
+    "contingency_recommendation_amount": null
+  },
+  "line_items": [],
+  "allowances": [],
+  "alternates": [],
+  "clarifications": [
+    {
+      "text": "Compliance adjustment applied: Prevailing wage multiplier applied: +50% to labor rates (Government/public project detected). Required for public/government projects per Davis-Bacon or state prevailing wage laws.",
+      "severity": "info"
+    },
+    {
+      "text": "Compliance adjustment applied: Performance & Payment Bonds: +2.50% of base scope ($0.00) (Government/public project detected). Required for public/government contracts to protect the owner.",
+      "severity": "info"
+    },
+    {
+      "text": "Compliance adjustment applied: Supplemental Insurance: +1.20% of base scope ($0.00) (Government/public project detected). Additional coverage required for public/government projects.",
+      "severity": "info"
+    }
+  ],
+  "generated_at": "2026-01-24T18:48:43.938436",
+  "estimate_mode": "conceptual",
+  "bid_ready": true,
+  "bid_mode": "conceptual"
+}

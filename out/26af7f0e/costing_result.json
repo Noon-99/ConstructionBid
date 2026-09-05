@@ -1,0 +1,32 @@
+{
+  "project_id": "row_house",
+  "breakdown_by_category": [],
+  "breakdown_by_scope_item": [],
+  "breakdown_by_building": {
+    "subject": []
+  },
+  "subtotals": {},
+  "total_cost": 0.0,
+  "material_cost_total": 0.0,
+  "labor_cost_total": 0.0,
+  "equipment_cost_total": 0.0,
+  "waste_cost_total": 0.0,
+  "cost_justification": [],
+  "missing_data_warnings": [],
+  "rules_used": [],
+  "profile_id": "default_national",
+  "compliance_adjustments": [
+    "Prevailing wage multiplier applied: +50% to labor rates (Government/public project detected). Required for public/government projects per Davis-Bacon or state prevailing wage laws.",
+    "Performance & Payment Bonds: +2.50% of base scope ($0.00) (Government/public project detected). Required for public/government contracts to protect the owner.",
+    "Supplemental Insurance: +1.20% of base scope ($0.00) (Government/public project detected). Additional coverage required for public/government projects."
+  ],
+  "compliance_costs": {
+    "bond": 0.0,
+    "insurance": 0.0
+  },
+  "compliance_total": 0.0,
+  "base_scope_cost": 0.0,
+  "contingency_recommendation_pct": null,
+  "contingency_recommendation_amount": null,
+  "rule_governance": null
+}

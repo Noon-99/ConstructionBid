@@ -1,0 +1,133 @@
+{
+  "project_type": "row_house",
+  "scope_type": "repair",
+  "sheets": [
+    {
+      "sheet_id": "S-003.00",
+      "page_number": 3,
+      "sheet_type": "elevation",
+      "title": "Front Elevation"
+    },
+    {
+      "sheet_id": "S-004.00",
+      "page_number": 4,
+      "sheet_type": "elevation",
+      "title": "Right Side Elevation"
+    },
+    {
+      "sheet_id": "S-005.00",
+      "page_number": 5,
+      "sheet_type": "elevation",
+      "title": "Rear Elevation"
+    },
+    {
+      "sheet_id": "S-011",
+      "page_number": 6,
+      "sheet_type": "detail",
+      "title": "Typical Steel Lintel Schedule"
+    }
+  ],
+  "where_scope_lives": [
+    {
+      "sheet_id": "S-003.00",
+      "page_number": 3,
+      "location_type": "general_notes",
+      "evidence": "Rebuild outer wythe of brick from 2nd floor window linels to bottom of parapet.",
+      "confidence": 0.95
+    },
+    {
+      "sheet_id": "S-005.00",
+      "page_number": 5,
+      "location_type": "general_notes",
+      "evidence": "Repoint brick arch lintel as per S-102 Detail 6, Brick Arch Repairs.",
+      "confidence": 0.95
+    }
+  ],
+  "where_quantities_live": [
+    {
+      "sheet_id": "S-011",
+      "page_number": 6,
+      "location_type": "specification_table",
+      "evidence": "TYPICAL STEEL LINTEL SCHEDULE",
+      "confidence": 0.95
+    }
+  ],
+  "where_materials_live": [],
+  "building_context": {
+    "building_type": "row_house",
+    "is_row_context": true,
+    "building_ids": [],
+    "addresses": [
+      "66-02 Central Avenue, Queens, NY 11385"
+    ],
+    "evidence": "Document mentions multiple 2 Story Masonry buildings."
+  },
+  "site_context": {
+    "street_front": "02 Central Avenue",
+    "cross_street_left": null,
+    "cross_street_right": null,
+    "row_condition": "attached",
+    "row_count_estimate": null,
+    "subject_position": "unknown",
+    "provenance": {
+      "street_front": "evidence",
+      "cross_street_left": "unknown",
+      "cross_street_right": "unknown",
+      "row_condition": "inferred",
+      "row_count_estimate": "unknown",
+      "subject_position": "unknown"
+    }
+  },
+  "key_dimensions": {
+    "width": 40.0,
+    "depth": 60.0,
+    "height": 30.0,
+    "area": 2400.0,
+    "evidence": "Dimensions noted in elevation drawings.",
+    "confidence": 0.95
+  },
+  "critical_expected_items": [
+    {
+      "item": "parapet",
+      "expected_for": "row_house_repair",
+      "found": true,
+      "evidence": "Rebuild parapet as per S-011 Detail 4-Proposed Parapet Reconstruction Section Detail.",
+      "confidence": 0.95
+    }
+  ],
+  "confidence": 0.95,
+  "missing_fields": [],
+  "resolved_project_type": "row_house",
+  "resolved_scope_type": "repair",
+  "resolution_notes": [
+    "Government project detected: City of New York",
+    "Primary trade: Division 04 (Masonry)",
+    "Institutional building detected - preserving GPT's classification. GPT classified as: row_house, Building type: row_house, Institutional evidence found: True",
+    "Extracted site context: row_condition=attached (provenance: inferred)",
+    "Final text-based override: masonry (Division 04)"
+  ],
+  "primary_division": "04",
+  "primary_trade": "masonry",
+  "trade_detection_confidence": 0.95,
+  "labor_regime": "standard",
+  "labor_regime_confidence": 0.5,
+  "labor_regime_evidence": "No DOT/public work or union indicators detected. Using standard labor rates.",
+  "procurement_context": {
+    "is_public_project": true,
+    "detection_confidence": 0.85,
+    "indicators": [
+      "City of New York mentioned",
+      "Public Authority referenced",
+      "Public works indicators present"
+    ],
+    "notes": [
+      "Document includes municipal references indicating local government involvement."
+    ],
+    "source_pages": [
+      1
+    ]
+  },
+  "requires_prevailing_wage": true,
+  "requires_bonds": true,
+  "issuing_authority": "City of New York"
+}

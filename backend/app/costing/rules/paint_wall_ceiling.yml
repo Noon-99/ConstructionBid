@@ -1,0 +1,49 @@
+# Paint - Wall and Ceiling (Phase 7.1)
+# Room-based finish rule for institutional projects
+
+name: "Paint - Wall and Ceiling"
+category: "Finishes"
+description: "Interior paint for walls and ceilings based on room area"
+
+# Keywords that match this rule
+keywords:
+  - "paint"
+  - "painting"
+  - "interior paint"
+  - "wall paint"
+  - "ceiling paint"
+
+# Quantity calculation
+quantity_source: "computed_from_dimensions"
+quantity_formula: "room_area_sf * multiplier"
+
+# Multipliers by usage type (wall + ceiling area multipliers)
+multipliers:
+  gym: 3.5  # High ceilings, large wall area
+  auditorium: 3.5
+  office: 2.8  # Standard office
+  toilet: 3.2  # More walls per SF
+  corridor: 3.0
+  storage: 2.5
+  default: 2.8  # Default multiplier
+
+# Unit cost (per SF of wall/ceiling area)
+unit_cost: 0.85  # $/SF of painted surface
+unit: "SF"
+
+# Cost breakdown
+material_cost_per_unit: 0.25
+labor_cost_per_unit: 0.50
+equipment_cost_per_unit: 0.10
+
+# Notes
+notes:
+  - "Includes primer and two coats"
+  - "Multiplier accounts for wall height and ceiling area"
+  - "Usage type determines multiplier based on typical room proportions"
+
+
+
+
+
+

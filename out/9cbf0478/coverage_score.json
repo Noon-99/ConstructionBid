@@ -1,0 +1,115 @@
+{
+  "project_id": "9cbf0478",
+  "generated_at": "2026-01-03T23:32:41.099041",
+  "coverage_score": 0.25,
+  "dominant_trades": [
+    "masonry",
+    "windows",
+    "roofing",
+    "interiors"
+  ],
+  "matched_trades": [
+    "windows"
+  ],
+  "missing_trades": [
+    {
+      "trade": "masonry",
+      "confidence": 1.0,
+      "evidence_pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "missing_features": [
+        "detail",
+        "scope"
+      ]
+    },
+    {
+      "trade": "roofing",
+      "confidence": 0.869481765834933,
+      "evidence_pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "missing_features": [
+        "detail",
+        "materials",
+        "quantity",
+        "scope"
+      ]
+    },
+    {
+      "trade": "interiors",
+      "confidence": 0.869481765834933,
+      "evidence_pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "missing_features": [
+        "materials",
+        "quantity",
+        "scope"
+      ]
+    }
+  ],
+  "trade_features": {
+    "masonry": {
+      "expected": [
+        "detail",
+        "scope"
+      ],
+      "matched": []
+    },
+    "windows": {
+      "expected": [
+        "detail",
+        "materials",
+        "quantity",
+        "scope"
+      ],
+      "matched": [
+        "materials",
+        "quantity",
+        "scope"
+      ]
+    },
+    "roofing": {
+      "expected": [
+        "detail",
+        "materials",
+        "quantity",
+        "scope"
+      ],
+      "matched": []
+    },
+    "interiors": {
+      "expected": [
+        "materials",
+        "quantity",
+        "scope"
+      ],
+      "matched": []
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "project_id": "ogs_case_study",
+  "generated_at": "2026-01-23T19:20:33.828079",
+  "coverage_score": 0.0,
+  "dominant_trades": [
+    "roofing"
+  ],
+  "matched_trades": [],
+  "missing_trades": [
+    {
+      "trade": "roofing",
+      "confidence": 1.0,
+      "evidence_pages": [
+        1
+      ],
+      "missing_features": [
+        "scope"
+      ]
+    }
+  ],
+  "trade_features": {
+    "roofing": {
+      "expected": [
+        "scope"
+      ],
+      "matched": []
+    }
+  }
+}

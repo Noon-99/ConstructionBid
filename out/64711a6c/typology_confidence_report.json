@@ -1,0 +1,18 @@
+{
+  "project_id": "64711a6c",
+  "final_project_type": "institutional",
+  "original_project_type": "institutional",
+  "overall_confidence": 0.58,
+  "indicators": [
+    {
+      "indicator_type": "sheet_type",
+      "indicator_value": "2 plan sheet(s)",
+      "strength": "moderate",
+      "confidence_contribution": 0.08
+    }
+  ],
+  "routing_decision": "institutional_path",
+  "routing_reason": "project_type=institutional, scope_type=renovation",
+  "was_overridden": false,
+  "override_reasons": []
+}

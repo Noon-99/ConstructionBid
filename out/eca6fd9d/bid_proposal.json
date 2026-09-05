@@ -1,0 +1,135 @@
+{
+  "project_id": "eca6fd9d",
+  "summary": {
+    "total_cost": 473832.9,
+    "cost_by_division": {
+      "01 General Requirements": 473832.9
+    }
+  },
+  "line_items": [
+    {
+      "division": "01 General Requirements",
+      "description": "Roof replacement system (assembly) - EPDM",
+      "quantity": 8000.0,
+      "unit": "SF",
+      "unit_cost": 25.0,
+      "total_cost": 371700.0,
+      "basis": "Tear-off scope (full): Remove existing roof membrane - entire roof; Disposal requirement: Remove existing roof membrane - entire roof; System type (EPDM): TPO single-ply membrane; Insulation material: Polyisocyanurate Insulation; Insulation thickness (2.0 in): 2 inch polyisocyanurate insulation R-20; Quantity: Roof area = 8000.0 SF; Perimeter: Roof perimeter = 360.0 LF. Qty source: Quantity from drawing",
+      "confidence": 0.8,
+      "quantity_source": "from_drawing",
+      "quantity_confidence": 0.85
+    },
+    {
+      "division": "01 General Requirements",
+      "description": "Roof tear-off & disposal",
+      "quantity": 8000.0,
+      "unit": "SF",
+      "unit_cost": 4.0,
+      "total_cost": 68800.00000000001,
+      "basis": "Tear-off scope (full): Remove existing roof membrane - entire roof; Disposal requirement: Remove existing roof membrane - entire roof; System type (EPDM): TPO single-ply membrane; Insulation material: Polyisocyanurate Insulation; Insulation thickness (2.0 in): 2 inch polyisocyanurate insulation R-20; Quantity: Roof area = 8000.0 SF; Perimeter: Roof perimeter = 360.0 LF. Qty source: Quantity from drawing",
+      "confidence": 0.8,
+      "quantity_source": "from_drawing",
+      "quantity_confidence": 0.85
+    },
+    {
+      "division": "01 General Requirements",
+      "description": "Roof edge metal / coping (ASSUMED - review required)",
+      "quantity": 360.0,
+      "unit": "LF",
+      "unit_cost": 25.0,
+      "total_cost": 19278.0,
+      "basis": "Roof perimeter and edge metal requirements. Qty source: Quantity estimated (heuristic)",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.5
+    },
+    {
+      "division": "01 General Requirements",
+      "description": "Roof base flashing (ASSUMED - review required)",
+      "quantity": 360.0,
+      "unit": "LF",
+      "unit_cost": 18.0,
+      "total_cost": 14004.899999999998,
+      "basis": "Roof perimeter flashing requirements. Qty source: Quantity estimated (heuristic)",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.5
+    },
+    {
+      "division": "01 General Requirements",
+      "description": "roof membrane removal",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 25.0,
+      "total_cost": 25.0,
+      "basis": "Remove existing roof membrane - entire roof. Qty source: Quantity estimated (heuristic)",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2
+    },
+    {
+      "division": "01 General Requirements",
+      "description": "roof membrane installation",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 25.0,
+      "total_cost": 25.0,
+      "basis": "TPO single-ply membrane. Qty source: Quantity estimated (heuristic)",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2
+    }
+  ],
+  "allowances": [],
+  "alternates": [],
+  "clarifications": [
+    {
+      "text": "Authoritative width missing; using fallback estimate (100.0 ft).. Re-read pages with dimension callouts",
+      "severity": "warning"
+    },
+    {
+      "text": "Authoritative depth missing; using fallback estimate (80.0 ft).. Re-read pages with dimension callouts",
+      "severity": "warning"
+    },
+    {
+      "text": "Authoritative height missing but treated as advisory for roof-focused scope.. Re-read pages with dimension callouts",
+      "severity": "warning"
+    },
+    {
+      "text": "Missing authoritative dimensions: width, depth, height. Using fallback estimates: {'width': 100.0, 'depth': 80.0}.. Re-read pages with dimension callouts",
+      "severity": "warning"
+    },
+    {
+      "text": "Scope review recommended; could not confirm: parapet, lintel, flashing, brick or repoint, crack repair. Re-read drawings or provide manual override for these scope items.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: Edge metal/coping not specified - using perimeter length 360.0 LF as estimate. Review required.. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: Base flashing not specified - using perimeter length 360.0 LF as estimate. Review required.. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: Heuristic quantity used for roof membrane removal: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: Heuristic quantity used for roof membrane installation: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: No cost rule found for scope item: roof insulation. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: No cost rule found for scope item: roof area. Estimate may be incomplete.",
+      "severity": "warning"
+    }
+  ],
+  "generated_at": "2025-12-30T15:02:56.586179",
+  "estimate_mode": "conceptual",
+  "bid_ready": true,
+  "bid_mode": "conceptual"
+}

@@ -1,0 +1,41 @@
+{
+  "profile_id": "nyc_2025q1",
+  "label": "NYC 2025 Q1",
+  "region": "NYC",
+  "currency": "USD",
+  "labor_rates": {
+    "masonry": 85.0,
+    "carpentry": 75.0,
+    "concrete": 78.0,
+    "steel": 95.0,
+    "general_labor": 50.0,
+    "custom_rates": {}
+  },
+  "material_multipliers": {
+    "brick": 1.2,
+    "mortar": 1.15,
+    "concrete": 1.12,
+    "steel": 1.25,
+    "cmu": 1.15,
+    "custom_multipliers": {}
+  },
+  "equipment_rates": {
+    "scaffold_daily": 300.0,
+    "scaffold_weekly": 1500.0,
+    "crane_daily": 2000.0,
+    "dumpster_weekly": 600.0,
+    "custom_rates": {}
+  },
+  "overhead_pct_range": [
+    15.0,
+    25.0
+  ],
+  "profit_pct_range": [
+    8.0,
+    18.0
+  ],
+  "overhead_pct_default": 18.0,
+  "profit_pct_default": 12.0,
+  "escalation_index": null,
+  "notes": "NYC market pricing for Q1 2025. Reflects higher labor costs, material markups, and equipment rental rates typical for New York City construction projects."
+}

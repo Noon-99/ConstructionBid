@@ -1,0 +1,25 @@
+name: Steel Lintel Install
+category: Structural
+description: Install steel lintel above opening
+keywords:
+  - steel lintel
+  - lintel steel
+  - lintel install
+  - lintel installation
+  - header steel
+unit: EA
+base_unit_cost: 180.0
+material_cost_per_unit: 95.0
+labor_hours_per_unit: 1.5
+labor_rate: 65.0
+equipment_cost_per_unit: 15.0
+waste_factor: 0.0
+multipliers:
+  default: 1.0
+  galvanized: 1.15
+
+
+
+
+
+

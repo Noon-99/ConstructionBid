@@ -1,0 +1,90 @@
+{
+  "project_type": "unknown",
+  "scope_type": "unknown",
+  "sheets": [
+    {
+      "sheet_id": "A-1",
+      "page_number": 1,
+      "sheet_type": "plan",
+      "title": "Site Plan"
+    },
+    {
+      "sheet_id": "A-2",
+      "page_number": 2,
+      "sheet_type": "detail",
+      "title": "Window Details"
+    },
+    {
+      "sheet_id": "A-3",
+      "page_number": 3,
+      "sheet_type": "detail",
+      "title": "Wall Sections"
+    },
+    {
+      "sheet_id": "A-4",
+      "page_number": 4,
+      "sheet_type": "detail",
+      "title": "Foundation Details"
+    }
+  ],
+  "where_scope_lives": [
+    {
+      "sheet_id": "A-1",
+      "page_number": 1,
+      "location_type": "general_notes",
+      "evidence": "General notes section on page 1",
+      "confidence": 0.8
+    }
+  ],
+  "where_quantities_live": [
+    {
+      "sheet_id": "A-3",
+      "page_number": 3,
+      "location_type": "area_calculations",
+      "evidence": "Area calculations noted on page 3",
+      "confidence": 0.7
+    }
+  ],
+  "where_materials_live": [
+    {
+      "sheet_id": "A-2",
+      "page_number": 2,
+      "location_type": "specification_section",
+      "evidence": "Materials specified in detail on page 2",
+      "confidence": 0.9
+    }
+  ],
+  "building_context": {
+    "building_type": "unknown",
+    "is_row_context": false,
+    "building_ids": [],
+    "addresses": [],
+    "evidence": "No building context information found"
+  },
+  "site_context": null,
+  "key_dimensions": {
+    "width": null,
+    "depth": null,
+    "height": null,
+    "area": null,
+    "evidence": "No explicit dimensions found",
+    "confidence": 0.0
+  },
+  "critical_expected_items": [],
+  "confidence": 0.6,
+  "missing_fields": [
+    "project_type",
+    "scope_type",
+    "key_dimensions",
+    "building_context"
+  ],
+  "resolved_project_type": null,
+  "resolved_scope_type": null,
+  "resolution_notes": [],
+  "primary_division": null,
+  "primary_trade": null,
+  "trade_detection_confidence": null,
+  "labor_regime": "standard",
+  "labor_regime_confidence": 0.5,
+  "labor_regime_evidence": null
+}

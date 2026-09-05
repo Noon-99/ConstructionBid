@@ -1,0 +1,75 @@
+{
+  "project_type": "row_house",
+  "scope_type": "repair",
+  "scope_of_work": [],
+  "material_specifications": [],
+  "quantity_takeoff": [],
+  "geometry_for_3d": {
+    "site_context": {
+      "building_type": "unknown",
+      "row_of_buildings": [
+        "B-1",
+        "B-2"
+      ],
+      "subject_building_id": "B-1",
+      "addresses": [
+        "123 Main St"
+      ],
+      "evidence": "fallback_from_stage1"
+    },
+    "dimensions": {
+      "width": 20.0,
+      "depth": 30.0,
+      "height": 15.0,
+      "evidence": "fallback_from_stage1",
+      "computation_formula": null,
+      "input_pages": []
+    },
+    "work_zones": [],
+    "evidence_missing": []
+  },
+  "validation_metadata": {
+    "pages_used": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "passes": 1,
+    "detail": "high",
+    "post_extraction_notes": [
+      "post-coverage rescue rerun executed"
+    ],
+    "rescue_performed": true,
+    "rescue_notes": [
+      "Rescue rerun used 12 pages from page_index",
+      "Rescue rerun also returned empty",
+      "Coverage rescue added pages [2, 3, 4, 5, 6, 7, 8, 9, 10, 11]"
+    ]
+  },
+  "evidence_missing": [
+    "window_scope",
+    "window_materials",
+    "window_schedule",
+    "window_quantities"
+  ],
+  "room_program": null,
+  "structural_notes": null,
+  "authoritative_dimensions": null,
+  "institutional_geometry_for_3d": null,
+  "room_schedule": null,
+  "structural_elements": null,
+  "building_envelope": null,
+  "openings": null,
+  "lintels": null,
+  "detail_graph": null,
+  "warranty_and_insurance": null
+}

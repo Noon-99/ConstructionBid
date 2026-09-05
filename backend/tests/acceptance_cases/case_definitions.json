@@ -1,0 +1,43 @@
+[
+  {
+    "name": "roof_drawingsconstr",
+    "relative_pdf": "roof/drawings_constr.pdf",
+    "expected_primary_trade": "roofing",
+    "required_scope_keywords": ["roof", "membrane", "insulation"],
+    "min_coverage_score": 0.15,
+    "max_heuristic_cost_fraction": 0.6,
+    "total_cost_band": {"min": 400000, "max": 550000},
+    "required_anchor_labels": ["roof_area"],
+    "min_bid_items": 6,
+    "primary_trade_feature_ratio_min": 0.7,
+    "required_non_heuristic_scope_items": ["roof replacement"],
+    "expected_missing_trades": ["masonry", "windows", "pavement", "structure", "interiors"],
+    "anchor_quantities": [
+      {
+        "label": "roof_area",
+        "match_item_contains": ["roof area"],
+        "min_quantity": 1000.0,
+        "unit": "sf",
+        "allow_heuristic": false,
+        "require_evidence": true
+      },
+      {
+        "label": "roof_perimeter",
+        "match_item_contains": ["roof perimeter", "perimeter"],
+        "min_quantity": 100.0,
+        "unit": "lf",
+        "allow_heuristic": true,
+        "require_evidence": true
+      }
+    ]
+  },
+  {
+    "name": "windows_hospital",
+    "relative_pdf": "windows/input.pdf",
+    "expected_primary_trade": "windows",
+    "required_scope_keywords": ["window", "glazing", "frame"],
+    "min_coverage_score": 0.1,
+    "max_heuristic_cost_fraction": 0.7,
+    "anchor_quantities": []
+  }
+]

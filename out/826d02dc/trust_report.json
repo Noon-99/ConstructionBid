@@ -1,0 +1,113 @@
+{
+  "project_id": "826d02dc",
+  "project_name": null,
+  "project_type": "Row House",
+  "run_id": "826d02dc",
+  "generated_at": "2026-01-23T19:45:25.578092",
+  "bid_ready": false,
+  "overall_confidence": 100.0,
+  "confidence_explanation": "This bid requires review before submission. Some quantities are estimated or evidence is incomplete.",
+  "base_scope_cost": 0.0,
+  "allowances_total": 0.0,
+  "compliance_adjustments": [],
+  "compliance_costs": {},
+  "compliance_total": 0.0,
+  "contingency_recommendation_pct": null,
+  "contingency_recommendation_amount": null,
+  "confidence_breakdown": {
+    "scope_coverage": 1.0,
+    "quantity_confidence": 0.5,
+    "evidence_coverage": 1.0,
+    "geometry_quality": "Authoritative"
+  },
+  "verified_items": [
+    {
+      "item": "Remove existing double-hung windows",
+      "evidence_pages": [
+        1
+      ],
+      "detail_refs": []
+    },
+    {
+      "item": "Install new thermally broken aluminum windows",
+      "evidence_pages": [
+        1
+      ],
+      "detail_refs": []
+    },
+    {
+      "item": "Reference glazing head/jamb detail",
+      "evidence_pages": [
+        1
+      ],
+      "detail_refs": []
+    }
+  ],
+  "recovery_applied": false,
+  "recovery_pages": [],
+  "review_recommended_items": [
+    {
+      "item": "Reference glazing head/jamb detail",
+      "reason": "Quantity inferred",
+      "quantity_source": "heuristic"
+    }
+  ],
+  "evidence_coverage": {
+    "bid_value_coverage_pct": 100.0,
+    "items_with_evidence_pct": 100.0,
+    "orphan_items_count": 0,
+    "referenced_pages": [
+      1
+    ],
+    "detail_refs": []
+  },
+  "geometry_confidence": {
+    "model_generated": true,
+    "buildings_count": 1,
+    "work_zones_count": 20,
+    "geometry_type": "Dimensional + sectional",
+    "used_for": [
+      "Quantity derivation",
+      "Cost attribution",
+      "Evidence navigation"
+    ]
+  },
+  "included_items": [
+    "Line items with quantities & unit costs",
+    "Drawing references per item",
+    "Scope-level cost breakdown",
+    "Evidence-linked audit trail"
+  ],
+  "excluded_items": [
+    "Field verification",
+    "Permits & filing fees (unless specified)",
+    "Contractor overhead & profit",
+    "Change order contingencies"
+  ],
+  "validation_gates_passed": true,
+  "critical_recovery_applied": false,
+  "cache_reuse_enabled": true,
+  "deterministic_run": true,
+  "mode": "conceptual",
+  "run_timestamp": "2026-01-06T20:07:02.001186",
+  "coverage_declarations": {
+    "insurance": {
+      "general_liability_limit": null,
+      "general_liability_status": "not_declared",
+      "workers_comp_status": "not_declared",
+      "umbrella_limit": null,
+      "umbrella_status": "not_declared",
+      "bond_status": "not_declared",
+      "notes": null
+    },
+    "warranty": {
+      "workmanship_duration": null,
+      "workmanship_status": "not_declared",
+      "materials_basis": null,
+      "materials_status": "not_declared",
+      "notes": null
+    },
+    "source": "contractor_declared",
+    "updated_at": "2026-01-06T20:07:16.893685"
+  }
+}

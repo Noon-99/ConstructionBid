@@ -1,0 +1,176 @@
+{
+  "project_id": "dcfd6ded",
+  "summary": {
+    "total_cost": 527902.9,
+    "cost_by_division": {
+      "01 General Requirements": 527902.9
+    },
+    "base_scope_cost": 509067.4,
+    "allowances_total": 0.0,
+    "compliance_costs": {
+      "bond": 12726.69,
+      "insurance": 6108.81
+    },
+    "compliance_total": 18835.5,
+    "contingency_recommendation_pct": null,
+    "contingency_recommendation_amount": null
+  },
+  "line_items": [
+    {
+      "division": "01 General Requirements",
+      "description": "Roof replacement system (assembly) - EPDM",
+      "quantity": 8000.0,
+      "unit": "SF",
+      "unit_cost": 25.0,
+      "total_cost": 393750.0,
+      "basis": "Tear-off scope (full): Remove existing roof membrane - entire roof; Disposal requirement: Remove existing roof membrane - entire roof; System type (EPDM): TPO single-ply membrane; Insulation material: Polyisocyanurate Insulation; Insulation thickness (2.0 in): 2 inch polyisocyanurate insulation R-20; Quantity: Roof area = 8000.0 SF; Perimeter: Roof perimeter = 360.0 LF; Edge metal/coping: Edge metal = 360.0 LF; Base flashing: Base flashing = 360.0 LF. Qty source: Quantity from drawing. Compliance adjustments: prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work",
+      "confidence": 0.8,
+      "quantity_source": "from_drawing",
+      "quantity_confidence": 0.85
+    },
+    {
+      "division": "01 General Requirements",
+      "description": "Roof tear-off & disposal",
+      "quantity": 8000.0,
+      "unit": "SF",
+      "unit_cost": 4.0,
+      "total_cost": 80000.0,
+      "basis": "Tear-off scope (full): Remove existing roof membrane - entire roof; Disposal requirement: Remove existing roof membrane - entire roof; System type (EPDM): TPO single-ply membrane; Insulation material: Polyisocyanurate Insulation; Insulation thickness (2.0 in): 2 inch polyisocyanurate insulation R-20; Quantity: Roof area = 8000.0 SF; Perimeter: Roof perimeter = 360.0 LF; Edge metal/coping: Edge metal = 360.0 LF; Base flashing: Base flashing = 360.0 LF. Qty source: Quantity from drawing. Compliance adjustments: prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work",
+      "confidence": 0.8,
+      "quantity_source": "from_drawing",
+      "quantity_confidence": 0.85
+    },
+    {
+      "division": "01 General Requirements",
+      "description": "Roof edge metal / coping",
+      "quantity": 360.0,
+      "unit": "LF",
+      "unit_cost": 25.0,
+      "total_cost": 21262.5,
+      "basis": "Roof perimeter and edge metal requirements. Qty source: Quantity from drawing. Compliance adjustments: prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work",
+      "confidence": 0.8,
+      "quantity_source": "from_drawing",
+      "quantity_confidence": 0.85
+    },
+    {
+      "division": "01 General Requirements",
+      "description": "Roof base flashing",
+      "quantity": 360.0,
+      "unit": "LF",
+      "unit_cost": 18.0,
+      "total_cost": 14004.899999999998,
+      "basis": "Roof perimeter flashing requirements. Qty source: Quantity from drawing",
+      "confidence": 0.8,
+      "quantity_source": "from_drawing",
+      "quantity_confidence": 0.85
+    },
+    {
+      "division": "01 General Requirements",
+      "description": "roof membrane removal",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 25.0,
+      "total_cost": 25.0,
+      "basis": "Remove existing roof membrane - entire roof. Qty source: Quantity estimated (heuristic). Compliance adjustments: prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2
+    },
+    {
+      "division": "01 General Requirements",
+      "description": "roof membrane installation",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 25.0,
+      "total_cost": 25.0,
+      "basis": "TPO single-ply membrane. Qty source: Quantity estimated (heuristic). Compliance adjustments: prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2
+    },
+    {
+      "division": "01 General Requirements",
+      "description": "Performance & Payment Bonds",
+      "quantity": 1.0,
+      "unit": "lump",
+      "unit_cost": 12726.69,
+      "total_cost": 12726.69,
+      "basis": "Required for public/government project",
+      "confidence": 0.9,
+      "quantity_source": "allowance",
+      "quantity_confidence": 0.9
+    },
+    {
+      "division": "01 General Requirements",
+      "description": "Supplemental Insurance",
+      "quantity": 1.0,
+      "unit": "lump",
+      "unit_cost": 6108.81,
+      "total_cost": 6108.81,
+      "basis": "Additional insurance requirements for public project",
+      "confidence": 0.9,
+      "quantity_source": "allowance",
+      "quantity_confidence": 0.9
+    }
+  ],
+  "allowances": [],
+  "alternates": [],
+  "clarifications": [
+    {
+      "text": "Authoritative width missing; using fallback estimate (100.0 ft).. Re-read pages with dimension callouts",
+      "severity": "warning"
+    },
+    {
+      "text": "Authoritative depth missing; using fallback estimate (80.0 ft).. Re-read pages with dimension callouts",
+      "severity": "warning"
+    },
+    {
+      "text": "Authoritative height missing but treated as advisory for roof-focused scope.. Re-read pages with dimension callouts",
+      "severity": "warning"
+    },
+    {
+      "text": "Missing authoritative dimensions: width, depth, height. Using fallback estimates: {'width': 100.0, 'depth': 80.0}.. Re-read pages with dimension callouts",
+      "severity": "warning"
+    },
+    {
+      "text": "Scope review recommended; could not confirm: parapet, lintel, brick or repoint, crack repair. Re-read drawings or provide manual override for these scope items.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: Heuristic quantity used for roof membrane removal: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: Heuristic quantity used for roof membrane installation: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: No cost rule found for scope item: roof insulation. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: No cost rule found for scope item: roof area. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Compliance adjustment applied: Prevailing wage multiplier applied: +50% to labor rates (Government/public project detected). Required for public/government projects per Davis-Bacon or state prevailing wage laws.",
+      "severity": "info"
+    },
+    {
+      "text": "Compliance adjustment applied: Performance & Payment Bonds: +2.50% of base scope ($12,726.69) (Government/public project detected). Required for public/government contracts to protect the owner.",
+      "severity": "info"
+    },
+    {
+      "text": "Compliance adjustment applied: Supplemental Insurance: +1.20% of base scope ($6,108.81) (Government/public project detected). Additional coverage required for public/government projects.",
+      "severity": "info"
+    },
+    {
+      "text": "Compliance cost adders included in total: Bond $12,726.69, Insurance $6,108.81",
+      "severity": "info"
+    }
+  ],
+  "generated_at": "2026-01-23T18:50:54.133093",
+  "estimate_mode": "conceptual",
+  "bid_ready": true,
+  "bid_mode": "conceptual"
+}

@@ -1,0 +1,36 @@
+name: brick_rebuild
+keywords:
+  - brick rebuild
+  - brick replacement
+  - brick repair
+  - masonry rebuild
+
+unit_type: SF  # Square Feet
+base_unit_cost: 45.00
+material_cost_per_unit: 18.00
+labor_hours_per_unit: 0.4
+labor_rate: 55.00
+equipment_cost_per_unit: 2.00
+
+waste_factor: 0.15  # 15% waste for brick
+
+height_multiplier:
+  "0-15": 1.0
+  "15-25": 1.10
+  "25-35": 1.25
+
+material_multiplier: 1.0
+equipment_multiplier: 1.0
+
+notes: |
+  Brick rebuild includes:
+  - Removal of damaged brick
+  - New brick installation
+  - Mortar and pointing
+  - Matching existing brick
+
+
+
+
+
+

@@ -1,0 +1,186 @@
+{
+  "project_id": "cadb6fb3",
+  "bid_mode": "contractor",
+  "total_bid": 30382.681000000004,
+  "subtotals": {
+    "base_scope": 19604.97,
+    "logistics": 0.0,
+    "permits": 0.0,
+    "labor": 3587.5,
+    "overhead": 3478.8705,
+    "profit": 2319.2470000000003,
+    "contingency": 1159.6235000000001,
+    "compliance": 232.47
+  },
+  "sections": [
+    {
+      "section_id": "base_scope",
+      "title": "Base Scope (from drawings)",
+      "division": null,
+      "line_items": [
+        {
+          "item_id": "bid_item_000",
+          "title": "Remove existing double-hung windows",
+          "division": "08 Openings",
+          "quantity": 20.0,
+          "unit": "ea",
+          "unit_cost": 450.0,
+          "total_cost": 9450.0,
+          "basis": "Remove existing windows and install new thermally broken frames. Qty source: Quantity from schedule. Page 1",
+          "notes": null
+        },
+        {
+          "item_id": "bid_item_001",
+          "title": "Install new thermally broken aluminum windows",
+          "division": "08 Openings",
+          "quantity": 20.0,
+          "unit": "ea",
+          "unit_cost": 450.0,
+          "total_cost": 9450.0,
+          "basis": "Install new thermally broken aluminum windows with flashing. Qty source: Quantity from schedule. Page 1",
+          "notes": null
+        },
+        {
+          "item_id": "bid_item_002",
+          "title": "Reference glazing head/jamb detail",
+          "division": "08 Openings",
+          "quantity": 1.0,
+          "unit": "EA",
+          "unit_cost": 450.0,
+          "total_cost": 472.5,
+          "basis": "Glazing detail referenced on sheet A-2. Qty source: Quantity estimated (heuristic)",
+          "notes": null
+        },
+        {
+          "item_id": "bid_item_003",
+          "title": "Supplemental Insurance",
+          "division": "01 General Requirements",
+          "quantity": 1.0,
+          "unit": "lump",
+          "unit_cost": 232.47,
+          "total_cost": 232.47,
+          "basis": "Additional insurance requirements for public project",
+          "notes": null
+        }
+      ],
+      "subtotal": 19604.97
+    },
+    {
+      "section_id": "labor",
+      "title": "Labor (extracted from base scope)",
+      "division": null,
+      "line_items": [
+        {
+          "item_id": "labor_embedded",
+          "title": "Labor (from base scope items)",
+          "division": null,
+          "quantity": null,
+          "unit": null,
+          "unit_cost": null,
+          "total_cost": 3587.5,
+          "basis": "Labor costs embedded in base scope unit costs",
+          "notes": null
+        }
+      ],
+      "subtotal": 3587.5
+    },
+    {
+      "section_id": "overhead_profit",
+      "title": "Overhead & Profit",
+      "division": "01",
+      "line_items": [
+        {
+          "item_id": "overhead",
+          "title": "Overhead",
+          "division": "01",
+          "quantity": null,
+          "unit": null,
+          "unit_cost": null,
+          "total_cost": 3478.8705,
+          "basis": "Overhead at 15.0%",
+          "notes": null
+        },
+        {
+          "item_id": "profit",
+          "title": "Profit",
+          "division": "01",
+          "quantity": null,
+          "unit": null,
+          "unit_cost": null,
+          "total_cost": 2319.2470000000003,
+          "basis": "Profit at 10.0%",
+          "notes": null
+        }
+      ],
+      "subtotal": 5798.1175
+    },
+    {
+      "section_id": "contingency",
+      "title": "Contingency",
+      "division": "01",
+      "line_items": [
+        {
+          "item_id": "contingency",
+          "title": "Contingency",
+          "division": "01",
+          "quantity": null,
+          "unit": null,
+          "unit_cost": null,
+          "total_cost": 1159.6235000000001,
+          "basis": "Contingency at 5.0%",
+          "notes": null
+        }
+      ],
+      "subtotal": 1159.6235000000001
+    },
+    {
+      "section_id": "compliance",
+      "title": "Compliance Costs",
+      "division": "01",
+      "line_items": [
+        {
+          "item_id": "compliance_insurance",
+          "title": "Compliance: Insurance",
+          "division": "01",
+          "quantity": null,
+          "unit": null,
+          "unit_cost": null,
+          "total_cost": 232.47,
+          "basis": "Derived from compliance settings in cost engine",
+          "notes": null
+        }
+      ],
+      "subtotal": 232.47
+    }
+  ],
+  "schedule": null,
+  "payment_schedule": null,
+  "permits_and_inspections": [],
+  "logistics": [],
+  "exclusions": [
+    "Site work not shown on drawings",
+    "Interior finishes not specified",
+    "Mechanical, electrical, and plumbing work (unless specified)",
+    "Hazardous materials abatement",
+    "Permits and fees beyond those listed",
+    "Owner-furnished materials"
+  ],
+  "assumptions": [
+    "Access to site is available during normal working hours",
+    "No hazardous materials are present",
+    "Existing conditions are as shown on drawings",
+    "Weather conditions permit normal construction activities",
+    "Cost data missing: Roof perimeter not explicitly found - inferred from building dimensions: 100.0 LF (formula: 2 × (width + depth)). Review required.. Estimate may be incomplete.",
+    "Cost data missing: Heuristic quantity used for Reference glazing head/jamb detail: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+    "Compliance adjustment applied: Supplemental Insurance: +1.20% of base scope ($232.47) (Government/public project detected). Additional coverage required for public/government projects.",
+    "Compliance cost adders included in total: Insurance $232.47"
+  ],
+  "region_resolution": {
+    "region_id": "US_DEFAULT",
+    "confidence": 0.0,
+    "evidence": [
+      "No location signals found, using default region"
+    ]
+  },
+  "created_at": "2026-01-23T19:59:20.247070"
+}

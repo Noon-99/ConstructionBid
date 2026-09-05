@@ -1,0 +1,41 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies & build
+node_modules/
+.next/
+frontend/out/
+dist/
+build/
+*.egg-info/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local runtime data (large)
+storage/
+backend/storage/
+backend/out/
+backend/test_storage/
+*.pdf
+
+# OS / IDE / process
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*.pid
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*

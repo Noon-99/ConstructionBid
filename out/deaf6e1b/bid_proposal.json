@@ -1,0 +1,56 @@
+{
+  "project_id": "deaf6e1b",
+  "summary": {
+    "total_cost": 5435.0,
+    "cost_by_division": {
+      "04 Masonry": 4301.0,
+      "05 Metals": 1134.0
+    }
+  },
+  "line_items": [
+    {
+      "division": "04 Masonry",
+      "description": "parapet repair",
+      "quantity": 40.0,
+      "unit": "LF",
+      "unit_cost": 97.74999999999999,
+      "total_cost": 4301.0,
+      "basis": "Rebuild parapet as per S-011 Detail 4 - Proposed Parapet Reconstruction Section Detail. Qty source: Quantity computed from dimensions. Page 3. Formula: width",
+      "confidence": 0.8,
+      "quantity_source": "computed_from_dimensions",
+      "quantity_confidence": 0.75
+    },
+    {
+      "division": "05 Metals",
+      "description": "lintel replacement",
+      "quantity": 2.0,
+      "unit": "EA",
+      "unit_cost": 540.0,
+      "total_cost": 1134.0,
+      "basis": "Replace 2nd Floor Window Lintels as per S-011, Details 1 - Typical Steel Lintel Schedule. Qty source: Quantity estimated (heuristic)",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.3
+    }
+  ],
+  "allowances": [],
+  "alternates": [],
+  "clarifications": [
+    {
+      "text": "Dimension conflict resolved: width: resolved from 2 sources. Review authoritative dimension sources",
+      "severity": "warning"
+    },
+    {
+      "text": "Dimension conflict resolved: depth: resolved from 2 sources. Review authoritative dimension sources",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: Heuristic quantity used for lintel replacement: 2.0 EA (confidence: 30.0%). Estimate may be incomplete.",
+      "severity": "warning"
+    }
+  ],
+  "generated_at": "2025-12-30T14:51:32.350066",
+  "estimate_mode": "conceptual",
+  "bid_ready": true,
+  "bid_mode": "conceptual"
+}

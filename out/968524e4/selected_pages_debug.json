@@ -1,0 +1,127 @@
+{
+  "total_pages": 6,
+  "stage05_indexed_pages_count": 6,
+  "stage1_selected_pages": [
+    {
+      "page_number": 2,
+      "page_index_labels": {
+        "page_types": [
+          "notes",
+          "plan",
+          "schedule"
+        ],
+        "indicators": [
+          "compliance"
+        ],
+        "confidence": 0.9
+      },
+      "reason": "index: types: notes, plan, schedule; indicators: compliance"
+    },
+    {
+      "page_number": 4,
+      "page_index_labels": {
+        "page_types": [
+          "plan"
+        ],
+        "indicators": [
+          "dimensions"
+        ],
+        "confidence": 0.85
+      },
+      "reason": "index: types: plan; indicators: dimensions"
+    },
+    {
+      "page_number": 5,
+      "page_index_labels": {
+        "page_types": [
+          "detail"
+        ],
+        "indicators": [
+          "flashing",
+          "parapet"
+        ],
+        "confidence": 0.85
+      },
+      "reason": "index: types: detail; indicators: flashing, parapet"
+    },
+    {
+      "page_number": 6,
+      "page_index_labels": {
+        "page_types": [
+          "detail"
+        ],
+        "indicators": [],
+        "confidence": 0.85
+      },
+      "reason": "index: types: detail"
+    }
+  ],
+  "stage2_selected_pages": [
+    {
+      "page_number": 1,
+      "page_index_labels": {
+        "page_types": [
+          "unknown"
+        ],
+        "indicators": [],
+        "confidence": 0.5
+      },
+      "reason": "stage2: stage1: sheets, stage1: where_materials_live, stage1: where_quantities_live, stage1: where_scope_lives"
+    },
+    {
+      "page_number": 2,
+      "page_index_labels": {
+        "page_types": [
+          "notes",
+          "plan",
+          "schedule"
+        ],
+        "indicators": [
+          "compliance"
+        ],
+        "confidence": 0.9
+      },
+      "reason": "stage2: stage1: sheets, stage1: where_materials_live, stage1: where_quantities_live, stage1: where_scope_lives"
+    },
+    {
+      "page_number": 3,
+      "page_index_labels": {
+        "page_types": [
+          "index",
+          "notes"
+        ],
+        "indicators": [],
+        "confidence": 0.9
+      },
+      "reason": "stage2: stage1: sheets, stage1: where_materials_live, stage1: where_quantities_live, stage1: where_scope_lives"
+    },
+    {
+      "page_number": 4,
+      "page_index_labels": {
+        "page_types": [
+          "plan"
+        ],
+        "indicators": [
+          "dimensions"
+        ],
+        "confidence": 0.85
+      },
+      "reason": "stage2: stage1: sheets, stage1: where_materials_live, stage1: where_quantities_live, stage1: where_scope_lives"
+    },
+    {
+      "page_number": 5,
+      "page_index_labels": {
+        "page_types": [
+          "detail"
+        ],
+        "indicators": [
+          "flashing",
+          "parapet"
+        ],
+        "confidence": 0.85
+      },
+      "reason": "stage2: stage1: sheets, stage1: where_materials_live, stage1: where_scope_lives"
+    }
+  ],
+  "rescue_stage2_selected_pages": []
+}

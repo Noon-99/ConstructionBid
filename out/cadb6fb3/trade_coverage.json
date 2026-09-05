@@ -1,0 +1,879 @@
+{
+  "project_id": "cadb6fb3",
+  "generated_at": "2026-01-24T01:28:09.789529",
+  "trades": [
+    {
+      "trade": "masonry",
+      "csi_division": "04 Masonry",
+      "confidence": 1.0,
+      "total_score": 87.52499999999999,
+      "signal_types": [
+        "masonry_detail",
+        "masonry_elevation"
+      ],
+      "evidence": [
+        {
+          "page_number": 3,
+          "sheet_id": "A-1",
+          "sheet_title": "Window Schedule",
+          "signals": [
+            "dimensions",
+            "window_detail",
+            "window_schedule",
+            "window_tag"
+          ],
+          "signal_types": [
+            "masonry_detail"
+          ],
+          "score": 6.375
+        },
+        {
+          "page_number": 4,
+          "sheet_id": "D-3",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "lintel"
+          ],
+          "signal_types": [
+            "masonry_detail",
+            "masonry_elevation"
+          ],
+          "score": 9.35
+        },
+        {
+          "page_number": 5,
+          "sheet_id": "S-2",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "lintel"
+          ],
+          "signal_types": [
+            "masonry_detail",
+            "masonry_elevation"
+          ],
+          "score": 9.35
+        },
+        {
+          "page_number": 6,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "lintel"
+          ],
+          "signal_types": [
+            "masonry_detail",
+            "masonry_elevation"
+          ],
+          "score": 9.35
+        },
+        {
+          "page_number": 7,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "lintel"
+          ],
+          "signal_types": [
+            "masonry_detail",
+            "masonry_elevation"
+          ],
+          "score": 9.35
+        },
+        {
+          "page_number": 8,
+          "sheet_id": "A-1",
+          "sheet_title": "Front Elevation",
+          "signals": [
+            "lintel"
+          ],
+          "signal_types": [
+            "masonry_detail",
+            "masonry_elevation"
+          ],
+          "score": 12.75
+        },
+        {
+          "page_number": 9,
+          "sheet_id": "A-1",
+          "sheet_title": "Construction Details",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "masonry_detail"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 10,
+          "sheet_id": "S-2",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "lintel"
+          ],
+          "signal_types": [
+            "masonry_detail",
+            "masonry_elevation"
+          ],
+          "score": 9.9
+        },
+        {
+          "page_number": 11,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "window_tag"
+          ],
+          "signal_types": [
+            "masonry_detail"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 12,
+          "sheet_id": "D-3",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "lintel"
+          ],
+          "signal_types": [
+            "masonry_detail",
+            "masonry_elevation"
+          ],
+          "score": 12.6
+        }
+      ]
+    },
+    {
+      "trade": "roofing",
+      "csi_division": "07 Thermal & Moisture Protection",
+      "confidence": 0.8823193373321908,
+      "total_score": 77.225,
+      "signal_types": [
+        "roofing_detail",
+        "roofing_quantity"
+      ],
+      "evidence": [
+        {
+          "page_number": 3,
+          "sheet_id": "A-1",
+          "sheet_title": "Window Schedule",
+          "signals": [
+            "dimensions",
+            "window_detail",
+            "window_schedule",
+            "window_tag"
+          ],
+          "signal_types": [
+            "roofing_detail",
+            "roofing_quantity"
+          ],
+          "score": 6.375
+        },
+        {
+          "page_number": 4,
+          "sheet_id": "D-3",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "roofing_detail",
+            "roofing_quantity"
+          ],
+          "score": 7.6499999999999995
+        },
+        {
+          "page_number": 5,
+          "sheet_id": "S-2",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "roofing_detail",
+            "roofing_quantity"
+          ],
+          "score": 7.6499999999999995
+        },
+        {
+          "page_number": 6,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "roofing_detail",
+            "roofing_quantity"
+          ],
+          "score": 7.6499999999999995
+        },
+        {
+          "page_number": 7,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "roofing_detail",
+            "roofing_quantity"
+          ],
+          "score": 7.6499999999999995
+        },
+        {
+          "page_number": 8,
+          "sheet_id": "A-1",
+          "sheet_title": "Front Elevation",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "roofing_detail",
+            "roofing_quantity"
+          ],
+          "score": 11.049999999999999
+        },
+        {
+          "page_number": 9,
+          "sheet_id": "A-1",
+          "sheet_title": "Construction Details",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "roofing_detail",
+            "roofing_quantity"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 10,
+          "sheet_id": "S-2",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "roofing_detail",
+            "roofing_quantity"
+          ],
+          "score": 8.1
+        },
+        {
+          "page_number": 11,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "window_tag"
+          ],
+          "signal_types": [
+            "roofing_detail",
+            "roofing_quantity"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 12,
+          "sheet_id": "D-3",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "flashing"
+          ],
+          "signal_types": [
+            "roofing_detail"
+          ],
+          "score": 12.6
+        }
+      ]
+    },
+    {
+      "trade": "windows",
+      "csi_division": "08 Openings",
+      "confidence": 0.881176806626678,
+      "total_score": 77.12499999999999,
+      "signal_types": [
+        "window_detail",
+        "window_elevation",
+        "window_schedule"
+      ],
+      "evidence": [
+        {
+          "page_number": 3,
+          "sheet_id": "A-1",
+          "sheet_title": "Window Schedule",
+          "signals": [
+            "window"
+          ],
+          "signal_types": [
+            "window_detail",
+            "window_schedule"
+          ],
+          "score": 8.075
+        },
+        {
+          "page_number": 4,
+          "sheet_id": "D-3",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "window_detail"
+          ],
+          "score": 7.6499999999999995
+        },
+        {
+          "page_number": 5,
+          "sheet_id": "S-2",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "window_detail"
+          ],
+          "score": 7.6499999999999995
+        },
+        {
+          "page_number": 6,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "window_detail"
+          ],
+          "score": 7.6499999999999995
+        },
+        {
+          "page_number": 7,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "window_detail"
+          ],
+          "score": 7.6499999999999995
+        },
+        {
+          "page_number": 8,
+          "sheet_id": "A-1",
+          "sheet_title": "Front Elevation",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "window_detail",
+            "window_elevation"
+          ],
+          "score": 11.049999999999999
+        },
+        {
+          "page_number": 9,
+          "sheet_id": "A-1",
+          "sheet_title": "Construction Details",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "window_detail"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 10,
+          "sheet_id": "S-2",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "window_detail"
+          ],
+          "score": 8.1
+        },
+        {
+          "page_number": 11,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "window_tag"
+          ],
+          "signal_types": [
+            "window_detail"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 12,
+          "sheet_id": "D-3",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "flashing",
+            "lintel"
+          ],
+          "signal_types": [
+            "window_detail"
+          ],
+          "score": 10.8
+        }
+      ]
+    },
+    {
+      "trade": "pavement",
+      "csi_division": "32 Exterior Improvements",
+      "confidence": 0.861753784632962,
+      "total_score": 75.425,
+      "signal_types": [
+        "pavement_detail",
+        "paving_quantity"
+      ],
+      "evidence": [
+        {
+          "page_number": 3,
+          "sheet_id": "A-1",
+          "sheet_title": "Window Schedule",
+          "signals": [
+            "dimensions",
+            "window_detail",
+            "window_schedule",
+            "window_tag"
+          ],
+          "signal_types": [
+            "paving_quantity"
+          ],
+          "score": 6.375
+        },
+        {
+          "page_number": 4,
+          "sheet_id": "D-3",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "paving_quantity"
+          ],
+          "score": 7.6499999999999995
+        },
+        {
+          "page_number": 5,
+          "sheet_id": "S-2",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "paving_quantity"
+          ],
+          "score": 7.6499999999999995
+        },
+        {
+          "page_number": 6,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "paving_quantity"
+          ],
+          "score": 7.6499999999999995
+        },
+        {
+          "page_number": 7,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "paving_quantity"
+          ],
+          "score": 7.6499999999999995
+        },
+        {
+          "page_number": 8,
+          "sheet_id": "A-1",
+          "sheet_title": "Front Elevation",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "paving_quantity"
+          ],
+          "score": 11.049999999999999
+        },
+        {
+          "page_number": 9,
+          "sheet_id": "A-1",
+          "sheet_title": "Construction Details",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "paving_quantity"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 10,
+          "sheet_id": "S-2",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "paving_quantity"
+          ],
+          "score": 8.1
+        },
+        {
+          "page_number": 11,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "window_tag"
+          ],
+          "signal_types": [
+            "paving_quantity"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 12,
+          "sheet_id": "D-3",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "flashing",
+            "lintel"
+          ],
+          "signal_types": [
+            "pavement_detail"
+          ],
+          "score": 10.8
+        }
+      ]
+    },
+    {
+      "trade": "structure",
+      "csi_division": "03/05 Concrete & Metals",
+      "confidence": 0.861753784632962,
+      "total_score": 75.425,
+      "signal_types": [
+        "structure_detail"
+      ],
+      "evidence": [
+        {
+          "page_number": 3,
+          "sheet_id": "A-1",
+          "sheet_title": "Window Schedule",
+          "signals": [
+            "dimensions",
+            "window_detail",
+            "window_schedule",
+            "window_tag"
+          ],
+          "signal_types": [
+            "structure_detail"
+          ],
+          "score": 6.375
+        },
+        {
+          "page_number": 4,
+          "sheet_id": "D-3",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "structure_detail"
+          ],
+          "score": 7.6499999999999995
+        },
+        {
+          "page_number": 5,
+          "sheet_id": "S-2",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "structure_detail"
+          ],
+          "score": 7.6499999999999995
+        },
+        {
+          "page_number": 6,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "structure_detail"
+          ],
+          "score": 7.6499999999999995
+        },
+        {
+          "page_number": 7,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "structure_detail"
+          ],
+          "score": 7.6499999999999995
+        },
+        {
+          "page_number": 8,
+          "sheet_id": "A-1",
+          "sheet_title": "Front Elevation",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "structure_detail"
+          ],
+          "score": 11.049999999999999
+        },
+        {
+          "page_number": 9,
+          "sheet_id": "A-1",
+          "sheet_title": "Construction Details",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "structure_detail"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 10,
+          "sheet_id": "S-2",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "structure_detail"
+          ],
+          "score": 8.1
+        },
+        {
+          "page_number": 11,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "window_tag"
+          ],
+          "signal_types": [
+            "structure_detail"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 12,
+          "sheet_id": "D-3",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "flashing",
+            "lintel"
+          ],
+          "signal_types": [
+            "structure_detail"
+          ],
+          "score": 10.8
+        }
+      ]
+    },
+    {
+      "trade": "interiors",
+      "csi_division": "09 Finishes",
+      "confidence": 0.861753784632962,
+      "total_score": 75.425,
+      "signal_types": [
+        "interiors_detail",
+        "interiors_plan",
+        "interiors_schedule"
+      ],
+      "evidence": [
+        {
+          "page_number": 3,
+          "sheet_id": "A-1",
+          "sheet_title": "Window Schedule",
+          "signals": [
+            "dimensions",
+            "window_detail",
+            "window_schedule",
+            "window_tag"
+          ],
+          "signal_types": [
+            "interiors_schedule"
+          ],
+          "score": 6.375
+        },
+        {
+          "page_number": 4,
+          "sheet_id": "D-3",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "interiors_detail"
+          ],
+          "score": 7.6499999999999995
+        },
+        {
+          "page_number": 5,
+          "sheet_id": "S-2",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "interiors_detail"
+          ],
+          "score": 7.6499999999999995
+        },
+        {
+          "page_number": 6,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "interiors_detail"
+          ],
+          "score": 7.6499999999999995
+        },
+        {
+          "page_number": 7,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "interiors_detail"
+          ],
+          "score": 7.6499999999999995
+        },
+        {
+          "page_number": 8,
+          "sheet_id": "A-1",
+          "sheet_title": "Front Elevation",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "interiors_plan"
+          ],
+          "score": 11.049999999999999
+        },
+        {
+          "page_number": 9,
+          "sheet_id": "A-1",
+          "sheet_title": "Construction Details",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "interiors_detail"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 10,
+          "sheet_id": "S-2",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "interiors_detail"
+          ],
+          "score": 8.1
+        },
+        {
+          "page_number": 11,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "window_tag"
+          ],
+          "signal_types": [
+            "interiors_detail"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 12,
+          "sheet_id": "D-3",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "flashing",
+            "lintel"
+          ],
+          "signal_types": [
+            "interiors_detail"
+          ],
+          "score": 10.8
+        }
+      ]
+    }
+  ],
+  "dominant_trades": [
+    "masonry",
+    "roofing",
+    "windows",
+    "pavement",
+    "interiors"
+  ]
+}

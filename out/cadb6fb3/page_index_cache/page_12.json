@@ -1,0 +1,13 @@
+{
+  "page_number": 12,
+  "sheet_id": "D-3",
+  "sheet_title": "Typical Detail",
+  "page_types": [
+    "detail"
+  ],
+  "indicators": [
+    "flashing",
+    "lintel"
+  ],
+  "confidence": 0.9
+}

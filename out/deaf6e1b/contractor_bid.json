@@ -1,0 +1,230 @@
+{
+  "project_id": "deaf6e1b",
+  "bid_mode": "contractor",
+  "total_bid": 51376.0,
+  "subtotals": {
+    "base_scope": 5435.0,
+    "logistics": 30800.0,
+    "permits": 1200.0,
+    "labor": 2085.0,
+    "overhead": 5928.0,
+    "profit": 3952.0,
+    "contingency": 1976.0
+  },
+  "sections": [
+    {
+      "section_id": "base_scope",
+      "title": "Base Scope (from drawings)",
+      "division": null,
+      "line_items": [
+        {
+          "item_id": "bid_item_000",
+          "title": "parapet repair",
+          "division": "04 Masonry",
+          "quantity": 40.0,
+          "unit": "LF",
+          "unit_cost": 97.74999999999999,
+          "total_cost": 4301.0,
+          "basis": "Rebuild parapet as per S-011 Detail 4 - Proposed Parapet Reconstruction Section Detail. Qty source: Quantity computed from dimensions. Page 3. Formula: width",
+          "notes": null
+        },
+        {
+          "item_id": "bid_item_001",
+          "title": "lintel replacement",
+          "division": "05 Metals",
+          "quantity": 2.0,
+          "unit": "EA",
+          "unit_cost": 540.0,
+          "total_cost": 1134.0,
+          "basis": "Replace 2nd Floor Window Lintels as per S-011, Details 1 - Typical Steel Lintel Schedule. Qty source: Quantity estimated (heuristic)",
+          "notes": null
+        }
+      ],
+      "subtotal": 5435.0
+    },
+    {
+      "section_id": "logistics",
+      "title": "Logistics & Protection",
+      "division": "01",
+      "line_items": [
+        {
+          "item_id": "scaffold_001",
+          "title": "Scaffolding",
+          "division": "01",
+          "quantity": 6.0,
+          "unit": "week",
+          "unit_cost": 1000.0,
+          "total_cost": 6000.0,
+          "basis": "Required for exterior masonry work above 6ft per OSHA requirements",
+          "notes": null
+        },
+        {
+          "item_id": "dumpster_001",
+          "title": "Debris Removal / Dumpster Rental",
+          "division": "01",
+          "quantity": 2.0,
+          "unit": "each",
+          "unit_cost": 400.0,
+          "total_cost": 800.0,
+          "basis": "Required for debris removal from masonry and demo work",
+          "notes": null
+        },
+        {
+          "item_id": "dust_control_001",
+          "title": "Dust Control & Daily Cleanup",
+          "division": "01",
+          "quantity": 40.0,
+          "unit": "day",
+          "unit_cost": 600.0,
+          "total_cost": 24000.0,
+          "basis": "Required for daily cleanup and dust control during masonry work",
+          "notes": null
+        }
+      ],
+      "subtotal": 30800.0
+    },
+    {
+      "section_id": "labor",
+      "title": "Labor (extracted from base scope)",
+      "division": null,
+      "line_items": [
+        {
+          "item_id": "labor_embedded",
+          "title": "Labor (from base scope items)",
+          "division": null,
+          "quantity": null,
+          "unit": null,
+          "unit_cost": null,
+          "total_cost": 2085.0,
+          "basis": "Labor costs embedded in base scope unit costs",
+          "notes": null
+        }
+      ],
+      "subtotal": 2085.0
+    },
+    {
+      "section_id": "overhead_profit",
+      "title": "Overhead & Profit",
+      "division": "01",
+      "line_items": [
+        {
+          "item_id": "overhead",
+          "title": "Overhead",
+          "division": "01",
+          "quantity": null,
+          "unit": null,
+          "unit_cost": null,
+          "total_cost": 5928.0,
+          "basis": "Overhead at 15.0%",
+          "notes": null
+        },
+        {
+          "item_id": "profit",
+          "title": "Profit",
+          "division": "01",
+          "quantity": null,
+          "unit": null,
+          "unit_cost": null,
+          "total_cost": 3952.0,
+          "basis": "Profit at 10.0%",
+          "notes": null
+        }
+      ],
+      "subtotal": 9880.0
+    },
+    {
+      "section_id": "contingency",
+      "title": "Contingency",
+      "division": "01",
+      "line_items": [
+        {
+          "item_id": "contingency",
+          "title": "Contingency",
+          "division": "01",
+          "quantity": null,
+          "unit": null,
+          "unit_cost": null,
+          "total_cost": 1976.0,
+          "basis": "Contingency at 5.0%",
+          "notes": null
+        }
+      ],
+      "subtotal": 1976.0
+    }
+  ],
+  "schedule": null,
+  "payment_schedule": null,
+  "permits_and_inspections": [
+    {
+      "item_id": "special_inspections_001",
+      "title": "Special Inspections Allowance",
+      "division": "01",
+      "quantity": 1.0,
+      "unit": "LS",
+      "unit_cost": 1200.0,
+      "total_cost": 1200.0,
+      "basis": "Required for structural/lintel work per building code requirements",
+      "notes": null
+    }
+  ],
+  "logistics": [
+    {
+      "item_id": "scaffold_001",
+      "title": "Scaffolding",
+      "division": "01",
+      "quantity": 6.0,
+      "unit": "week",
+      "unit_cost": 1000.0,
+      "total_cost": 6000.0,
+      "basis": "Required for exterior masonry work above 6ft per OSHA requirements",
+      "notes": null
+    },
+    {
+      "item_id": "dumpster_001",
+      "title": "Debris Removal / Dumpster Rental",
+      "division": "01",
+      "quantity": 2.0,
+      "unit": "each",
+      "unit_cost": 400.0,
+      "total_cost": 800.0,
+      "basis": "Required for debris removal from masonry and demo work",
+      "notes": null
+    },
+    {
+      "item_id": "dust_control_001",
+      "title": "Dust Control & Daily Cleanup",
+      "division": "01",
+      "quantity": 40.0,
+      "unit": "day",
+      "unit_cost": 600.0,
+      "total_cost": 24000.0,
+      "basis": "Required for daily cleanup and dust control during masonry work",
+      "notes": null
+    }
+  ],
+  "exclusions": [
+    "Site work not shown on drawings",
+    "Interior finishes not specified",
+    "Mechanical, electrical, and plumbing work (unless specified)",
+    "Hazardous materials abatement",
+    "Permits and fees beyond those listed",
+    "Owner-furnished materials"
+  ],
+  "assumptions": [
+    "Access to site is available during normal working hours",
+    "No hazardous materials are present",
+    "Existing conditions are as shown on drawings",
+    "Weather conditions permit normal construction activities",
+    "Dimension conflict resolved: width: resolved from 2 sources. Review authoritative dimension sources",
+    "Dimension conflict resolved: depth: resolved from 2 sources. Review authoritative dimension sources",
+    "Cost data missing: Heuristic quantity used for lintel replacement: 2.0 EA (confidence: 30.0%). Estimate may be incomplete."
+  ],
+  "region_resolution": {
+    "region_id": "US_DEFAULT",
+    "confidence": 0.0,
+    "evidence": [
+      "No location signals found, using default region"
+    ]
+  },
+  "created_at": "2025-12-29T18:37:08.708505"
+}

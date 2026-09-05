@@ -1,0 +1,110 @@
+{
+  "project_id": "adb4959e",
+  "summary": {
+    "total_cost": 51433.614,
+    "cost_by_division": {
+      "04 Masonry": 50791.0,
+      "05 Metals": 567.0,
+      "01 General Requirements": 42.35,
+      "07 Thermal and Moisture Protection": 33.264
+    }
+  },
+  "line_items": [
+    {
+      "division": "04 Masonry",
+      "description": "parapet repair",
+      "quantity": 20.0,
+      "unit": "LF",
+      "unit_cost": 97.74999999999999,
+      "total_cost": 2150.5,
+      "basis": "Parapet repair. Qty source: Quantity computed from dimensions. Page 1. Formula: width",
+      "confidence": 0.8,
+      "quantity_source": "computed_from_dimensions",
+      "quantity_confidence": 0.75
+    },
+    {
+      "division": "04 Masonry",
+      "description": "brick rebuild",
+      "quantity": 600.0,
+      "unit": "SF",
+      "unit_cost": 56.25,
+      "total_cost": 38812.5,
+      "basis": "Brick rebuild. Qty source: Quantity computed from dimensions. Page 1. Formula: width * height",
+      "confidence": 0.8,
+      "quantity_source": "computed_from_dimensions",
+      "quantity_confidence": 0.75
+    },
+    {
+      "division": "04 Masonry",
+      "description": "repointing",
+      "quantity": 600.0,
+      "unit": "SF",
+      "unit_cost": 15.600000000000001,
+      "total_cost": 9828.0,
+      "basis": "Repointing. Qty source: Quantity computed from dimensions. Page 1. Formula: width * height",
+      "confidence": 0.8,
+      "quantity_source": "computed_from_dimensions",
+      "quantity_confidence": 0.75
+    },
+    {
+      "division": "05 Metals",
+      "description": "lintel replacement",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 540.0,
+      "total_cost": 567.0,
+      "basis": "Lintel replacement. Qty source: Quantity estimated (heuristic)",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2
+    },
+    {
+      "division": "01 General Requirements",
+      "description": "crack repairs",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 38.5,
+      "total_cost": 42.35,
+      "basis": "Crack repairs. Qty source: Quantity estimated (heuristic)",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2
+    },
+    {
+      "division": "07 Thermal and Moisture Protection",
+      "description": "flashing installation",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 30.800000000000004,
+      "total_cost": 33.264,
+      "basis": "Flashing installation. Qty source: Quantity estimated (heuristic)",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2
+    }
+  ],
+  "allowances": [],
+  "alternates": [],
+  "clarifications": [
+    {
+      "text": "Cost data missing: Roof perimeter not explicitly found - inferred from building dimensions: 120.0 LF (formula: 2 × (width + depth)). Review required.. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: Heuristic quantity used for lintel replacement: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: Heuristic quantity used for crack repairs: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: Heuristic quantity used for flashing installation: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+      "severity": "warning"
+    }
+  ],
+  "generated_at": "2025-12-25T13:27:09.745735",
+  "estimate_mode": "conceptual",
+  "bid_ready": true,
+  "bid_mode": "conceptual"
+}

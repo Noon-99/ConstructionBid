@@ -1,0 +1,200 @@
+{
+  "project_type": "row_house",
+  "scope_type": "repair",
+  "scope_of_work": [
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "SCOPE OF WORK: PROPOSED RECONSTRUCTION AND REINFORCEMENT OF LEFT WALL (EXPOSURE 2) AS PER PLAN",
+      "item": "Masonry wall reconstruction",
+      "description": "Proposed reconstruction and reinforcement of left wall (Exposure 2) as per plan.",
+      "location": null
+    },
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "CONSTRUCTION FENCE WILL BE INSTALLED IF NECESSARY",
+      "item": "Construction fence installation",
+      "description": "Construction fence will be installed if necessary.",
+      "location": null
+    },
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "MINOR DETAILS NOT USUALLY SHOWN OR SPECIFIED, BUT NECESSARY FOR PROPER CONSTRUCTION OF ANY PART OF THE WORK, SHALL BE INCLUDED AS IF THEY WERE INDICATED IN THE DRAWINGS",
+      "item": "Minor details for construction",
+      "description": "Minor details not usually shown or specified, but necessary for proper construction of any part of the work, shall be included as if they were indicated in the drawings.",
+      "location": null
+    },
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "THE CONTRACTOR SHALL BE RESPONSIBLE FOR THE PROTECTION OF ALL CONDITIONS AND MATERIALS WITHIN THE PROPOSED CONSTRUCTION AREA",
+      "item": "Protection of construction area",
+      "description": "The contractor shall be responsible for the protection of all conditions and materials within the proposed construction area.",
+      "location": null
+    },
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "THE CONTRACTOR SHALL INSTALL ADEQUATE SHORING AND BRACING FOR ALL STRUCTURAL OR REMOVAL TASKS",
+      "item": "Shoring and bracing installation",
+      "description": "The contractor shall install adequate shoring and bracing for all structural or removal tasks.",
+      "location": null
+    },
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "THE CONTRACTOR SHALL DO ALL CUTTING, PATCHING, AND REPAIRING AS REQUIRED TO PERFORM ALL OF THE WORK INDICATED ON THE DRAWINGS",
+      "item": "Cutting, patching, and repairing",
+      "description": "The contractor shall do all cutting, patching, and repairing as required to perform all of the work indicated on the drawings.",
+      "location": null
+    },
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "ALL PIPING AND WIRING SCHEDULED TO BE TERMINATED SHALL BE REMOVED TO A POINT OF CONCEALMENT AND SHALL BE PROPERLY CAPPED OR PLUGGED",
+      "item": "Removal of piping and wiring",
+      "description": "All piping and wiring scheduled to be terminated shall be removed to a point of concealment and shall be properly capped or plugged.",
+      "location": null
+    },
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "MASONRY CONSTRUCTION AND MATERIALS SHALL CONFORM TO ALL REQUIREMENTS OF ACI 530-92/ASCE 6-92",
+      "item": "Masonry construction standards",
+      "description": "Masonry construction and materials shall conform to all requirements of ACI 530-92/ASCE 6-92.",
+      "location": null
+    },
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "THE INSTALLATION OF NEW BRICK TO MATCH THE EXISTING BRICK PATTERN OF COMMON OR AMERICAN BOND",
+      "item": "Brick installation",
+      "description": "The installation of new brick to match the existing brick pattern of common or American bond.",
+      "location": null
+    },
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "MATCH THE EXISTING SIZE, COLOR AND TEXTURE OF THE INSTALLED BRICK WITH THE NEW BRICK",
+      "item": "Matching existing brick",
+      "description": "Match the existing size, color and texture of the installed brick with the new brick.",
+      "location": null
+    },
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "DEP CONSTRUCTION NOISE MANAGEMENT: \u00a724-220 NOISE MITIGATION PLAN",
+      "item": "Noise management plan",
+      "description": "DEP construction noise management: \u00a724-220 noise mitigation plan.",
+      "location": null
+    },
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "PERSONAL AND SITE PROTECTION FOR LEAD PAINT BASED HAZARDS IS REQUIRED AS PER THE EPA\u2019S 2008 LEAD-BASED PAINT RENOVATION, REPAIR AND PAINTING PROGRAM RULE",
+      "item": "Lead hazard protection",
+      "description": "Personal and site protection for lead paint based hazards is required as per the EPA\u2019s 2008 lead-based paint renovation, repair and painting program rule.",
+      "location": null
+    },
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "DUST AND DEBRIS FROM THE DEMOLITION OPERATIONS SHALL BE REMOVED DAILY FROM THE ADJACENT STREETS, SIDEWALKS AND ALLEYS",
+      "item": "Dust and debris removal",
+      "description": "Dust and debris from the demolition operations shall be removed daily from the adjacent streets, sidewalks and alleys.",
+      "location": null
+    },
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "ADEQUATE AND CONTINUOUS SUPPLY OF WATER DELIVERED TO THE CONSTRUCTION SITE UNDER PROPER PRESSURE AND DISTRIBUTED BY A HOSE SYSTEM",
+      "item": "Water supply for construction",
+      "description": "Adequate and continuous supply of water delivered to the construction site under proper pressure and distributed by a hose system.",
+      "location": null
+    },
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "SUITABLE DRAINAGE MEANS SHALL BE PROVIDED FOR THE REMOVAL OF WATER AND SLUDGE WHICH DRAINS FROM THE OPERATION",
+      "item": "Drainage for water removal",
+      "description": "Suitable drainage means shall be provided for the removal of water and sludge which drains from the operation.",
+      "location": null
+    },
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "ALL CONSTRUCTION MATERIAL SHALL BE SUFFICIENTLY WETTED TO PREVENT DUST FROM BECOMING AIRBORNE BEFORE LOADING INTO TRUCKS",
+      "item": "Dust control during construction",
+      "description": "All construction material shall be sufficiently wetted to prevent dust from becoming airborne before loading into trucks.",
+      "location": null
+    },
+    {
+      "page_number": 5,
+      "sheet_id": null,
+      "evidence_snippet": "For brick crack repair, follow S-102, Detail 3-Existing",
+      "item": "Cracked brick wall repair",
+      "description": "For brick crack repair, follow S-102, Detail 3-Existing.",
+      "location": null
+    },
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "Repoint brick arch lintel as per S-102 Detail 6, Brick Arch Repairs.",
+      "item": "Repointing brick arch lintel",
+      "description": "Repoint brick arch lintel as per S-102 Detail 6, Brick Arch Repairs.",
+      "location": null
+    }
+  ],
+  "material_specifications": [],
+  "quantity_takeoff": [],
+  "geometry_for_3d": {
+    "site_context": {
+      "building_type": "unknown",
+      "row_of_buildings": [],
+      "subject_building_id": null,
+      "addresses": [
+        "66-02 Central Avenue, Queens, NY 11385"
+      ],
+      "evidence": "fallback_from_stage1"
+    },
+    "dimensions": {
+      "width": 40.0,
+      "depth": 60.0,
+      "height": 30.0,
+      "evidence": "fallback_from_stage1",
+      "computation_formula": null,
+      "input_pages": []
+    },
+    "work_zones": [],
+    "evidence_missing": []
+  },
+  "validation_metadata": {
+    "pages_used": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "passes": 1,
+    "detail": "high",
+    "post_extraction_notes": [
+      "post-coverage rescue rerun executed"
+    ]
+  },
+  "evidence_missing": [],
+  "room_program": null,
+  "structural_notes": null,
+  "authoritative_dimensions": null,
+  "institutional_geometry_for_3d": null,
+  "room_schedule": null,
+  "structural_elements": null,
+  "building_envelope": null,
+  "openings": null,
+  "lintels": null,
+  "detail_graph": null,
+  "warranty_and_insurance": null
+}

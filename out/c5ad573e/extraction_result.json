@@ -1,0 +1,182 @@
+{
+  "project_type": "row_house",
+  "scope_type": "repair",
+  "scope_of_work": [
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "Parapet repair/replacement",
+      "item": "parapet repair",
+      "description": "Repair and replace damaged parapet sections.",
+      "location": "front facade"
+    },
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "Lintel replacement/repair",
+      "item": "lintel replacement",
+      "description": "Replace steel lintels at window openings.",
+      "location": "window openings"
+    },
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "Brick rebuild",
+      "item": "brick rebuild",
+      "description": "Rebuild sections of brick as necessary.",
+      "location": null
+    },
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "Repointing (tuckpointing)",
+      "item": "repointing",
+      "description": "Repointing of existing brickwork.",
+      "location": null
+    },
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "Crack repairs",
+      "item": "crack repairs",
+      "description": "Repair cracks in masonry.",
+      "location": null
+    },
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "Flashing installation/repair",
+      "item": "flashing installation",
+      "description": "Install new flashing where required.",
+      "location": null
+    }
+  ],
+  "material_specifications": [
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "Mortar types (Type N, Type S, etc.)",
+      "material_name": "Type N Mortar",
+      "specification": "ASTM C270",
+      "application": "Repointing",
+      "detail_sheet": null
+    },
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "Lintel materials (steel angles, sizes like 'L3x3x1/4')",
+      "material_name": "Steel Lintel",
+      "specification": "L3x3x1/4",
+      "application": "Window lintel replacement",
+      "detail_sheet": "S-011"
+    }
+  ],
+  "quantity_takeoff": [
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "No explicit dimensions found.",
+      "item": "Brick replacement",
+      "quantity": null,
+      "unit": "sq ft",
+      "is_computed": false,
+      "computation_formula": null,
+      "input_dimensions": {},
+      "evidence_missing": true
+    }
+  ],
+  "geometry_for_3d": {
+    "site_context": {
+      "building_type": "row_house",
+      "row_of_buildings": [
+        "B-1"
+      ],
+      "subject_building_id": "B-1",
+      "addresses": [
+        "123 Main St"
+      ],
+      "evidence": "No specific building context found. (with fallback from Stage 1)"
+    },
+    "dimensions": {
+      "width": 20.0,
+      "depth": 30.0,
+      "height": 15.0,
+      "evidence": "No explicit dimensions found. (with fallback from Stage 1)",
+      "computation_formula": null,
+      "input_pages": []
+    },
+    "work_zones": [
+      {
+        "zone_name": "parapet_band",
+        "z_min": null,
+        "z_max": null,
+        "facade_region": "parapet band",
+        "page_number": 1,
+        "sheet_id": null,
+        "evidence": "No specific height information found."
+      },
+      {
+        "zone_name": "lintel_band",
+        "z_min": null,
+        "z_max": null,
+        "facade_region": "lintel band",
+        "page_number": 1,
+        "sheet_id": null,
+        "evidence": "No specific height information found."
+      }
+    ],
+    "evidence_missing": [
+      "height",
+      "work_zone_z_ranges"
+    ]
+  },
+  "validation_metadata": {
+    "pages_used": [
+      0,
+      2
+    ],
+    "passes": 2,
+    "detail": "high"
+  },
+  "evidence_missing": [
+    "Flashing details",
+    "Parapet repair/replacement information",
+    "Repointing specifications",
+    "parapet_repair"
+  ],
+  "room_program": null,
+  "structural_notes": null,
+  "authoritative_dimensions": null,
+  "institutional_geometry_for_3d": null,
+  "room_schedule": null,
+  "structural_elements": null,
+  "building_envelope": null,
+  "openings": null,
+  "lintels": null,
+  "detail_graph": null,
+  "warranty_and_insurance": {
+    "warranty": {
+      "manufacturer_warranty": null,
+      "manufacturer_warranty_duration": null,
+      "workmanship_warranty": null,
+      "workmanship_warranty_duration": null,
+      "warranty_evidence": "Warranty information not found."
+    },
+    "insurance": {
+      "general_liability_required": false,
+      "general_liability_limit": null,
+      "workers_compensation_required": false,
+      "workers_compensation_limit": null,
+      "umbrella_insurance_required": false,
+      "umbrella_insurance_limit": null,
+      "insurance_evidence": "Insurance requirements not found."
+    },
+    "bonds": {
+      "performance_bond_required": false,
+      "performance_bond_amount": null,
+      "payment_bond_required": false,
+      "payment_bond_amount": null,
+      "bond_evidence": "Bond requirements not found."
+    }
+  }
+}

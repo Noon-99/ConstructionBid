@@ -1,0 +1,95 @@
+{
+  "project_id": "d784e9f8",
+  "passed": false,
+  "score": 0.0,
+  "issues": [
+    {
+      "code": "MISSING_ROOF_AREA",
+      "severity": "error",
+      "message": "Roof trade detected but roof area (SF) not extracted — cannot price roof replacement. Expand page selection or improve roof plan extraction. Look for roof plan dimensions, roof area callouts, or calculate from building footprint.",
+      "affected_fields": [
+        "quantity_takeoff",
+        "geometry_for_3d"
+      ],
+      "recommended_action": "Re-read pages containing roof plans, roof dimensions, or roof area calculations. If roof plan exists, extract roof outline dimensions and calculate area. If only building footprint available, use that as roof area estimate with low confidence."
+    },
+    {
+      "code": "MISSING_GEOMETRY",
+      "severity": "error",
+      "message": "Missing or invalid authoritative width dimension",
+      "affected_fields": [
+        "authoritative_dimensions.width"
+      ],
+      "recommended_action": "Re-read pages with dimension callouts"
+    },
+    {
+      "code": "MISSING_GEOMETRY",
+      "severity": "error",
+      "message": "Missing or invalid authoritative depth dimension",
+      "affected_fields": [
+        "authoritative_dimensions.depth"
+      ],
+      "recommended_action": "Re-read pages with dimension callouts"
+    },
+    {
+      "code": "MISSING_GEOMETRY",
+      "severity": "error",
+      "message": "Missing or invalid authoritative height dimension",
+      "affected_fields": [
+        "authoritative_dimensions.height"
+      ],
+      "recommended_action": "Re-read elevation pages"
+    },
+    {
+      "code": "MISSING_AUTHORITATIVE_DIMENSIONS",
+      "severity": "error",
+      "message": "Missing authoritative dimensions: width, depth, height",
+      "affected_fields": [
+        "authoritative_dimensions"
+      ],
+      "recommended_action": "Re-read pages with dimension callouts"
+    },
+    {
+      "code": "MISSING_CRITICAL_SCOPE",
+      "severity": "error",
+      "message": "Missing critical scope items: parapet, lintel, flashing, brick_or_repoint, crack_repair. Found 0/5 required items.",
+      "affected_fields": [
+        "scope_of_work"
+      ],
+      "recommended_action": "Re-read pages containing scope information"
+    }
+  ],
+  "missing_critical_items": [
+    "MISSING_ROOF_AREA",
+    "MISSING_GEOMETRY",
+    "MISSING_GEOMETRY",
+    "MISSING_GEOMETRY",
+    "MISSING_CRITICAL_SCOPE"
+  ],
+  "conflicts": {
+    "dimensions": {
+      "issues": [
+        {
+          "code": "MISSING_AUTHORITATIVE_DIMENSIONS",
+          "severity": "error",
+          "message": "Missing authoritative dimensions: width, depth, height",
+          "affected_fields": [
+            "authoritative_dimensions"
+          ],
+          "recommended_action": "Re-read pages with dimension callouts"
+        }
+      ],
+      "authoritative": {
+        "width": null,
+        "depth": null,
+        "height": null,
+        "confidence": 0.0
+      }
+    }
+  },
+  "rerun_performed": true,
+  "rerun_notes": [
+    "Critical-5 recovery performed for: parapet, lintel, flashing, brick_or_repoint, crack_repair"
+  ],
+  "created_at": "2025-12-20T20:56:19.777695"
+}

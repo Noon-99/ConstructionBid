@@ -1,0 +1,11 @@
+{
+  "project_id": "ogs_case_study",
+  "final_project_type": "unknown",
+  "original_project_type": "unknown",
+  "overall_confidence": 0.5,
+  "indicators": [],
+  "routing_decision": "fallback_row_house",
+  "routing_reason": "Uncertain typology (unknown+repair) - falling back to row_house extractor",
+  "was_overridden": false,
+  "override_reasons": []
+}

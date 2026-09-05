@@ -1,0 +1,169 @@
+{
+  "project_id": "dc535384",
+  "summary": {
+    "total_cost": 473956.64,
+    "cost_by_division": {
+      "01 General Requirements": 473832.9,
+      "04 Masonry": 93.5,
+      "07 Thermal and Moisture Protection": 30.240000000000002
+    }
+  },
+  "line_items": [
+    {
+      "division": "01 General Requirements",
+      "description": "Roof replacement system (assembly) - EPDM",
+      "quantity": 8000.0,
+      "unit": "SF",
+      "unit_cost": 25.0,
+      "total_cost": 371700.0,
+      "basis": "Tear-off scope (full): Remove existing roof membrane; Disposal requirement: Remove existing roof membrane; System type (EPDM): Roof assembly and accessories; Insulation material: Unknown; Insulation thickness NOT FOUND - evidence: Thickness/material not found; Quantity: Roof area = 8000.0 SF; Perimeter: Roof perimeter = 360.0 LF | CONFIDENCE ISSUES: INSULATION THICKNESS MISSING - pricing may be inaccurate. Thickness not found in documents.. Qty source: Quantity from drawing",
+      "confidence": 0.8,
+      "quantity_source": "from_drawing",
+      "quantity_confidence": 0.85
+    },
+    {
+      "division": "01 General Requirements",
+      "description": "Roof tear-off & disposal",
+      "quantity": 8000.0,
+      "unit": "SF",
+      "unit_cost": 4.0,
+      "total_cost": 68800.00000000001,
+      "basis": "Tear-off scope (full): Remove existing roof membrane; Disposal requirement: Remove existing roof membrane; System type (EPDM): Roof assembly and accessories; Insulation material: Unknown; Insulation thickness NOT FOUND - evidence: Thickness/material not found; Quantity: Roof area = 8000.0 SF; Perimeter: Roof perimeter = 360.0 LF | CONFIDENCE ISSUES: INSULATION THICKNESS MISSING - pricing may be inaccurate. Thickness not found in documents.. Qty source: Quantity from drawing",
+      "confidence": 0.8,
+      "quantity_source": "from_drawing",
+      "quantity_confidence": 0.85
+    },
+    {
+      "division": "01 General Requirements",
+      "description": "Roof edge metal / coping (ASSUMED - review required)",
+      "quantity": 360.0,
+      "unit": "LF",
+      "unit_cost": 25.0,
+      "total_cost": 19278.0,
+      "basis": "Roof perimeter and edge metal requirements. Qty source: Quantity estimated (heuristic)",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.5
+    },
+    {
+      "division": "01 General Requirements",
+      "description": "Roof base flashing (ASSUMED - review required)",
+      "quantity": 360.0,
+      "unit": "LF",
+      "unit_cost": 18.0,
+      "total_cost": 14004.899999999998,
+      "basis": "Roof perimeter flashing requirements. Qty source: Quantity estimated (heuristic)",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.5
+    },
+    {
+      "division": "01 General Requirements",
+      "description": "roof membrane removal",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 25.0,
+      "total_cost": 25.0,
+      "basis": "Remove existing roof membrane. Qty source: Quantity estimated (heuristic)",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2
+    },
+    {
+      "division": "01 General Requirements",
+      "description": "roof membrane installation",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 25.0,
+      "total_cost": 25.0,
+      "basis": "Roof assembly and accessories. Qty source: Quantity estimated (heuristic)",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2
+    },
+    {
+      "division": "04 Masonry",
+      "description": "parapet",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 85.0,
+      "total_cost": 93.5,
+      "basis": "Install new parapet coping per detail 2/A-101. Qty source: Quantity estimated (heuristic)",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2
+    },
+    {
+      "division": "07 Thermal and Moisture Protection",
+      "description": "flashing",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 28.0,
+      "total_cost": 30.240000000000002,
+      "basis": "Install new flashing per detail 2/A-101. Qty source: Quantity estimated (heuristic)",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2
+    }
+  ],
+  "allowances": [],
+  "alternates": [],
+  "clarifications": [
+    {
+      "text": "Missing or invalid authoritative width dimension. Re-read pages with dimension callouts",
+      "severity": "critical"
+    },
+    {
+      "text": "Missing or invalid authoritative depth dimension. Re-read pages with dimension callouts",
+      "severity": "critical"
+    },
+    {
+      "text": "Missing or invalid authoritative height dimension. Re-read elevation pages",
+      "severity": "critical"
+    },
+    {
+      "text": "Missing authoritative dimensions: width, depth, height. Re-read pages with dimension callouts",
+      "severity": "critical"
+    },
+    {
+      "text": "Missing critical scope items: lintel, brick_or_repoint, crack_repair. Found 2/5 required items.. Re-read pages containing scope information",
+      "severity": "critical"
+    },
+    {
+      "text": "Cost data missing: Edge metal/coping not specified - using perimeter length 360.0 LF as estimate. Review required.. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: Base flashing not specified - using perimeter length 360.0 LF as estimate. Review required.. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: Heuristic quantity used for roof membrane removal: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: Heuristic quantity used for roof membrane installation: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: No cost rule found for scope item: roof insulation. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: No cost rule found for scope item: roof area. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: Heuristic quantity used for parapet: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: Heuristic quantity used for flashing: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+      "severity": "warning"
+    }
+  ],
+  "generated_at": "2025-12-27T19:51:15.646521",
+  "estimate_mode": "conceptual",
+  "bid_ready": true,
+  "bid_mode": "conceptual"
+}

@@ -1,0 +1,134 @@
+{
+  "project_id": "d095547f",
+  "summary": {
+    "total_cost": 699.09,
+    "cost_by_division": {
+      "04 Masonry": 157.85,
+      "05 Metals": 472.5,
+      "01 General Requirements": 38.5,
+      "07 Thermal and Moisture Protection": 30.240000000000002
+    }
+  },
+  "line_items": [
+    {
+      "division": "04 Masonry",
+      "description": "parapet repair",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 85.0,
+      "total_cost": 93.5,
+      "basis": "Parapet repair/replacement. Qty source: Quantity estimated (heuristic)",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2
+    },
+    {
+      "division": "04 Masonry",
+      "description": "brick rebuild",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 45.0,
+      "total_cost": 51.75,
+      "basis": "Brick rebuild. Qty source: Quantity estimated (heuristic)",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2
+    },
+    {
+      "division": "04 Masonry",
+      "description": "repointing",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 12.0,
+      "total_cost": 12.6,
+      "basis": "Repointing (tuckpointing). Qty source: Quantity estimated (heuristic)",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2
+    },
+    {
+      "division": "05 Metals",
+      "description": "lintel replacement",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 450.0,
+      "total_cost": 472.5,
+      "basis": "Lintel replacement/repair. Qty source: Quantity estimated (heuristic)",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2
+    },
+    {
+      "division": "01 General Requirements",
+      "description": "crack repairs",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 35.0,
+      "total_cost": 38.5,
+      "basis": "Crack repairs. Qty source: Quantity estimated (heuristic)",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2
+    },
+    {
+      "division": "07 Thermal and Moisture Protection",
+      "description": "flashing installation",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 28.0,
+      "total_cost": 30.240000000000002,
+      "basis": "Flashing installation/repair. Qty source: Quantity estimated (heuristic)",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2
+    }
+  ],
+  "allowances": [],
+  "alternates": [],
+  "clarifications": [
+    {
+      "text": "Missing or invalid authoritative width dimension. Re-read pages with dimension callouts",
+      "severity": "critical"
+    },
+    {
+      "text": "Missing or invalid authoritative depth dimension. Re-read pages with dimension callouts",
+      "severity": "critical"
+    },
+    {
+      "text": "Missing or invalid authoritative height dimension. Re-read pages with dimension callouts",
+      "severity": "critical"
+    },
+    {
+      "text": "Missing authoritative dimensions: width, depth, height.. Re-read pages with dimension callouts",
+      "severity": "critical"
+    },
+    {
+      "text": "Cost data missing: Heuristic quantity used for parapet repair: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: Heuristic quantity used for lintel replacement: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: Heuristic quantity used for brick rebuild: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: Heuristic quantity used for repointing: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: Heuristic quantity used for crack repairs: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: Heuristic quantity used for flashing installation: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+      "severity": "warning"
+    }
+  ],
+  "generated_at": "2026-01-02T20:51:12.918463",
+  "estimate_mode": "conceptual",
+  "bid_ready": true,
+  "bid_mode": "conceptual"
+}

@@ -1,0 +1,230 @@
+{
+  "project_id": "row_house",
+  "breakdown_by_category": [
+    {
+      "category": "Masonry",
+      "items": [
+        {
+          "item_name": "parapet repair",
+          "scope_item": "parapet repair",
+          "quantity": 40.0,
+          "unit": "LF",
+          "unit_cost": 97.74999999999999,
+          "material_cost": 1540.0000000000002,
+          "labor_cost": 1760.0,
+          "equipment_cost": 200.0,
+          "waste_factor": 0.1,
+          "multipliers": {
+            "height": 1.15
+          },
+          "subtotal": 4301.0,
+          "rule_matched": "parapet_rebuild",
+          "evidence": "Rebuild parapet as per S-011 Detail 4 - Proposed Parapet Reconstruction Section Detail",
+          "notes": [
+            "Matched rule: parapet_rebuild"
+          ],
+          "quantity_source": "computed_from_dimensions",
+          "quantity_confidence": 0.75,
+          "quantity_evidence": {
+            "page_number": 3,
+            "evidence_snippet": "Dimensions found in elevation views",
+            "computation_formula": "width"
+          },
+          "detail_refs": [],
+          "profile_id": "default_national",
+          "multiplier_breakdown": [],
+          "override_source": "unknown"
+        }
+      ],
+      "subtotal": 4301.0
+    },
+    {
+      "category": "Structural",
+      "items": [
+        {
+          "item_name": "lintel replacement",
+          "scope_item": "lintel replacement",
+          "quantity": 2.0,
+          "unit": "EA",
+          "unit_cost": 540.0,
+          "material_cost": 588.0,
+          "labor_cost": 325.0,
+          "equipment_cost": 50.0,
+          "waste_factor": 0.05,
+          "multipliers": {
+            "height": 1.2
+          },
+          "subtotal": 1134.0,
+          "rule_matched": "lintel_replacement",
+          "evidence": "Replace 2nd Floor Window Lintels as per S-011, Details 1 - Typical Steel Lintel Schedule",
+          "notes": [
+            "Matched rule: lintel_replacement"
+          ],
+          "quantity_source": "heuristic",
+          "quantity_confidence": 0.3,
+          "quantity_evidence": {
+            "evidence_snippet": "Extracted number from description: Replace 2nd Floor Window Lintels as per S-011, Details 1 - Typical Steel Lintel Schedule"
+          },
+          "detail_refs": [],
+          "profile_id": "default_national",
+          "multiplier_breakdown": [
+            "labor_rate: US_DEFAULT steel ($55/hr → $65/hr)"
+          ],
+          "override_source": "unknown"
+        }
+      ],
+      "subtotal": 1134.0
+    }
+  ],
+  "breakdown_by_scope_item": [
+    {
+      "item_name": "parapet repair",
+      "scope_item": "parapet repair",
+      "quantity": 40.0,
+      "unit": "LF",
+      "unit_cost": 97.74999999999999,
+      "material_cost": 1540.0000000000002,
+      "labor_cost": 1760.0,
+      "equipment_cost": 200.0,
+      "waste_factor": 0.1,
+      "multipliers": {
+        "height": 1.15
+      },
+      "subtotal": 4301.0,
+      "rule_matched": "parapet_rebuild",
+      "evidence": "Rebuild parapet as per S-011 Detail 4 - Proposed Parapet Reconstruction Section Detail",
+      "notes": [
+        "Matched rule: parapet_rebuild"
+      ],
+      "quantity_source": "computed_from_dimensions",
+      "quantity_confidence": 0.75,
+      "quantity_evidence": {
+        "page_number": 3,
+        "evidence_snippet": "Dimensions found in elevation views",
+        "computation_formula": "width"
+      },
+      "detail_refs": [],
+      "profile_id": "default_national",
+      "multiplier_breakdown": [],
+      "override_source": "unknown"
+    },
+    {
+      "item_name": "lintel replacement",
+      "scope_item": "lintel replacement",
+      "quantity": 2.0,
+      "unit": "EA",
+      "unit_cost": 540.0,
+      "material_cost": 588.0,
+      "labor_cost": 325.0,
+      "equipment_cost": 50.0,
+      "waste_factor": 0.05,
+      "multipliers": {
+        "height": 1.2
+      },
+      "subtotal": 1134.0,
+      "rule_matched": "lintel_replacement",
+      "evidence": "Replace 2nd Floor Window Lintels as per S-011, Details 1 - Typical Steel Lintel Schedule",
+      "notes": [
+        "Matched rule: lintel_replacement"
+      ],
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.3,
+      "quantity_evidence": {
+        "evidence_snippet": "Extracted number from description: Replace 2nd Floor Window Lintels as per S-011, Details 1 - Typical Steel Lintel Schedule"
+      },
+      "detail_refs": [],
+      "profile_id": "default_national",
+      "multiplier_breakdown": [
+        "labor_rate: US_DEFAULT steel ($55/hr → $65/hr)"
+      ],
+      "override_source": "unknown"
+    }
+  ],
+  "breakdown_by_building": {
+    "B-2": [
+      {
+        "item_name": "parapet repair",
+        "scope_item": "parapet repair",
+        "quantity": 40.0,
+        "unit": "LF",
+        "unit_cost": 97.74999999999999,
+        "material_cost": 1540.0000000000002,
+        "labor_cost": 1760.0,
+        "equipment_cost": 200.0,
+        "waste_factor": 0.1,
+        "multipliers": {
+          "height": 1.15
+        },
+        "subtotal": 4301.0,
+        "rule_matched": "parapet_rebuild",
+        "evidence": "Rebuild parapet as per S-011 Detail 4 - Proposed Parapet Reconstruction Section Detail",
+        "notes": [
+          "Matched rule: parapet_rebuild"
+        ],
+        "quantity_source": "computed_from_dimensions",
+        "quantity_confidence": 0.75,
+        "quantity_evidence": {
+          "page_number": 3,
+          "evidence_snippet": "Dimensions found in elevation views",
+          "computation_formula": "width"
+        },
+        "detail_refs": [],
+        "profile_id": "default_national",
+        "multiplier_breakdown": [],
+        "override_source": "unknown"
+      },
+      {
+        "item_name": "lintel replacement",
+        "scope_item": "lintel replacement",
+        "quantity": 2.0,
+        "unit": "EA",
+        "unit_cost": 540.0,
+        "material_cost": 588.0,
+        "labor_cost": 325.0,
+        "equipment_cost": 50.0,
+        "waste_factor": 0.05,
+        "multipliers": {
+          "height": 1.2
+        },
+        "subtotal": 1134.0,
+        "rule_matched": "lintel_replacement",
+        "evidence": "Replace 2nd Floor Window Lintels as per S-011, Details 1 - Typical Steel Lintel Schedule",
+        "notes": [
+          "Matched rule: lintel_replacement"
+        ],
+        "quantity_source": "heuristic",
+        "quantity_confidence": 0.3,
+        "quantity_evidence": {
+          "evidence_snippet": "Extracted number from description: Replace 2nd Floor Window Lintels as per S-011, Details 1 - Typical Steel Lintel Schedule"
+        },
+        "detail_refs": [],
+        "profile_id": "default_national",
+        "multiplier_breakdown": [
+          "labor_rate: US_DEFAULT steel ($55/hr → $65/hr)"
+        ],
+        "override_source": "unknown"
+      }
+    ]
+  },
+  "subtotals": {
+    "Masonry": 4301.0,
+    "Structural": 1134.0
+  },
+  "total_cost": 5435.0,
+  "material_cost_total": 2128.0,
+  "labor_cost_total": 2085.0,
+  "equipment_cost_total": 250.0,
+  "waste_cost_total": 486.8,
+  "cost_justification": [
+    "parapet repair: 40.0 LF @ $97.75/LF = $4301.00",
+    "lintel replacement: 2.0 EA @ $540.00/EA = $1134.00"
+  ],
+  "missing_data_warnings": [
+    "Heuristic quantity used for lintel replacement: 2.0 EA (confidence: 30.0%)"
+  ],
+  "rules_used": [
+    "parapet_rebuild",
+    "lintel_replacement"
+  ],
+  "profile_id": "default_national"
+}

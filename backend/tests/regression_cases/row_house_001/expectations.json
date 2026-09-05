@@ -1,0 +1,21 @@
+{
+  "project_type": "row_house",
+  "scope_type": "repair",
+  "required_scope_keys": ["parapet", "lintel", "flashing", "brick", "repoint"],
+  "dimension_ranges": {
+    "width": {"min": 15.0, "max": 50.0},
+    "depth": {"min": 20.0, "max": 80.0},
+    "height": {"min": 20.0, "max": 50.0}
+  },
+  "gate_pass_expectation": true,
+  "minimum_validation_score": 0.85,
+  "critical_5_minimum_coverage": 4,
+  "stage_3_expected": true,
+  "stage_4_expected": true
+}
+
+
+
+
+
+

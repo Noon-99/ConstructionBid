@@ -1,0 +1,107 @@
+{
+  "project_id": "adb4959e",
+  "pages": [
+    {
+      "page_number": 1,
+      "sheet_id": "A1",
+      "sheet_title": "Site Plan",
+      "page_types": [
+        "plan",
+        "notes"
+      ],
+      "indicators": [
+        "compliance"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "page_number": 2,
+      "sheet_id": "A2",
+      "sheet_title": "Foundation & Lower Floor Framing Plan",
+      "page_types": [
+        "plan"
+      ],
+      "indicators": [
+        "dimensions"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "page_number": 3,
+      "sheet_id": "A3",
+      "sheet_title": "Floor Plans",
+      "page_types": [
+        "plan"
+      ],
+      "indicators": [
+        "dimensions"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "page_number": 4,
+      "sheet_id": "A4",
+      "sheet_title": "Lower Roof & Upper Floor Framing Plan",
+      "page_types": [
+        "plan"
+      ],
+      "indicators": [
+        "dimensions"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "page_number": 5,
+      "sheet_id": "A5",
+      "sheet_title": "Sample House",
+      "page_types": [
+        "elevation"
+      ],
+      "indicators": [
+        "dimensions"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "page_number": 6,
+      "sheet_id": "A6",
+      "sheet_title": "Sample House",
+      "page_types": [
+        "elevation",
+        "detail"
+      ],
+      "indicators": [
+        "dimensions"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "page_number": 7,
+      "sheet_id": "A7",
+      "sheet_title": "Details",
+      "page_types": [
+        "detail"
+      ],
+      "indicators": [
+        "dimensions"
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "created_at": "2025-12-25T13:08:14.944734",
+  "total_pages": 7,
+  "indexed_pages": 7,
+  "cached_pages": 0,
+  "started_at": "2025-12-25T13:07:58.020860",
+  "finished_at": "2025-12-25T13:08:14.944486",
+  "metrics": {
+    "indexed_pages_count": 7,
+    "cache_hit_rate": 0.0,
+    "retries_count": 0,
+    "failed_pages_count": 0,
+    "total_api_calls": 7,
+    "fast_mode_metadata": {
+      "fast_mode": false
+    }
+  }
+}

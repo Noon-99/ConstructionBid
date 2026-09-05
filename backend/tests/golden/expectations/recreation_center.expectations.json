@@ -1,0 +1,84 @@
+{
+  "project_name": "recreation_center",
+  "description": "Golden test expectations for a typical recreation center institutional project",
+  "min_room_count": 15,
+  "required_rooms": [
+    {
+      "room_name_contains": "gymnasium",
+      "min_area_sf": 2500.0,
+      "description": "Main gymnasium should be the largest room"
+    },
+    {
+      "room_name_contains": "locker",
+      "min_area_sf": 500.0,
+      "description": "Locker rooms are standard for recreation centers"
+    },
+    {
+      "room_name_contains": "office",
+      "min_area_sf": 100.0,
+      "description": "Administrative offices"
+    },
+    {
+      "room_name_contains": "restroom",
+      "min_area_sf": 100.0,
+      "description": "Restroom facilities"
+    },
+    {
+      "room_name_contains": "storage",
+      "min_area_sf": 100.0,
+      "description": "Storage areas"
+    }
+  ],
+  "totals": {
+    "existing_gsf": {
+      "value": null,
+      "tolerance_pct": 5.0,
+      "description": "Total existing GSF if stated"
+    },
+    "addition_gsf": {
+      "value": null,
+      "tolerance_pct": 5.0,
+      "description": "Total addition GSF if stated"
+    }
+  },
+  "required_structural_fields": [
+    {
+      "path": "concrete_specs[0].strength_psi",
+      "description": "At least one concrete strength specification"
+    },
+    {
+      "path": "design_loads.roof_live_psf",
+      "description": "Design loads must include roof live load"
+    },
+    {
+      "path": "submittals",
+      "description": "Submittal requirements list (may be empty but field must exist)"
+    },
+    {
+      "path": "inspections",
+      "description": "Inspection requirements list (may be empty but field must exist)"
+    }
+  ],
+  "required_codes": [
+    {
+      "code_name_contains": "IBC",
+      "description": "International Building Code reference"
+    },
+    {
+      "code_name_contains": "ACI",
+      "description": "American Concrete Institute reference (if concrete present)"
+    }
+  ],
+  "validation_requirements": {
+    "must_pass": true,
+    "max_errors": 0,
+    "max_warnings": 10,
+    "description": "Validation must pass with no errors"
+  }
+}
+
+
+
+
+
+

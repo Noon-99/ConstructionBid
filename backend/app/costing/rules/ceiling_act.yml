@@ -1,0 +1,39 @@
+# Ceiling - ACT (Acoustic Ceiling Tile) (Phase 7.1)
+# Room-based finish rule for institutional projects
+
+name: "Ceiling - ACT"
+category: "Finishes"
+description: "Acoustic ceiling tile system based on room area"
+
+# Keywords that match this rule
+keywords:
+  - "act"
+  - "acoustic ceiling tile"
+  - "drop ceiling"
+  - "suspended ceiling"
+  - "ceiling tile"
+
+# Quantity calculation
+quantity_source: "from_drawing"
+quantity_formula: "room_area_sf"
+
+# Unit cost (per SF of ceiling area)
+unit_cost: 4.25  # $/SF
+unit: "SF"
+
+# Cost breakdown
+material_cost_per_unit: 2.10
+labor_cost_per_unit: 1.90
+equipment_cost_per_unit: 0.25
+
+# Notes
+notes:
+  - "Includes grid system and tiles"
+  - "Standard 2x2 or 2x4 ACT"
+  - "Includes installation and trim"
+
+
+
+
+
+

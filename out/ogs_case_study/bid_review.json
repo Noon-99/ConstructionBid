@@ -1,0 +1,20 @@
+{
+  "project_id": "ogs_case_study",
+  "total_bid": 0.0,
+  "line_items": [],
+  "recovery_performed": true,
+  "recovery_pages": [
+    1,
+    5
+  ],
+  "compliance_adjustments": [
+    "Bond requirement applied: +2.50% ($0.00)",
+    "Supplemental insurance applied: +1.20% ($0.00)"
+  ],
+  "compliance_costs": {
+    "bond": 0.0,
+    "insurance": 0.0
+  },
+  "compliance_total": 0.0,
+  "generated_at": "2026-01-23T19:20:35.138361"
+}

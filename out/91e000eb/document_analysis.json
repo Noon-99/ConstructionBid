@@ -1,0 +1,97 @@
+{
+  "project_type": "unknown",
+  "scope_type": "repair",
+  "sheets": [
+    {
+      "sheet_id": "G-002",
+      "page_number": 1,
+      "sheet_type": "notes",
+      "title": "Overview of Site and General Requirements"
+    },
+    {
+      "sheet_id": "A-100",
+      "page_number": 2,
+      "sheet_type": "plan",
+      "title": "Roof Plan"
+    },
+    {
+      "sheet_id": "A-101",
+      "page_number": 3,
+      "sheet_type": "detail",
+      "title": "Roof Edge and Parapet Details"
+    },
+    {
+      "sheet_id": "A-112",
+      "page_number": 4,
+      "sheet_type": "detail",
+      "title": "Transition and Expansion Joint Details"
+    }
+  ],
+  "where_scope_lives": [
+    {
+      "sheet_id": "G-002",
+      "page_number": 1,
+      "location_type": "general_notes",
+      "evidence": "Overview of Site and General Requirements",
+      "confidence": 0.9
+    }
+  ],
+  "where_quantities_live": [
+    {
+      "sheet_id": "A-100",
+      "page_number": 2,
+      "location_type": "area_calculations",
+      "evidence": "Roof Plan showing area calculations",
+      "confidence": 0.8
+    }
+  ],
+  "where_materials_live": [
+    {
+      "sheet_id": "A-101",
+      "page_number": 3,
+      "location_type": "specification_section",
+      "evidence": "Details on roofing materials and specifications",
+      "confidence": 0.85
+    }
+  ],
+  "building_context": {
+    "building_type": "unknown",
+    "is_row_context": false,
+    "building_ids": [],
+    "addresses": [],
+    "evidence": "No specific building context information found"
+  },
+  "site_context": null,
+  "key_dimensions": {
+    "width": null,
+    "depth": null,
+    "height": null,
+    "area": null,
+    "evidence": "No explicit dimensions visible",
+    "confidence": 0.0
+  },
+  "critical_expected_items": [
+    {
+      "item": "parapet",
+      "expected_for": "row_house_repair",
+      "found": true,
+      "evidence": "Parapet details included in the drawings",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": 0.8,
+  "missing_fields": [
+    "project_type",
+    "key_dimensions",
+    "building_context"
+  ],
+  "resolved_project_type": null,
+  "resolved_scope_type": null,
+  "resolution_notes": [],
+  "primary_division": null,
+  "primary_trade": null,
+  "trade_detection_confidence": null,
+  "labor_regime": "standard",
+  "labor_regime_confidence": 0.5,
+  "labor_regime_evidence": null
+}

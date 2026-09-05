@@ -1,0 +1,13 @@
+{
+  "project_id": "7d596a10",
+  "profile_id": "us_default_v1",
+  "items": [],
+  "region_resolution": {
+    "region_id": "US_DEFAULT",
+    "confidence": 0.0,
+    "evidence": [
+      "No location signals found, using default region"
+    ]
+  },
+  "created_at": "2026-01-02T17:38:55.106417"
+}

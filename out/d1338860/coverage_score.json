@@ -1,0 +1,138 @@
+{
+  "project_id": "d1338860",
+  "generated_at": "2026-01-03T00:40:47.733474",
+  "coverage_score": 0.16666666666666666,
+  "dominant_trades": [
+    "roofing",
+    "masonry",
+    "windows",
+    "pavement",
+    "structure",
+    "interiors"
+  ],
+  "matched_trades": [
+    "roofing"
+  ],
+  "missing_trades": [
+    {
+      "trade": "masonry",
+      "confidence": 0.8181818181818182,
+      "evidence_pages": [
+        2,
+        4,
+        5
+      ],
+      "missing_features": [
+        "detail",
+        "scope"
+      ]
+    },
+    {
+      "trade": "windows",
+      "confidence": 0.7575757575757577,
+      "evidence_pages": [
+        2,
+        4,
+        5
+      ],
+      "missing_features": [
+        "detail",
+        "materials",
+        "scope"
+      ]
+    },
+    {
+      "trade": "pavement",
+      "confidence": 0.7575757575757577,
+      "evidence_pages": [
+        2,
+        4,
+        5
+      ],
+      "missing_features": [
+        "quantity",
+        "scope"
+      ]
+    },
+    {
+      "trade": "structure",
+      "confidence": 0.7575757575757577,
+      "evidence_pages": [
+        2,
+        4,
+        5
+      ],
+      "missing_features": [
+        "detail",
+        "scope"
+      ]
+    },
+    {
+      "trade": "interiors",
+      "confidence": 0.7575757575757577,
+      "evidence_pages": [
+        2,
+        4,
+        5
+      ],
+      "missing_features": [
+        "scope"
+      ]
+    }
+  ],
+  "trade_features": {
+    "roofing": {
+      "expected": [
+        "detail",
+        "materials",
+        "plan",
+        "quantity",
+        "scope"
+      ],
+      "matched": [
+        "materials",
+        "plan",
+        "quantity",
+        "scope"
+      ]
+    },
+    "masonry": {
+      "expected": [
+        "detail",
+        "scope"
+      ],
+      "matched": []
+    },
+    "windows": {
+      "expected": [
+        "detail",
+        "materials",
+        "scope"
+      ],
+      "matched": []
+    },
+    "pavement": {
+      "expected": [
+        "quantity",
+        "scope"
+      ],
+      "matched": []
+    },
+    "structure": {
+      "expected": [
+        "detail",
+        "plan",
+        "scope"
+      ],
+      "matched": [
+        "plan"
+      ]
+    },
+    "interiors": {
+      "expected": [
+        "scope"
+      ],
+      "matched": []
+    }
+  }
+}

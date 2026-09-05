@@ -1,0 +1,263 @@
+{
+  "project_id": "dcfd6ded",
+  "total_bid": 527902.9,
+  "line_items": [
+    {
+      "line_item_id": "line_item_0",
+      "line_item_index": 0,
+      "division": "01 General Requirements",
+      "title": "Roof replacement system (assembly) - EPDM",
+      "quantity": 8000.0,
+      "unit": "SF",
+      "unit_cost": 25.0,
+      "total_cost": 393750.0,
+      "rule_refs": [
+        {
+          "rule_name": "roof_assembly",
+          "yaml_file": "roof_assembly.yml",
+          "match_keywords_used": [
+            "replacement"
+          ]
+        }
+      ],
+      "multipliers_applied": [
+        {
+          "name": "waste",
+          "factor": 0.05
+        },
+        {
+          "name": "profile: labor_rate: US_DEFAULT general ($75/hr → $35/hr)",
+          "factor": 1.0
+        },
+        {
+          "name": "profile: prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work",
+          "factor": 1.0
+        },
+        {
+          "name": "compliance: prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work",
+          "factor": 1.0
+        }
+      ],
+      "quantity_source": "explicit_takeoff",
+      "evidence_refs": [
+        {
+          "page_number": 1,
+          "sheet_id": null,
+          "snippet": "Tear-off scope (full): Remove existing roof membrane - entire roof; Disposal requirement: Remove existing roof membrane - entire roof; System type (EPDM): TPO single-ply membrane; Insulation material: Polyisocyanurate Insulation; Insulation thickness (2.0 in): 2 inch polyisocyanurate insulation R-20; Quantity: Roof area = 8000.0 SF; Perimeter: Roof perimeter = 360.0 LF; Edge metal/coping: Edge metal = 360.0 LF; Base flashing: Base flashing = 360.0 LF",
+          "bbox": null,
+          "bbox_source": "none"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "line_item_id": "line_item_1",
+      "line_item_index": 1,
+      "division": "01 General Requirements",
+      "title": "Roof tear-off & disposal",
+      "quantity": 8000.0,
+      "unit": "SF",
+      "unit_cost": 4.0,
+      "total_cost": 80000.0,
+      "rule_refs": [
+        {
+          "rule_name": "roof_tearoff",
+          "yaml_file": "roof_tearoff.yml",
+          "match_keywords_used": []
+        }
+      ],
+      "multipliers_applied": [
+        {
+          "name": "profile: labor_rate: US_DEFAULT general ($75/hr → $35/hr)",
+          "factor": 1.0
+        },
+        {
+          "name": "profile: equipment_rate: US_DEFAULT dumpster (+20%)",
+          "factor": 1.0
+        },
+        {
+          "name": "profile: prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work",
+          "factor": 1.0
+        },
+        {
+          "name": "compliance: prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work",
+          "factor": 1.0
+        }
+      ],
+      "quantity_source": "explicit_takeoff",
+      "evidence_refs": [
+        {
+          "page_number": 1,
+          "sheet_id": null,
+          "snippet": "Tear-off scope (full): Remove existing roof membrane - entire roof; Disposal requirement: Remove existing roof membrane - entire roof; System type (EPDM): TPO single-ply membrane; Insulation material: Polyisocyanurate Insulation; Insulation thickness (2.0 in): 2 inch polyisocyanurate insulation R-20; Quantity: Roof area = 8000.0 SF; Perimeter: Roof perimeter = 360.0 LF; Edge metal/coping: Edge metal = 360.0 LF; Base flashing: Base flashing = 360.0 LF",
+          "bbox": null,
+          "bbox_source": "none"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "line_item_id": "line_item_2",
+      "line_item_index": 2,
+      "division": "01 General Requirements",
+      "title": "Roof edge metal / coping",
+      "quantity": 360.0,
+      "unit": "LF",
+      "unit_cost": 25.0,
+      "total_cost": 21262.5,
+      "rule_refs": [],
+      "multipliers_applied": [],
+      "quantity_source": "unknown",
+      "evidence_refs": [],
+      "flags": []
+    },
+    {
+      "line_item_id": "line_item_3",
+      "line_item_index": 3,
+      "division": "01 General Requirements",
+      "title": "Roof base flashing",
+      "quantity": 360.0,
+      "unit": "LF",
+      "unit_cost": 18.0,
+      "total_cost": 14004.899999999998,
+      "rule_refs": [],
+      "multipliers_applied": [],
+      "quantity_source": "unknown",
+      "evidence_refs": [],
+      "flags": []
+    },
+    {
+      "line_item_id": "line_item_4",
+      "line_item_index": 4,
+      "division": "01 General Requirements",
+      "title": "roof membrane removal",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 25.0,
+      "total_cost": 25.0,
+      "rule_refs": [
+        {
+          "rule_name": "roof_assembly",
+          "yaml_file": "roof_assembly.yml",
+          "match_keywords_used": []
+        }
+      ],
+      "multipliers_applied": [
+        {
+          "name": "profile: labor_rate: US_DEFAULT general ($75/hr → $35/hr)",
+          "factor": 1.0
+        },
+        {
+          "name": "profile: prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work",
+          "factor": 1.0
+        },
+        {
+          "name": "compliance: prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work",
+          "factor": 1.0
+        }
+      ],
+      "quantity_source": "heuristic",
+      "evidence_refs": [
+        {
+          "page_number": 1,
+          "sheet_id": null,
+          "snippet": "Default fallback quantity",
+          "bbox": null,
+          "bbox_source": "none"
+        }
+      ],
+      "flags": [
+        "heuristic_quantity"
+      ]
+    },
+    {
+      "line_item_id": "line_item_5",
+      "line_item_index": 5,
+      "division": "01 General Requirements",
+      "title": "roof membrane installation",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 25.0,
+      "total_cost": 25.0,
+      "rule_refs": [
+        {
+          "rule_name": "roof_assembly",
+          "yaml_file": "roof_assembly.yml",
+          "match_keywords_used": [
+            "install"
+          ]
+        }
+      ],
+      "multipliers_applied": [
+        {
+          "name": "profile: labor_rate: US_DEFAULT general ($75/hr → $35/hr)",
+          "factor": 1.0
+        },
+        {
+          "name": "profile: prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work",
+          "factor": 1.0
+        },
+        {
+          "name": "compliance: prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work",
+          "factor": 1.0
+        }
+      ],
+      "quantity_source": "heuristic",
+      "evidence_refs": [
+        {
+          "page_number": 1,
+          "sheet_id": null,
+          "snippet": "Default fallback quantity",
+          "bbox": null,
+          "bbox_source": "none"
+        }
+      ],
+      "flags": [
+        "heuristic_quantity"
+      ]
+    },
+    {
+      "line_item_id": "line_item_6",
+      "line_item_index": 6,
+      "division": "01 General Requirements",
+      "title": "Performance & Payment Bonds",
+      "quantity": 1.0,
+      "unit": "lump",
+      "unit_cost": 12726.69,
+      "total_cost": 12726.69,
+      "rule_refs": [],
+      "multipliers_applied": [],
+      "quantity_source": "unknown",
+      "evidence_refs": [],
+      "flags": []
+    },
+    {
+      "line_item_id": "line_item_7",
+      "line_item_index": 7,
+      "division": "01 General Requirements",
+      "title": "Supplemental Insurance",
+      "quantity": 1.0,
+      "unit": "lump",
+      "unit_cost": 6108.81,
+      "total_cost": 6108.81,
+      "rule_refs": [],
+      "multipliers_applied": [],
+      "quantity_source": "unknown",
+      "evidence_refs": [],
+      "flags": []
+    }
+  ],
+  "recovery_performed": false,
+  "recovery_pages": [],
+  "compliance_adjustments": [
+    "Prevailing wage multiplier applied: +50% to labor rates (Government/public project detected). Required for public/government projects per Davis-Bacon or state prevailing wage laws.",
+    "Performance & Payment Bonds: +2.50% of base scope ($12,726.69) (Government/public project detected). Required for public/government contracts to protect the owner.",
+    "Supplemental Insurance: +1.20% of base scope ($6,108.81) (Government/public project detected). Additional coverage required for public/government projects."
+  ],
+  "compliance_costs": {
+    "bond": 12726.69,
+    "insurance": 6108.81
+  },
+  "compliance_total": 18835.5,
+  "generated_at": "2026-01-23T23:50:54.198321"
+}

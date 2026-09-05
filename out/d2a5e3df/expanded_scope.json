@@ -1,0 +1,42 @@
+{
+  "project_id": "d2a5e3df",
+  "profile_id": "nyc_row_house_masonry_v1",
+  "items": [
+    {
+      "item_id": "sidewalk_shed_001",
+      "title": "Sidewalk Shed Allowance",
+      "division": "01",
+      "quantity": 6.0,
+      "unit": "week",
+      "unit_cost": 400.0,
+      "total_cost": 2400.0,
+      "reason": "Required for NYC projects per DOB requirements for work above sidewalk",
+      "source": "contractor_profile",
+      "confidence": 1.0,
+      "evidence_refs": [],
+      "blocking": true
+    },
+    {
+      "item_id": "permit_filing_001",
+      "title": "Permit Filing Allowance",
+      "division": "01",
+      "quantity": 1.0,
+      "unit": "LS",
+      "unit_cost": 2500.0,
+      "total_cost": 2500.0,
+      "reason": "Required for NYC projects per DOB permit filing requirements",
+      "source": "contractor_profile",
+      "confidence": 1.0,
+      "evidence_refs": [],
+      "blocking": true
+    }
+  ],
+  "region_resolution": {
+    "region_id": "NYC",
+    "confidence": 0.7,
+    "evidence": [
+      "Found NYC/DOB references in document"
+    ]
+  },
+  "created_at": "2026-01-24T16:54:27.843566"
+}

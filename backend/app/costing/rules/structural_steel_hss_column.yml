@@ -1,0 +1,33 @@
+name: Structural Steel HSS Column
+keywords:
+  - hss column
+  - steel column
+  - hollow structural section
+  - structural column
+  - steel post
+
+unit_type: LB  # Pounds
+base_unit_cost: 3.25
+material_cost_per_unit: 1.80  # Steel material
+labor_hours_per_unit: 0.025  # Hours per pound
+labor_rate: 65.00  # Higher rate for steel workers
+equipment_cost_per_unit: 0.15  # Crane, welding equipment
+
+waste_factor: 0.05  # 5% waste
+
+division: "05 Metals"
+category: "Structural"
+
+notes: |
+  Structural steel HSS column includes:
+  - HSS column material (AISC grade)
+  - Fabrication (if required)
+  - Installation
+  - Welding/bolting connections
+  - Does not include base plates or connections (separate items if detailed)
+
+
+
+
+
+

@@ -1,0 +1,205 @@
+{
+  "project_type": "row_house",
+  "scope_type": "repair",
+  "scope_of_work": [
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "Remove existing roof membrane - entire roof",
+      "item": "roof membrane removal",
+      "description": "Remove existing roof membrane - MUST specify scope: 'full' (entire roof), 'partial' (specific areas), or 'none' (overlay). Include disposal requirements if mentioned.",
+      "location": "entire roof"
+    },
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "60 mil EPDM membrane per ASTM D4637",
+      "item": "roof membrane installation",
+      "description": "Install new EPDM roof membrane - MUST include system type",
+      "location": "entire roof"
+    },
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "2 inch polyisocyanurate insulation R-20",
+      "item": "roof insulation",
+      "description": "Install roof insulation - MUST include thickness (inches), material type, R-value if mentioned, and number of layers if mentioned",
+      "location": "entire roof"
+    },
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "Roof plan dimensions or area callout",
+      "item": "roof area",
+      "description": "Roof replacement area",
+      "location": "entire roof"
+    }
+  ],
+  "material_specifications": [
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "60 mil EPDM membrane per ASTM D4637",
+      "material_name": "EPDM Roof Membrane",
+      "specification": "60 mil EPDM",
+      "application": "Roof membrane",
+      "detail_sheet": null
+    },
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "2 inch polyisocyanurate insulation R-20",
+      "material_name": "Polyisocyanurate Insulation",
+      "specification": "2 inch polyiso R-20",
+      "application": "Roof insulation",
+      "detail_sheet": null
+    }
+  ],
+  "quantity_takeoff": [
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "Roof plan dimensions or area callout",
+      "item": "Roof area",
+      "quantity": 8000.0,
+      "unit": "sq ft",
+      "is_computed": true,
+      "computation_formula": "length * width",
+      "input_dimensions": {
+        "length": 100.0,
+        "width": 80.0
+      },
+      "evidence_missing": false
+    },
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "Roof plan perimeter or building dimensions",
+      "item": "Roof perimeter",
+      "quantity": 360.0,
+      "unit": "lf",
+      "is_computed": true,
+      "computation_formula": "2 * (width + depth)",
+      "input_dimensions": {
+        "width": 100.0,
+        "depth": 80.0
+      },
+      "evidence_missing": false
+    },
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "Edge metal or coping specification",
+      "item": "Edge metal",
+      "quantity": null,
+      "unit": "lf",
+      "is_computed": false,
+      "computation_formula": null,
+      "input_dimensions": {},
+      "evidence_missing": true
+    },
+    {
+      "page_number": 1,
+      "sheet_id": null,
+      "evidence_snippet": "Base flashing specification",
+      "item": "Base flashing",
+      "quantity": null,
+      "unit": "lf",
+      "is_computed": false,
+      "computation_formula": null,
+      "input_dimensions": {},
+      "evidence_missing": true
+    }
+  ],
+  "geometry_for_3d": {
+    "site_context": {
+      "building_type": "commercial",
+      "row_of_buildings": [],
+      "subject_building_id": null,
+      "addresses": [],
+      "evidence": "Evidence for site context (with fallback from Stage 1)"
+    },
+    "dimensions": {
+      "width": null,
+      "depth": null,
+      "height": null,
+      "evidence": "fallback_from_stage1",
+      "computation_formula": null,
+      "input_pages": []
+    },
+    "work_zones": [
+      {
+        "zone_name": "roof_plane",
+        "z_min": 0.0,
+        "z_max": null,
+        "facade_region": "entire roof",
+        "page_number": 1,
+        "sheet_id": null,
+        "evidence": "Roof plan"
+      }
+    ],
+    "evidence_missing": []
+  },
+  "validation_metadata": {
+    "pages_used": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "passes": 2,
+    "detail": "high",
+    "post_extraction_notes": [
+      "post-coverage rescue rerun executed"
+    ]
+  },
+  "evidence_missing": [
+    "Flashing details",
+    "Lintel specifications/repair",
+    "Parapet repair/replacement information",
+    "Repointing specifications",
+    "lintels"
+  ],
+  "room_program": null,
+  "structural_notes": null,
+  "authoritative_dimensions": null,
+  "institutional_geometry_for_3d": null,
+  "room_schedule": null,
+  "structural_elements": null,
+  "building_envelope": null,
+  "openings": null,
+  "lintels": null,
+  "detail_graph": null,
+  "warranty_and_insurance": {
+    "warranty": {
+      "manufacturer_warranty": "20-year EPDM membrane warranty",
+      "manufacturer_warranty_duration": "20 years",
+      "workmanship_warranty": "2-year workmanship warranty",
+      "workmanship_warranty_duration": "2 years",
+      "warranty_evidence": "Page 5, Section 07 50 00: 'Manufacturer warranty: 20-year EPDM membrane warranty' or 'Workmanship warranty: 2 years'"
+    },
+    "insurance": {
+      "general_liability_required": true,
+      "general_liability_limit": "$2,000,000",
+      "workers_compensation_required": true,
+      "workers_compensation_limit": "$1,000,000",
+      "umbrella_insurance_required": true,
+      "umbrella_insurance_limit": "$5,000,000",
+      "insurance_evidence": "Page 1, General Requirements: 'Contractor shall maintain general liability insurance of $2,000,000'"
+    },
+    "bonds": {
+      "performance_bond_required": true,
+      "performance_bond_amount": "100% of contract",
+      "payment_bond_required": true,
+      "payment_bond_amount": "100% of contract",
+      "bond_evidence": "Page 1, General Requirements: 'Performance bond required: 100% of contract value'"
+    }
+  }
+}

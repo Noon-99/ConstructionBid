@@ -1,0 +1,14 @@
+{
+  "page_number": 6,
+  "sheet_id": "A-1",
+  "sheet_title": "Typical Steel Lintel Schedule",
+  "page_types": [
+    "detail",
+    "schedule"
+  ],
+  "indicators": [
+    "lintel",
+    "window_schedule"
+  ],
+  "confidence": 0.85
+}

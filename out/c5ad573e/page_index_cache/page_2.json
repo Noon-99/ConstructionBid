@@ -1,0 +1,12 @@
+{
+  "page_number": 2,
+  "sheet_id": "A-1",
+  "sheet_title": "Floor Plan",
+  "page_types": [
+    "plan"
+  ],
+  "indicators": [
+    "dimensions"
+  ],
+  "confidence": 0.85
+}

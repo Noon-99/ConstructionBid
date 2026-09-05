@@ -1,0 +1,144 @@
+{
+  "project_type": "row_house",
+  "scope_type": "repair",
+  "scope_of_work": [
+    {
+      "page_number": 3,
+      "sheet_id": "S-003",
+      "evidence_snippet": "Rebuild parapet as per S-011 Detail 4 - Proposed Parapet Reconstruction Section Detail",
+      "item": "parapet repair",
+      "description": "Rebuild parapet as per S-011 Detail 4 - Proposed Parapet Reconstruction Section Detail",
+      "location": "front facade"
+    },
+    {
+      "page_number": 4,
+      "sheet_id": "S-004",
+      "evidence_snippet": "Replace 2nd Floor Window Lintels as per S-011, Details 1 - Typical Steel Lintel Schedule",
+      "item": "lintel replacement",
+      "description": "Replace 2nd Floor Window Lintels as per S-011, Details 1 - Typical Steel Lintel Schedule",
+      "location": "window openings"
+    }
+  ],
+  "material_specifications": [
+    {
+      "page_number": 4,
+      "sheet_id": "S-004",
+      "evidence_snippet": "Details 1 - Typical Steel Lintel Schedule",
+      "material_name": "Steel Lintel",
+      "specification": "S-011",
+      "application": "Window lintel replacement",
+      "detail_sheet": "S-011"
+    }
+  ],
+  "quantity_takeoff": [
+    {
+      "page_number": 1,
+      "sheet_id": "S-001",
+      "evidence_snippet": "No explicit dimensions found",
+      "item": "Brick replacement",
+      "quantity": null,
+      "unit": "sq ft",
+      "is_computed": false,
+      "computation_formula": null,
+      "input_dimensions": {},
+      "evidence_missing": true
+    }
+  ],
+  "geometry_for_3d": {
+    "site_context": {
+      "building_type": "row_house",
+      "row_of_buildings": [
+        "B-1",
+        "B-2"
+      ],
+      "subject_building_id": "B-2",
+      "addresses": [
+        "66-02 Central Avenue, Queens, NY 11385"
+      ],
+      "evidence": "Site context identified in the documents (with fallback from Stage 1)"
+    },
+    "dimensions": {
+      "width": 20.0,
+      "depth": 40.0,
+      "height": 30.0,
+      "evidence": "Dimensions found in elevation views",
+      "computation_formula": null,
+      "input_pages": [
+        3,
+        4
+      ]
+    },
+    "work_zones": [
+      {
+        "zone_name": "parapet_band",
+        "z_min": 28.0,
+        "z_max": 30.0,
+        "facade_region": "parapet band",
+        "page_number": 3,
+        "sheet_id": "S-003",
+        "evidence": "Evidence for parapet zone"
+      },
+      {
+        "zone_name": "lintel_band",
+        "z_min": 8.0,
+        "z_max": 10.0,
+        "facade_region": "lintel band",
+        "page_number": 4,
+        "sheet_id": "S-004",
+        "evidence": "Evidence for lintel zone"
+      }
+    ],
+    "evidence_missing": [
+      "height",
+      "work_zone_z_ranges"
+    ]
+  },
+  "validation_metadata": {
+    "pages_used": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "passes": 1,
+    "detail": "high"
+  },
+  "evidence_missing": [
+    "parapet_repair"
+  ],
+  "room_program": null,
+  "structural_notes": null,
+  "authoritative_dimensions": null,
+  "institutional_geometry_for_3d": null,
+  "room_schedule": null,
+  "structural_elements": null,
+  "building_envelope": null,
+  "openings": null,
+  "lintels": null,
+  "detail_graph": null,
+  "warranty_and_insurance": {
+    "warranty": {
+      "manufacturer_warranty": null,
+      "manufacturer_warranty_duration": null,
+      "workmanship_warranty": null,
+      "workmanship_warranty_duration": null,
+      "warranty_evidence": "Warranty requirements were not found in documents"
+    },
+    "insurance": {
+      "general_liability_required": false,
+      "general_liability_limit": null,
+      "workers_compensation_required": false,
+      "workers_compensation_limit": null,
+      "umbrella_insurance_required": false,
+      "umbrella_insurance_limit": null,
+      "insurance_evidence": "Insurance requirements were not found in documents"
+    },
+    "bonds": {
+      "performance_bond_required": false,
+      "performance_bond_amount": null,
+      "payment_bond_required": false,
+      "payment_bond_amount": null,
+      "bond_evidence": "Bond requirements were not found in documents"
+    }
+  }
+}

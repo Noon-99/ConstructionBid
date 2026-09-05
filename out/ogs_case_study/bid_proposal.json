@@ -1,0 +1,57 @@
+{
+  "project_id": "ogs_case_study",
+  "summary": {
+    "total_cost": 0.0,
+    "cost_by_division": {},
+    "base_scope_cost": 0.0,
+    "allowances_total": 0.0,
+    "compliance_costs": {
+      "bond": 0.0,
+      "insurance": 0.0
+    },
+    "compliance_total": 0.0,
+    "contingency_recommendation_pct": null,
+    "contingency_recommendation_amount": null
+  },
+  "line_items": [],
+  "allowances": [],
+  "alternates": [],
+  "clarifications": [
+    {
+      "text": "Missing or invalid authoritative width dimension. Re-read pages with dimension callouts",
+      "severity": "critical"
+    },
+    {
+      "text": "Missing or invalid authoritative depth dimension. Re-read pages with dimension callouts",
+      "severity": "critical"
+    },
+    {
+      "text": "Authoritative height missing but treated as advisory for roof-focused scope.. Re-read pages with dimension callouts",
+      "severity": "warning"
+    },
+    {
+      "text": "Missing authoritative dimensions: width, depth, height.. Re-read pages with dimension callouts",
+      "severity": "critical"
+    },
+    {
+      "text": "Roof trade detected but roof area (SF) not extracted — cannot price roof replacement. Expand page selection or improve roof plan extraction. Look for roof plan dimensions, roof area callouts, or calculate from building footprint.. Re-read roof plan pages or supply roof_area_sf via manual override.",
+      "severity": "critical"
+    },
+    {
+      "text": "Missing required scope elements: parapet, lintel, flashing, brick or repoint, crack repair. Re-read drawings or provide manual override for these scope items.",
+      "severity": "critical"
+    },
+    {
+      "text": "Compliance adjustment applied: Bond requirement applied: +2.50% ($0.00)",
+      "severity": "info"
+    },
+    {
+      "text": "Compliance adjustment applied: Supplemental insurance applied: +1.20% ($0.00)",
+      "severity": "info"
+    }
+  ],
+  "generated_at": "2026-01-23T14:20:34.970323",
+  "estimate_mode": "conceptual",
+  "bid_ready": true,
+  "bid_mode": "conceptual"
+}

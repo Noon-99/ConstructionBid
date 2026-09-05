@@ -1,0 +1,191 @@
+{
+  "project_type": "row_house",
+  "scope_type": "repair",
+  "scope_of_work": [
+    {
+      "page_number": 2,
+      "sheet_id": "G-002",
+      "evidence_snippet": "Remove existing roof membrane - entire roof",
+      "item": "roof membrane removal",
+      "description": "Remove existing roof membrane - MUST specify scope: 'full' (entire roof), 'partial' (specific areas), or 'none' (overlay). Include disposal requirements if mentioned.",
+      "location": "entire roof"
+    },
+    {
+      "page_number": 2,
+      "sheet_id": "G-002",
+      "evidence_snippet": "TPO single-ply membrane",
+      "item": "roof membrane installation",
+      "description": "Install new [EPDM/TPO/PVC/modified bitumen] roof membrane - MUST include system type",
+      "location": "entire roof"
+    },
+    {
+      "page_number": 2,
+      "sheet_id": "G-002",
+      "evidence_snippet": "2 inch polyisocyanurate insulation R-20",
+      "item": "roof insulation",
+      "description": "Install roof insulation - MUST include thickness (inches), material type, R-value if mentioned, and number of layers if mentioned",
+      "location": "entire roof"
+    },
+    {
+      "page_number": 2,
+      "sheet_id": "G-002",
+      "evidence_snippet": "Roof plan dimensions or area callout",
+      "item": "roof area",
+      "description": "Roof replacement area",
+      "location": "entire roof"
+    }
+  ],
+  "material_specifications": [
+    {
+      "page_number": 2,
+      "sheet_id": "G-002",
+      "evidence_snippet": "TPO single-ply membrane",
+      "material_name": "TPO Roof Membrane",
+      "specification": "TPO single-ply membrane",
+      "application": "Roof membrane",
+      "detail_sheet": "D-1"
+    },
+    {
+      "page_number": 2,
+      "sheet_id": "G-002",
+      "evidence_snippet": "2 inch polyisocyanurate insulation R-20",
+      "material_name": "Polyisocyanurate Insulation",
+      "specification": "2 inch polyisocyanurate insulation R-20",
+      "application": "Roof insulation",
+      "detail_sheet": "D-1"
+    }
+  ],
+  "quantity_takeoff": [
+    {
+      "page_number": 2,
+      "sheet_id": "G-002",
+      "evidence_snippet": "Roof plan dimensions or area callout",
+      "item": "Roof area",
+      "quantity": 8000.0,
+      "unit": "SF",
+      "is_computed": false,
+      "computation_formula": null,
+      "input_dimensions": {},
+      "evidence_missing": false
+    },
+    {
+      "page_number": 2,
+      "sheet_id": "G-002",
+      "evidence_snippet": "Roof plan perimeter or building dimensions",
+      "item": "Roof perimeter",
+      "quantity": 360.0,
+      "unit": "LF",
+      "is_computed": true,
+      "computation_formula": "2 * (width + depth)",
+      "input_dimensions": {
+        "width": 100.0,
+        "depth": 80.0
+      },
+      "evidence_missing": false
+    },
+    {
+      "page_number": 2,
+      "sheet_id": "G-002",
+      "evidence_snippet": "Edge metal or coping specification",
+      "item": "Edge metal",
+      "quantity": null,
+      "unit": "LF",
+      "is_computed": false,
+      "computation_formula": null,
+      "input_dimensions": {},
+      "evidence_missing": true
+    },
+    {
+      "page_number": 2,
+      "sheet_id": "G-002",
+      "evidence_snippet": "Base flashing specification",
+      "item": "Base flashing",
+      "quantity": null,
+      "unit": "LF",
+      "is_computed": false,
+      "computation_formula": null,
+      "input_dimensions": {},
+      "evidence_missing": true
+    }
+  ],
+  "geometry_for_3d": {
+    "site_context": {
+      "building_type": "commercial",
+      "row_of_buildings": [],
+      "subject_building_id": null,
+      "addresses": [
+        "2317 Greene St, Ogdensburg, NY"
+      ],
+      "evidence": "Location map and site plan (with fallback from Stage 1)"
+    },
+    "dimensions": {
+      "width": null,
+      "depth": null,
+      "height": null,
+      "evidence": "fallback_from_stage1",
+      "computation_formula": null,
+      "input_pages": []
+    },
+    "work_zones": [
+      {
+        "zone_name": "roof_plane",
+        "z_min": 0.0,
+        "z_max": null,
+        "facade_region": "entire roof",
+        "page_number": 1,
+        "sheet_id": null,
+        "evidence": "Roof plan"
+      }
+    ],
+    "evidence_missing": []
+  },
+  "validation_metadata": {
+    "pages_used": [
+      0,
+      1
+    ],
+    "passes": 2,
+    "detail": "high"
+  },
+  "evidence_missing": [
+    "Flashing details",
+    "Lintel specifications/repair",
+    "Parapet repair/replacement information",
+    "Repointing specifications"
+  ],
+  "room_program": null,
+  "structural_notes": null,
+  "authoritative_dimensions": null,
+  "institutional_geometry_for_3d": null,
+  "room_schedule": null,
+  "structural_elements": null,
+  "building_envelope": null,
+  "openings": null,
+  "lintels": null,
+  "detail_graph": null,
+  "warranty_and_insurance": {
+    "warranty": {
+      "manufacturer_warranty": null,
+      "manufacturer_warranty_duration": null,
+      "workmanship_warranty": null,
+      "workmanship_warranty_duration": null,
+      "warranty_evidence": "Warranty requirements were not found in documents"
+    },
+    "insurance": {
+      "general_liability_required": false,
+      "general_liability_limit": null,
+      "workers_compensation_required": false,
+      "workers_compensation_limit": null,
+      "umbrella_insurance_required": false,
+      "umbrella_insurance_limit": null,
+      "insurance_evidence": "Insurance requirements were not found in documents"
+    },
+    "bonds": {
+      "performance_bond_required": false,
+      "performance_bond_amount": null,
+      "payment_bond_required": false,
+      "payment_bond_amount": null,
+      "bond_evidence": "Bond requirements were not found in documents"
+    }
+  }
+}

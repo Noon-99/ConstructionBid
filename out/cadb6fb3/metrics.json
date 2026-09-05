@@ -1,0 +1,115 @@
+{
+  "project_id": "cadb6fb3",
+  "created_at": "2026-01-23T20:28:09.774951",
+  "stage_metrics": [
+    {
+      "stage_name": "stage_0_5_page_indexing",
+      "pages_sent": 12,
+      "tokens_prompt": 0,
+      "tokens_completion": 0,
+      "tokens_total": 0,
+      "latency_seconds": 0.015765167074277997,
+      "cost_estimate_usd": 0.0
+    },
+    {
+      "stage_name": "stage_1_document_analysis",
+      "pages_sent": 4,
+      "tokens_prompt": 11704,
+      "tokens_completion": 106,
+      "tokens_total": 11810,
+      "latency_seconds": 0.21844554203562438,
+      "cost_estimate_usd": 0.0018192
+    },
+    {
+      "stage_name": "stage_1_5_typology_resolution",
+      "pages_sent": 0,
+      "tokens_prompt": 0,
+      "tokens_completion": 0,
+      "tokens_total": 0,
+      "latency_seconds": 0.004224250093102455,
+      "cost_estimate_usd": 0.0
+    },
+    {
+      "stage_name": "stage_2_adaptive_extraction",
+      "pages_sent": 9,
+      "tokens_prompt": 443272,
+      "tokens_completion": 741,
+      "tokens_total": 444013,
+      "latency_seconds": 32.531651832861826,
+      "cost_estimate_usd": 0.06693539999999999
+    },
+    {
+      "stage_name": "stage_2_5a_dimension_authority",
+      "pages_sent": 0,
+      "tokens_prompt": 0,
+      "tokens_completion": 0,
+      "tokens_total": 0,
+      "latency_seconds": 0.002919041784480214,
+      "cost_estimate_usd": 0.0
+    },
+    {
+      "stage_name": "stage_2_5_validation_gates",
+      "pages_sent": 0,
+      "tokens_prompt": 0,
+      "tokens_completion": 0,
+      "tokens_total": 0,
+      "latency_seconds": 0.009412875166162848,
+      "cost_estimate_usd": 0.0
+    },
+    {
+      "stage_name": "stage_3_validation",
+      "pages_sent": 0,
+      "tokens_prompt": 0,
+      "tokens_completion": 0,
+      "tokens_total": 0,
+      "latency_seconds": 0.00017829099670052528,
+      "cost_estimate_usd": 0.0
+    },
+    {
+      "stage_name": "stage_3_model_generation",
+      "pages_sent": 0,
+      "tokens_prompt": 0,
+      "tokens_completion": 0,
+      "tokens_total": 0,
+      "latency_seconds": 0.010824458207935095,
+      "cost_estimate_usd": 0.0
+    },
+    {
+      "stage_name": "stage_4_costing",
+      "pages_sent": 0,
+      "tokens_prompt": 0,
+      "tokens_completion": 0,
+      "tokens_total": 0,
+      "latency_seconds": 0.007155250059440732,
+      "cost_estimate_usd": 0.0
+    }
+  ],
+  "total_pages_sent_stage1": 16,
+  "total_pages_sent_stage2": 9,
+  "total_pages_sent_recovery": 0,
+  "total_tokens": 455823,
+  "total_cost_estimate_usd": 0.0687546,
+  "total_latency_seconds": 32.80057670827955,
+  "critical_coverage_score": 0.0,
+  "dimension_confidence": 1.0,
+  "validation_score": 1.0,
+  "cache_hits_total": 20,
+  "cache_misses_total": 0,
+  "cache_hits_by_stage": {
+    "document_analysis": 5,
+    "procurement_signal": 5,
+    "row_house_extraction_A": 10
+  },
+  "cache_misses_by_stage": {},
+  "cache_hit_rate": 100.0,
+  "throttle_wait_ms_total": 17777.91,
+  "throttle_wait_ms_by_stage": {
+    "page_indexing": 17777.91,
+    "procurement_signal": 0.0
+  },
+  "openai_calls_total": 7,
+  "openai_calls_by_stage": {
+    "page_indexing": 6,
+    "procurement_signal": 1
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "project_id": "3204cb43",
+  "packages": [
+    {
+      "id": "package_001",
+      "title": "General Work",
+      "division": "01 General Requirements",
+      "trade": "General",
+      "estimated_cost": 440550.0,
+      "priority": "high",
+      "confidence": 0.8,
+      "basis_refs": [],
+      "member_zone_ids": [],
+      "member_line_item_ids": [
+        "0",
+        "1",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "id": "package_002",
+      "title": "Parapet / Coping / Roof Edge",
+      "division": "01 General Requirements",
+      "trade": "General",
+      "estimated_cost": 19278.0,
+      "priority": "medium",
+      "confidence": 0.8,
+      "basis_refs": [],
+      "member_zone_ids": [
+        "roof_coping",
+        "roof_edge",
+        "flashing_roof_edge"
+      ],
+      "member_line_item_ids": [
+        "2"
+      ]
+    },
+    {
+      "id": "package_003",
+      "title": "Flashing Installation",
+      "division": "01 General Requirements",
+      "trade": "Waterproofing",
+      "estimated_cost": 14004.899999999998,
+      "priority": "medium",
+      "confidence": 0.8,
+      "basis_refs": [],
+      "member_zone_ids": [
+        "flashing_roof_edge"
+      ],
+      "member_line_item_ids": [
+        "3"
+      ]
+    }
+  ],
+  "zone_to_package": {
+    "roof_coping": "package_002",
+    "roof_edge": "package_002",
+    "flashing_roof_edge": "package_003"
+  },
+  "line_item_to_package": {
+    "0": "package_001",
+    "1": "package_001",
+    "4": "package_001",
+    "5": "package_001",
+    "2": "package_002",
+    "3": "package_003"
+  },
+  "generated_at": "2026-01-23T15:02:06.904620",
+  "version": "1.0"
+}

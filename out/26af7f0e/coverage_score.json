@@ -1,0 +1,137 @@
+{
+  "project_id": "26af7f0e",
+  "generated_at": "2026-01-24T23:48:36.186691",
+  "coverage_score": 0.0,
+  "dominant_trades": [
+    "masonry",
+    "roofing",
+    "windows",
+    "pavement",
+    "interiors"
+  ],
+  "matched_trades": [],
+  "missing_trades": [
+    {
+      "trade": "masonry",
+      "confidence": 1.0,
+      "evidence_pages": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "missing_features": [
+        "detail",
+        "scope"
+      ]
+    },
+    {
+      "trade": "roofing",
+      "confidence": 0.8514285714285714,
+      "evidence_pages": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "missing_features": [
+        "detail",
+        "materials",
+        "quantity",
+        "scope"
+      ]
+    },
+    {
+      "trade": "windows",
+      "confidence": 0.8514285714285714,
+      "evidence_pages": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "missing_features": [
+        "detail",
+        "materials",
+        "quantity",
+        "scope"
+      ]
+    },
+    {
+      "trade": "pavement",
+      "confidence": 0.8514285714285714,
+      "evidence_pages": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "missing_features": [
+        "quantity",
+        "scope"
+      ]
+    },
+    {
+      "trade": "interiors",
+      "confidence": 0.8514285714285714,
+      "evidence_pages": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "missing_features": [
+        "materials",
+        "quantity",
+        "scope"
+      ]
+    }
+  ],
+  "trade_features": {
+    "masonry": {
+      "expected": [
+        "detail",
+        "scope"
+      ],
+      "matched": []
+    },
+    "roofing": {
+      "expected": [
+        "detail",
+        "materials",
+        "quantity",
+        "scope"
+      ],
+      "matched": []
+    },
+    "windows": {
+      "expected": [
+        "detail",
+        "materials",
+        "quantity",
+        "scope"
+      ],
+      "matched": []
+    },
+    "pavement": {
+      "expected": [
+        "quantity",
+        "scope"
+      ],
+      "matched": []
+    },
+    "interiors": {
+      "expected": [
+        "materials",
+        "quantity",
+        "scope"
+      ],
+      "matched": []
+    }
+  }
+}

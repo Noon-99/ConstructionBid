@@ -1,0 +1,125 @@
+{
+  "project_id": "e331ba35",
+  "pages": [
+    {
+      "page_number": 1,
+      "sheet_id": "Q0069/10161-11",
+      "sheet_title": "DRAWING LIST & UNITS",
+      "page_types": [
+        "notes",
+        "schedule"
+      ],
+      "indicators": [],
+      "confidence": 0.9
+    },
+    {
+      "page_number": 2,
+      "sheet_id": "Q009101613-11",
+      "sheet_title": "PLAN VIEW",
+      "page_types": [
+        "plan"
+      ],
+      "indicators": [],
+      "confidence": 0.9
+    },
+    {
+      "page_number": 3,
+      "sheet_id": "A-1",
+      "sheet_title": "Front Elevation",
+      "page_types": [
+        "elevation"
+      ],
+      "indicators": [
+        "dimensions"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "page_number": 4,
+      "sheet_id": "A-1",
+      "sheet_title": "RIGHT SIDE ELEVATION",
+      "page_types": [
+        "elevation"
+      ],
+      "indicators": [
+        "dimensions"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "page_number": 5,
+      "sheet_id": "Q009011613-11",
+      "sheet_title": "REAR ELEVATION",
+      "page_types": [
+        "elevation"
+      ],
+      "indicators": [
+        "dimensions"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "page_number": 6,
+      "sheet_id": "D-3",
+      "sheet_title": "Typical Detail",
+      "page_types": [
+        "detail",
+        "schedule"
+      ],
+      "indicators": [
+        "lintel",
+        "window_schedule"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "page_number": 7,
+      "sheet_id": "Q006/10163-11",
+      "sheet_title": "BRICK COATING PROCEDURE",
+      "page_types": [
+        "detail"
+      ],
+      "indicators": [
+        "lintel"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "page_number": 8,
+      "sheet_id": "Q0090116311",
+      "sheet_title": "TREE PROTECTION PLAN",
+      "page_types": [
+        "plan"
+      ],
+      "indicators": [],
+      "confidence": 0.9
+    },
+    {
+      "page_number": 9,
+      "sheet_id": null,
+      "sheet_title": null,
+      "page_types": [
+        "compliance",
+        "notes"
+      ],
+      "indicators": [],
+      "confidence": 0.75
+    }
+  ],
+  "created_at": "2026-01-24T16:31:24.327726",
+  "total_pages": 9,
+  "indexed_pages": 9,
+  "cached_pages": 0,
+  "started_at": "2026-01-24T16:31:24.093074",
+  "finished_at": "2026-01-24T16:31:24.327663",
+  "metrics": {
+    "indexed_pages_count": 9,
+    "cache_hit_rate": 0.0,
+    "retries_count": 0,
+    "failed_pages_count": 0,
+    "total_api_calls": 9,
+    "fast_mode_metadata": {
+      "fast_mode": false
+    }
+  }
+}

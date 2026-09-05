@@ -1,0 +1,332 @@
+# Trade Assemblies Rules - Row House Repair (Phase 9.1)
+#
+# This file defines deterministic rules for breaking down bid line items
+# into material components, labor, and equipment.
+#
+# Formula syntax:
+#   Q = quantity from bid line item
+#   waste_factor = default 1.05 (configurable)
+#
+# Component qty formulas:
+#   - Simple: "Q * 1.0" (1:1 ratio)
+#   - With waste: "Q * 1.05" (5% waste)
+#   - Area-based: "Q * 0.25" (e.g., 0.25 bags per SF)
+#
+# Labor hours formulas:
+#   - Per unit: "Q * 0.5" (0.5 hours per LF)
+#   - Productivity-based: "Q / 50.0 * 8.0" (50 SF/day, 8 hours/day)
+
+assemblies:
+  # Parapet Repair Assembly
+  parapet_repair:
+    title: "Parapet Repair and Rebuild"
+    division: "04 Masonry"
+    unit: "LF"
+    components:
+      - name: "Existing Parapet Demolition"
+        unit: "LF"
+        qty_formula: "Q * 1.0"
+        unit_cost: 25.00
+        cost_source: "ruleset"
+        notes: "Demolition and removal of existing parapet"
+      
+      - name: "Concrete Block CMU (8\" x 8\" x 16\")"
+        unit: "EA"
+        qty_formula: "Q * 1.5"
+        unit_cost: 2.50
+        cost_source: "ruleset"
+        notes: "CMU blocks for parapet rebuild, waste_factor applied"
+      
+      - name: "Mortar Mix Type N"
+        unit: "Bag"
+        qty_formula: "Q * 0.25"
+        unit_cost: 8.00
+        cost_source: "ruleset"
+        notes: "Mortar bags per LF of parapet"
+      
+      - name: "Aluminum Coping (6\" Width)"
+        unit: "LF"
+        qty_formula: "Q * 1.05"
+        unit_cost: 45.00
+        cost_source: "ruleset"
+        notes: "Aluminum coping with 5% waste"
+      
+      - name: "Flashing (Aluminum, 6\" Width)"
+        unit: "LF"
+        qty_formula: "Q * 1.05"
+        unit_cost: 8.50
+        cost_source: "ruleset"
+        notes: "Base flashing under coping"
+      
+      - name: "Anchoring (L-Brackets, Galvanized)"
+        unit: "EA"
+        qty_formula: "ceil(Q / 4.0)"
+        unit_cost: 3.50
+        cost_source: "ruleset"
+        notes: "Anchors every 4 LF"
+      
+      - name: "Sealant (Caulk, Polyurethane)"
+        unit: "LF"
+        qty_formula: "Q * 2.0"
+        unit_cost: 2.25
+        cost_source: "ruleset"
+        notes: "Sealant for coping joints (both sides)"
+    
+    labor:
+      - trade: "mason"
+        crew: ["mason", "laborer"]
+        hours_formula: "Q / 25.0 * 8.0"
+        rate: 65.00
+        basis: "Productivity: 25 LF/day, 8 hours/day"
+      
+      - trade: "foreman"
+        crew: ["foreman"]
+        hours_formula: "Q / 25.0 * 2.0"
+        rate: 85.00
+        basis: "Supervision: 2 hours/day"
+    
+    equipment:
+      - name: "Scaffolding"
+        unit: "Week"
+        qty_formula: "max(1.0, ceil((Q / 25.0) / 5.0))"
+        unit_cost: 450.00
+        basis: "Scaffold required for parapet work, minimum 1 week"
+    
+    assumptions:
+      - "Access via existing stair or ladder"
+      - "Weather permitting"
+      - "No structural engineering required if existing parapet height maintained"
+    
+    spec_refs:
+      - "04 21 13"
+      - "07 56 00"
+    
+    waste_factor: 1.05
+
+  # Brick Repointing Assembly
+  brick_repointing:
+    title: "Brick Repointing"
+    division: "04 Masonry"
+    unit: "SF"
+    components:
+      - name: "Mortar Mix Type N"
+        unit: "Bag"
+        qty_formula: "Q * 0.15"
+        unit_cost: 8.00
+        cost_source: "ruleset"
+        notes: "Mortar bags per SF of repointing"
+      
+      - name: "Joint Tooling"
+        unit: "SF"
+        qty_formula: "Q * 1.0"
+        unit_cost: 0.50
+        cost_source: "ruleset"
+        notes: "Joint raking and tooling"
+      
+      - name: "Cleanup (Power Washing)"
+        unit: "SF"
+        qty_formula: "Q * 1.0"
+        unit_cost: 0.75
+        cost_source: "ruleset"
+        notes: "Surface cleaning before repointing"
+    
+    labor:
+      - trade: "mason"
+        crew: ["mason", "laborer"]
+        hours_formula: "Q / 50.0 * 8.0"
+        rate: 65.00
+        basis: "Productivity: 50 SF/day, 8 hours/day"
+    
+    equipment:
+      - name: "Scaffolding"
+        unit: "Week"
+        qty_formula: "max(1.0, ceil((Q / 50.0) / 5.0))"
+        unit_cost: 450.00
+        basis: "Scaffold required for exterior masonry work"
+    
+    assumptions:
+      - "Existing mortar joints raked to 3/4\" depth"
+      - "Weather permitting"
+    
+    spec_refs:
+      - "04 05 13"
+    
+    waste_factor: 1.03
+
+  # Lintel Replacement Assembly
+  lintel_replacement:
+    title: "Lintel Replacement"
+    division: "05 Metals"
+    unit: "EA"
+    components:
+      - name: "Steel Lintel (Galvanized, Size per Detail)"
+        unit: "EA"
+        qty_formula: "Q * 1.0"
+        unit_cost: 125.00
+        cost_source: "ruleset"
+        notes: "Pre-fabricated steel lintel"
+      
+      - name: "Lintel Removal (Demolition)"
+        unit: "EA"
+        qty_formula: "Q * 1.0"
+        unit_cost: 75.00
+        cost_source: "ruleset"
+        notes: "Removal of existing lintel"
+      
+      - name: "Mortar Bed"
+        unit: "EA"
+        qty_formula: "Q * 0.5"
+        unit_cost: 15.00
+        cost_source: "ruleset"
+        notes: "Mortar bags per lintel"
+      
+      - name: "Shims and Leveling"
+        unit: "EA"
+        qty_formula: "Q * 1.0"
+        unit_cost: 5.00
+        cost_source: "ruleset"
+        notes: "Steel shims for leveling"
+    
+    labor:
+      - trade: "steel"
+        crew: ["steel", "laborer"]
+        hours_formula: "Q * 4.0"
+        rate: 75.00
+        basis: "4 hours per lintel (removal + installation)"
+      
+      - trade: "mason"
+        crew: ["mason"]
+        hours_formula: "Q * 2.0"
+        rate: 65.00
+        basis: "2 hours per lintel for brickwork support"
+    
+    equipment:
+      - name: "Scaffolding"
+        unit: "Week"
+        qty_formula: "max(1.0, ceil((Q * 4.0 / 8.0) / 5.0))"
+        unit_cost: 450.00
+        basis: "Scaffold required for lintel work"
+    
+    assumptions:
+      - "Lintel size determined from detail drawings"
+      - "Temporary support required during removal"
+    
+    spec_refs:
+      - "05 12 00"
+    
+    waste_factor: 1.02
+
+  # Flashing Installation Assembly
+  flashing_installation:
+    title: "Flashing Installation"
+    division: "07 56 00 Flashing"
+    unit: "LF"
+    components:
+      - name: "Aluminum Flashing (6\" Width)"
+        unit: "LF"
+        qty_formula: "Q * 1.05"
+        unit_cost: 8.50
+        cost_source: "ruleset"
+        notes: "Base flashing, 5% waste"
+      
+      - name: "Drip Edge"
+        unit: "LF"
+        qty_formula: "Q * 1.05"
+        unit_cost: 6.00
+        cost_source: "ruleset"
+        notes: "Drip edge with waste"
+      
+      - name: "Flashing Tape"
+        unit: "LF"
+        qty_formula: "Q * 1.0"
+        unit_cost: 1.25
+        cost_source: "ruleset"
+        notes: "Sealant tape"
+      
+      - name: "Fasteners (Stainless Screws)"
+        unit: "EA"
+        qty_formula: "Q * 2.0"
+        unit_cost: 0.15
+        cost_source: "ruleset"
+        notes: "Fasteners every 6\" (2 per LF)"
+    
+    labor:
+      - trade: "carpenter"
+        crew: ["carpenter", "laborer"]
+        hours_formula: "Q / 100.0 * 8.0"
+        rate: 60.00
+        basis: "Productivity: 100 LF/day, 8 hours/day"
+    
+    equipment:
+      - name: "Scaffolding"
+        unit: "Week"
+        qty_formula: "max(1.0, ceil((Q / 100.0) / 5.0))"
+        unit_cost: 450.00
+        basis: "Scaffold required for flashing work"
+    
+    assumptions:
+      - "Flashing installed over existing substrate"
+      - "Weather permitting"
+    
+    spec_refs:
+      - "07 56 00"
+    
+    waste_factor: 1.05
+
+  # Crack Repair Assembly
+  crack_repair:
+    title: "Crack Repair and Stabilization"
+    division: "04 Masonry"
+    unit: "LF"
+    components:
+      - name: "Epoxy Injection Resin"
+        unit: "OZ"
+        qty_formula: "Q * 4.0"
+        unit_cost: 12.50
+        cost_source: "ruleset"
+        notes: "Epoxy injection per LF of crack"
+      
+      - name: "Crack Preparation (Routing)"
+        unit: "LF"
+        qty_formula: "Q * 1.0"
+        unit_cost: 5.00
+        cost_source: "ruleset"
+        notes: "Crack routing and cleaning"
+      
+      - name: "Surface Patching"
+        unit: "SF"
+        qty_formula: "Q * 0.5"
+        unit_cost: 15.00
+        cost_source: "ruleset"
+        notes: "Surface patching compound (0.5 SF per LF)"
+    
+    labor:
+      - trade: "mason"
+        crew: ["mason"]
+        hours_formula: "Q * 1.5"
+        rate: 65.00
+        basis: "1.5 hours per LF of crack repair"
+    
+    equipment:
+      - name: "Injection Equipment"
+        unit: "Day"
+        qty_formula: "max(1.0, ceil(Q / 20.0))"
+        unit_cost: 150.00
+        basis: "Epoxy injection equipment rental"
+    
+    assumptions:
+      - "Crack width determines injection method"
+      - "Structural assessment may be required"
+    
+    spec_refs:
+      - "04 05 19"
+    
+    waste_factor: 1.10
+
+# Default waste factor for assemblies not specifying one
+default_waste_factor: 1.05
+
+
+
+
+

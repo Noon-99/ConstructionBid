@@ -1,0 +1,46 @@
+{
+  "project_id": "26af7f0e",
+  "project_name": null,
+  "location": "02 Central Avenue",
+  "issuing_authority": "City of New York",
+  "bid_submission_date": null,
+  "base_scope_cost": 0.0,
+  "compliance_total": 0.0,
+  "total_bid": 0.0,
+  "compliance_delta_pct": null,
+  "compliance_breakdown": {
+    "bond": 0.0,
+    "insurance": 0.0
+  },
+  "compliance_adjustments": [
+    "Prevailing wage multiplier applied: +50% to labor rates (Government/public project detected). Required for public/government projects per Davis-Bacon or state prevailing wage laws.",
+    "Performance & Payment Bonds: +2.50% of base scope ($0.00) (Government/public project detected). Required for public/government contracts to protect the owner.",
+    "Supplemental Insurance: +1.20% of base scope ($0.00) (Government/public project detected). Additional coverage required for public/government projects."
+  ],
+  "prevailing_wage_applied": false,
+  "bonds_required": true,
+  "insurance_applied": false,
+  "procurement_indicators": [
+    "City of New York mentioned",
+    "Public Authority referenced",
+    "Public works indicators present"
+  ],
+  "procurement_notes": [
+    "Document includes municipal references indicating local government involvement."
+  ],
+  "evidence_references": [
+    {
+      "type": "procurement_pages",
+      "pages": [
+        1
+      ],
+      "description": "Pages flagged for procurement indicators"
+    }
+  ],
+  "confidence_pct": 100.0,
+  "confidence_explanation": "This bid requires review before submission. Some quantities are estimated or evidence is incomplete.",
+  "summary": "This project in 02 Central Avenue moved from a base scope of $0 to a compliance-aware total of $0. Bond requirements were included to satisfy public agency standards. Key compliance cues included: City of New York mentioned, Public Authority referenced, Public works indicators present",
+  "recommendations": [
+    "Review procurement notes for additional submission obligations."
+  ]
+}

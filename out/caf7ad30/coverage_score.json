@@ -1,0 +1,126 @@
+{
+  "project_id": "caf7ad30",
+  "generated_at": "2026-01-24T21:30:14.814003",
+  "coverage_score": 0.2,
+  "dominant_trades": [
+    "masonry",
+    "roofing",
+    "windows",
+    "pavement",
+    "interiors"
+  ],
+  "matched_trades": [
+    "windows"
+  ],
+  "missing_trades": [
+    {
+      "trade": "masonry",
+      "confidence": 1.0,
+      "evidence_pages": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "missing_features": [
+        "detail",
+        "scope"
+      ]
+    },
+    {
+      "trade": "roofing",
+      "confidence": 0.8514285714285714,
+      "evidence_pages": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "missing_features": [
+        "detail",
+        "materials",
+        "quantity",
+        "scope"
+      ]
+    },
+    {
+      "trade": "pavement",
+      "confidence": 0.8514285714285714,
+      "evidence_pages": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "missing_features": [
+        "quantity",
+        "scope"
+      ]
+    },
+    {
+      "trade": "interiors",
+      "confidence": 0.8514285714285714,
+      "evidence_pages": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "missing_features": [
+        "materials",
+        "quantity",
+        "scope"
+      ]
+    }
+  ],
+  "trade_features": {
+    "masonry": {
+      "expected": [
+        "detail",
+        "scope"
+      ],
+      "matched": []
+    },
+    "roofing": {
+      "expected": [
+        "detail",
+        "materials",
+        "quantity",
+        "scope"
+      ],
+      "matched": []
+    },
+    "windows": {
+      "expected": [
+        "detail",
+        "materials",
+        "quantity",
+        "scope"
+      ],
+      "matched": [
+        "materials",
+        "quantity",
+        "scope"
+      ]
+    },
+    "pavement": {
+      "expected": [
+        "quantity",
+        "scope"
+      ],
+      "matched": []
+    },
+    "interiors": {
+      "expected": [
+        "materials",
+        "quantity",
+        "scope"
+      ],
+      "matched": []
+    }
+  }
+}

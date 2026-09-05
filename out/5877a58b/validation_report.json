@@ -1,0 +1,75 @@
+{
+  "project_id": "5877a58b",
+  "passed": false,
+  "score": 0.0,
+  "issues": [
+    {
+      "code": "MISSING_GEOMETRY",
+      "severity": "error",
+      "message": "Missing or invalid authoritative width dimension",
+      "affected_fields": [
+        "authoritative_dimensions.width"
+      ],
+      "recommended_action": "Re-read pages with dimension callouts"
+    },
+    {
+      "code": "MISSING_GEOMETRY",
+      "severity": "error",
+      "message": "Missing or invalid authoritative depth dimension",
+      "affected_fields": [
+        "authoritative_dimensions.depth"
+      ],
+      "recommended_action": "Re-read pages with dimension callouts"
+    },
+    {
+      "code": "MISSING_GEOMETRY",
+      "severity": "error",
+      "message": "Missing or invalid authoritative height dimension",
+      "affected_fields": [
+        "authoritative_dimensions.height"
+      ],
+      "recommended_action": "Re-read pages with dimension callouts"
+    },
+    {
+      "code": "MISSING_AUTHORITATIVE_DIMENSIONS",
+      "severity": "error",
+      "message": "Missing authoritative dimensions: width, depth, height.",
+      "affected_fields": [
+        "authoritative_dimensions"
+      ],
+      "recommended_action": "Re-read pages with dimension callouts"
+    }
+  ],
+  "missing_critical_items": [
+    "MISSING_GEOMETRY",
+    "MISSING_GEOMETRY",
+    "MISSING_GEOMETRY",
+    "MISSING_AUTHORITATIVE_DIMENSIONS"
+  ],
+  "conflicts": {
+    "dimensions": {
+      "issues": [
+        {
+          "code": "MISSING_AUTHORITATIVE_DIMENSIONS",
+          "severity": "error",
+          "message": "Missing authoritative dimensions: width, depth, height.",
+          "affected_fields": [
+            "authoritative_dimensions"
+          ],
+          "recommended_action": "Re-read pages with dimension callouts"
+        }
+      ],
+      "authoritative": {
+        "width": null,
+        "depth": null,
+        "height": null,
+        "confidence": 0.0
+      }
+    }
+  },
+  "rerun_performed": true,
+  "rerun_notes": [
+    "Re-read performed on pages [1, 2, 3, 4] for missing items: MISSING_GEOMETRY, MISSING_GEOMETRY, MISSING_GEOMETRY, MISSING_AUTHORITATIVE_DIMENSIONS"
+  ],
+  "created_at": "2026-01-02T20:23:37.723440"
+}

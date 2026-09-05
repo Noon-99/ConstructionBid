@@ -1,0 +1,83 @@
+{
+  "project_id": "d784e9f8",
+  "summary": {
+    "total_cost": 50.0,
+    "cost_by_division": {
+      "01 General Requirements": 50.0
+    }
+  },
+  "line_items": [
+    {
+      "division": "01 General Requirements",
+      "description": "roof membrane removal",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 25.0,
+      "total_cost": 25.0,
+      "basis": "unknown. Qty source: Quantity estimated (heuristic)",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2
+    },
+    {
+      "division": "01 General Requirements",
+      "description": "roof membrane installation",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 25.0,
+      "total_cost": 25.0,
+      "basis": "unknown. Qty source: Quantity estimated (heuristic)",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2
+    }
+  ],
+  "allowances": [],
+  "alternates": [],
+  "clarifications": [
+    {
+      "text": "Roof trade detected but roof area (SF) not extracted — cannot price roof replacement. Expand page selection or improve roof plan extraction. Look for roof plan dimensions, roof area callouts, or calculate from building footprint.. Re-read pages containing roof plans, roof dimensions, or roof area calculations. If roof plan exists, extract roof outline dimensions and calculate area. If only building footprint available, use that as roof area estimate with low confidence.",
+      "severity": "critical"
+    },
+    {
+      "text": "Missing or invalid authoritative width dimension. Re-read pages with dimension callouts",
+      "severity": "critical"
+    },
+    {
+      "text": "Missing or invalid authoritative depth dimension. Re-read pages with dimension callouts",
+      "severity": "critical"
+    },
+    {
+      "text": "Missing or invalid authoritative height dimension. Re-read elevation pages",
+      "severity": "critical"
+    },
+    {
+      "text": "Missing authoritative dimensions: width, depth, height. Re-read pages with dimension callouts",
+      "severity": "critical"
+    },
+    {
+      "text": "Missing critical scope items: parapet, lintel, flashing, brick_or_repoint, crack_repair. Found 0/5 required items.. Re-read pages containing scope information",
+      "severity": "critical"
+    },
+    {
+      "text": "Cost data missing: Heuristic quantity used for roof membrane removal: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: Heuristic quantity used for roof membrane installation: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: No cost rule found for scope item: roof insulation. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: No cost rule found for scope item: roof area. Estimate may be incomplete.",
+      "severity": "warning"
+    }
+  ],
+  "generated_at": "2025-12-20T21:56:54.746696",
+  "estimate_mode": "conceptual",
+  "bid_ready": true,
+  "bid_mode": "conceptual"
+}

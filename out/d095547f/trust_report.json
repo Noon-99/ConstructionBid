@@ -1,0 +1,88 @@
+{
+  "project_id": "d095547f",
+  "project_name": null,
+  "project_type": "Unknown",
+  "run_id": "d095547f",
+  "generated_at": "2026-01-02T20:51:12.941326",
+  "bid_ready": false,
+  "overall_confidence": 0.0,
+  "confidence_explanation": "This bid requires review before submission. Some quantities are estimated or evidence is incomplete.",
+  "confidence_breakdown": {
+    "scope_coverage": 1.0,
+    "quantity_confidence": 0.19999999999999998,
+    "evidence_coverage": 0.0,
+    "geometry_quality": "Partial"
+  },
+  "verified_items": [],
+  "recovery_applied": false,
+  "recovery_pages": [],
+  "review_recommended_items": [
+    {
+      "item": "parapet repair",
+      "reason": "Quantity inferred",
+      "quantity_source": "heuristic"
+    },
+    {
+      "item": "brick rebuild",
+      "reason": "Quantity inferred",
+      "quantity_source": "heuristic"
+    },
+    {
+      "item": "repointing",
+      "reason": "Quantity inferred",
+      "quantity_source": "heuristic"
+    },
+    {
+      "item": "lintel replacement",
+      "reason": "Quantity inferred",
+      "quantity_source": "heuristic"
+    },
+    {
+      "item": "crack repairs",
+      "reason": "Quantity inferred",
+      "quantity_source": "heuristic"
+    },
+    {
+      "item": "flashing installation",
+      "reason": "Quantity inferred",
+      "quantity_source": "heuristic"
+    }
+  ],
+  "evidence_coverage": {
+    "bid_value_coverage_pct": 0.0,
+    "items_with_evidence_pct": 0.0,
+    "orphan_items_count": 6,
+    "referenced_pages": [],
+    "detail_refs": []
+  },
+  "geometry_confidence": {
+    "model_generated": false,
+    "buildings_count": 0,
+    "work_zones_count": 22,
+    "geometry_type": "Not generated",
+    "used_for": [
+      "Quantity derivation",
+      "Cost attribution",
+      "Evidence navigation"
+    ]
+  },
+  "included_items": [
+    "Line items with quantities & unit costs",
+    "Drawing references per item",
+    "Scope-level cost breakdown",
+    "Evidence-linked audit trail"
+  ],
+  "excluded_items": [
+    "Field verification",
+    "Permits & filing fees (unless specified)",
+    "Contractor overhead & profit",
+    "Change order contingencies"
+  ],
+  "validation_gates_passed": false,
+  "critical_recovery_applied": false,
+  "cache_reuse_enabled": true,
+  "deterministic_run": true,
+  "mode": "conceptual",
+  "run_timestamp": "2026-01-02T20:51:12.941323",
+  "coverage_declarations": null
+}

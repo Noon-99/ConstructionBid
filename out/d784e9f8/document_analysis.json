@@ -1,0 +1,90 @@
+{
+  "project_type": "unknown",
+  "scope_type": "repair",
+  "sheets": [
+    {
+      "sheet_id": "G-001",
+      "page_number": 1,
+      "sheet_type": "notes",
+      "title": "General Notes"
+    },
+    {
+      "sheet_id": "G-002",
+      "page_number": 2,
+      "sheet_type": "schedule",
+      "title": null
+    },
+    {
+      "sheet_id": "A-100",
+      "page_number": 3,
+      "sheet_type": "plan",
+      "title": "Roof Plan"
+    }
+  ],
+  "where_scope_lives": [
+    {
+      "sheet_id": "G-001",
+      "page_number": 1,
+      "location_type": "general_notes",
+      "evidence": "General notes section outlines scope of work.",
+      "confidence": 0.9
+    }
+  ],
+  "where_quantities_live": [
+    {
+      "sheet_id": "G-002",
+      "page_number": 2,
+      "location_type": "schedule",
+      "evidence": "Schedule includes quantities for roofing materials.",
+      "confidence": 0.8
+    }
+  ],
+  "where_materials_live": [],
+  "building_context": {
+    "building_type": "unknown",
+    "is_row_context": false,
+    "building_ids": [],
+    "addresses": [
+      "2317 Greene St, Ogdensburg, NY"
+    ],
+    "evidence": "Address provided in the project header."
+  },
+  "site_context": null,
+  "key_dimensions": {
+    "width": null,
+    "depth": null,
+    "height": null,
+    "area": null,
+    "evidence": "No explicit dimensions found in the provided sheets.",
+    "confidence": 0.0
+  },
+  "critical_expected_items": [
+    {
+      "item": "parapet",
+      "expected_for": "row_house_repair",
+      "found": true,
+      "evidence": "Parapet repair mentioned in general notes.",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": 0.8,
+  "missing_fields": [
+    "project_type",
+    "key_dimensions",
+    "building_context"
+  ],
+  "resolved_project_type": "unknown",
+  "resolved_scope_type": "repair",
+  "resolution_notes": [
+    "PRIMARY TRADE OVERRIDE: Roof replacement indicators detected: 2 indicators. Division 07 (Roofing) is primary. Masonry elements are supporting scope.",
+    "  - Sheet 'A-100' title contains roof keyword: 'roof plan'",
+    "  - Quantity locator evidence suggests roof quantities",
+    "Primary trade is Division 07 (Roofing) - masonry elements are supporting scope"
+  ],
+  "primary_division": "07",
+  "primary_trade": "roofing",
+  "trade_detection_confidence": 0.7,
+  "labor_regime": "standard",
+  "labor_regime_confidence": 0.5,
+  "labor_regime_evidence": "No DOT/public work or union indicators detected. Using standard labor rates."
+}

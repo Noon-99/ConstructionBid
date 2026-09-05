@@ -1,0 +1,12 @@
+{
+  "page_number": 5,
+  "sheet_id": "A5",
+  "sheet_title": "Sample House",
+  "page_types": [
+    "elevation"
+  ],
+  "indicators": [
+    "dimensions"
+  ],
+  "confidence": 0.85
+}

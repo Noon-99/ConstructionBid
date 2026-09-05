@@ -1,0 +1,13 @@
+{
+  "page_number": 9,
+  "sheet_id": "B-2",
+  "sheet_title": "NYC Compliance Values",
+  "page_types": [
+    "notes",
+    "compliance"
+  ],
+  "indicators": [
+    "compliance"
+  ],
+  "confidence": 0.9
+}

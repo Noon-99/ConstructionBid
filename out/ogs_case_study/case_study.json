@@ -1,0 +1,52 @@
+{
+  "project_id": "ogs_case_study",
+  "project_name": null,
+  "location": null,
+  "issuing_authority": "New York State Office of General Services",
+  "bid_submission_date": null,
+  "base_scope_cost": 0.0,
+  "compliance_total": 0.0,
+  "total_bid": 0.0,
+  "compliance_delta_pct": null,
+  "compliance_breakdown": {
+    "bond": 0.0,
+    "insurance": 0.0
+  },
+  "compliance_adjustments": [
+    "Bond requirement applied: +2.50% ($0.00)",
+    "Supplemental insurance applied: +1.20% ($0.00)"
+  ],
+  "prevailing_wage_applied": false,
+  "bonds_required": true,
+  "insurance_applied": false,
+  "procurement_indicators": [
+    "Issued by New York State Office of General Services",
+    "Public project indicated by O.G.S. PROJECT NO.",
+    "References Department of Transportation"
+  ],
+  "procurement_notes": [
+    "The presence of government agency names strongly indicates a public sector project."
+  ],
+  "evidence_references": [
+    {
+      "type": "procurement_pages",
+      "pages": [
+        1
+      ],
+      "description": "Pages flagged for procurement indicators"
+    },
+    {
+      "type": "validation_rerun_notes",
+      "notes": [
+        "Critical-5 recovery performed for: parapet, lintel, flashing, brick_or_repoint, crack_repair",
+        "Critical-5 recovery failed: _validate_critical_scope() missing 1 required positional argument: 'expected_items'"
+      ]
+    }
+  ],
+  "confidence_pct": 0.0,
+  "confidence_explanation": "This bid requires review before submission. Some quantities are estimated or evidence is incomplete.",
+  "summary": "This project moved from a base scope of $0 to a compliance-aware total of $0. Bond requirements were included to satisfy public agency standards. Key compliance cues included: Issued by New York State Office of General Services, Public project indicated by O.G.S. PROJECT NO., References Department of Transportation",
+  "recommendations": [
+    "Review procurement notes for additional submission obligations."
+  ]
+}

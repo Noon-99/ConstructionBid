@@ -1,0 +1,16 @@
+{
+  "project_type": "institutional",
+  "scope_type": "renovation",
+  "required_scope_keys": [],
+  "minimum_room_count": 5,
+  "gate_pass_expectation": true,
+  "minimum_validation_score": 0.80,
+  "stage_3_expected": true,
+  "stage_4_expected": true
+}
+
+
+
+
+
+

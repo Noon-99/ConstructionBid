@@ -1,0 +1,167 @@
+{
+  "project_id": "82178adc",
+  "total_bid": 173.74,
+  "line_items": [
+    {
+      "line_item_id": "line_item_0",
+      "line_item_index": 0,
+      "division": "01 General Requirements",
+      "title": "roof membrane removal",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 25.0,
+      "total_cost": 25.0,
+      "rule_refs": [
+        {
+          "rule_name": "roof_assembly",
+          "yaml_file": "roof_assembly.yml",
+          "match_keywords_used": []
+        }
+      ],
+      "multipliers_applied": [
+        {
+          "name": "profile: labor_rate: US_DEFAULT general ($75/hr → $35/hr)",
+          "factor": 1.0
+        }
+      ],
+      "quantity_source": "heuristic",
+      "evidence_refs": [
+        {
+          "page_number": 1,
+          "sheet_id": null,
+          "snippet": "Default fallback quantity",
+          "bbox": null,
+          "bbox_source": "none"
+        }
+      ],
+      "flags": [
+        "heuristic_quantity"
+      ]
+    },
+    {
+      "line_item_id": "line_item_1",
+      "line_item_index": 1,
+      "division": "01 General Requirements",
+      "title": "roof membrane installation",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 25.0,
+      "total_cost": 25.0,
+      "rule_refs": [
+        {
+          "rule_name": "roof_assembly",
+          "yaml_file": "roof_assembly.yml",
+          "match_keywords_used": [
+            "install"
+          ]
+        }
+      ],
+      "multipliers_applied": [
+        {
+          "name": "profile: labor_rate: US_DEFAULT general ($75/hr → $35/hr)",
+          "factor": 1.0
+        }
+      ],
+      "quantity_source": "heuristic",
+      "evidence_refs": [
+        {
+          "page_number": 1,
+          "sheet_id": null,
+          "snippet": "Default fallback quantity",
+          "bbox": null,
+          "bbox_source": "none"
+        }
+      ],
+      "flags": [
+        "heuristic_quantity"
+      ]
+    },
+    {
+      "line_item_id": "line_item_2",
+      "line_item_index": 2,
+      "division": "04 Masonry",
+      "title": "parapet",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 85.0,
+      "total_cost": 93.5,
+      "rule_refs": [
+        {
+          "rule_name": "parapet_rebuild",
+          "yaml_file": "parapet_rebuild.yml",
+          "match_keywords_used": [
+            "parapet"
+          ]
+        }
+      ],
+      "multipliers_applied": [
+        {
+          "name": "waste",
+          "factor": 0.1
+        }
+      ],
+      "quantity_source": "heuristic",
+      "evidence_refs": [
+        {
+          "page_number": 1,
+          "sheet_id": null,
+          "snippet": "Default fallback quantity",
+          "bbox": null,
+          "bbox_source": "none"
+        }
+      ],
+      "flags": [
+        "recovered_item",
+        "heuristic_quantity"
+      ]
+    },
+    {
+      "line_item_id": "line_item_3",
+      "line_item_index": 3,
+      "division": "07 Thermal and Moisture Protection",
+      "title": "flashing",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 28.0,
+      "total_cost": 30.240000000000002,
+      "rule_refs": [
+        {
+          "rule_name": "flashing_install",
+          "yaml_file": "flashing_install.yml",
+          "match_keywords_used": [
+            "flashing"
+          ]
+        }
+      ],
+      "multipliers_applied": [
+        {
+          "name": "waste",
+          "factor": 0.08
+        },
+        {
+          "name": "profile: labor_rate: US_DEFAULT general ($55/hr → $35/hr)",
+          "factor": 1.0
+        }
+      ],
+      "quantity_source": "heuristic",
+      "evidence_refs": [
+        {
+          "page_number": 1,
+          "sheet_id": null,
+          "snippet": "Default fallback quantity",
+          "bbox": null,
+          "bbox_source": "none"
+        }
+      ],
+      "flags": [
+        "recovered_item",
+        "heuristic_quantity"
+      ]
+    }
+  ],
+  "recovery_performed": true,
+  "recovery_pages": [
+    5
+  ],
+  "generated_at": "2025-12-21T03:01:28.139443"
+}

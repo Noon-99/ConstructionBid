@@ -1,0 +1,132 @@
+{
+  "project_id": "6558be4e",
+  "packages": [
+    {
+      "id": "package_001",
+      "title": "Parapet / Coping / Roof Edge",
+      "division": "04 Masonry",
+      "trade": "Masonry",
+      "estimated_cost": 1870.0,
+      "priority": "low",
+      "confidence": 0.8,
+      "basis_refs": [],
+      "member_zone_ids": [
+        "roof_edge",
+        "flashing_roof_edge",
+        "parapet_perimeter",
+        "parapet_band",
+        "roof_coping"
+      ],
+      "member_line_item_ids": [
+        "0"
+      ]
+    },
+    {
+      "id": "package_002",
+      "title": "Brick Work / Veneer",
+      "division": "04 Masonry",
+      "trade": "Masonry",
+      "estimated_cost": 15525.0,
+      "priority": "medium",
+      "confidence": 0.8,
+      "basis_refs": [],
+      "member_zone_ids": [],
+      "member_line_item_ids": [
+        "1"
+      ]
+    },
+    {
+      "id": "package_003",
+      "title": "Brick Repointing",
+      "division": "04 Masonry",
+      "trade": "Masonry",
+      "estimated_cost": 3780.0,
+      "priority": "low",
+      "confidence": 0.8,
+      "basis_refs": [],
+      "member_zone_ids": [],
+      "member_line_item_ids": [
+        "2"
+      ]
+    },
+    {
+      "id": "package_004",
+      "title": "Lintel Replacement",
+      "division": "05 Metals",
+      "trade": "Metals",
+      "estimated_cost": 472.5,
+      "priority": "low",
+      "confidence": 0.8,
+      "basis_refs": [],
+      "member_zone_ids": [
+        "lintel_band",
+        "lintel_band_front",
+        "lintel_band_rear",
+        "lintel_band_left",
+        "lintel_band_right"
+      ],
+      "member_line_item_ids": [
+        "3"
+      ]
+    },
+    {
+      "id": "package_005",
+      "title": "Crack Repair",
+      "division": "01 General Requirements",
+      "trade": "General",
+      "estimated_cost": 38.5,
+      "priority": "low",
+      "confidence": 0.8,
+      "basis_refs": [],
+      "member_zone_ids": [
+        "crack_repair_zone_front",
+        "crack_repair_zone_rear"
+      ],
+      "member_line_item_ids": [
+        "4"
+      ]
+    },
+    {
+      "id": "package_006",
+      "title": "Flashing Installation",
+      "division": "07 Thermal and Moisture Protection",
+      "trade": "Waterproofing",
+      "estimated_cost": 30.240000000000002,
+      "priority": "low",
+      "confidence": 0.8,
+      "basis_refs": [],
+      "member_zone_ids": [
+        "flashing_window_head",
+        "flashing_roof_edge"
+      ],
+      "member_line_item_ids": [
+        "5"
+      ]
+    }
+  ],
+  "zone_to_package": {
+    "roof_edge": "package_001",
+    "flashing_roof_edge": "package_006",
+    "parapet_perimeter": "package_001",
+    "parapet_band": "package_001",
+    "roof_coping": "package_001",
+    "lintel_band": "package_004",
+    "lintel_band_front": "package_004",
+    "lintel_band_rear": "package_004",
+    "lintel_band_left": "package_004",
+    "lintel_band_right": "package_004",
+    "crack_repair_zone_front": "package_005",
+    "crack_repair_zone_rear": "package_005",
+    "flashing_window_head": "package_006"
+  },
+  "line_item_to_package": {
+    "0": "package_001",
+    "1": "package_002",
+    "2": "package_003",
+    "3": "package_004",
+    "4": "package_005",
+    "5": "package_006"
+  },
+  "generated_at": "2026-01-04T16:12:45.233613",
+  "version": "1.0"
+}

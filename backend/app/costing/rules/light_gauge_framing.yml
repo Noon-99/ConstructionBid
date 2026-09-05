@@ -1,0 +1,34 @@
+name: Light Gauge Steel Framing
+keywords:
+  - light gauge
+  - metal studs
+  - steel framing
+  - metal framing
+  - stud wall
+  - light gauge framing
+
+unit_type: SF  # Square Feet of wall
+base_unit_cost: 4.25
+material_cost_per_unit: 2.00  # Studs, tracks, screws
+labor_hours_per_unit: 0.10
+labor_rate: 55.00
+equipment_cost_per_unit: 0.25  # Screw guns, saws
+
+waste_factor: 0.05  # 5% waste
+
+division: "05 Metals"
+category: "Metals"
+
+notes: |
+  Light gauge steel framing includes:
+  - Metal studs (20 ga, 18 ga, or specified)
+  - Top and bottom tracks
+  - Screws and fasteners
+  - Installation labor
+  - Does not include drywall or finishes (separate items)
+
+
+
+
+
+

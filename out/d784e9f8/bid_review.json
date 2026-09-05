@@ -1,0 +1,85 @@
+{
+  "project_id": "d784e9f8",
+  "total_bid": 50.0,
+  "line_items": [
+    {
+      "line_item_id": "line_item_0",
+      "line_item_index": 0,
+      "division": "01 General Requirements",
+      "title": "roof membrane removal",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 25.0,
+      "total_cost": 25.0,
+      "rule_refs": [
+        {
+          "rule_name": "roof_assembly",
+          "yaml_file": "roof_assembly.yml",
+          "match_keywords_used": []
+        }
+      ],
+      "multipliers_applied": [
+        {
+          "name": "profile: labor_rate: US_DEFAULT general ($75/hr → $35/hr)",
+          "factor": 1.0
+        }
+      ],
+      "quantity_source": "heuristic",
+      "evidence_refs": [
+        {
+          "page_number": 1,
+          "sheet_id": null,
+          "snippet": "Default fallback quantity",
+          "bbox": null,
+          "bbox_source": "none"
+        }
+      ],
+      "flags": [
+        "heuristic_quantity"
+      ]
+    },
+    {
+      "line_item_id": "line_item_1",
+      "line_item_index": 1,
+      "division": "01 General Requirements",
+      "title": "roof membrane installation",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 25.0,
+      "total_cost": 25.0,
+      "rule_refs": [
+        {
+          "rule_name": "roof_assembly",
+          "yaml_file": "roof_assembly.yml",
+          "match_keywords_used": [
+            "install"
+          ]
+        }
+      ],
+      "multipliers_applied": [
+        {
+          "name": "profile: labor_rate: US_DEFAULT general ($75/hr → $35/hr)",
+          "factor": 1.0
+        }
+      ],
+      "quantity_source": "heuristic",
+      "evidence_refs": [
+        {
+          "page_number": 1,
+          "sheet_id": null,
+          "snippet": "Default fallback quantity",
+          "bbox": null,
+          "bbox_source": "none"
+        }
+      ],
+      "flags": [
+        "heuristic_quantity"
+      ]
+    }
+  ],
+  "recovery_performed": true,
+  "recovery_pages": [
+    5
+  ],
+  "generated_at": "2025-12-21T02:56:54.768207"
+}

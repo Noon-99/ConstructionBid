@@ -1,0 +1,21 @@
+{
+  "project_id": "row_house",
+  "breakdown_by_category": [],
+  "breakdown_by_scope_item": [],
+  "breakdown_by_building": {
+    "B-1": []
+  },
+  "subtotals": {},
+  "total_cost": 0.0,
+  "material_cost_total": 0.0,
+  "labor_cost_total": 0.0,
+  "equipment_cost_total": 0.0,
+  "waste_cost_total": 0.0,
+  "cost_justification": [],
+  "missing_data_warnings": [
+    "No cost rule found for scope item: Remove existing double-hung windows",
+    "No cost rule found for scope item: Install new thermally broken aluminum windows"
+  ],
+  "rules_used": [],
+  "profile_id": "default_national"
+}

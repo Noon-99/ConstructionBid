@@ -1,0 +1,84 @@
+{
+  "project_type": "row_house",
+  "scope_type": "repair",
+  "scope_of_work": [
+    {
+      "page_number": 4,
+      "sheet_id": "A-4",
+      "evidence_snippet": "Notes on window installation and glazing details.",
+      "item": "Window replacement scope",
+      "description": "Glazing removal and new frame installation per notes",
+      "location": null
+    }
+  ],
+  "material_specifications": [],
+  "quantity_takeoff": [
+    {
+      "page_number": 1,
+      "sheet_id": "A-1",
+      "evidence_snippet": "Window schedule with marks W-1, WP-101.",
+      "item": "Window schedule quantity",
+      "quantity": null,
+      "unit": "ea",
+      "is_computed": false,
+      "computation_formula": null,
+      "input_dimensions": {},
+      "evidence_missing": true
+    }
+  ],
+  "geometry_for_3d": {
+    "site_context": {
+      "building_type": "unknown",
+      "row_of_buildings": [
+        "B-1"
+      ],
+      "subject_building_id": "B-1",
+      "addresses": [
+        "123 Main St"
+      ],
+      "evidence": "fallback_from_stage1"
+    },
+    "dimensions": {
+      "width": 20.0,
+      "depth": 30.0,
+      "height": 15.0,
+      "evidence": "fallback_from_stage1",
+      "computation_formula": null,
+      "input_pages": []
+    },
+    "work_zones": [],
+    "evidence_missing": []
+  },
+  "validation_metadata": {
+    "pages_used": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "passes": 1,
+    "detail": "high",
+    "post_extraction_notes": [
+      "post-coverage rescue rerun executed"
+    ]
+  },
+  "evidence_missing": [],
+  "room_program": null,
+  "structural_notes": null,
+  "authoritative_dimensions": null,
+  "institutional_geometry_for_3d": null,
+  "room_schedule": null,
+  "structural_elements": null,
+  "building_envelope": null,
+  "openings": null,
+  "lintels": null,
+  "detail_graph": null,
+  "warranty_and_insurance": null
+}

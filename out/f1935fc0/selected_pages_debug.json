@@ -1,0 +1,89 @@
+{
+  "total_pages": 12,
+  "stage05_indexed_pages_count": 12,
+  "stage1_selected_pages": [
+    {
+      "page_number": 5,
+      "page_index_labels": {
+        "page_types": [
+          "detail"
+        ],
+        "indicators": [
+          "dimensions",
+          "lintel"
+        ],
+        "confidence": 0.95
+      },
+      "reason": "index: types: detail; indicators: dimensions, lintel"
+    },
+    {
+      "page_number": 8,
+      "page_index_labels": {
+        "page_types": [
+          "plan",
+          "detail"
+        ],
+        "indicators": [
+          "dimensions"
+        ],
+        "confidence": 0.9
+      },
+      "reason": "index: types: plan, detail; indicators: dimensions"
+    },
+    {
+      "page_number": 11,
+      "page_index_labels": {
+        "page_types": [
+          "plan"
+        ],
+        "indicators": [
+          "dimensions",
+          "room_schedule"
+        ],
+        "confidence": 0.85
+      },
+      "reason": "index: types: plan; indicators: dimensions, room_schedule"
+    },
+    {
+      "page_number": 12,
+      "page_index_labels": {
+        "page_types": [
+          "detail"
+        ],
+        "indicators": [
+          "dimensions",
+          "lintel"
+        ],
+        "confidence": 0.95
+      },
+      "reason": "index: types: detail; indicators: dimensions, lintel"
+    }
+  ],
+  "stage2_selected_pages": [
+    {
+      "page_number": 1,
+      "page_index_labels": {
+        "page_types": [
+          "plan"
+        ],
+        "indicators": [],
+        "confidence": 0.9
+      },
+      "reason": "stage2: stage1: where_scope_lives"
+    },
+    {
+      "page_number": 3,
+      "page_index_labels": {
+        "page_types": [
+          "detail"
+        ],
+        "indicators": [
+          "dimensions"
+        ],
+        "confidence": 0.85
+      },
+      "reason": "stage2: stage1: where_quantities_live"
+    }
+  ],
+  "rescue_stage2_selected_pages": []
+}

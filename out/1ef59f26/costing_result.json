@@ -1,0 +1,676 @@
+{
+  "project_id": "row_house",
+  "breakdown_by_category": [
+    {
+      "category": "General",
+      "items": [
+        {
+          "item_name": "Shoring and bracing installation",
+          "scope_item": "Shoring and bracing installation",
+          "quantity": 1.0,
+          "unit": "LS",
+          "unit_cost": 5000.0,
+          "material_cost": 0.0,
+          "labor_cost": 0.0,
+          "equipment_cost": 0.0,
+          "waste_factor": 0.0,
+          "multipliers": {},
+          "subtotal": 5000.0,
+          "rule_matched": "Temporary Shoring Allowance",
+          "evidence": "THE CONTRACTOR SHALL INSTALL ADEQUATE SHORING AND BRACING FOR ALL STRUCTURAL OR REMOVAL TASKS",
+          "notes": [
+            "Matched rule: Temporary Shoring Allowance"
+          ],
+          "quantity_source": "allowance",
+          "quantity_confidence": 0.9,
+          "quantity_evidence": {
+            "evidence_snippet": "Allowance item: Temporary Shoring Allowance"
+          },
+          "detail_refs": [],
+          "profile_id": "default_national",
+          "multiplier_breakdown": [
+            "labor_rate: US_DEFAULT general ($0/hr → $35/hr)",
+            "prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work"
+          ],
+          "override_source": "unknown"
+        }
+      ],
+      "subtotal": 5000.0
+    },
+    {
+      "category": "Masonry",
+      "items": [
+        {
+          "item_name": "Cracked brick wall repair",
+          "scope_item": "Cracked brick wall repair",
+          "quantity": 1200.0,
+          "unit": "SF",
+          "unit_cost": 38.5,
+          "material_cost": 11616.000000000002,
+          "labor_cost": 29700.0,
+          "equipment_cost": 1800.0,
+          "waste_factor": 0.1,
+          "multipliers": {
+            "height": 1.1
+          },
+          "subtotal": 50820.0,
+          "rule_matched": "crack_repair",
+          "evidence": "For brick crack repair, follow S-102, Detail 3-Existing",
+          "notes": [
+            "Matched rule: crack_repair"
+          ],
+          "quantity_source": "computed_from_dimensions",
+          "quantity_confidence": 0.75,
+          "quantity_evidence": {
+            "page_number": 1,
+            "evidence_snippet": "fallback_from_stage1",
+            "computation_formula": "width * height"
+          },
+          "detail_refs": [],
+          "profile_id": "default_national",
+          "multiplier_breakdown": [
+            "prevailing_wage_multiplier: 50% ($55/hr → $82/hr) - DOT/public work",
+            "material_multiplier: US_DEFAULT brick (+10%)"
+          ],
+          "override_source": "unknown"
+        },
+        {
+          "item_name": "Repointing brick arch lintel",
+          "scope_item": "Repointing brick arch lintel",
+          "quantity": 1200.0,
+          "unit": "SF",
+          "unit_cost": 15.600000000000001,
+          "material_cost": 4851.000000000001,
+          "labor_cost": 14850.0,
+          "equipment_cost": 600.0,
+          "waste_factor": 0.05,
+          "multipliers": {
+            "height": 1.3
+          },
+          "subtotal": 19656.0,
+          "rule_matched": "repointing",
+          "evidence": "Repoint brick arch lintel as per S-102 Detail 6, Brick Arch Repairs.",
+          "notes": [
+            "Matched rule: repointing"
+          ],
+          "quantity_source": "computed_from_dimensions",
+          "quantity_confidence": 0.75,
+          "quantity_evidence": {
+            "page_number": 1,
+            "evidence_snippet": "fallback_from_stage1",
+            "computation_formula": "width * height"
+          },
+          "detail_refs": [],
+          "profile_id": "default_national",
+          "multiplier_breakdown": [
+            "prevailing_wage_multiplier: 50% ($55/hr → $82/hr) - DOT/public work",
+            "material_multiplier: US_DEFAULT brick (+10%)"
+          ],
+          "override_source": "unknown"
+        }
+      ],
+      "subtotal": 70476.0
+    }
+  ],
+  "breakdown_by_scope_item": [
+    {
+      "item_name": "Shoring and bracing installation",
+      "scope_item": "Shoring and bracing installation",
+      "quantity": 1.0,
+      "unit": "LS",
+      "unit_cost": 5000.0,
+      "material_cost": 0.0,
+      "labor_cost": 0.0,
+      "equipment_cost": 0.0,
+      "waste_factor": 0.0,
+      "multipliers": {},
+      "subtotal": 5000.0,
+      "rule_matched": "Temporary Shoring Allowance",
+      "evidence": "THE CONTRACTOR SHALL INSTALL ADEQUATE SHORING AND BRACING FOR ALL STRUCTURAL OR REMOVAL TASKS",
+      "notes": [
+        "Matched rule: Temporary Shoring Allowance"
+      ],
+      "quantity_source": "allowance",
+      "quantity_confidence": 0.9,
+      "quantity_evidence": {
+        "evidence_snippet": "Allowance item: Temporary Shoring Allowance"
+      },
+      "detail_refs": [],
+      "profile_id": "default_national",
+      "multiplier_breakdown": [
+        "labor_rate: US_DEFAULT general ($0/hr → $35/hr)",
+        "prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work"
+      ],
+      "override_source": "unknown"
+    },
+    {
+      "item_name": "Cracked brick wall repair",
+      "scope_item": "Cracked brick wall repair",
+      "quantity": 1200.0,
+      "unit": "SF",
+      "unit_cost": 38.5,
+      "material_cost": 11616.000000000002,
+      "labor_cost": 29700.0,
+      "equipment_cost": 1800.0,
+      "waste_factor": 0.1,
+      "multipliers": {
+        "height": 1.1
+      },
+      "subtotal": 50820.0,
+      "rule_matched": "crack_repair",
+      "evidence": "For brick crack repair, follow S-102, Detail 3-Existing",
+      "notes": [
+        "Matched rule: crack_repair"
+      ],
+      "quantity_source": "computed_from_dimensions",
+      "quantity_confidence": 0.75,
+      "quantity_evidence": {
+        "page_number": 1,
+        "evidence_snippet": "fallback_from_stage1",
+        "computation_formula": "width * height"
+      },
+      "detail_refs": [],
+      "profile_id": "default_national",
+      "multiplier_breakdown": [
+        "prevailing_wage_multiplier: 50% ($55/hr → $82/hr) - DOT/public work",
+        "material_multiplier: US_DEFAULT brick (+10%)"
+      ],
+      "override_source": "unknown"
+    },
+    {
+      "item_name": "Repointing brick arch lintel",
+      "scope_item": "Repointing brick arch lintel",
+      "quantity": 1200.0,
+      "unit": "SF",
+      "unit_cost": 15.600000000000001,
+      "material_cost": 4851.000000000001,
+      "labor_cost": 14850.0,
+      "equipment_cost": 600.0,
+      "waste_factor": 0.05,
+      "multipliers": {
+        "height": 1.3
+      },
+      "subtotal": 19656.0,
+      "rule_matched": "repointing",
+      "evidence": "Repoint brick arch lintel as per S-102 Detail 6, Brick Arch Repairs.",
+      "notes": [
+        "Matched rule: repointing"
+      ],
+      "quantity_source": "computed_from_dimensions",
+      "quantity_confidence": 0.75,
+      "quantity_evidence": {
+        "page_number": 1,
+        "evidence_snippet": "fallback_from_stage1",
+        "computation_formula": "width * height"
+      },
+      "detail_refs": [],
+      "profile_id": "default_national",
+      "multiplier_breakdown": [
+        "prevailing_wage_multiplier: 50% ($55/hr → $82/hr) - DOT/public work",
+        "material_multiplier: US_DEFAULT brick (+10%)"
+      ],
+      "override_source": "unknown"
+    }
+  ],
+  "breakdown_by_building": {
+    "subject": [
+      {
+        "item_name": "Shoring and bracing installation",
+        "scope_item": "Shoring and bracing installation",
+        "quantity": 1.0,
+        "unit": "LS",
+        "unit_cost": 5000.0,
+        "material_cost": 0.0,
+        "labor_cost": 0.0,
+        "equipment_cost": 0.0,
+        "waste_factor": 0.0,
+        "multipliers": {},
+        "subtotal": 5000.0,
+        "rule_matched": "Temporary Shoring Allowance",
+        "evidence": "THE CONTRACTOR SHALL INSTALL ADEQUATE SHORING AND BRACING FOR ALL STRUCTURAL OR REMOVAL TASKS",
+        "notes": [
+          "Matched rule: Temporary Shoring Allowance"
+        ],
+        "quantity_source": "allowance",
+        "quantity_confidence": 0.9,
+        "quantity_evidence": {
+          "evidence_snippet": "Allowance item: Temporary Shoring Allowance"
+        },
+        "detail_refs": [],
+        "profile_id": "default_national",
+        "multiplier_breakdown": [
+          "labor_rate: US_DEFAULT general ($0/hr → $35/hr)",
+          "prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work"
+        ],
+        "override_source": "unknown"
+      },
+      {
+        "item_name": "Cracked brick wall repair",
+        "scope_item": "Cracked brick wall repair",
+        "quantity": 1200.0,
+        "unit": "SF",
+        "unit_cost": 38.5,
+        "material_cost": 11616.000000000002,
+        "labor_cost": 29700.0,
+        "equipment_cost": 1800.0,
+        "waste_factor": 0.1,
+        "multipliers": {
+          "height": 1.1
+        },
+        "subtotal": 50820.0,
+        "rule_matched": "crack_repair",
+        "evidence": "For brick crack repair, follow S-102, Detail 3-Existing",
+        "notes": [
+          "Matched rule: crack_repair"
+        ],
+        "quantity_source": "computed_from_dimensions",
+        "quantity_confidence": 0.75,
+        "quantity_evidence": {
+          "page_number": 1,
+          "evidence_snippet": "fallback_from_stage1",
+          "computation_formula": "width * height"
+        },
+        "detail_refs": [],
+        "profile_id": "default_national",
+        "multiplier_breakdown": [
+          "prevailing_wage_multiplier: 50% ($55/hr → $82/hr) - DOT/public work",
+          "material_multiplier: US_DEFAULT brick (+10%)"
+        ],
+        "override_source": "unknown"
+      },
+      {
+        "item_name": "Repointing brick arch lintel",
+        "scope_item": "Repointing brick arch lintel",
+        "quantity": 1200.0,
+        "unit": "SF",
+        "unit_cost": 15.600000000000001,
+        "material_cost": 4851.000000000001,
+        "labor_cost": 14850.0,
+        "equipment_cost": 600.0,
+        "waste_factor": 0.05,
+        "multipliers": {
+          "height": 1.3
+        },
+        "subtotal": 19656.0,
+        "rule_matched": "repointing",
+        "evidence": "Repoint brick arch lintel as per S-102 Detail 6, Brick Arch Repairs.",
+        "notes": [
+          "Matched rule: repointing"
+        ],
+        "quantity_source": "computed_from_dimensions",
+        "quantity_confidence": 0.75,
+        "quantity_evidence": {
+          "page_number": 1,
+          "evidence_snippet": "fallback_from_stage1",
+          "computation_formula": "width * height"
+        },
+        "detail_refs": [],
+        "profile_id": "default_national",
+        "multiplier_breakdown": [
+          "prevailing_wage_multiplier: 50% ($55/hr → $82/hr) - DOT/public work",
+          "material_multiplier: US_DEFAULT brick (+10%)"
+        ],
+        "override_source": "unknown"
+      }
+    ]
+  },
+  "subtotals": {
+    "General": 5000.0,
+    "Masonry": 70476.0
+  },
+  "total_cost": 78268.61,
+  "material_cost_total": 16467.000000000004,
+  "labor_cost_total": 44550.0,
+  "equipment_cost_total": 2400.0,
+  "waste_cost_total": 6064.8,
+  "cost_justification": [
+    "Shoring and bracing installation: 1.0 LS @ $5000.00/LS = $5000.00",
+    "Cracked brick wall repair: 1200.0 SF @ $38.50/SF = $50820.00",
+    "Repointing brick arch lintel: 1200.0 SF @ $15.60/SF = $19656.00"
+  ],
+  "missing_data_warnings": [
+    "No cost rule found for scope item: Masonry wall reconstruction",
+    "No cost rule found for scope item: Construction fence installation",
+    "No cost rule found for scope item: Minor details for construction",
+    "No cost rule found for scope item: Protection of construction area",
+    "No cost rule found for scope item: Cutting, patching, and repairing",
+    "No cost rule found for scope item: Removal of piping and wiring",
+    "No cost rule found for scope item: Masonry construction standards",
+    "No cost rule found for scope item: Brick installation",
+    "No cost rule found for scope item: Matching existing brick",
+    "No cost rule found for scope item: Noise management plan",
+    "No cost rule found for scope item: Lead hazard protection",
+    "No cost rule found for scope item: Dust and debris removal",
+    "No cost rule found for scope item: Water supply for construction",
+    "No cost rule found for scope item: Drainage for water removal",
+    "No cost rule found for scope item: Dust control during construction"
+  ],
+  "rules_used": [
+    "Temporary Shoring Allowance",
+    "crack_repair",
+    "repointing"
+  ],
+  "profile_id": "default_national",
+  "compliance_adjustments": [
+    "Prevailing wage multiplier applied: +50% to labor rates (Government/public project detected). Required for public/government projects per Davis-Bacon or state prevailing wage laws.",
+    "Performance & Payment Bonds: +2.50% of base scope ($1,886.90) (Government/public project detected). Required for public/government contracts to protect the owner.",
+    "Supplemental Insurance: +1.20% of base scope ($905.71) (Government/public project detected). Additional coverage required for public/government projects."
+  ],
+  "compliance_costs": {
+    "bond": 1886.9,
+    "insurance": 905.71
+  },
+  "compliance_total": 2792.61,
+  "base_scope_cost": 75476.0,
+  "contingency_recommendation_pct": null,
+  "contingency_recommendation_amount": null,
+  "rule_governance": {
+    "project_id": "1ef59f26",
+    "generated_at": "2026-01-25T01:38:56.347210",
+    "missing_rules": [
+      {
+        "item_name": "Masonry wall reconstruction",
+        "description": "Proposed reconstruction and reinforcement of left wall (Exposure 2) as per plan.",
+        "page_number": 1,
+        "sheet_id": null,
+        "evidence_snippet": "SCOPE OF WORK: PROPOSED RECONSTRUCTION AND REINFORCEMENT OF LEFT WALL (EXPOSURE 2) AS PER PLAN",
+        "detected_keywords": [
+          "Masonry",
+          "wall",
+          "reconstruction"
+        ],
+        "probable_trade": "unknown",
+        "draft_generated": false,
+        "draft_filename": null,
+        "metadata": {
+          "labor_regime": "prevailing_wage",
+          "requires_prevailing_wage": true,
+          "requires_bonds": true
+        }
+      },
+      {
+        "item_name": "Construction fence installation",
+        "description": "Construction fence will be installed if necessary.",
+        "page_number": 1,
+        "sheet_id": null,
+        "evidence_snippet": "CONSTRUCTION FENCE WILL BE INSTALLED IF NECESSARY",
+        "detected_keywords": [
+          "Construction",
+          "fence",
+          "installation"
+        ],
+        "probable_trade": "unknown",
+        "draft_generated": false,
+        "draft_filename": null,
+        "metadata": {
+          "labor_regime": "prevailing_wage",
+          "requires_prevailing_wage": true,
+          "requires_bonds": true
+        }
+      },
+      {
+        "item_name": "Minor details for construction",
+        "description": "Minor details not usually shown or specified, but necessary for proper construction of any part of the work, shall be included as if they were indicated in the drawings.",
+        "page_number": 1,
+        "sheet_id": null,
+        "evidence_snippet": "MINOR DETAILS NOT USUALLY SHOWN OR SPECIFIED, BUT NECESSARY FOR PROPER CONSTRUCTION OF ANY PART OF THE WORK, SHALL BE INCLUDED AS IF THEY WERE INDICATED IN THE DRAWINGS",
+        "detected_keywords": [
+          "Minor",
+          "details",
+          "construction"
+        ],
+        "probable_trade": "unknown",
+        "draft_generated": false,
+        "draft_filename": null,
+        "metadata": {
+          "labor_regime": "prevailing_wage",
+          "requires_prevailing_wage": true,
+          "requires_bonds": true
+        }
+      },
+      {
+        "item_name": "Protection of construction area",
+        "description": "The contractor shall be responsible for the protection of all conditions and materials within the proposed construction area.",
+        "page_number": 1,
+        "sheet_id": null,
+        "evidence_snippet": "THE CONTRACTOR SHALL BE RESPONSIBLE FOR THE PROTECTION OF ALL CONDITIONS AND MATERIALS WITHIN THE PROPOSED CONSTRUCTION AREA",
+        "detected_keywords": [
+          "Protection",
+          "construction",
+          "area"
+        ],
+        "probable_trade": "unknown",
+        "draft_generated": false,
+        "draft_filename": null,
+        "metadata": {
+          "labor_regime": "prevailing_wage",
+          "requires_prevailing_wage": true,
+          "requires_bonds": true
+        }
+      },
+      {
+        "item_name": "Cutting, patching, and repairing",
+        "description": "The contractor shall do all cutting, patching, and repairing as required to perform all of the work indicated on the drawings.",
+        "page_number": 1,
+        "sheet_id": null,
+        "evidence_snippet": "THE CONTRACTOR SHALL DO ALL CUTTING, PATCHING, AND REPAIRING AS REQUIRED TO PERFORM ALL OF THE WORK INDICATED ON THE DRAWINGS",
+        "detected_keywords": [
+          "Cutting,",
+          "patching,",
+          "repairing"
+        ],
+        "probable_trade": "unknown",
+        "draft_generated": false,
+        "draft_filename": null,
+        "metadata": {
+          "labor_regime": "prevailing_wage",
+          "requires_prevailing_wage": true,
+          "requires_bonds": true
+        }
+      },
+      {
+        "item_name": "Removal of piping and wiring",
+        "description": "All piping and wiring scheduled to be terminated shall be removed to a point of concealment and shall be properly capped or plugged.",
+        "page_number": 1,
+        "sheet_id": null,
+        "evidence_snippet": "ALL PIPING AND WIRING SCHEDULED TO BE TERMINATED SHALL BE REMOVED TO A POINT OF CONCEALMENT AND SHALL BE PROPERLY CAPPED OR PLUGGED",
+        "detected_keywords": [
+          "Removal",
+          "piping",
+          "wiring"
+        ],
+        "probable_trade": "unknown",
+        "draft_generated": false,
+        "draft_filename": null,
+        "metadata": {
+          "labor_regime": "prevailing_wage",
+          "requires_prevailing_wage": true,
+          "requires_bonds": true
+        }
+      },
+      {
+        "item_name": "Masonry construction standards",
+        "description": "Masonry construction and materials shall conform to all requirements of ACI 530-92/ASCE 6-92.",
+        "page_number": 1,
+        "sheet_id": null,
+        "evidence_snippet": "MASONRY CONSTRUCTION AND MATERIALS SHALL CONFORM TO ALL REQUIREMENTS OF ACI 530-92/ASCE 6-92",
+        "detected_keywords": [
+          "Masonry",
+          "construction",
+          "standards"
+        ],
+        "probable_trade": "unknown",
+        "draft_generated": false,
+        "draft_filename": null,
+        "metadata": {
+          "labor_regime": "prevailing_wage",
+          "requires_prevailing_wage": true,
+          "requires_bonds": true
+        }
+      },
+      {
+        "item_name": "Brick installation",
+        "description": "The installation of new brick to match the existing brick pattern of common or American bond.",
+        "page_number": 1,
+        "sheet_id": null,
+        "evidence_snippet": "THE INSTALLATION OF NEW BRICK TO MATCH THE EXISTING BRICK PATTERN OF COMMON OR AMERICAN BOND",
+        "detected_keywords": [
+          "Brick",
+          "installation"
+        ],
+        "probable_trade": "masonry",
+        "draft_generated": false,
+        "draft_filename": null,
+        "metadata": {
+          "labor_regime": "prevailing_wage",
+          "requires_prevailing_wage": true,
+          "requires_bonds": true
+        }
+      },
+      {
+        "item_name": "Matching existing brick",
+        "description": "Match the existing size, color and texture of the installed brick with the new brick.",
+        "page_number": 1,
+        "sheet_id": null,
+        "evidence_snippet": "MATCH THE EXISTING SIZE, COLOR AND TEXTURE OF THE INSTALLED BRICK WITH THE NEW BRICK",
+        "detected_keywords": [
+          "Matching",
+          "existing",
+          "brick"
+        ],
+        "probable_trade": "masonry",
+        "draft_generated": false,
+        "draft_filename": null,
+        "metadata": {
+          "labor_regime": "prevailing_wage",
+          "requires_prevailing_wage": true,
+          "requires_bonds": true
+        }
+      },
+      {
+        "item_name": "Noise management plan",
+        "description": "DEP construction noise management: §24-220 noise mitigation plan.",
+        "page_number": 1,
+        "sheet_id": null,
+        "evidence_snippet": "DEP CONSTRUCTION NOISE MANAGEMENT: §24-220 NOISE MITIGATION PLAN",
+        "detected_keywords": [
+          "Noise",
+          "management",
+          "plan"
+        ],
+        "probable_trade": "unknown",
+        "draft_generated": false,
+        "draft_filename": null,
+        "metadata": {
+          "labor_regime": "prevailing_wage",
+          "requires_prevailing_wage": true,
+          "requires_bonds": true
+        }
+      },
+      {
+        "item_name": "Lead hazard protection",
+        "description": "Personal and site protection for lead paint based hazards is required as per the EPA’s 2008 lead-based paint renovation, repair and painting program rule.",
+        "page_number": 1,
+        "sheet_id": null,
+        "evidence_snippet": "PERSONAL AND SITE PROTECTION FOR LEAD PAINT BASED HAZARDS IS REQUIRED AS PER THE EPA’S 2008 LEAD-BASED PAINT RENOVATION, REPAIR AND PAINTING PROGRAM RULE",
+        "detected_keywords": [
+          "Lead",
+          "hazard",
+          "protection"
+        ],
+        "probable_trade": "site",
+        "draft_generated": false,
+        "draft_filename": null,
+        "metadata": {
+          "labor_regime": "prevailing_wage",
+          "requires_prevailing_wage": true,
+          "requires_bonds": true
+        }
+      },
+      {
+        "item_name": "Dust and debris removal",
+        "description": "Dust and debris from the demolition operations shall be removed daily from the adjacent streets, sidewalks and alleys.",
+        "page_number": 1,
+        "sheet_id": null,
+        "evidence_snippet": "DUST AND DEBRIS FROM THE DEMOLITION OPERATIONS SHALL BE REMOVED DAILY FROM THE ADJACENT STREETS, SIDEWALKS AND ALLEYS",
+        "detected_keywords": [
+          "Dust",
+          "debris",
+          "removal"
+        ],
+        "probable_trade": "site",
+        "draft_generated": false,
+        "draft_filename": null,
+        "metadata": {
+          "labor_regime": "prevailing_wage",
+          "requires_prevailing_wage": true,
+          "requires_bonds": true
+        }
+      },
+      {
+        "item_name": "Water supply for construction",
+        "description": "Adequate and continuous supply of water delivered to the construction site under proper pressure and distributed by a hose system.",
+        "page_number": 1,
+        "sheet_id": null,
+        "evidence_snippet": "ADEQUATE AND CONTINUOUS SUPPLY OF WATER DELIVERED TO THE CONSTRUCTION SITE UNDER PROPER PRESSURE AND DISTRIBUTED BY A HOSE SYSTEM",
+        "detected_keywords": [
+          "Water",
+          "supply",
+          "construction"
+        ],
+        "probable_trade": "site",
+        "draft_generated": false,
+        "draft_filename": null,
+        "metadata": {
+          "labor_regime": "prevailing_wage",
+          "requires_prevailing_wage": true,
+          "requires_bonds": true
+        }
+      },
+      {
+        "item_name": "Drainage for water removal",
+        "description": "Suitable drainage means shall be provided for the removal of water and sludge which drains from the operation.",
+        "page_number": 1,
+        "sheet_id": null,
+        "evidence_snippet": "SUITABLE DRAINAGE MEANS SHALL BE PROVIDED FOR THE REMOVAL OF WATER AND SLUDGE WHICH DRAINS FROM THE OPERATION",
+        "detected_keywords": [
+          "Drainage",
+          "water",
+          "removal"
+        ],
+        "probable_trade": "unknown",
+        "draft_generated": false,
+        "draft_filename": null,
+        "metadata": {
+          "labor_regime": "prevailing_wage",
+          "requires_prevailing_wage": true,
+          "requires_bonds": true
+        }
+      },
+      {
+        "item_name": "Dust control during construction",
+        "description": "All construction material shall be sufficiently wetted to prevent dust from becoming airborne before loading into trucks.",
+        "page_number": 1,
+        "sheet_id": null,
+        "evidence_snippet": "ALL CONSTRUCTION MATERIAL SHALL BE SUFFICIENTLY WETTED TO PREVENT DUST FROM BECOMING AIRBORNE BEFORE LOADING INTO TRUCKS",
+        "detected_keywords": [
+          "Dust",
+          "control",
+          "during",
+          "construction"
+        ],
+        "probable_trade": "unknown",
+        "draft_generated": false,
+        "draft_filename": null,
+        "metadata": {
+          "labor_regime": "prevailing_wage",
+          "requires_prevailing_wage": true,
+          "requires_bonds": true
+        }
+      }
+    ],
+    "notes": [
+      "Cost engine detected scope items without matching YAML rules. Review and author new rules using the governance helper."
+    ]
+  }
+}

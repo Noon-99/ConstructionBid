@@ -1,0 +1,118 @@
+{
+  "buildings": [],
+  "geometry": {
+    "site_origin": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "units": "feet",
+    "coordinate_system": "right_handed_y_up",
+    "ground_plane": null,
+    "axis_labels": [],
+    "ghost_neighbors": [],
+    "dimension_hud": null
+  },
+  "work_zones": [
+    {
+      "zone_name": "Gymnasium",
+      "bounding_box": {
+        "min": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "max": {
+          "x": 61.23724356957945,
+          "y": 40.824829046386306,
+          "z": 10.0
+        }
+      },
+      "facade_region": null,
+      "page_number": 2,
+      "evidence": "Room schedule area: Gymnasium (2500 SF)",
+      "zone_type": "room",
+      "material_tags": [],
+      "material_confidence": 0.5
+    },
+    {
+      "zone_name": "Restroom",
+      "bounding_box": {
+        "min": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 10.1
+        },
+        "max": {
+          "x": 15.0,
+          "y": 10.0,
+          "z": 20.1
+        }
+      },
+      "facade_region": null,
+      "page_number": 2,
+      "evidence": "Room schedule area: Restroom (150 SF)",
+      "zone_type": "room",
+      "material_tags": [],
+      "material_confidence": 0.5
+    },
+    {
+      "zone_name": "Storage",
+      "bounding_box": {
+        "min": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 20.2
+        },
+        "max": {
+          "x": 21.213203435596427,
+          "y": 14.142135623730951,
+          "z": 30.2
+        }
+      },
+      "facade_region": null,
+      "page_number": 2,
+      "evidence": "Room schedule area: Storage (300 SF)",
+      "zone_type": "room",
+      "material_tags": [],
+      "material_confidence": 0.5
+    },
+    {
+      "zone_name": "Classroom",
+      "bounding_box": {
+        "min": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 30.299999999999997
+        },
+        "max": {
+          "x": 34.64101615137754,
+          "y": 23.094010767585033,
+          "z": 40.3
+        }
+      },
+      "facade_region": null,
+      "page_number": 7,
+      "evidence": "Room schedule area: Classroom (800 SF)",
+      "zone_type": "room",
+      "material_tags": [],
+      "material_confidence": 0.5
+    }
+  ],
+  "windows": [],
+  "cross_section_regions": [],
+  "materials": {
+    "building_materials": {
+      "subject": "brick_masonry"
+    },
+    "work_zone_materials": {}
+  },
+  "missing_evidence": [
+    "footprint_dimensions",
+    "area_gsf",
+    "height",
+    "room_layout_dimensions",
+    "room_footprints_derived_from_area_only"
+  ],
+  "geometry_quality": null
+}

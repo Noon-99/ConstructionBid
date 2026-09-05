@@ -1,0 +1,14 @@
+{
+  "page_number": 6,
+  "sheet_id": "D-3",
+  "sheet_title": "Typical Detail",
+  "page_types": [
+    "detail",
+    "schedule"
+  ],
+  "indicators": [
+    "lintel",
+    "window_schedule"
+  ],
+  "confidence": 0.9
+}

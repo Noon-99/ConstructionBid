@@ -1,0 +1,29 @@
+[
+  {
+    "package_id": "pkg_parapet_reconstruction",
+    "title": "Parapet Reconstruction",
+    "line_item_ids": [
+      "item_2",
+      "item_3"
+    ],
+    "subtotal": 123.74000000000001,
+    "keywords_matched": [
+      "parapet",
+      "coping"
+    ],
+    "confidence": 0.75
+  },
+  {
+    "package_id": "pkg_flashing_and_waterproofing",
+    "title": "Flashing & Waterproofing",
+    "line_item_ids": [
+      "item_0",
+      "item_1"
+    ],
+    "subtotal": 50.0,
+    "keywords_matched": [
+      "membrane"
+    ],
+    "confidence": 0.7
+  }
+]

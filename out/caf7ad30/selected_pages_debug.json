@@ -1,0 +1,164 @@
+{
+  "total_pages": 9,
+  "stage05_indexed_pages_count": 9,
+  "stage1_selected_pages": [
+    {
+      "page_number": 3,
+      "page_index_labels": {
+        "page_types": [
+          "elevation"
+        ],
+        "indicators": [
+          "dimensions"
+        ],
+        "confidence": 0.85
+      },
+      "reason": "index: types: elevation; indicators: dimensions"
+    },
+    {
+      "page_number": 4,
+      "page_index_labels": {
+        "page_types": [
+          "elevation"
+        ],
+        "indicators": [
+          "dimensions"
+        ],
+        "confidence": 0.85
+      },
+      "reason": "index: types: elevation; indicators: dimensions"
+    },
+    {
+      "page_number": 5,
+      "page_index_labels": {
+        "page_types": [
+          "elevation"
+        ],
+        "indicators": [
+          "dimensions"
+        ],
+        "confidence": 0.85
+      },
+      "reason": "index: types: elevation; indicators: dimensions"
+    },
+    {
+      "page_number": 6,
+      "page_index_labels": {
+        "page_types": [
+          "detail",
+          "schedule"
+        ],
+        "indicators": [
+          "lintel",
+          "window_schedule"
+        ],
+        "confidence": 0.9
+      },
+      "reason": "index: types: detail, schedule; indicators: lintel, window_schedule"
+    }
+  ],
+  "stage2_selected_pages": [
+    {
+      "page_number": 1,
+      "page_index_labels": {
+        "page_types": [
+          "notes",
+          "schedule"
+        ],
+        "indicators": [],
+        "confidence": 0.9
+      },
+      "reason": "stage2: stage1: where_materials_live, stage1: where_quantities_live, stage1: where_scope_lives"
+    },
+    {
+      "page_number": 2,
+      "page_index_labels": {
+        "page_types": [
+          "plan"
+        ],
+        "indicators": [],
+        "confidence": 0.9
+      },
+      "reason": "stage2: stage1: where_materials_live, stage1: where_quantities_live, stage1: where_scope_lives"
+    },
+    {
+      "page_number": 3,
+      "page_index_labels": {
+        "page_types": [
+          "elevation"
+        ],
+        "indicators": [
+          "dimensions"
+        ],
+        "confidence": 0.85
+      },
+      "reason": "stage2: stage1: sheets, stage1: where_quantities_live, stage1: where_scope_lives"
+    },
+    {
+      "page_number": 4,
+      "page_index_labels": {
+        "page_types": [
+          "elevation"
+        ],
+        "indicators": [
+          "dimensions"
+        ],
+        "confidence": 0.85
+      },
+      "reason": "stage2: stage1: sheets, stage1: where_quantities_live, stage1: where_scope_lives"
+    },
+    {
+      "page_number": 5,
+      "page_index_labels": {
+        "page_types": [
+          "elevation"
+        ],
+        "indicators": [
+          "dimensions"
+        ],
+        "confidence": 0.85
+      },
+      "reason": "stage2: stage1: sheets, stage1: where_quantities_live, stage1: where_scope_lives"
+    },
+    {
+      "page_number": 6,
+      "page_index_labels": {
+        "page_types": [
+          "detail",
+          "schedule"
+        ],
+        "indicators": [
+          "lintel",
+          "window_schedule"
+        ],
+        "confidence": 0.9
+      },
+      "reason": "stage2: stage1: sheets, stage1: where_materials_live, stage1: where_quantities_live, stage1: where_scope_lives"
+    },
+    {
+      "page_number": 7,
+      "page_index_labels": {
+        "page_types": [
+          "detail"
+        ],
+        "indicators": [
+          "lintel"
+        ],
+        "confidence": 0.85
+      },
+      "reason": "stage2: stage1: sheets, stage1: where_materials_live, stage1: where_scope_lives"
+    },
+    {
+      "page_number": 8,
+      "page_index_labels": {
+        "page_types": [
+          "plan"
+        ],
+        "indicators": [],
+        "confidence": 0.9
+      },
+      "reason": "stage2: stage1: where_materials_live, stage1: where_quantities_live, stage1: where_scope_lives"
+    }
+  ],
+  "rescue_stage2_selected_pages": []
+}

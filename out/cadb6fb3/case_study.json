@@ -1,0 +1,45 @@
+{
+  "project_id": "cadb6fb3",
+  "project_name": null,
+  "location": "123 Main St",
+  "issuing_authority": null,
+  "bid_submission_date": null,
+  "base_scope_cost": 19372.5,
+  "compliance_total": 232.47,
+  "total_bid": 19604.97,
+  "compliance_delta_pct": 1.2,
+  "compliance_breakdown": {
+    "insurance": 232.47
+  },
+  "compliance_adjustments": [
+    "Supplemental Insurance: +1.20% of base scope ($232.47) (Government/public project detected). Additional coverage required for public/government projects."
+  ],
+  "prevailing_wage_applied": false,
+  "bonds_required": false,
+  "insurance_applied": true,
+  "procurement_indicators": [
+    "Includes detailed construction plans typical for public works projects",
+    "Potential references to compliance with public procurement standards"
+  ],
+  "procurement_notes": [
+    "Specific agency names or seals were not visible in the images provided, but the nature of the documents suggests a public sector project."
+  ],
+  "evidence_references": [
+    {
+      "type": "procurement_pages",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "description": "Pages flagged for procurement indicators"
+    }
+  ],
+  "confidence_pct": 100.0,
+  "confidence_explanation": "This bid requires review before submission. Some quantities are estimated or evidence is incomplete.",
+  "summary": "This project in 123 Main St moved from a base scope of $19,372 to a compliance-aware total of $19,605. Compliance uplift represented 1.2% of the base scope. Supplemental insurance was added to align with public project expectations. Key compliance cues included: Includes detailed construction plans typical for public works projects, Potential references to compliance with public procurement standards",
+  "recommendations": [
+    "Review procurement notes for additional submission obligations."
+  ]
+}

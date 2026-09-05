@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Regression Test Expectations",
+  "description": "Measurable expectations for regression test cases",
+  "type": "object",
+  "properties": {
+    "project_type": {
+      "type": "string",
+      "enum": ["row_house", "institutional", "commercial", "mixed", "single_family", "unknown"]
+    },
+    "scope_type": {
+      "type": "string",
+      "enum": ["repair", "renovation", "new_construction", "addition", "mixed", "unknown"]
+    },
+    "required_scope_keys": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of scope item keywords that must be present (e.g., ['parapet', 'lintel', 'flashing'])"
+    },
+    "dimension_ranges": {
+      "type": "object",
+      "properties": {
+        "width": {
+          "type": "object",
+          "properties": {
+            "min": {"type": "number"},
+            "max": {"type": "number"}
+          }
+        },
+        "depth": {
+          "type": "object",
+          "properties": {
+            "min": {"type": "number"},
+            "max": {"type": "number"}
+          }
+        },
+        "height": {
+          "type": "object",
+          "properties": {
+            "min": {"type": "number"},
+            "max": {"type": "number"}
+          }
+        }
+      },
+      "description": "Expected dimension ranges (in feet)"
+    },
+    "minimum_room_count": {
+      "type": "integer",
+      "description": "Minimum number of rooms (for institutional projects)"
+    },
+    "gate_pass_expectation": {
+      "type": "boolean",
+      "description": "Whether validation gates should pass"
+    },
+    "minimum_validation_score": {
+      "type": "number",
+      "minimum": 0.0,
+      "maximum": 1.0,
+      "description": "Minimum expected validation score"
+    },
+    "critical_5_minimum_coverage": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "Minimum number of Critical-5 items that must be found (for row_house repair)"
+    },
+    "stage_3_expected": {
+      "type": "boolean",
+      "description": "Whether Stage 3 (3D model) should run"
+    },
+    "stage_4_expected": {
+      "type": "boolean",
+      "description": "Whether Stage 4 (costing) should run"
+    }
+  },
+  "required": ["project_type", "scope_type", "gate_pass_expectation"]
+}
+
+
+
+
+
+

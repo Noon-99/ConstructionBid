@@ -1,0 +1,32 @@
+# Task 5: Roof Base Flashing Cost Rule
+
+name: roof_base_flashing
+category: Roofing
+keywords:
+  - base flashing
+  - perimeter flashing
+  - roof flashing
+
+unit_type: LF
+base_unit_cost: 18.0  # Base $/LF for base flashing
+
+# Labor
+labor_hours_per_unit: 0.25  # Hours per LF
+labor_rate: 75.0  # $/hr for roofing labor
+
+# Material
+material_cost_per_unit: 10.0  # $/LF for flashing material
+
+# Equipment
+equipment_cost_per_unit: 0.3  # $/LF for equipment
+
+waste_factor: 0.05  # 5% waste
+
+# Notes:
+# - Base flashing is priced per linear foot
+# - Typically installed at roof perimeter/base
+# - Material cost varies by flashing type and material
+
+
+
+

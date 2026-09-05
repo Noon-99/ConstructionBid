@@ -1,0 +1,199 @@
+{
+  "project_type": "row_house",
+  "scope_type": "repair",
+  "scope_of_work": [
+    {
+      "page_number": 3,
+      "sheet_id": null,
+      "evidence_snippet": "unknown",
+      "item": "roof membrane removal",
+      "description": "Remove existing roof membrane - MUST specify scope: 'full' (entire roof), 'partial' (specific areas), or 'none' (overlay). Include disposal requirements if mentioned.",
+      "location": "unknown"
+    },
+    {
+      "page_number": 3,
+      "sheet_id": null,
+      "evidence_snippet": "unknown",
+      "item": "roof membrane installation",
+      "description": "Install new [EPDM/TPO/PVC/modified bitumen] roof membrane - MUST include system type",
+      "location": "unknown"
+    },
+    {
+      "page_number": 3,
+      "sheet_id": null,
+      "evidence_snippet": "unknown",
+      "item": "roof insulation",
+      "description": "Install roof insulation - MUST include thickness (inches), material type, R-value if mentioned, and number of layers if mentioned",
+      "location": "unknown"
+    },
+    {
+      "page_number": 3,
+      "sheet_id": null,
+      "evidence_snippet": "unknown",
+      "item": "roof area",
+      "description": "Roof replacement area",
+      "location": "unknown"
+    }
+  ],
+  "material_specifications": [
+    {
+      "page_number": 3,
+      "sheet_id": null,
+      "evidence_snippet": "unknown",
+      "material_name": "unknown",
+      "specification": "unknown",
+      "application": "Roof membrane",
+      "detail_sheet": null
+    },
+    {
+      "page_number": 3,
+      "sheet_id": null,
+      "evidence_snippet": "unknown",
+      "material_name": "unknown",
+      "specification": "unknown",
+      "application": "Roof insulation",
+      "detail_sheet": null
+    }
+  ],
+  "quantity_takeoff": [
+    {
+      "page_number": 3,
+      "sheet_id": null,
+      "evidence_snippet": "unknown",
+      "item": "Roof area",
+      "quantity": null,
+      "unit": "SF",
+      "is_computed": false,
+      "computation_formula": null,
+      "input_dimensions": {},
+      "evidence_missing": true
+    },
+    {
+      "page_number": 3,
+      "sheet_id": null,
+      "evidence_snippet": "unknown",
+      "item": "Roof perimeter",
+      "quantity": null,
+      "unit": "LF",
+      "is_computed": false,
+      "computation_formula": null,
+      "input_dimensions": {},
+      "evidence_missing": true
+    },
+    {
+      "page_number": 3,
+      "sheet_id": null,
+      "evidence_snippet": "unknown",
+      "item": "Edge metal",
+      "quantity": null,
+      "unit": "LF",
+      "is_computed": false,
+      "computation_formula": null,
+      "input_dimensions": {},
+      "evidence_missing": true
+    },
+    {
+      "page_number": 3,
+      "sheet_id": null,
+      "evidence_snippet": "unknown",
+      "item": "Base flashing",
+      "quantity": null,
+      "unit": "LF",
+      "is_computed": false,
+      "computation_formula": null,
+      "input_dimensions": {},
+      "evidence_missing": true
+    }
+  ],
+  "geometry_for_3d": {
+    "site_context": {
+      "building_type": "unknown",
+      "row_of_buildings": [],
+      "subject_building_id": null,
+      "addresses": [
+        "2317 Greene St, Ogdensburg, NY"
+      ],
+      "evidence": "unknown (with fallback from Stage 1)"
+    },
+    "dimensions": {
+      "width": null,
+      "depth": null,
+      "height": null,
+      "evidence": "fallback_from_stage1",
+      "computation_formula": null,
+      "input_pages": []
+    },
+    "work_zones": [
+      {
+        "zone_name": "unknown",
+        "z_min": null,
+        "z_max": null,
+        "facade_region": "unknown",
+        "page_number": 1,
+        "sheet_id": null,
+        "evidence": "unknown"
+      }
+    ],
+    "evidence_missing": []
+  },
+  "validation_metadata": {
+    "pages_used": [
+      2
+    ],
+    "passes": 1,
+    "detail": "high",
+    "rescue_performed": true,
+    "rescue_notes": [
+      "Rescue rerun used 0 pages from page_index",
+      "Rescue rerun succeeded: 4 scope items, 4 quantities"
+    ]
+  },
+  "evidence_missing": [],
+  "room_program": null,
+  "structural_notes": null,
+  "authoritative_dimensions": {
+    "width": null,
+    "depth": null,
+    "height": null,
+    "source": {
+      "width": "unknown",
+      "depth": "unknown",
+      "height": "unknown"
+    },
+    "confidence": 0.0,
+    "downgraded_sources": [],
+    "conflicts": []
+  },
+  "institutional_geometry_for_3d": null,
+  "room_schedule": null,
+  "structural_elements": null,
+  "building_envelope": null,
+  "openings": null,
+  "lintels": null,
+  "detail_graph": null,
+  "warranty_and_insurance": {
+    "warranty": {
+      "manufacturer_warranty": null,
+      "manufacturer_warranty_duration": null,
+      "workmanship_warranty": null,
+      "workmanship_warranty_duration": null,
+      "warranty_evidence": "Warranty requirements were not found in documents"
+    },
+    "insurance": {
+      "general_liability_required": false,
+      "general_liability_limit": null,
+      "workers_compensation_required": false,
+      "workers_compensation_limit": null,
+      "umbrella_insurance_required": false,
+      "umbrella_insurance_limit": null,
+      "insurance_evidence": "Insurance requirements were not found in documents"
+    },
+    "bonds": {
+      "performance_bond_required": false,
+      "performance_bond_amount": null,
+      "payment_bond_required": false,
+      "payment_bond_amount": null,
+      "bond_evidence": "Bond requirements were not found in documents"
+    }
+  }
+}

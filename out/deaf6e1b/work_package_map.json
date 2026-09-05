@@ -1,0 +1,65 @@
+{
+  "project_id": "deaf6e1b",
+  "packages": [
+    {
+      "id": "package_001",
+      "title": "Parapet / Coping / Roof Edge",
+      "division": "04 Masonry",
+      "trade": "Masonry",
+      "estimated_cost": 4301.0,
+      "priority": "low",
+      "confidence": 0.8,
+      "basis_refs": [
+        "Detail 4"
+      ],
+      "member_zone_ids": [
+        "roof_edge",
+        "flashing_roof_edge",
+        "parapet_perimeter",
+        "parapet_band",
+        "roof_coping"
+      ],
+      "member_line_item_ids": [
+        "0"
+      ]
+    },
+    {
+      "id": "package_002",
+      "title": "Lintel Replacement",
+      "division": "05 Metals",
+      "trade": "Metals",
+      "estimated_cost": 1134.0,
+      "priority": "low",
+      "confidence": 0.8,
+      "basis_refs": [],
+      "member_zone_ids": [
+        "lintel_band",
+        "lintel_band_front",
+        "lintel_band_rear",
+        "lintel_band_left",
+        "lintel_band_right"
+      ],
+      "member_line_item_ids": [
+        "1"
+      ]
+    }
+  ],
+  "zone_to_package": {
+    "roof_edge": "package_001",
+    "flashing_roof_edge": "package_001",
+    "parapet_perimeter": "package_001",
+    "parapet_band": "package_001",
+    "roof_coping": "package_001",
+    "lintel_band": "package_002",
+    "lintel_band_front": "package_002",
+    "lintel_band_rear": "package_002",
+    "lintel_band_left": "package_002",
+    "lintel_band_right": "package_002"
+  },
+  "line_item_to_package": {
+    "0": "package_001",
+    "1": "package_002"
+  },
+  "generated_at": "2025-12-30T14:51:32.397415",
+  "version": "1.0"
+}

@@ -1,0 +1,126 @@
+{
+  "project_id": "f174e05f",
+  "pages": [
+    {
+      "page_number": 1,
+      "sheet_id": "GO-0",
+      "sheet_title": "DRAWING INDEX",
+      "page_types": [
+        "index"
+      ],
+      "indicators": [],
+      "confidence": 0.9
+    },
+    {
+      "page_number": 2,
+      "sheet_id": "LS-1",
+      "sheet_title": "LIFE SAFETY INFORMATION",
+      "page_types": [
+        "plan",
+        "notes"
+      ],
+      "indicators": [
+        "compliance"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "page_number": 3,
+      "sheet_id": "C-1.0",
+      "sheet_title": "Renovation & Addition North Macon Park Recreation Center",
+      "page_types": [
+        "plan"
+      ],
+      "indicators": [
+        "dimensions"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "page_number": 4,
+      "sheet_id": "C-6.1",
+      "sheet_title": "RENOVATION & ADDITION TO NORTH MACON PARK RECREATION CENTER",
+      "page_types": [
+        "plan"
+      ],
+      "indicators": [],
+      "confidence": 0.95
+    },
+    {
+      "page_number": 5,
+      "sheet_id": "C-6.3",
+      "sheet_title": "Renovation & Addition North Macon Park Recreation Center",
+      "page_types": [
+        "plan"
+      ],
+      "indicators": [],
+      "confidence": 0.9
+    },
+    {
+      "page_number": 6,
+      "sheet_id": "C-6.4",
+      "sheet_title": "Renovation at Addition North Marion Recreation Center",
+      "page_types": [
+        "detail",
+        "notes"
+      ],
+      "indicators": [
+        "compliance"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "page_number": 7,
+      "sheet_id": "S0-0",
+      "sheet_title": "RENOVATION & ADDITION TO NORTH MACON PARK RECREATION CENTER",
+      "page_types": [
+        "schedule",
+        "notes"
+      ],
+      "indicators": [],
+      "confidence": 0.9
+    },
+    {
+      "page_number": 8,
+      "sheet_id": "SO-1",
+      "sheet_title": "Renovation & Addition to North Macon Park Recreation Center",
+      "page_types": [
+        "detail",
+        "notes"
+      ],
+      "indicators": [
+        "dimensions",
+        "compliance"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "page_number": 9,
+      "sheet_id": "S1-0",
+      "sheet_title": "Renovation & Addition to North Macon Park Recreation Center",
+      "page_types": [
+        "detail"
+      ],
+      "indicators": [
+        "dimensions"
+      ],
+      "confidence": 0.85
+    }
+  ],
+  "created_at": "2025-12-31T17:21:44.328981",
+  "total_pages": 9,
+  "indexed_pages": 9,
+  "cached_pages": 0,
+  "started_at": "2025-12-31T17:20:47.037047",
+  "finished_at": "2025-12-31T17:21:44.328915",
+  "metrics": {
+    "indexed_pages_count": 9,
+    "cache_hit_rate": 0.0,
+    "retries_count": 0,
+    "failed_pages_count": 0,
+    "total_api_calls": 9,
+    "fast_mode_metadata": {
+      "fast_mode": false
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "project_id": "826d02dc",
+  "summary": {
+    "total_cost": 19372.5,
+    "cost_by_division": {
+      "08 Openings": 19372.5
+    }
+  },
+  "line_items": [
+    {
+      "division": "08 Openings",
+      "description": "Remove existing double-hung windows",
+      "quantity": 20.0,
+      "unit": "ea",
+      "unit_cost": 450.0,
+      "total_cost": 9450.0,
+      "basis": "Remove existing windows and install new thermally broken frames. Qty source: Quantity from schedule. Page 1",
+      "confidence": 0.8,
+      "quantity_source": "from_schedule",
+      "quantity_confidence": 0.85
+    },
+    {
+      "division": "08 Openings",
+      "description": "Install new thermally broken aluminum windows",
+      "quantity": 20.0,
+      "unit": "ea",
+      "unit_cost": 450.0,
+      "total_cost": 9450.0,
+      "basis": "Install new thermally broken aluminum windows with flashing. Qty source: Quantity from schedule. Page 1",
+      "confidence": 0.8,
+      "quantity_source": "from_schedule",
+      "quantity_confidence": 0.85
+    },
+    {
+      "division": "08 Openings",
+      "description": "Reference glazing head/jamb detail",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 450.0,
+      "total_cost": 472.5,
+      "basis": "Glazing detail referenced on sheet A-2. Qty source: Quantity estimated (heuristic)",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2
+    }
+  ],
+  "allowances": [],
+  "alternates": [],
+  "clarifications": [
+    {
+      "text": "Cost data missing: Roof perimeter not explicitly found - inferred from building dimensions: 200.0 LF (formula: 2 × (width + depth)). Review required.. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: Heuristic quantity used for Reference glazing head/jamb detail: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+      "severity": "warning"
+    }
+  ],
+  "generated_at": "2026-01-06T20:07:16.808823",
+  "estimate_mode": "conceptual",
+  "bid_ready": true,
+  "bid_mode": "conceptual"
+}

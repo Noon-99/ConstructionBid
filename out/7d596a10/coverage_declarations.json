@@ -1,0 +1,20 @@
+{
+  "insurance": {
+    "general_liability_limit": null,
+    "general_liability_status": "not_declared",
+    "workers_comp_status": "not_declared",
+    "umbrella_limit": null,
+    "umbrella_status": "not_declared",
+    "bond_status": "not_declared",
+    "notes": null
+  },
+  "warranty": {
+    "workmanship_duration": null,
+    "workmanship_status": "not_declared",
+    "materials_basis": null,
+    "materials_status": "not_declared",
+    "notes": null
+  },
+  "source": "contractor_declared",
+  "updated_at": "2026-01-02T17:38:55.122934"
+}

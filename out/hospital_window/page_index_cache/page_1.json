@@ -1,0 +1,16 @@
+{
+  "page_number": 1,
+  "sheet_id": "E-6",
+  "sheet_title": "Replace Existing Windows Phase 3",
+  "page_types": [
+    "elevation",
+    "plan",
+    "schedule"
+  ],
+  "indicators": [
+    "window_detail",
+    "window_schedule",
+    "window_tag"
+  ],
+  "confidence": 0.85
+}

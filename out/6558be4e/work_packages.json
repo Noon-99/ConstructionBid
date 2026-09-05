@@ -1,0 +1,111 @@
+[
+  {
+    "package_id": "pkg_parapet_reconstruction",
+    "title": "Parapet Reconstruction",
+    "line_item_ids": [
+      "bid_item_000"
+    ],
+    "subtotal": 1870.0,
+    "keywords_matched": [
+      "parapet"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "package_id": "pkg_lintels_and_windows",
+    "title": "Lintels & Windows",
+    "line_item_ids": [
+      "bid_item_003",
+      "special_inspections_001"
+    ],
+    "subtotal": 1672.5,
+    "keywords_matched": [
+      "lintel"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "package_id": "pkg_brick_veneer",
+    "title": "Brick Veneer",
+    "line_item_ids": [
+      "bid_item_001"
+    ],
+    "subtotal": 15525.0,
+    "keywords_matched": [
+      "brick rebuild"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "package_id": "pkg_repointing",
+    "title": "Repointing",
+    "line_item_ids": [
+      "bid_item_002"
+    ],
+    "subtotal": 3780.0,
+    "keywords_matched": [
+      "repoint",
+      "repointing",
+      "tuckpoint",
+      "pointing"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "package_id": "pkg_crack_repair",
+    "title": "Crack Repair",
+    "line_item_ids": [
+      "bid_item_004"
+    ],
+    "subtotal": 38.5,
+    "keywords_matched": [
+      "crack repair",
+      "crack"
+    ],
+    "confidence": 0.7999999999999999
+  },
+  {
+    "package_id": "pkg_flashing_and_waterproofing",
+    "title": "Flashing & Waterproofing",
+    "line_item_ids": [
+      "bid_item_005"
+    ],
+    "subtotal": 30.240000000000002,
+    "keywords_matched": [
+      "flashing"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "package_id": "pkg_logistics",
+    "title": "Logistics",
+    "line_item_ids": [
+      "scaffold_001",
+      "dumpster_001",
+      "dust_control_001",
+      "scaffold_001",
+      "dumpster_001",
+      "dust_control_001"
+    ],
+    "subtotal": 61600.0,
+    "keywords_matched": [
+      "dumpster",
+      "cleanup",
+      "scaffold"
+    ],
+    "confidence": 0.7000000000000001
+  },
+  {
+    "package_id": "pkg_other",
+    "title": "Other Work",
+    "line_item_ids": [
+      "labor_embedded",
+      "overhead",
+      "profit",
+      "contingency"
+    ],
+    "subtotal": 29292.646999999997,
+    "keywords_matched": [],
+    "confidence": 0.3
+  }
+]

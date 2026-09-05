@@ -1,0 +1,44 @@
+# Default National Pricing Profile (Phase 10.10A)
+# Neutral baseline pricing profile for US projects
+
+profile_id: default_national
+label: "National Default"
+region: US_DEFAULT
+currency: USD
+
+labor_rates:
+  masonry: 55.0
+  carpentry: 50.0
+  concrete: 52.0
+  steel: 65.0
+  general_labor: 35.0
+  custom_rates: {}
+
+material_multipliers:
+  brick: 1.10  # 10% markup
+  mortar: 1.10
+  concrete: 1.08
+  steel: 1.15
+  cmu: 1.10
+  custom_multipliers: {}
+
+equipment_rates:
+  scaffold_daily: 150.0
+  scaffold_weekly: 800.0
+  crane_daily: 1200.0
+  dumpster_weekly: 400.0
+  custom_rates: {}
+
+overhead_pct_range: [10.0, 20.0]
+profit_pct_range: [5.0, 15.0]
+overhead_pct_default: 15.0
+profit_pct_default: 10.0
+
+escalation_index: null
+
+notes: "Neutral baseline pricing profile. Labor rates and multipliers represent average US construction market conditions."
+
+
+
+
+

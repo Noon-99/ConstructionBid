@@ -1,0 +1,34 @@
+# Task 2: Roof Assembly Cost Rule
+# Used when primary_trade == 'roofing' for assembly-level roof pricing
+
+name: roof_assembly
+category: Roofing
+keywords:
+  - roof replacement
+  - roof assembly
+  - roofing system
+  - roof membrane
+  - roof system
+
+unit_type: SF
+base_unit_cost: 25.0  # Base $/SF for roof assembly (membrane + insulation + labor)
+
+# Labor
+labor_hours_per_unit: 0.15  # Hours per SF
+labor_rate: 75.0  # $/hr for roofing labor
+
+# Material
+material_cost_per_unit: 12.0  # $/SF for membrane + insulation materials
+
+# Equipment
+equipment_cost_per_unit: 2.0  # $/SF for equipment (crane, hoist, etc.)
+
+# Notes:
+# - This is assembly-level pricing (membrane + insulation + labor bundled)
+# - Tear-off is typically separate (see roof_tearoff.yml)
+# - System type (TPO/EPDM/PVC) may adjust pricing (future enhancement)
+# - Insulation thickness may adjust pricing (future enhancement)
+
+
+
+

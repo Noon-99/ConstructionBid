@@ -1,0 +1,40 @@
+{
+  "project_id": "64711a6c",
+  "summary": {
+    "total_cost": 0.0,
+    "cost_by_division": {}
+  },
+  "line_items": [],
+  "allowances": [],
+  "alternates": [],
+  "clarifications": [
+    {
+      "text": "Missing or invalid authoritative width dimension. Re-read pages with dimension callouts",
+      "severity": "critical"
+    },
+    {
+      "text": "Missing or invalid authoritative depth dimension. Re-read pages with dimension callouts",
+      "severity": "critical"
+    },
+    {
+      "text": "Missing or invalid authoritative height dimension. Re-read pages with dimension callouts",
+      "severity": "critical"
+    },
+    {
+      "text": "Missing authoritative dimensions: width, depth, height.. Re-read pages with dimension callouts",
+      "severity": "critical"
+    },
+    {
+      "text": "Missing required scope elements: scope. Re-read drawings or provide manual override for these scope items.",
+      "severity": "critical"
+    },
+    {
+      "text": "Room program incomplete: only 4 rooms identified (expected >=15). Some scope may be missing from estimate.",
+      "severity": "warning"
+    }
+  ],
+  "generated_at": "2025-12-31T17:17:43.818216",
+  "estimate_mode": "conceptual",
+  "bid_ready": true,
+  "bid_mode": "conceptual"
+}

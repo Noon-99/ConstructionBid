@@ -1,0 +1,28 @@
+{
+  "project_id": "a8df4ecf",
+  "summary": {
+    "total_cost": 0.0,
+    "cost_by_division": {}
+  },
+  "line_items": [],
+  "allowances": [],
+  "alternates": [],
+  "clarifications": [
+    {
+      "text": "Cost data missing: No cost rule found for scope item: Remove existing double-hung windows. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: No cost rule found for scope item: Install new thermally broken aluminum windows. Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Cost data missing: No cost rule found for scope item: Reference glazing head/jamb detail. Estimate may be incomplete.",
+      "severity": "warning"
+    }
+  ],
+  "generated_at": "2026-01-03T18:19:50.997846",
+  "estimate_mode": "conceptual",
+  "bid_ready": true,
+  "bid_mode": "conceptual"
+}

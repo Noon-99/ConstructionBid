@@ -1,0 +1,152 @@
+{
+  "project_id": "dcfd6ded",
+  "project_name": null,
+  "project_type": "Unknown",
+  "run_id": "dcfd6ded",
+  "generated_at": "2026-01-23T18:50:54.148179",
+  "bid_ready": false,
+  "overall_confidence": 76.25,
+  "confidence_explanation": "This bid requires review before submission. Some quantities are estimated or evidence is incomplete.",
+  "base_scope_cost": 509067.4,
+  "allowances_total": 0.0,
+  "compliance_adjustments": [
+    "Prevailing wage multiplier applied: +50% to labor rates (Government/public project detected). Required for public/government projects per Davis-Bacon or state prevailing wage laws.",
+    "Performance & Payment Bonds: +2.50% of base scope ($12,726.69) (Government/public project detected). Required for public/government contracts to protect the owner.",
+    "Supplemental Insurance: +1.20% of base scope ($6,108.81) (Government/public project detected). Additional coverage required for public/government projects."
+  ],
+  "compliance_costs": {
+    "bond": 12726.69,
+    "insurance": 6108.81
+  },
+  "compliance_total": 18835.5,
+  "contingency_recommendation_pct": null,
+  "contingency_recommendation_amount": null,
+  "confidence_breakdown": {
+    "scope_coverage": 1.0,
+    "quantity_confidence": 0.5,
+    "evidence_coverage": 0.5,
+    "geometry_quality": "Partial"
+  },
+  "verified_items": [
+    {
+      "item": "Roof replacement system (assembly) - EPDM",
+      "evidence_pages": [
+        1
+      ],
+      "detail_refs": []
+    },
+    {
+      "item": "Roof tear-off & disposal",
+      "evidence_pages": [
+        1
+      ],
+      "detail_refs": []
+    },
+    {
+      "item": "roof membrane removal",
+      "evidence_pages": [
+        1
+      ],
+      "detail_refs": []
+    },
+    {
+      "item": "roof membrane installation",
+      "evidence_pages": [
+        1
+      ],
+      "detail_refs": []
+    }
+  ],
+  "recovery_applied": false,
+  "recovery_pages": [],
+  "review_recommended_items": [
+    {
+      "item": "Roof edge metal / coping",
+      "reason": "Quantity unknown",
+      "quantity_source": "unknown"
+    },
+    {
+      "item": "Roof base flashing",
+      "reason": "Quantity unknown",
+      "quantity_source": "unknown"
+    },
+    {
+      "item": "roof membrane removal",
+      "reason": "Quantity inferred",
+      "quantity_source": "heuristic"
+    },
+    {
+      "item": "roof membrane installation",
+      "reason": "Quantity inferred",
+      "quantity_source": "heuristic"
+    },
+    {
+      "item": "Performance & Payment Bonds",
+      "reason": "Quantity unknown",
+      "quantity_source": "unknown"
+    },
+    {
+      "item": "Supplemental Insurance",
+      "reason": "Quantity unknown",
+      "quantity_source": "unknown"
+    }
+  ],
+  "evidence_coverage": {
+    "bid_value_coverage_pct": 89.75135389481663,
+    "items_with_evidence_pct": 50.0,
+    "orphan_items_count": 4,
+    "referenced_pages": [
+      1
+    ],
+    "detail_refs": []
+  },
+  "geometry_confidence": {
+    "model_generated": false,
+    "buildings_count": 0,
+    "work_zones_count": 21,
+    "geometry_type": "Not generated",
+    "used_for": [
+      "Quantity derivation",
+      "Cost attribution",
+      "Evidence navigation"
+    ]
+  },
+  "included_items": [
+    "Line items with quantities & unit costs",
+    "Drawing references per item",
+    "Scope-level cost breakdown",
+    "Evidence-linked audit trail"
+  ],
+  "excluded_items": [
+    "Field verification",
+    "Permits & filing fees (unless specified)",
+    "Contractor overhead & profit",
+    "Change order contingencies"
+  ],
+  "validation_gates_passed": true,
+  "critical_recovery_applied": false,
+  "cache_reuse_enabled": true,
+  "deterministic_run": true,
+  "mode": "conceptual",
+  "run_timestamp": "2026-01-23T18:42:39.799824",
+  "coverage_declarations": {
+    "insurance": {
+      "general_liability_limit": null,
+      "general_liability_status": "not_declared",
+      "workers_comp_status": "not_declared",
+      "umbrella_limit": null,
+      "umbrella_status": "not_declared",
+      "bond_status": "not_declared",
+      "notes": null
+    },
+    "warranty": {
+      "workmanship_duration": null,
+      "workmanship_status": "not_declared",
+      "materials_basis": null,
+      "materials_status": "not_declared",
+      "notes": null
+    },
+    "source": "contractor_declared",
+    "updated_at": "2026-01-23T18:43:15.815647"
+  }
+}

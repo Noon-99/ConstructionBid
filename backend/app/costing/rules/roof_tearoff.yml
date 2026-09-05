@@ -1,0 +1,34 @@
+# Task 4: Roof Tear-off & Disposal Cost Rule
+# Separate line item for tear-off and disposal (often significant cost driver)
+
+name: roof_tearoff
+category: Roofing
+keywords:
+  - roof tear-off
+  - roof removal
+  - roof demolition
+  - roof disposal
+  - strip roof
+
+unit_type: SF
+base_unit_cost: 4.0  # Base $/SF for tear-off & disposal
+
+# Labor
+labor_hours_per_unit: 0.08  # Hours per SF for tear-off labor
+labor_rate: 75.0  # $/hr for roofing labor
+
+# Material
+material_cost_per_unit: 0.0  # No material cost for tear-off
+
+# Equipment (dumpster, carting, hoisting)
+equipment_cost_per_unit: 1.5  # $/SF for disposal equipment (dumpster, carting)
+
+# Notes:
+# - Tear-off cost varies by roof type (BUR is heavier than single-ply)
+# - Disposal cost depends on local rates and job size
+# - Hoisting/crane costs may apply for high-rise buildings
+# - This is separate from roof assembly installation cost
+
+
+
+

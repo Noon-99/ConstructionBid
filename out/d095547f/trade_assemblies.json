@@ -1,0 +1,97 @@
+{
+  "project_id": "d095547f",
+  "assemblies": [
+    {
+      "id": "lintel_replacement_001",
+      "title": "Lintel Replacement",
+      "division": "05 Metals",
+      "unit": "EA",
+      "quantity": 1.0,
+      "related_bid_item_ids": [
+        "3"
+      ],
+      "components": [
+        {
+          "name": "Steel Lintel (Galvanized, Size per Detail)",
+          "unit": "EA",
+          "qty": 1.0,
+          "unit_cost": 125.0,
+          "total_cost": 125.0,
+          "cost_source": "ruleset",
+          "notes": "Pre-fabricated steel lintel"
+        },
+        {
+          "name": "Lintel Removal (Demolition)",
+          "unit": "EA",
+          "qty": 1.0,
+          "unit_cost": 75.0,
+          "total_cost": 75.0,
+          "cost_source": "ruleset",
+          "notes": "Removal of existing lintel"
+        },
+        {
+          "name": "Mortar Bed",
+          "unit": "EA",
+          "qty": 0.5,
+          "unit_cost": 15.0,
+          "total_cost": 7.5,
+          "cost_source": "ruleset",
+          "notes": "Mortar bags per lintel"
+        },
+        {
+          "name": "Shims and Leveling",
+          "unit": "EA",
+          "qty": 1.0,
+          "unit_cost": 5.0,
+          "total_cost": 5.0,
+          "cost_source": "ruleset",
+          "notes": "Steel shims for leveling"
+        }
+      ],
+      "labor": [
+        {
+          "trade": "steel",
+          "crew": [
+            "steel",
+            "laborer"
+          ],
+          "hours": 4.0,
+          "rate": 75.0,
+          "total_cost": 300.0,
+          "basis": "4 hours per lintel (removal + installation)"
+        },
+        {
+          "trade": "mason",
+          "crew": [
+            "mason"
+          ],
+          "hours": 2.0,
+          "rate": 65.0,
+          "total_cost": 130.0,
+          "basis": "2 hours per lintel for brickwork support"
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Scaffolding",
+          "unit": "Week",
+          "qty": 1.0,
+          "unit_cost": 450.0,
+          "total_cost": 450.0,
+          "basis": "Scaffold required for lintel work"
+        }
+      ],
+      "assumptions": [
+        "Lintel size determined from detail drawings",
+        "Temporary support required during removal"
+      ],
+      "spec_refs": [
+        "05 12 00"
+      ],
+      "evidence_refs": [],
+      "ruleset_used": "row_house_repair.yml"
+    }
+  ],
+  "generated_at": "2026-01-02T20:51:12.938143",
+  "version": "1.0"
+}

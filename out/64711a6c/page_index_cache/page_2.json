@@ -1,0 +1,13 @@
+{
+  "page_number": 2,
+  "sheet_id": "LS-1",
+  "sheet_title": "LIFE SAFETY INFORMATION",
+  "page_types": [
+    "plan",
+    "notes"
+  ],
+  "indicators": [
+    "compliance"
+  ],
+  "confidence": 0.85
+}

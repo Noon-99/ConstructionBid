@@ -1,0 +1,34 @@
+{
+  "profile_id": "test_profile_v1",
+  "region": "NYC",
+  "project_type": "row_house_masonry",
+  "labor_rates": {
+    "masonry": 80.0,
+    "laborer": null,
+    "foreman": null,
+    "concrete": null,
+    "steel": null,
+    "carpenter": null,
+    "electrician": null,
+    "plumber": null
+  },
+  "overhead_pct": 20.0,
+  "profit_pct": 15.0,
+  "contingency_pct": 5.0,
+  "allowances_defaults": {},
+  "logistics_rates": {},
+  "crew_productivity": {
+    "repointing_sf_per_day": null,
+    "parapet_rebuild_lf_per_day": null,
+    "lintel_each_per_day": null,
+    "brick_rebuild_sf_per_day": null,
+    "cmu_wall_sf_per_day": null,
+    "concrete_footing_cy_per_day": null,
+    "slab_on_grade_sf_per_day": null,
+    "demo_cmu_sf_per_day": null,
+    "flashing_lf_per_day": null,
+    "window_replacement_each_per_day": null,
+    "door_replacement_each_per_day": null
+  },
+  "created_at": "2025-12-18T18:24:37.990257"
+}

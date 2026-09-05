@@ -1,0 +1,154 @@
+{
+  "project_id": "826d02dc",
+  "bid_mode": "contractor",
+  "total_bid": 2184.0,
+  "subtotals": {
+    "base_scope": 1417.5,
+    "logistics": 0.0,
+    "permits": 0.0,
+    "labor": 262.5,
+    "overhead": 252.0,
+    "profit": 168.0,
+    "contingency": 84.0
+  },
+  "sections": [
+    {
+      "section_id": "base_scope",
+      "title": "Base Scope (from drawings)",
+      "division": null,
+      "line_items": [
+        {
+          "item_id": "bid_item_000",
+          "title": "Remove existing double-hung windows",
+          "division": "09 Finishes",
+          "quantity": 1.0,
+          "unit": "EA",
+          "unit_cost": 450.0,
+          "total_cost": 472.5,
+          "basis": "Remove existing windows and install new thermally broken frames. Qty source: Quantity estimated (heuristic)",
+          "notes": null
+        },
+        {
+          "item_id": "bid_item_001",
+          "title": "Install new thermally broken aluminum windows",
+          "division": "09 Finishes",
+          "quantity": 1.0,
+          "unit": "EA",
+          "unit_cost": 450.0,
+          "total_cost": 472.5,
+          "basis": "Install new thermally broken aluminum windows with flashing. Qty source: Quantity estimated (heuristic)",
+          "notes": null
+        },
+        {
+          "item_id": "bid_item_002",
+          "title": "Reference glazing head/jamb detail",
+          "division": "09 Finishes",
+          "quantity": 1.0,
+          "unit": "EA",
+          "unit_cost": 450.0,
+          "total_cost": 472.5,
+          "basis": "Glazing detail referenced on sheet A-2. Qty source: Quantity estimated (heuristic)",
+          "notes": null
+        }
+      ],
+      "subtotal": 1417.5
+    },
+    {
+      "section_id": "labor",
+      "title": "Labor (extracted from base scope)",
+      "division": null,
+      "line_items": [
+        {
+          "item_id": "labor_embedded",
+          "title": "Labor (from base scope items)",
+          "division": null,
+          "quantity": null,
+          "unit": null,
+          "unit_cost": null,
+          "total_cost": 262.5,
+          "basis": "Labor costs embedded in base scope unit costs",
+          "notes": null
+        }
+      ],
+      "subtotal": 262.5
+    },
+    {
+      "section_id": "overhead_profit",
+      "title": "Overhead & Profit",
+      "division": "01",
+      "line_items": [
+        {
+          "item_id": "overhead",
+          "title": "Overhead",
+          "division": "01",
+          "quantity": null,
+          "unit": null,
+          "unit_cost": null,
+          "total_cost": 252.0,
+          "basis": "Overhead at 15.0%",
+          "notes": null
+        },
+        {
+          "item_id": "profit",
+          "title": "Profit",
+          "division": "01",
+          "quantity": null,
+          "unit": null,
+          "unit_cost": null,
+          "total_cost": 168.0,
+          "basis": "Profit at 10.0%",
+          "notes": null
+        }
+      ],
+      "subtotal": 420.0
+    },
+    {
+      "section_id": "contingency",
+      "title": "Contingency",
+      "division": "01",
+      "line_items": [
+        {
+          "item_id": "contingency",
+          "title": "Contingency",
+          "division": "01",
+          "quantity": null,
+          "unit": null,
+          "unit_cost": null,
+          "total_cost": 84.0,
+          "basis": "Contingency at 5.0%",
+          "notes": null
+        }
+      ],
+      "subtotal": 84.0
+    }
+  ],
+  "schedule": null,
+  "payment_schedule": null,
+  "permits_and_inspections": [],
+  "logistics": [],
+  "exclusions": [
+    "Site work not shown on drawings",
+    "Interior finishes not specified",
+    "Mechanical, electrical, and plumbing work (unless specified)",
+    "Hazardous materials abatement",
+    "Permits and fees beyond those listed",
+    "Owner-furnished materials"
+  ],
+  "assumptions": [
+    "Access to site is available during normal working hours",
+    "No hazardous materials are present",
+    "Existing conditions are as shown on drawings",
+    "Weather conditions permit normal construction activities",
+    "Cost data missing: Heuristic quantity used for Remove existing double-hung windows: 1.0 EA (confidence: 30.0%). Estimate may be incomplete.",
+    "Cost data missing: Heuristic quantity used for Install new thermally broken aluminum windows: 1.0 EA (confidence: 30.0%). Estimate may be incomplete.",
+    "Cost data missing: Heuristic quantity used for Reference glazing head/jamb detail: 1.0 EA (confidence: 20.0%). Estimate may be incomplete."
+  ],
+  "region_resolution": {
+    "region_id": "US_DEFAULT",
+    "confidence": 0.0,
+    "evidence": [
+      "No location signals found, using default region"
+    ]
+  },
+  "created_at": "2026-01-05T14:50:21.640751"
+}

@@ -1,0 +1,664 @@
+{
+  "buildings": [
+    {
+      "building_id": "B-2",
+      "building_type": "row_house",
+      "bounding_box": {
+        "min": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "max": {
+          "x": 40.0,
+          "y": 60.0,
+          "z": 30.0
+        }
+      },
+      "is_subject": true,
+      "evidence": "Dimensions found in elevation views",
+      "material_tags": [
+        "brick_veneer",
+        "steel"
+      ],
+      "material_confidence": 1.0
+    },
+    {
+      "building_id": "B-1",
+      "building_type": "row_house",
+      "bounding_box": {
+        "min": {
+          "x": 40.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "max": {
+          "x": 80.0,
+          "y": 60.0,
+          "z": 30.0
+        }
+      },
+      "is_subject": false,
+      "evidence": "Adjacent building in row: B-1",
+      "material_tags": [
+        "brick_veneer",
+        "steel"
+      ],
+      "material_confidence": 1.0
+    }
+  ],
+  "geometry": {
+    "site_origin": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "units": "feet",
+    "coordinate_system": "right_handed_y_up",
+    "ground_plane": {
+      "size": 120.0,
+      "center": {
+        "x": 20.0,
+        "y": 30.0,
+        "z": 0.0
+      }
+    },
+    "axis_labels": [
+      {
+        "direction": "street_front",
+        "vector": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0
+        },
+        "label": "Street Front (123 Main St)"
+      },
+      {
+        "direction": "rear_yard",
+        "vector": {
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0
+        },
+        "label": "Rear Yard"
+      }
+    ],
+    "ghost_neighbors": [
+      {
+        "building_id": "adjacent_left",
+        "bounding_box": {
+          "min": {
+            "x": -36.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "max": {
+            "x": 0.0,
+            "y": 60.0,
+            "z": 30.0
+          }
+        },
+        "opacity": 0.2,
+        "label": "Adjacent (approx)"
+      },
+      {
+        "building_id": "adjacent_right",
+        "bounding_box": {
+          "min": {
+            "x": 40.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "max": {
+            "x": 76.0,
+            "y": 60.0,
+            "z": 30.0
+          }
+        },
+        "opacity": 0.2,
+        "label": "Adjacent (approx)"
+      }
+    ],
+    "dimension_hud": {
+      "width_ft": 40.0,
+      "depth_ft": 60.0,
+      "height_ft": 30.0,
+      "confidence": 1.0,
+      "provenance": "explicit_callout"
+    }
+  },
+  "work_zones": [
+    {
+      "zone_name": "parapet_band",
+      "bounding_box": {
+        "min": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 28.0
+        },
+        "max": {
+          "x": 40.0,
+          "y": 60.0,
+          "z": 30.0
+        }
+      },
+      "facade_region": null,
+      "page_number": 3,
+      "evidence": "Evidence for parapet zone",
+      "zone_type": "work_zone",
+      "material_tags": [
+        "brick_veneer",
+        "coping",
+        "steel"
+      ],
+      "material_confidence": 0.6
+    },
+    {
+      "zone_name": "lintel_band",
+      "bounding_box": {
+        "min": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 8.0
+        },
+        "max": {
+          "x": 40.0,
+          "y": 60.0,
+          "z": 10.0
+        }
+      },
+      "facade_region": null,
+      "page_number": 4,
+      "evidence": "Evidence for lintel zone",
+      "zone_type": "work_zone",
+      "material_tags": [
+        "steel"
+      ],
+      "material_confidence": 0.7999999999999999
+    },
+    {
+      "zone_name": "parapet_perimeter",
+      "bounding_box": {
+        "min": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 28.5
+        },
+        "max": {
+          "x": 40.0,
+          "y": 60.0,
+          "z": 30.0
+        }
+      },
+      "facade_region": null,
+      "page_number": 3,
+      "evidence": "Parapet perimeter band - Found in scope: parapet repair",
+      "zone_type": "work_zone",
+      "material_tags": [
+        "brick_veneer",
+        "coping",
+        "steel"
+      ],
+      "material_confidence": 0.6
+    },
+    {
+      "zone_name": "roof_edge",
+      "bounding_box": {
+        "min": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 27.0
+        },
+        "max": {
+          "x": 40.0,
+          "y": 60.0,
+          "z": 28.5
+        }
+      },
+      "facade_region": null,
+      "page_number": 1,
+      "evidence": "Roof edge band",
+      "zone_type": "work_zone",
+      "material_tags": [
+        "steel"
+      ],
+      "material_confidence": 0.6
+    },
+    {
+      "zone_name": "roof_coping",
+      "bounding_box": {
+        "min": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 27.6
+        },
+        "max": {
+          "x": 40.0,
+          "y": 60.0,
+          "z": 29.4
+        }
+      },
+      "facade_region": null,
+      "page_number": 1,
+      "evidence": "Roof coping line",
+      "zone_type": "work_zone",
+      "material_tags": [
+        "brick_veneer",
+        "coping",
+        "steel"
+      ],
+      "material_confidence": 0.7
+    },
+    {
+      "zone_name": "front_façade_band",
+      "bounding_box": {
+        "min": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "max": {
+          "x": 40.0,
+          "y": 6.0,
+          "z": 30.0
+        }
+      },
+      "facade_region": null,
+      "page_number": 1,
+      "evidence": "Front façade repair band",
+      "zone_type": "work_zone",
+      "material_tags": [
+        "steel"
+      ],
+      "material_confidence": 0.6
+    },
+    {
+      "zone_name": "rear_façade_band",
+      "bounding_box": {
+        "min": {
+          "x": 0.0,
+          "y": 54.0,
+          "z": 0.0
+        },
+        "max": {
+          "x": 40.0,
+          "y": 60.0,
+          "z": 30.0
+        }
+      },
+      "facade_region": null,
+      "page_number": 1,
+      "evidence": "Rear façade repair band",
+      "zone_type": "work_zone",
+      "material_tags": [
+        "steel"
+      ],
+      "material_confidence": 0.6
+    },
+    {
+      "zone_name": "left_side_band",
+      "bounding_box": {
+        "min": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "max": {
+          "x": 4.0,
+          "y": 60.0,
+          "z": 30.0
+        }
+      },
+      "facade_region": null,
+      "page_number": 1,
+      "evidence": "Left side wall band",
+      "zone_type": "work_zone",
+      "material_tags": [
+        "steel"
+      ],
+      "material_confidence": 0.6
+    },
+    {
+      "zone_name": "right_side_band",
+      "bounding_box": {
+        "min": {
+          "x": 36.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "max": {
+          "x": 40.0,
+          "y": 60.0,
+          "z": 30.0
+        }
+      },
+      "facade_region": null,
+      "page_number": 1,
+      "evidence": "Right side wall band",
+      "zone_type": "work_zone",
+      "material_tags": [
+        "steel"
+      ],
+      "material_confidence": 0.6
+    },
+    {
+      "zone_name": "lintel_band_front",
+      "bounding_box": {
+        "min": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 4.5
+        },
+        "max": {
+          "x": 40.0,
+          "y": 6.0,
+          "z": 6.0
+        }
+      },
+      "facade_region": null,
+      "page_number": 4,
+      "evidence": "Front lintel band - Found in scope: lintel replacement",
+      "zone_type": "work_zone",
+      "material_tags": [
+        "steel"
+      ],
+      "material_confidence": 0.7999999999999999
+    },
+    {
+      "zone_name": "lintel_band_rear",
+      "bounding_box": {
+        "min": {
+          "x": 0.0,
+          "y": 54.0,
+          "z": 4.5
+        },
+        "max": {
+          "x": 40.0,
+          "y": 60.0,
+          "z": 6.0
+        }
+      },
+      "facade_region": null,
+      "page_number": 4,
+      "evidence": "Rear lintel band - Found in scope: lintel replacement",
+      "zone_type": "work_zone",
+      "material_tags": [
+        "steel"
+      ],
+      "material_confidence": 0.7999999999999999
+    },
+    {
+      "zone_name": "lintel_band_left",
+      "bounding_box": {
+        "min": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 4.5
+        },
+        "max": {
+          "x": 4.0,
+          "y": 60.0,
+          "z": 6.0
+        }
+      },
+      "facade_region": null,
+      "page_number": 4,
+      "evidence": "Left lintel band - Found in scope: lintel replacement",
+      "zone_type": "work_zone",
+      "material_tags": [
+        "steel"
+      ],
+      "material_confidence": 0.7999999999999999
+    },
+    {
+      "zone_name": "lintel_band_right",
+      "bounding_box": {
+        "min": {
+          "x": 36.0,
+          "y": 0.0,
+          "z": 4.5
+        },
+        "max": {
+          "x": 40.0,
+          "y": 60.0,
+          "z": 6.0
+        }
+      },
+      "facade_region": null,
+      "page_number": 4,
+      "evidence": "Right lintel band - Found in scope: lintel replacement",
+      "zone_type": "work_zone",
+      "material_tags": [
+        "steel"
+      ],
+      "material_confidence": 0.7999999999999999
+    },
+    {
+      "zone_name": "flashing_roof_edge",
+      "bounding_box": {
+        "min": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 26.4
+        },
+        "max": {
+          "x": 40.0,
+          "y": 60.0,
+          "z": 27.6
+        }
+      },
+      "facade_region": null,
+      "page_number": 1,
+      "evidence": "Roof edge flashing",
+      "zone_type": "work_zone",
+      "material_tags": [
+        "flashing",
+        "steel"
+      ],
+      "material_confidence": 0.8
+    },
+    {
+      "zone_name": "flashing_window_head",
+      "bounding_box": {
+        "min": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 5.3999999999999995
+        },
+        "max": {
+          "x": 40.0,
+          "y": 60.0,
+          "z": 6.6
+        }
+      },
+      "facade_region": null,
+      "page_number": 1,
+      "evidence": "Window head flashing",
+      "zone_type": "work_zone",
+      "material_tags": [
+        "flashing",
+        "steel"
+      ],
+      "material_confidence": 0.8
+    },
+    {
+      "zone_name": "masonry_repair_band_upper",
+      "bounding_box": {
+        "min": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 15.0
+        },
+        "max": {
+          "x": 40.0,
+          "y": 60.0,
+          "z": 21.0
+        }
+      },
+      "facade_region": null,
+      "page_number": 3,
+      "evidence": "Upper masonry repair band - Found in scope: parapet repair",
+      "zone_type": "work_zone",
+      "material_tags": [
+        "brick_veneer",
+        "steel"
+      ],
+      "material_confidence": 0.7
+    },
+    {
+      "zone_name": "masonry_repair_band_lower",
+      "bounding_box": {
+        "min": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 9.0
+        },
+        "max": {
+          "x": 40.0,
+          "y": 60.0,
+          "z": 15.0
+        }
+      },
+      "facade_region": null,
+      "page_number": 3,
+      "evidence": "Lower masonry repair band - Found in scope: parapet repair",
+      "zone_type": "work_zone",
+      "material_tags": [
+        "brick_veneer",
+        "steel"
+      ],
+      "material_confidence": 0.7
+    },
+    {
+      "zone_name": "masonry_repair_band_mid",
+      "bounding_box": {
+        "min": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 12.0
+        },
+        "max": {
+          "x": 40.0,
+          "y": 60.0,
+          "z": 18.0
+        }
+      },
+      "facade_region": null,
+      "page_number": 3,
+      "evidence": "Mid-wall masonry repair band - Found in scope: parapet repair",
+      "zone_type": "work_zone",
+      "material_tags": [
+        "brick_veneer",
+        "steel"
+      ],
+      "material_confidence": 0.7
+    },
+    {
+      "zone_name": "foundation_band",
+      "bounding_box": {
+        "min": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "max": {
+          "x": 40.0,
+          "y": 60.0,
+          "z": 3.0
+        }
+      },
+      "facade_region": null,
+      "page_number": 1,
+      "evidence": "Foundation/base repair band",
+      "zone_type": "work_zone",
+      "material_tags": [
+        "concrete",
+        "steel"
+      ],
+      "material_confidence": 0.7
+    },
+    {
+      "zone_name": "water_table_band",
+      "bounding_box": {
+        "min": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2.4
+        },
+        "max": {
+          "x": 40.0,
+          "y": 60.0,
+          "z": 4.5
+        }
+      },
+      "facade_region": null,
+      "page_number": 1,
+      "evidence": "Water table band",
+      "zone_type": "work_zone",
+      "material_tags": [
+        "steel"
+      ],
+      "material_confidence": 0.6
+    },
+    {
+      "zone_name": "crack_repair_zone_front",
+      "bounding_box": {
+        "min": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 6.0
+        },
+        "max": {
+          "x": 40.0,
+          "y": 6.0,
+          "z": 18.0
+        }
+      },
+      "facade_region": null,
+      "page_number": 1,
+      "evidence": "Front crack repair zone",
+      "zone_type": "work_zone",
+      "material_tags": [
+        "steel"
+      ],
+      "material_confidence": 0.6
+    },
+    {
+      "zone_name": "crack_repair_zone_rear",
+      "bounding_box": {
+        "min": {
+          "x": 0.0,
+          "y": 54.0,
+          "z": 6.0
+        },
+        "max": {
+          "x": 40.0,
+          "y": 60.0,
+          "z": 18.0
+        }
+      },
+      "facade_region": null,
+      "page_number": 1,
+      "evidence": "Rear crack repair zone",
+      "zone_type": "work_zone",
+      "material_tags": [
+        "steel"
+      ],
+      "material_confidence": 0.6
+    }
+  ],
+  "windows": [],
+  "cross_section_regions": [],
+  "materials": {
+    "building_materials": {
+      "B-2": "brick_masonry",
+      "B-1": "brick_masonry"
+    },
+    "work_zone_materials": {
+      "parapet_band": "repair_zone",
+      "lintel_band": "repair_zone"
+    }
+  },
+  "missing_evidence": [],
+  "geometry_quality": "ok"
+}

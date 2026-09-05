@@ -1,0 +1,299 @@
+{
+  "project_id": "1ef59f26",
+  "bid_mode": "contractor",
+  "total_bid": 197556.80299999996,
+  "subtotals": {
+    "base_scope": 73268.61,
+    "logistics": 30800.0,
+    "permits": 1200.0,
+    "labor": 44550.0,
+    "overhead": 22472.791499999996,
+    "profit": 14981.860999999999,
+    "contingency": 7490.9304999999995,
+    "compliance": 2792.61
+  },
+  "sections": [
+    {
+      "section_id": "base_scope",
+      "title": "Base Scope (from drawings)",
+      "division": null,
+      "line_items": [
+        {
+          "item_id": "bid_item_000",
+          "title": "Cracked brick wall repair",
+          "division": "04 Masonry",
+          "quantity": 1200.0,
+          "unit": "SF",
+          "unit_cost": 38.5,
+          "total_cost": 50820.0,
+          "basis": "For brick crack repair, follow S-102, Detail 3-Existing. Qty source: Quantity computed from dimensions. Page 1. Formula: width * height. Compliance adjustments: prevailing_wage_multiplier: 50% ($55/hr → $82/hr) - DOT/public work",
+          "notes": null
+        },
+        {
+          "item_id": "bid_item_001",
+          "title": "Repointing brick arch lintel",
+          "division": "04 Masonry",
+          "quantity": 1200.0,
+          "unit": "SF",
+          "unit_cost": 15.600000000000001,
+          "total_cost": 19656.0,
+          "basis": "Repoint brick arch lintel as per S-102 Detail 6, Brick Arch Repairs.. Qty source: Quantity computed from dimensions. Page 1. Formula: width * height. Compliance adjustments: prevailing_wage_multiplier: 50% ($55/hr → $82/hr) - DOT/public work",
+          "notes": null
+        },
+        {
+          "item_id": "bid_item_002",
+          "title": "Performance & Payment Bonds",
+          "division": "01 General Requirements",
+          "quantity": 1.0,
+          "unit": "lump",
+          "unit_cost": 1886.9,
+          "total_cost": 1886.9,
+          "basis": "Required for public/government project",
+          "notes": null
+        },
+        {
+          "item_id": "bid_item_003",
+          "title": "Supplemental Insurance",
+          "division": "01 General Requirements",
+          "quantity": 1.0,
+          "unit": "lump",
+          "unit_cost": 905.71,
+          "total_cost": 905.71,
+          "basis": "Additional insurance requirements for public project",
+          "notes": null
+        }
+      ],
+      "subtotal": 73268.61
+    },
+    {
+      "section_id": "logistics",
+      "title": "Logistics & Protection",
+      "division": "01",
+      "line_items": [
+        {
+          "item_id": "scaffold_001",
+          "title": "Scaffolding",
+          "division": "01",
+          "quantity": 6.0,
+          "unit": "week",
+          "unit_cost": 1000.0,
+          "total_cost": 6000.0,
+          "basis": "Required for exterior masonry work above 6ft per OSHA requirements",
+          "notes": null
+        },
+        {
+          "item_id": "dumpster_001",
+          "title": "Debris Removal / Dumpster Rental",
+          "division": "01",
+          "quantity": 2.0,
+          "unit": "each",
+          "unit_cost": 400.0,
+          "total_cost": 800.0,
+          "basis": "Required for debris removal from masonry and demo work",
+          "notes": null
+        },
+        {
+          "item_id": "dust_control_001",
+          "title": "Dust Control & Daily Cleanup",
+          "division": "01",
+          "quantity": 40.0,
+          "unit": "day",
+          "unit_cost": 600.0,
+          "total_cost": 24000.0,
+          "basis": "Required for daily cleanup and dust control during masonry work",
+          "notes": null
+        }
+      ],
+      "subtotal": 30800.0
+    },
+    {
+      "section_id": "labor",
+      "title": "Labor (extracted from base scope)",
+      "division": null,
+      "line_items": [
+        {
+          "item_id": "labor_embedded",
+          "title": "Labor (from base scope items)",
+          "division": null,
+          "quantity": null,
+          "unit": null,
+          "unit_cost": null,
+          "total_cost": 44550.0,
+          "basis": "Labor costs embedded in base scope unit costs",
+          "notes": null
+        }
+      ],
+      "subtotal": 44550.0
+    },
+    {
+      "section_id": "overhead_profit",
+      "title": "Overhead & Profit",
+      "division": "01",
+      "line_items": [
+        {
+          "item_id": "overhead",
+          "title": "Overhead",
+          "division": "01",
+          "quantity": null,
+          "unit": null,
+          "unit_cost": null,
+          "total_cost": 22472.791499999996,
+          "basis": "Overhead at 15.0%",
+          "notes": null
+        },
+        {
+          "item_id": "profit",
+          "title": "Profit",
+          "division": "01",
+          "quantity": null,
+          "unit": null,
+          "unit_cost": null,
+          "total_cost": 14981.860999999999,
+          "basis": "Profit at 10.0%",
+          "notes": null
+        }
+      ],
+      "subtotal": 37454.6525
+    },
+    {
+      "section_id": "contingency",
+      "title": "Contingency",
+      "division": "01",
+      "line_items": [
+        {
+          "item_id": "contingency",
+          "title": "Contingency",
+          "division": "01",
+          "quantity": null,
+          "unit": null,
+          "unit_cost": null,
+          "total_cost": 7490.9304999999995,
+          "basis": "Contingency at 5.0%",
+          "notes": null
+        }
+      ],
+      "subtotal": 7490.9304999999995
+    },
+    {
+      "section_id": "compliance",
+      "title": "Compliance Costs",
+      "division": "01",
+      "line_items": [
+        {
+          "item_id": "compliance_bond",
+          "title": "Compliance: Bond",
+          "division": "01",
+          "quantity": null,
+          "unit": null,
+          "unit_cost": null,
+          "total_cost": 1886.9,
+          "basis": "Derived from compliance settings in cost engine",
+          "notes": null
+        },
+        {
+          "item_id": "compliance_insurance",
+          "title": "Compliance: Insurance",
+          "division": "01",
+          "quantity": null,
+          "unit": null,
+          "unit_cost": null,
+          "total_cost": 905.71,
+          "basis": "Derived from compliance settings in cost engine",
+          "notes": null
+        }
+      ],
+      "subtotal": 2792.61
+    }
+  ],
+  "schedule": null,
+  "payment_schedule": null,
+  "permits_and_inspections": [
+    {
+      "item_id": "special_inspections_001",
+      "title": "Special Inspections Allowance",
+      "division": "01",
+      "quantity": 1.0,
+      "unit": "LS",
+      "unit_cost": 1200.0,
+      "total_cost": 1200.0,
+      "basis": "Required for structural/lintel work per building code requirements",
+      "notes": null
+    }
+  ],
+  "logistics": [
+    {
+      "item_id": "scaffold_001",
+      "title": "Scaffolding",
+      "division": "01",
+      "quantity": 6.0,
+      "unit": "week",
+      "unit_cost": 1000.0,
+      "total_cost": 6000.0,
+      "basis": "Required for exterior masonry work above 6ft per OSHA requirements",
+      "notes": null
+    },
+    {
+      "item_id": "dumpster_001",
+      "title": "Debris Removal / Dumpster Rental",
+      "division": "01",
+      "quantity": 2.0,
+      "unit": "each",
+      "unit_cost": 400.0,
+      "total_cost": 800.0,
+      "basis": "Required for debris removal from masonry and demo work",
+      "notes": null
+    },
+    {
+      "item_id": "dust_control_001",
+      "title": "Dust Control & Daily Cleanup",
+      "division": "01",
+      "quantity": 40.0,
+      "unit": "day",
+      "unit_cost": 600.0,
+      "total_cost": 24000.0,
+      "basis": "Required for daily cleanup and dust control during masonry work",
+      "notes": null
+    }
+  ],
+  "exclusions": [
+    "Site work not shown on drawings",
+    "Interior finishes not specified",
+    "Mechanical, electrical, and plumbing work (unless specified)",
+    "Hazardous materials abatement",
+    "Permits and fees beyond those listed",
+    "Owner-furnished materials"
+  ],
+  "assumptions": [
+    "Access to site is available during normal working hours",
+    "No hazardous materials are present",
+    "Existing conditions are as shown on drawings",
+    "Weather conditions permit normal construction activities",
+    "Cost data missing: No cost rule found for scope item: Masonry wall reconstruction. Estimate may be incomplete.",
+    "Cost data missing: No cost rule found for scope item: Construction fence installation. Estimate may be incomplete.",
+    "Cost data missing: No cost rule found for scope item: Minor details for construction. Estimate may be incomplete.",
+    "Cost data missing: No cost rule found for scope item: Protection of construction area. Estimate may be incomplete.",
+    "Cost data missing: No cost rule found for scope item: Cutting, patching, and repairing. Estimate may be incomplete.",
+    "Cost data missing: No cost rule found for scope item: Removal of piping and wiring. Estimate may be incomplete.",
+    "Cost data missing: No cost rule found for scope item: Masonry construction standards. Estimate may be incomplete.",
+    "Cost data missing: No cost rule found for scope item: Brick installation. Estimate may be incomplete.",
+    "Cost data missing: No cost rule found for scope item: Matching existing brick. Estimate may be incomplete.",
+    "Cost data missing: No cost rule found for scope item: Noise management plan. Estimate may be incomplete.",
+    "Cost data missing: No cost rule found for scope item: Lead hazard protection. Estimate may be incomplete.",
+    "Cost data missing: No cost rule found for scope item: Dust and debris removal. Estimate may be incomplete.",
+    "Cost data missing: No cost rule found for scope item: Water supply for construction. Estimate may be incomplete.",
+    "Cost data missing: No cost rule found for scope item: Drainage for water removal. Estimate may be incomplete.",
+    "Cost data missing: No cost rule found for scope item: Dust control during construction. Estimate may be incomplete.",
+    "Compliance adjustment applied: Prevailing wage multiplier applied: +50% to labor rates (Government/public project detected). Required for public/government projects per Davis-Bacon or state prevailing wage laws.",
+    "Compliance adjustment applied: Performance & Payment Bonds: +2.50% of base scope ($1,886.90) (Government/public project detected). Required for public/government contracts to protect the owner.",
+    "Compliance adjustment applied: Supplemental Insurance: +1.20% of base scope ($905.71) (Government/public project detected). Additional coverage required for public/government projects.",
+    "Compliance cost adders included in total: Bond $1,886.90, Insurance $905.71"
+  ],
+  "region_resolution": {
+    "region_id": "US_DEFAULT",
+    "confidence": 0.0,
+    "evidence": [
+      "No location signals found, using default region"
+    ]
+  },
+  "created_at": "2026-01-24T20:58:25.196062"
+}

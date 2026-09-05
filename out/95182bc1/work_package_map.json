@@ -1,0 +1,77 @@
+{
+  "project_id": "95182bc1",
+  "packages": [
+    {
+      "id": "package_001",
+      "title": "General Work",
+      "division": "01 General Requirements",
+      "trade": "General",
+      "estimated_cost": 50.0,
+      "priority": "low",
+      "confidence": 0.8,
+      "basis_refs": [],
+      "member_zone_ids": [],
+      "member_line_item_ids": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "id": "package_002",
+      "title": "Parapet / Coping / Roof Edge",
+      "division": "04 Masonry",
+      "trade": "Masonry",
+      "estimated_cost": 93.5,
+      "priority": "low",
+      "confidence": 0.8,
+      "basis_refs": [
+        "detail 2/"
+      ],
+      "member_zone_ids": [
+        "flashing_roof_edge",
+        "parapet_perimeter",
+        "roof_coping",
+        "roof_edge",
+        "roof_plane"
+      ],
+      "member_line_item_ids": [
+        "2"
+      ]
+    },
+    {
+      "id": "package_003",
+      "title": "Flashing Installation",
+      "division": "07 Thermal and Moisture Protection",
+      "trade": "Waterproofing",
+      "estimated_cost": 30.240000000000002,
+      "priority": "low",
+      "confidence": 0.8,
+      "basis_refs": [
+        "detail 2/"
+      ],
+      "member_zone_ids": [
+        "flashing_roof_edge",
+        "flashing_window_head"
+      ],
+      "member_line_item_ids": [
+        "3"
+      ]
+    }
+  ],
+  "zone_to_package": {
+    "flashing_roof_edge": "package_003",
+    "parapet_perimeter": "package_002",
+    "roof_coping": "package_002",
+    "roof_edge": "package_002",
+    "roof_plane": "package_002",
+    "flashing_window_head": "package_003"
+  },
+  "line_item_to_package": {
+    "0": "package_001",
+    "1": "package_001",
+    "2": "package_002",
+    "3": "package_003"
+  },
+  "generated_at": "2025-12-21T12:33:34.116670",
+  "version": "1.0"
+}

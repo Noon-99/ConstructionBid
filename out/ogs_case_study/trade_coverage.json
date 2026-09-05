@@ -1,0 +1,26 @@
+{
+  "project_id": "ogs_case_study",
+  "generated_at": "2026-01-23T19:19:39.609581",
+  "trades": [
+    {
+      "trade": "roofing",
+      "csi_division": "07 Thermal & Moisture Protection",
+      "confidence": 1.0,
+      "total_score": 1.8,
+      "signal_types": [],
+      "evidence": [
+        {
+          "page_number": 1,
+          "sheet_id": null,
+          "sheet_title": "REPLACE ROOF",
+          "signals": [
+            "roof"
+          ],
+          "signal_types": [],
+          "score": 1.8
+        }
+      ]
+    }
+  ],
+  "dominant_trades": []
+}

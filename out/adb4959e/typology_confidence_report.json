@@ -1,0 +1,24 @@
+{
+  "project_id": "adb4959e",
+  "final_project_type": "unknown",
+  "original_project_type": "unknown",
+  "overall_confidence": 0.6799999999999999,
+  "indicators": [
+    {
+      "indicator_type": "sheet_type",
+      "indicator_value": "1 elevation sheet(s)",
+      "strength": "moderate",
+      "confidence_contribution": 0.1
+    },
+    {
+      "indicator_type": "sheet_type",
+      "indicator_value": "2 plan sheet(s)",
+      "strength": "moderate",
+      "confidence_contribution": 0.08
+    }
+  ],
+  "routing_decision": "fallback_row_house",
+  "routing_reason": "Uncertain typology (unknown+unknown) - falling back to row_house extractor",
+  "was_overridden": false,
+  "override_reasons": []
+}

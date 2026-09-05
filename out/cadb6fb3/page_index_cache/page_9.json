@@ -1,0 +1,12 @@
+{
+  "page_number": 9,
+  "sheet_id": "A-1",
+  "sheet_title": "Construction Details",
+  "page_types": [
+    "detail"
+  ],
+  "indicators": [
+    "dimensions"
+  ],
+  "confidence": 0.85
+}

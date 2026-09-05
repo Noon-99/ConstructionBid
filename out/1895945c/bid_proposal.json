@@ -1,0 +1,35 @@
+{
+  "project_id": "1895945c",
+  "summary": {
+    "total_cost": 472.5,
+    "cost_by_division": {
+      "09 Finishes": 472.5
+    }
+  },
+  "line_items": [
+    {
+      "division": "09 Finishes",
+      "description": "Window replacement scope",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 450.0,
+      "total_cost": 472.5,
+      "basis": "Notes on window installation and glazing details.. Qty source: Quantity estimated (heuristic)",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2
+    }
+  ],
+  "allowances": [],
+  "alternates": [],
+  "clarifications": [
+    {
+      "text": "Cost data missing: Heuristic quantity used for Window replacement scope: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+      "severity": "warning"
+    }
+  ],
+  "generated_at": "2026-01-03T17:11:58.675568",
+  "estimate_mode": "conceptual",
+  "bid_ready": true,
+  "bid_mode": "conceptual"
+}

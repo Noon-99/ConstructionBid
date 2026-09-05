@@ -1,0 +1,38 @@
+[
+  {
+    "package_id": "pkg_lintels_and_windows",
+    "title": "Lintels & Windows",
+    "line_item_ids": [
+      "item_1"
+    ],
+    "subtotal": 19656.0,
+    "keywords_matched": [
+      "lintel"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "package_id": "pkg_crack_repair",
+    "title": "Crack Repair",
+    "line_item_ids": [
+      "item_0"
+    ],
+    "subtotal": 50820.0,
+    "keywords_matched": [
+      "crack",
+      "crack repair"
+    ],
+    "confidence": 0.7999999999999999
+  },
+  {
+    "package_id": "pkg_other",
+    "title": "Other Work",
+    "line_item_ids": [
+      "item_2",
+      "item_3"
+    ],
+    "subtotal": 2792.61,
+    "keywords_matched": [],
+    "confidence": 0.3
+  }
+]

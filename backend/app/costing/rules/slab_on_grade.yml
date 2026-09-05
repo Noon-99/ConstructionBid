@@ -1,0 +1,33 @@
+name: Slab on Grade
+keywords:
+  - slab
+  - concrete slab
+  - slab on grade
+  - floor slab
+  - foundation slab
+
+unit_type: SF  # Square Feet
+base_unit_cost: 6.50
+material_cost_per_unit: 2.50  # Concrete, wire mesh
+labor_hours_per_unit: 0.08
+labor_rate: 55.00
+equipment_cost_per_unit: 0.50  # Finishing tools
+
+waste_factor: 0.10  # 10% waste for concrete
+
+division: "03 Concrete"
+category: "Concrete"
+
+notes: |
+  Slab on grade includes:
+  - 4" thick concrete slab (3000 PSI minimum)
+  - Wire mesh reinforcement
+  - Vapor barrier (if specified)
+  - Finishing
+  - Does not include excavation or base course (separate items)
+
+
+
+
+
+

@@ -1,0 +1,76 @@
+{
+  "project_id": "1ef59f26",
+  "packages": [
+    {
+      "id": "package_001",
+      "title": "Crack Repair",
+      "division": "04 Masonry",
+      "trade": "Masonry",
+      "estimated_cost": 50820.0,
+      "priority": "high",
+      "confidence": 0.8,
+      "basis_refs": [
+        "Detail 3"
+      ],
+      "member_zone_ids": [
+        "crack_repair_zone_front",
+        "crack_repair_zone_rear"
+      ],
+      "member_line_item_ids": [
+        "0"
+      ]
+    },
+    {
+      "id": "package_002",
+      "title": "Lintel Replacement",
+      "division": "04 Masonry",
+      "trade": "Masonry",
+      "estimated_cost": 19656.0,
+      "priority": "medium",
+      "confidence": 0.8,
+      "basis_refs": [
+        "Detail 6"
+      ],
+      "member_zone_ids": [
+        "lintel_band_front",
+        "lintel_band_left",
+        "lintel_band_right",
+        "lintel_band_rear"
+      ],
+      "member_line_item_ids": [
+        "1"
+      ]
+    },
+    {
+      "id": "package_003",
+      "title": "General Work",
+      "division": "01 General Requirements",
+      "trade": "General",
+      "estimated_cost": 2792.61,
+      "priority": "low",
+      "confidence": 0.9,
+      "basis_refs": [],
+      "member_zone_ids": [],
+      "member_line_item_ids": [
+        "2",
+        "3"
+      ]
+    }
+  ],
+  "zone_to_package": {
+    "crack_repair_zone_front": "package_001",
+    "crack_repair_zone_rear": "package_001",
+    "lintel_band_front": "package_002",
+    "lintel_band_left": "package_002",
+    "lintel_band_right": "package_002",
+    "lintel_band_rear": "package_002"
+  },
+  "line_item_to_package": {
+    "0": "package_001",
+    "1": "package_002",
+    "2": "package_003",
+    "3": "package_003"
+  },
+  "generated_at": "2026-01-24T20:38:56.490397",
+  "version": "1.0"
+}

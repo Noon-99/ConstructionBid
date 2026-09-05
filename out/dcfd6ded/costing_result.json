@@ -1,0 +1,473 @@
+{
+  "project_id": "row_house",
+  "breakdown_by_category": [
+    {
+      "category": "Roofing",
+      "items": [
+        {
+          "item_name": "Roof replacement system (assembly) - EPDM",
+          "scope_item": "roof replacement",
+          "quantity": 8000.0,
+          "unit": "SF",
+          "unit_cost": 25.0,
+          "material_cost": 12.0,
+          "labor_cost": 7.875,
+          "equipment_cost": 2.0,
+          "waste_factor": 0.05,
+          "multipliers": {},
+          "subtotal": 393750.0,
+          "rule_matched": "roof_assembly",
+          "evidence": "Tear-off scope (full): Remove existing roof membrane - entire roof; Disposal requirement: Remove existing roof membrane - entire roof; System type (EPDM): TPO single-ply membrane; Insulation material: Polyisocyanurate Insulation; Insulation thickness (2.0 in): 2 inch polyisocyanurate insulation R-20; Quantity: Roof area = 8000.0 SF; Perimeter: Roof perimeter = 360.0 LF; Edge metal/coping: Edge metal = 360.0 LF; Base flashing: Base flashing = 360.0 LF",
+          "notes": [
+            "System type: EPDM",
+            "Tear-off: included",
+            "Insulation: 2.0 in"
+          ],
+          "quantity_source": "from_drawing",
+          "quantity_confidence": 0.85,
+          "quantity_evidence": {
+            "evidence_snippet": "Tear-off scope (full): Remove existing roof membrane - entire roof; Disposal requirement: Remove existing roof membrane - entire roof; System type (EPDM): TPO single-ply membrane; Insulation material: Polyisocyanurate Insulation; Insulation thickness (2.0 in): 2 inch polyisocyanurate insulation R-20; Quantity: Roof area = 8000.0 SF; Perimeter: Roof perimeter = 360.0 LF; Edge metal/coping: Edge metal = 360.0 LF; Base flashing: Base flashing = 360.0 LF"
+          },
+          "detail_refs": [],
+          "profile_id": "default_national",
+          "multiplier_breakdown": [
+            "labor_rate: US_DEFAULT general ($75/hr → $35/hr)",
+            "prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work"
+          ],
+          "override_source": "extracted"
+        },
+        {
+          "item_name": "Roof tear-off & disposal",
+          "scope_item": "roof tear-off",
+          "quantity": 8000.0,
+          "unit": "SF",
+          "unit_cost": 4.0,
+          "material_cost": 0.0,
+          "labor_cost": 4.2,
+          "equipment_cost": 1.7999999999999998,
+          "waste_factor": 0.0,
+          "multipliers": {},
+          "subtotal": 80000.0,
+          "rule_matched": "roof_tearoff",
+          "evidence": "Tear-off scope (full): Remove existing roof membrane - entire roof; Disposal requirement: Remove existing roof membrane - entire roof; System type (EPDM): TPO single-ply membrane; Insulation material: Polyisocyanurate Insulation; Insulation thickness (2.0 in): 2 inch polyisocyanurate insulation R-20; Quantity: Roof area = 8000.0 SF; Perimeter: Roof perimeter = 360.0 LF; Edge metal/coping: Edge metal = 360.0 LF; Base flashing: Base flashing = 360.0 LF",
+          "notes": [
+            "Tear-off scope: full",
+            "Disposal: Remove existing roof membrane - entire roof"
+          ],
+          "quantity_source": "from_drawing",
+          "quantity_confidence": 0.85,
+          "quantity_evidence": {
+            "evidence_snippet": "Tear-off scope (full): Remove existing roof membrane - entire roof; Disposal requirement: Remove existing roof membrane - entire roof; System type (EPDM): TPO single-ply membrane; Insulation material: Polyisocyanurate Insulation; Insulation thickness (2.0 in): 2 inch polyisocyanurate insulation R-20; Quantity: Roof area = 8000.0 SF; Perimeter: Roof perimeter = 360.0 LF; Edge metal/coping: Edge metal = 360.0 LF; Base flashing: Base flashing = 360.0 LF",
+            "tearoff_scope": "full",
+            "assumed": false
+          },
+          "detail_refs": [],
+          "profile_id": "default_national",
+          "multiplier_breakdown": [
+            "labor_rate: US_DEFAULT general ($75/hr → $35/hr)",
+            "equipment_rate: US_DEFAULT dumpster (+20%)",
+            "prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work"
+          ],
+          "override_source": "extracted"
+        },
+        {
+          "item_name": "Roof edge metal / coping",
+          "scope_item": "roof_edge_metal",
+          "quantity": 360.0,
+          "unit": "LF",
+          "unit_cost": 25.0,
+          "material_cost": 15.0,
+          "labor_cost": 15.75,
+          "equipment_cost": 0.5,
+          "waste_factor": 0.05,
+          "multipliers": {},
+          "subtotal": 21262.5,
+          "rule_matched": "roof_edge_metal",
+          "evidence": "Roof perimeter and edge metal requirements",
+          "notes": [
+            "Quantity: 360 LF"
+          ],
+          "quantity_source": "from_drawing",
+          "quantity_confidence": 0.85,
+          "quantity_evidence": {
+            "source": "extracted_quantity"
+          },
+          "detail_refs": [],
+          "profile_id": "default_national",
+          "multiplier_breakdown": [
+            "labor_rate: US_DEFAULT general ($75/hr → $35/hr)",
+            "prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work"
+          ],
+          "override_source": "extracted"
+        },
+        {
+          "item_name": "Roof base flashing",
+          "scope_item": "roof_base_flashing",
+          "quantity": 360.0,
+          "unit": "LF",
+          "unit_cost": 18.0,
+          "material_cost": 10.0,
+          "labor_cost": 8.75,
+          "equipment_cost": 0.3,
+          "waste_factor": 0.05,
+          "multipliers": {},
+          "subtotal": 14004.899999999998,
+          "rule_matched": "roof_base_flashing",
+          "evidence": "Roof perimeter flashing requirements",
+          "notes": [
+            "Quantity: 360 LF"
+          ],
+          "quantity_source": "from_drawing",
+          "quantity_confidence": 0.85,
+          "quantity_evidence": {
+            "source": "extracted_quantity"
+          },
+          "detail_refs": [],
+          "profile_id": "default_national",
+          "multiplier_breakdown": [
+            "labor_rate: US_DEFAULT general ($75/hr → $35/hr)"
+          ],
+          "override_source": "extracted"
+        },
+        {
+          "item_name": "roof membrane removal",
+          "scope_item": "roof membrane removal",
+          "quantity": 1.0,
+          "unit": "EA",
+          "unit_cost": 25.0,
+          "material_cost": 12.0,
+          "labor_cost": 7.875,
+          "equipment_cost": 2.0,
+          "waste_factor": 0.0,
+          "multipliers": {},
+          "subtotal": 25.0,
+          "rule_matched": "roof_assembly",
+          "evidence": "Remove existing roof membrane - entire roof",
+          "notes": [
+            "Matched rule: roof_assembly"
+          ],
+          "quantity_source": "heuristic",
+          "quantity_confidence": 0.2,
+          "quantity_evidence": {
+            "evidence_snippet": "Default fallback quantity"
+          },
+          "detail_refs": [],
+          "profile_id": "default_national",
+          "multiplier_breakdown": [
+            "labor_rate: US_DEFAULT general ($75/hr → $35/hr)",
+            "prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work"
+          ],
+          "override_source": "unknown"
+        },
+        {
+          "item_name": "roof membrane installation",
+          "scope_item": "roof membrane installation",
+          "quantity": 1.0,
+          "unit": "EA",
+          "unit_cost": 25.0,
+          "material_cost": 12.0,
+          "labor_cost": 7.875,
+          "equipment_cost": 2.0,
+          "waste_factor": 0.0,
+          "multipliers": {},
+          "subtotal": 25.0,
+          "rule_matched": "roof_assembly",
+          "evidence": "TPO single-ply membrane",
+          "notes": [
+            "Matched rule: roof_assembly"
+          ],
+          "quantity_source": "heuristic",
+          "quantity_confidence": 0.2,
+          "quantity_evidence": {
+            "evidence_snippet": "Default fallback quantity"
+          },
+          "detail_refs": [],
+          "profile_id": "default_national",
+          "multiplier_breakdown": [
+            "labor_rate: US_DEFAULT general ($75/hr → $35/hr)",
+            "prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work"
+          ],
+          "override_source": "unknown"
+        }
+      ],
+      "subtotal": 509067.4
+    }
+  ],
+  "breakdown_by_scope_item": [
+    {
+      "item_name": "Roof replacement system (assembly) - EPDM",
+      "scope_item": "roof replacement",
+      "quantity": 8000.0,
+      "unit": "SF",
+      "unit_cost": 25.0,
+      "material_cost": 12.0,
+      "labor_cost": 7.875,
+      "equipment_cost": 2.0,
+      "waste_factor": 0.05,
+      "multipliers": {},
+      "subtotal": 393750.0,
+      "rule_matched": "roof_assembly",
+      "evidence": "Tear-off scope (full): Remove existing roof membrane - entire roof; Disposal requirement: Remove existing roof membrane - entire roof; System type (EPDM): TPO single-ply membrane; Insulation material: Polyisocyanurate Insulation; Insulation thickness (2.0 in): 2 inch polyisocyanurate insulation R-20; Quantity: Roof area = 8000.0 SF; Perimeter: Roof perimeter = 360.0 LF; Edge metal/coping: Edge metal = 360.0 LF; Base flashing: Base flashing = 360.0 LF",
+      "notes": [
+        "System type: EPDM",
+        "Tear-off: included",
+        "Insulation: 2.0 in"
+      ],
+      "quantity_source": "from_drawing",
+      "quantity_confidence": 0.85,
+      "quantity_evidence": {
+        "evidence_snippet": "Tear-off scope (full): Remove existing roof membrane - entire roof; Disposal requirement: Remove existing roof membrane - entire roof; System type (EPDM): TPO single-ply membrane; Insulation material: Polyisocyanurate Insulation; Insulation thickness (2.0 in): 2 inch polyisocyanurate insulation R-20; Quantity: Roof area = 8000.0 SF; Perimeter: Roof perimeter = 360.0 LF; Edge metal/coping: Edge metal = 360.0 LF; Base flashing: Base flashing = 360.0 LF"
+      },
+      "detail_refs": [],
+      "profile_id": "default_national",
+      "multiplier_breakdown": [
+        "labor_rate: US_DEFAULT general ($75/hr → $35/hr)",
+        "prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work"
+      ],
+      "override_source": "extracted"
+    },
+    {
+      "item_name": "Roof tear-off & disposal",
+      "scope_item": "roof tear-off",
+      "quantity": 8000.0,
+      "unit": "SF",
+      "unit_cost": 4.0,
+      "material_cost": 0.0,
+      "labor_cost": 4.2,
+      "equipment_cost": 1.7999999999999998,
+      "waste_factor": 0.0,
+      "multipliers": {},
+      "subtotal": 80000.0,
+      "rule_matched": "roof_tearoff",
+      "evidence": "Tear-off scope (full): Remove existing roof membrane - entire roof; Disposal requirement: Remove existing roof membrane - entire roof; System type (EPDM): TPO single-ply membrane; Insulation material: Polyisocyanurate Insulation; Insulation thickness (2.0 in): 2 inch polyisocyanurate insulation R-20; Quantity: Roof area = 8000.0 SF; Perimeter: Roof perimeter = 360.0 LF; Edge metal/coping: Edge metal = 360.0 LF; Base flashing: Base flashing = 360.0 LF",
+      "notes": [
+        "Tear-off scope: full",
+        "Disposal: Remove existing roof membrane - entire roof"
+      ],
+      "quantity_source": "from_drawing",
+      "quantity_confidence": 0.85,
+      "quantity_evidence": {
+        "evidence_snippet": "Tear-off scope (full): Remove existing roof membrane - entire roof; Disposal requirement: Remove existing roof membrane - entire roof; System type (EPDM): TPO single-ply membrane; Insulation material: Polyisocyanurate Insulation; Insulation thickness (2.0 in): 2 inch polyisocyanurate insulation R-20; Quantity: Roof area = 8000.0 SF; Perimeter: Roof perimeter = 360.0 LF; Edge metal/coping: Edge metal = 360.0 LF; Base flashing: Base flashing = 360.0 LF",
+        "tearoff_scope": "full",
+        "assumed": false
+      },
+      "detail_refs": [],
+      "profile_id": "default_national",
+      "multiplier_breakdown": [
+        "labor_rate: US_DEFAULT general ($75/hr → $35/hr)",
+        "equipment_rate: US_DEFAULT dumpster (+20%)",
+        "prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work"
+      ],
+      "override_source": "extracted"
+    },
+    {
+      "item_name": "Roof edge metal / coping",
+      "scope_item": "roof_edge_metal",
+      "quantity": 360.0,
+      "unit": "LF",
+      "unit_cost": 25.0,
+      "material_cost": 15.0,
+      "labor_cost": 15.75,
+      "equipment_cost": 0.5,
+      "waste_factor": 0.05,
+      "multipliers": {},
+      "subtotal": 21262.5,
+      "rule_matched": "roof_edge_metal",
+      "evidence": "Roof perimeter and edge metal requirements",
+      "notes": [
+        "Quantity: 360 LF"
+      ],
+      "quantity_source": "from_drawing",
+      "quantity_confidence": 0.85,
+      "quantity_evidence": {
+        "source": "extracted_quantity"
+      },
+      "detail_refs": [],
+      "profile_id": "default_national",
+      "multiplier_breakdown": [
+        "labor_rate: US_DEFAULT general ($75/hr → $35/hr)",
+        "prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work"
+      ],
+      "override_source": "extracted"
+    },
+    {
+      "item_name": "Roof base flashing",
+      "scope_item": "roof_base_flashing",
+      "quantity": 360.0,
+      "unit": "LF",
+      "unit_cost": 18.0,
+      "material_cost": 10.0,
+      "labor_cost": 8.75,
+      "equipment_cost": 0.3,
+      "waste_factor": 0.05,
+      "multipliers": {},
+      "subtotal": 14004.899999999998,
+      "rule_matched": "roof_base_flashing",
+      "evidence": "Roof perimeter flashing requirements",
+      "notes": [
+        "Quantity: 360 LF"
+      ],
+      "quantity_source": "from_drawing",
+      "quantity_confidence": 0.85,
+      "quantity_evidence": {
+        "source": "extracted_quantity"
+      },
+      "detail_refs": [],
+      "profile_id": "default_national",
+      "multiplier_breakdown": [
+        "labor_rate: US_DEFAULT general ($75/hr → $35/hr)"
+      ],
+      "override_source": "extracted"
+    },
+    {
+      "item_name": "roof membrane removal",
+      "scope_item": "roof membrane removal",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 25.0,
+      "material_cost": 12.0,
+      "labor_cost": 7.875,
+      "equipment_cost": 2.0,
+      "waste_factor": 0.0,
+      "multipliers": {},
+      "subtotal": 25.0,
+      "rule_matched": "roof_assembly",
+      "evidence": "Remove existing roof membrane - entire roof",
+      "notes": [
+        "Matched rule: roof_assembly"
+      ],
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2,
+      "quantity_evidence": {
+        "evidence_snippet": "Default fallback quantity"
+      },
+      "detail_refs": [],
+      "profile_id": "default_national",
+      "multiplier_breakdown": [
+        "labor_rate: US_DEFAULT general ($75/hr → $35/hr)",
+        "prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work"
+      ],
+      "override_source": "unknown"
+    },
+    {
+      "item_name": "roof membrane installation",
+      "scope_item": "roof membrane installation",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 25.0,
+      "material_cost": 12.0,
+      "labor_cost": 7.875,
+      "equipment_cost": 2.0,
+      "waste_factor": 0.0,
+      "multipliers": {},
+      "subtotal": 25.0,
+      "rule_matched": "roof_assembly",
+      "evidence": "TPO single-ply membrane",
+      "notes": [
+        "Matched rule: roof_assembly"
+      ],
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2,
+      "quantity_evidence": {
+        "evidence_snippet": "Default fallback quantity"
+      },
+      "detail_refs": [],
+      "profile_id": "default_national",
+      "multiplier_breakdown": [
+        "labor_rate: US_DEFAULT general ($75/hr → $35/hr)",
+        "prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work"
+      ],
+      "override_source": "unknown"
+    }
+  ],
+  "breakdown_by_building": {},
+  "subtotals": {
+    "Roofing": 509067.4
+  },
+  "total_cost": 527902.9,
+  "material_cost_total": 61.0,
+  "labor_cost_total": 52.325,
+  "equipment_cost_total": 8.6,
+  "waste_cost_total": 21450.87,
+  "cost_justification": [
+    "Roof replacement system (assembly): 8000.0 SF × $25.00/SF = $393,750.00",
+    "Roof tear-off & disposal: 8000.0 SF × $4.00/SF = $80,000.00",
+    "Roof edge metal/coping: 360.0 LF × $25.00/LF = $21,262.50",
+    "Roof base flashing: 360.0 LF × $18.00/LF = $14,004.90",
+    "roof membrane removal: 1.0 EA @ $25.00/EA = $25.00",
+    "roof membrane installation: 1.0 EA @ $25.00/EA = $25.00"
+  ],
+  "missing_data_warnings": [
+    "Heuristic quantity used for roof membrane removal: 1.0 EA (confidence: 20.0%)",
+    "Heuristic quantity used for roof membrane installation: 1.0 EA (confidence: 20.0%)",
+    "No cost rule found for scope item: roof insulation",
+    "No cost rule found for scope item: roof area"
+  ],
+  "rules_used": [
+    "roof_assembly",
+    "roof_tearoff",
+    "roof_edge_metal",
+    "roof_base_flashing"
+  ],
+  "profile_id": "default_national",
+  "compliance_adjustments": [
+    "Prevailing wage multiplier applied: +50% to labor rates (Government/public project detected). Required for public/government projects per Davis-Bacon or state prevailing wage laws.",
+    "Performance & Payment Bonds: +2.50% of base scope ($12,726.69) (Government/public project detected). Required for public/government contracts to protect the owner.",
+    "Supplemental Insurance: +1.20% of base scope ($6,108.81) (Government/public project detected). Additional coverage required for public/government projects."
+  ],
+  "compliance_costs": {
+    "bond": 12726.69,
+    "insurance": 6108.81
+  },
+  "compliance_total": 18835.5,
+  "base_scope_cost": 509067.4,
+  "contingency_recommendation_pct": null,
+  "contingency_recommendation_amount": null,
+  "rule_governance": {
+    "project_id": "dcfd6ded",
+    "generated_at": "2026-01-23T23:50:54.128190",
+    "missing_rules": [
+      {
+        "item_name": "roof insulation",
+        "description": "Install roof insulation - MUST include thickness (inches), material type, R-value if mentioned, and number of layers if mentioned",
+        "page_number": 4,
+        "sheet_id": "A-100",
+        "evidence_snippet": "2 inch polyisocyanurate insulation R-20",
+        "detected_keywords": [
+          "roof",
+          "insulation"
+        ],
+        "probable_trade": "roofing",
+        "draft_generated": false,
+        "draft_filename": null,
+        "metadata": {
+          "labor_regime": "prevailing_wage",
+          "requires_prevailing_wage": true,
+          "requires_bonds": true
+        }
+      },
+      {
+        "item_name": "roof area",
+        "description": "Roof replacement area",
+        "page_number": 4,
+        "sheet_id": "A-100",
+        "evidence_snippet": "Roof area is 8,000 SF",
+        "detected_keywords": [
+          "roof",
+          "area"
+        ],
+        "probable_trade": "roofing",
+        "draft_generated": false,
+        "draft_filename": null,
+        "metadata": {
+          "labor_regime": "prevailing_wage",
+          "requires_prevailing_wage": true,
+          "requires_bonds": true
+        }
+      }
+    ],
+    "notes": [
+      "Cost engine detected scope items without matching YAML rules. Review and author new rules using the governance helper."
+    ]
+  }
+}

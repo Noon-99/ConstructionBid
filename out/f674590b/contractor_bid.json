@@ -1,0 +1,195 @@
+{
+  "project_id": "f674590b",
+  "bid_mode": "contractor",
+  "total_bid": 616031.91,
+  "subtotals": {
+    "base_scope": 473832.9,
+    "logistics": 0.0,
+    "permits": 0.0,
+    "labor": 37.8,
+    "overhead": 71080.605,
+    "profit": 47387.07000000001,
+    "contingency": 23693.535000000003
+  },
+  "sections": [
+    {
+      "section_id": "base_scope",
+      "title": "Base Scope (from drawings)",
+      "division": null,
+      "line_items": [
+        {
+          "item_id": "bid_item_000",
+          "title": "Roof replacement system (assembly) - EPDM",
+          "division": "01 General Requirements",
+          "quantity": 8000.0,
+          "unit": "SF",
+          "unit_cost": 25.0,
+          "total_cost": 371700.0,
+          "basis": "Tear-off scope (full): Remove existing roof membrane - entire roof; Disposal requirement: Remove existing roof membrane - entire roof; System type (EPDM): TPO single-ply membrane; Insulation material: Polyisocyanurate Insulation; Insulation thickness (2.0 in): 2 inch polyisocyanurate insulation R-20; Quantity: Roof area = 8000.0 SF; Perimeter: Roof perimeter = 360.0 LF. Qty source: Quantity from drawing",
+          "notes": null
+        },
+        {
+          "item_id": "bid_item_001",
+          "title": "Roof tear-off & disposal",
+          "division": "01 General Requirements",
+          "quantity": 8000.0,
+          "unit": "SF",
+          "unit_cost": 4.0,
+          "total_cost": 68800.00000000001,
+          "basis": "Tear-off scope (full): Remove existing roof membrane - entire roof; Disposal requirement: Remove existing roof membrane - entire roof; System type (EPDM): TPO single-ply membrane; Insulation material: Polyisocyanurate Insulation; Insulation thickness (2.0 in): 2 inch polyisocyanurate insulation R-20; Quantity: Roof area = 8000.0 SF; Perimeter: Roof perimeter = 360.0 LF. Qty source: Quantity from drawing",
+          "notes": null
+        },
+        {
+          "item_id": "bid_item_002",
+          "title": "Roof edge metal / coping (ASSUMED - review required)",
+          "division": "01 General Requirements",
+          "quantity": 360.0,
+          "unit": "LF",
+          "unit_cost": 25.0,
+          "total_cost": 19278.0,
+          "basis": "Roof perimeter and edge metal requirements. Qty source: Quantity estimated (heuristic)",
+          "notes": null
+        },
+        {
+          "item_id": "bid_item_003",
+          "title": "Roof base flashing (ASSUMED - review required)",
+          "division": "01 General Requirements",
+          "quantity": 360.0,
+          "unit": "LF",
+          "unit_cost": 18.0,
+          "total_cost": 14004.899999999998,
+          "basis": "Roof perimeter flashing requirements. Qty source: Quantity estimated (heuristic)",
+          "notes": null
+        },
+        {
+          "item_id": "bid_item_004",
+          "title": "roof membrane removal",
+          "division": "01 General Requirements",
+          "quantity": 1.0,
+          "unit": "EA",
+          "unit_cost": 25.0,
+          "total_cost": 25.0,
+          "basis": "Remove existing roof membrane - entire roof. Qty source: Quantity estimated (heuristic)",
+          "notes": null
+        },
+        {
+          "item_id": "bid_item_005",
+          "title": "roof membrane installation",
+          "division": "01 General Requirements",
+          "quantity": 1.0,
+          "unit": "EA",
+          "unit_cost": 25.0,
+          "total_cost": 25.0,
+          "basis": "TPO single-ply membrane. Qty source: Quantity estimated (heuristic)",
+          "notes": null
+        }
+      ],
+      "subtotal": 473832.9
+    },
+    {
+      "section_id": "labor",
+      "title": "Labor (extracted from base scope)",
+      "division": null,
+      "line_items": [
+        {
+          "item_id": "labor_embedded",
+          "title": "Labor (from base scope items)",
+          "division": null,
+          "quantity": null,
+          "unit": null,
+          "unit_cost": null,
+          "total_cost": 37.8,
+          "basis": "Labor costs embedded in base scope unit costs",
+          "notes": null
+        }
+      ],
+      "subtotal": 37.8
+    },
+    {
+      "section_id": "overhead_profit",
+      "title": "Overhead & Profit",
+      "division": "01",
+      "line_items": [
+        {
+          "item_id": "overhead",
+          "title": "Overhead",
+          "division": "01",
+          "quantity": null,
+          "unit": null,
+          "unit_cost": null,
+          "total_cost": 71080.605,
+          "basis": "Overhead at 15.0%",
+          "notes": null
+        },
+        {
+          "item_id": "profit",
+          "title": "Profit",
+          "division": "01",
+          "quantity": null,
+          "unit": null,
+          "unit_cost": null,
+          "total_cost": 47387.07000000001,
+          "basis": "Profit at 10.0%",
+          "notes": null
+        }
+      ],
+      "subtotal": 118467.675
+    },
+    {
+      "section_id": "contingency",
+      "title": "Contingency",
+      "division": "01",
+      "line_items": [
+        {
+          "item_id": "contingency",
+          "title": "Contingency",
+          "division": "01",
+          "quantity": null,
+          "unit": null,
+          "unit_cost": null,
+          "total_cost": 23693.535000000003,
+          "basis": "Contingency at 5.0%",
+          "notes": null
+        }
+      ],
+      "subtotal": 23693.535000000003
+    }
+  ],
+  "schedule": null,
+  "payment_schedule": null,
+  "permits_and_inspections": [],
+  "logistics": [],
+  "exclusions": [
+    "Site work not shown on drawings",
+    "Interior finishes not specified",
+    "Mechanical, electrical, and plumbing work (unless specified)",
+    "Hazardous materials abatement",
+    "Permits and fees beyond those listed",
+    "Owner-furnished materials"
+  ],
+  "assumptions": [
+    "Access to site is available during normal working hours",
+    "No hazardous materials are present",
+    "Existing conditions are as shown on drawings",
+    "Weather conditions permit normal construction activities",
+    "Authoritative width missing; using fallback estimate (100.0 ft).. Re-read pages with dimension callouts",
+    "Authoritative depth missing; using fallback estimate (80.0 ft).. Re-read pages with dimension callouts",
+    "Authoritative height missing but treated as advisory for roof-focused scope.. Re-read pages with dimension callouts",
+    "Missing authoritative dimensions: width, depth, height. Using fallback estimates: {'width': 100.0, 'depth': 80.0}.. Re-read pages with dimension callouts",
+    "Scope review recommended; could not confirm: parapet, lintel, flashing, brick or repoint, crack repair. Re-read drawings or provide manual override for these scope items.",
+    "Cost data missing: Edge metal/coping not specified - using perimeter length 360.0 LF as estimate. Review required.. Estimate may be incomplete.",
+    "Cost data missing: Base flashing not specified - using perimeter length 360.0 LF as estimate. Review required.. Estimate may be incomplete.",
+    "Cost data missing: Heuristic quantity used for roof membrane removal: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+    "Cost data missing: Heuristic quantity used for roof membrane installation: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+    "Cost data missing: No cost rule found for scope item: roof insulation. Estimate may be incomplete.",
+    "Cost data missing: No cost rule found for scope item: roof area. Estimate may be incomplete."
+  ],
+  "region_resolution": {
+    "region_id": "US_DEFAULT",
+    "confidence": 0.0,
+    "evidence": [
+      "No location signals found, using default region"
+    ]
+  },
+  "created_at": "2026-01-21T15:32:02.756677"
+}

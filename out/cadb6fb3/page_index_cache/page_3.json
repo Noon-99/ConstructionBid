@@ -1,0 +1,16 @@
+{
+  "page_number": 3,
+  "sheet_id": "A-1",
+  "sheet_title": "Window Schedule",
+  "page_types": [
+    "detail",
+    "schedule"
+  ],
+  "indicators": [
+    "dimensions",
+    "window_detail",
+    "window_schedule",
+    "window_tag"
+  ],
+  "confidence": 0.85
+}

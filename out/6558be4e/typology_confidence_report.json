@@ -1,0 +1,39 @@
+{
+  "project_id": "6558be4e",
+  "final_project_type": "row_house",
+  "original_project_type": "unknown",
+  "overall_confidence": 1.0,
+  "indicators": [
+    {
+      "indicator_type": "location_type",
+      "indicator_value": "room_schedule",
+      "strength": "strong",
+      "confidence_contribution": 0.18
+    },
+    {
+      "indicator_type": "building_context",
+      "indicator_value": "row_context=True",
+      "strength": "strong",
+      "confidence_contribution": 0.15
+    },
+    {
+      "indicator_type": "building_context",
+      "indicator_value": "Multiple building IDs: 1",
+      "strength": "moderate",
+      "confidence_contribution": 0.1
+    },
+    {
+      "indicator_type": "keyword_match",
+      "indicator_value": "Row-house override: Row-house indicators detected: Building context evidence contains 'row'",
+      "strength": "strong",
+      "confidence_contribution": 0.12
+    }
+  ],
+  "routing_decision": "row_house_path",
+  "routing_reason": "project_type=row_house and scope_type=repair",
+  "was_overridden": true,
+  "override_reasons": [
+    "Row-house indicators detected: Building context evidence contains 'row'",
+    "Extracted site context: row_condition=attached (provenance: inferred)"
+  ]
+}

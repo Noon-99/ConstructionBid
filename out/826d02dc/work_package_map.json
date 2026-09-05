@@ -1,0 +1,29 @@
+{
+  "project_id": "826d02dc",
+  "packages": [
+    {
+      "id": "package_001",
+      "title": "General Work",
+      "division": "08 Openings",
+      "trade": "General",
+      "estimated_cost": 19372.5,
+      "priority": "medium",
+      "confidence": 0.8,
+      "basis_refs": [],
+      "member_zone_ids": [],
+      "member_line_item_ids": [
+        "0",
+        "1",
+        "2"
+      ]
+    }
+  ],
+  "zone_to_package": {},
+  "line_item_to_package": {
+    "0": "package_001",
+    "1": "package_001",
+    "2": "package_001"
+  },
+  "generated_at": "2026-01-06T20:07:16.913693",
+  "version": "1.0"
+}

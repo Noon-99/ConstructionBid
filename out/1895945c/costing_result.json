@@ -1,0 +1,122 @@
+{
+  "project_id": "row_house",
+  "breakdown_by_category": [
+    {
+      "category": "Finishes",
+      "items": [
+        {
+          "item_name": "Window replacement scope",
+          "scope_item": "Window replacement scope",
+          "quantity": 1.0,
+          "unit": "EA",
+          "unit_cost": 450.0,
+          "material_cost": 294.0,
+          "labor_cost": 87.5,
+          "equipment_cost": 0.0,
+          "waste_factor": 0.05,
+          "multipliers": {},
+          "subtotal": 472.5,
+          "rule_matched": "Window Replacement",
+          "evidence": "Notes on window installation and glazing details.",
+          "notes": [
+            "Matched rule: Window Replacement"
+          ],
+          "quantity_source": "heuristic",
+          "quantity_confidence": 0.2,
+          "quantity_evidence": {
+            "evidence_snippet": "Default fallback quantity"
+          },
+          "detail_refs": [],
+          "profile_id": "default_national",
+          "multiplier_breakdown": [
+            "labor_rate: US_DEFAULT general ($65/hr → $35/hr)"
+          ],
+          "override_source": "unknown"
+        }
+      ],
+      "subtotal": 472.5
+    }
+  ],
+  "breakdown_by_scope_item": [
+    {
+      "item_name": "Window replacement scope",
+      "scope_item": "Window replacement scope",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 450.0,
+      "material_cost": 294.0,
+      "labor_cost": 87.5,
+      "equipment_cost": 0.0,
+      "waste_factor": 0.05,
+      "multipliers": {},
+      "subtotal": 472.5,
+      "rule_matched": "Window Replacement",
+      "evidence": "Notes on window installation and glazing details.",
+      "notes": [
+        "Matched rule: Window Replacement"
+      ],
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2,
+      "quantity_evidence": {
+        "evidence_snippet": "Default fallback quantity"
+      },
+      "detail_refs": [],
+      "profile_id": "default_national",
+      "multiplier_breakdown": [
+        "labor_rate: US_DEFAULT general ($65/hr → $35/hr)"
+      ],
+      "override_source": "unknown"
+    }
+  ],
+  "breakdown_by_building": {
+    "B-1": [
+      {
+        "item_name": "Window replacement scope",
+        "scope_item": "Window replacement scope",
+        "quantity": 1.0,
+        "unit": "EA",
+        "unit_cost": 450.0,
+        "material_cost": 294.0,
+        "labor_cost": 87.5,
+        "equipment_cost": 0.0,
+        "waste_factor": 0.05,
+        "multipliers": {},
+        "subtotal": 472.5,
+        "rule_matched": "Window Replacement",
+        "evidence": "Notes on window installation and glazing details.",
+        "notes": [
+          "Matched rule: Window Replacement"
+        ],
+        "quantity_source": "heuristic",
+        "quantity_confidence": 0.2,
+        "quantity_evidence": {
+          "evidence_snippet": "Default fallback quantity"
+        },
+        "detail_refs": [],
+        "profile_id": "default_national",
+        "multiplier_breakdown": [
+          "labor_rate: US_DEFAULT general ($65/hr → $35/hr)"
+        ],
+        "override_source": "unknown"
+      }
+    ]
+  },
+  "subtotals": {
+    "Finishes": 472.5
+  },
+  "total_cost": 472.5,
+  "material_cost_total": 294.0,
+  "labor_cost_total": 87.5,
+  "equipment_cost_total": 0.0,
+  "waste_cost_total": 23.625,
+  "cost_justification": [
+    "Window replacement scope: 1.0 EA @ $450.00/EA = $472.50"
+  ],
+  "missing_data_warnings": [
+    "Heuristic quantity used for Window replacement scope: 1.0 EA (confidence: 20.0%)"
+  ],
+  "rules_used": [
+    "Window Replacement"
+  ],
+  "profile_id": "default_national"
+}

@@ -1,0 +1,14 @@
+{
+  "page_number": 2,
+  "sheet_id": "G-002",
+  "sheet_title": "Construction",
+  "page_types": [
+    "notes",
+    "plan",
+    "schedule"
+  ],
+  "indicators": [
+    "compliance"
+  ],
+  "confidence": 0.9
+}

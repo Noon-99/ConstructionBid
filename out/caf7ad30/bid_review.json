@@ -1,0 +1,191 @@
+{
+  "project_id": "caf7ad30",
+  "total_bid": 19501.31,
+  "line_items": [
+    {
+      "line_item_id": "line_item_0",
+      "line_item_index": 0,
+      "division": "08 Openings",
+      "title": "Remove existing double-hung windows",
+      "quantity": 18.0,
+      "unit": "ea",
+      "unit_cost": 450.0,
+      "total_cost": 8505.0,
+      "rule_refs": [
+        {
+          "rule_name": "Window Replacement",
+          "yaml_file": "window_replacement.yml",
+          "match_keywords_used": []
+        }
+      ],
+      "multipliers_applied": [
+        {
+          "name": "waste",
+          "factor": 0.05
+        },
+        {
+          "name": "profile: labor_rate: US_DEFAULT general ($65/hr → $35/hr)",
+          "factor": 1.0
+        },
+        {
+          "name": "profile: prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work",
+          "factor": 1.0
+        },
+        {
+          "name": "compliance: prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work",
+          "factor": 1.0
+        }
+      ],
+      "quantity_source": "explicit_takeoff",
+      "evidence_refs": [
+        {
+          "page_number": 1,
+          "sheet_id": null,
+          "snippet": "W-1 3'-0\" x 5'-0\" Qty 12 double-hung",
+          "bbox": null,
+          "bbox_source": "none"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "line_item_id": "line_item_1",
+      "line_item_index": 1,
+      "division": "08 Openings",
+      "title": "Reference glazing head/jamb detail",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 450.0,
+      "total_cost": 472.5,
+      "rule_refs": [
+        {
+          "rule_name": "Window Replacement",
+          "yaml_file": "window_replacement.yml",
+          "match_keywords_used": []
+        }
+      ],
+      "multipliers_applied": [
+        {
+          "name": "waste",
+          "factor": 0.05
+        },
+        {
+          "name": "profile: labor_rate: US_DEFAULT general ($65/hr → $35/hr)",
+          "factor": 1.0
+        },
+        {
+          "name": "profile: prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work",
+          "factor": 1.0
+        },
+        {
+          "name": "compliance: prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work",
+          "factor": 1.0
+        }
+      ],
+      "quantity_source": "heuristic",
+      "evidence_refs": [
+        {
+          "page_number": 1,
+          "sheet_id": null,
+          "snippet": "Default fallback quantity",
+          "bbox": null,
+          "bbox_source": "none"
+        }
+      ],
+      "flags": [
+        "heuristic_quantity"
+      ]
+    },
+    {
+      "line_item_id": "line_item_2",
+      "line_item_index": 2,
+      "division": "09 Finishes",
+      "title": "Install new storefront windows",
+      "quantity": 18.0,
+      "unit": "ea",
+      "unit_cost": 520.0,
+      "total_cost": 9828.0,
+      "rule_refs": [
+        {
+          "rule_name": "Window New Install",
+          "yaml_file": "window_new_install.yml",
+          "match_keywords_used": [
+            "install"
+          ]
+        }
+      ],
+      "multipliers_applied": [
+        {
+          "name": "waste",
+          "factor": 0.05
+        },
+        {
+          "name": "profile: labor_rate: US_DEFAULT general ($65/hr → $35/hr)",
+          "factor": 1.0
+        },
+        {
+          "name": "profile: prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work",
+          "factor": 1.0
+        },
+        {
+          "name": "compliance: prevailing_wage_multiplier: 50% ($35/hr → $52/hr) - DOT/public work",
+          "factor": 1.0
+        }
+      ],
+      "quantity_source": "explicit_takeoff",
+      "evidence_refs": [
+        {
+          "page_number": 1,
+          "sheet_id": null,
+          "snippet": "W-1 3'-0\" x 5'-0\" Qty 12 double-hung",
+          "bbox": null,
+          "bbox_source": "none"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "line_item_id": "line_item_3",
+      "line_item_index": 3,
+      "division": "01 General Requirements",
+      "title": "Performance & Payment Bonds",
+      "quantity": 1.0,
+      "unit": "lump",
+      "unit_cost": 470.14,
+      "total_cost": 470.14,
+      "rule_refs": [],
+      "multipliers_applied": [],
+      "quantity_source": "unknown",
+      "evidence_refs": [],
+      "flags": []
+    },
+    {
+      "line_item_id": "line_item_4",
+      "line_item_index": 4,
+      "division": "01 General Requirements",
+      "title": "Supplemental Insurance",
+      "quantity": 1.0,
+      "unit": "lump",
+      "unit_cost": 225.67,
+      "total_cost": 225.67,
+      "rule_refs": [],
+      "multipliers_applied": [],
+      "quantity_source": "unknown",
+      "evidence_refs": [],
+      "flags": []
+    }
+  ],
+  "recovery_performed": false,
+  "recovery_pages": [],
+  "compliance_adjustments": [
+    "Prevailing wage multiplier applied: +50% to labor rates (Government/public project detected). Required for public/government projects per Davis-Bacon or state prevailing wage laws.",
+    "Performance & Payment Bonds: +2.50% of base scope ($470.14) (Government/public project detected). Required for public/government contracts to protect the owner.",
+    "Supplemental Insurance: +1.20% of base scope ($225.67) (Government/public project detected). Additional coverage required for public/government projects."
+  ],
+  "compliance_costs": {
+    "bond": 470.14,
+    "insurance": 225.67
+  },
+  "compliance_total": 695.81,
+  "generated_at": "2026-01-24T21:30:24.336228"
+}

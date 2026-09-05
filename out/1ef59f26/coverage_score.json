@@ -1,0 +1,123 @@
+{
+  "project_id": "1ef59f26",
+  "generated_at": "2026-01-25T01:38:48.074329",
+  "coverage_score": 0.2,
+  "dominant_trades": [
+    "masonry",
+    "roofing",
+    "windows",
+    "pavement",
+    "interiors"
+  ],
+  "matched_trades": [
+    "masonry"
+  ],
+  "missing_trades": [
+    {
+      "trade": "roofing",
+      "confidence": 0.8278145695364237,
+      "evidence_pages": [
+        3,
+        5,
+        6,
+        7
+      ],
+      "missing_features": [
+        "detail",
+        "materials",
+        "quantity",
+        "scope"
+      ]
+    },
+    {
+      "trade": "windows",
+      "confidence": 0.8278145695364237,
+      "evidence_pages": [
+        3,
+        5,
+        6,
+        7
+      ],
+      "missing_features": [
+        "detail",
+        "materials",
+        "quantity",
+        "scope"
+      ]
+    },
+    {
+      "trade": "pavement",
+      "confidence": 0.8278145695364237,
+      "evidence_pages": [
+        3,
+        5,
+        6,
+        7
+      ],
+      "missing_features": [
+        "quantity",
+        "scope"
+      ]
+    },
+    {
+      "trade": "interiors",
+      "confidence": 0.8278145695364237,
+      "evidence_pages": [
+        3,
+        5,
+        6,
+        7
+      ],
+      "missing_features": [
+        "materials",
+        "quantity"
+      ]
+    }
+  ],
+  "trade_features": {
+    "masonry": {
+      "expected": [
+        "detail",
+        "scope"
+      ],
+      "matched": [
+        "scope"
+      ]
+    },
+    "roofing": {
+      "expected": [
+        "detail",
+        "materials",
+        "quantity",
+        "scope"
+      ],
+      "matched": []
+    },
+    "windows": {
+      "expected": [
+        "detail",
+        "materials",
+        "quantity",
+        "scope"
+      ],
+      "matched": []
+    },
+    "pavement": {
+      "expected": [
+        "quantity",
+        "scope"
+      ],
+      "matched": []
+    },
+    "interiors": {
+      "expected": [
+        "materials",
+        "quantity",
+        "scope"
+      ],
+      "matched": [
+        "scope"
+      ]
+    }
+  }
+}

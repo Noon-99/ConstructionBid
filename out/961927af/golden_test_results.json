@@ -1,0 +1,26 @@
+{
+  "passed": false,
+  "errors": [
+    "Critical-5 coverage too low: 0/5 (0.00%) < 80%",
+    "Authoritative dimensions missing (width/depth/height)",
+    "Validation score too low: 0.76 < 0.85"
+  ],
+  "warnings": [],
+  "metrics": {
+    "critical_5_coverage": "0/5",
+    "critical_5_ratio": 0.0,
+    "authoritative_dimensions": {
+      "width": null,
+      "depth": null,
+      "height": null,
+      "confidence": 0.0,
+      "conflicts_resolved": 0
+    },
+    "stage_3_ran": true,
+    "stage_4_ran": true,
+    "validation_score": 0.7625,
+    "rerun_performed": false,
+    "rerun_notes": [],
+    "validation_passed": true
+  }
+}

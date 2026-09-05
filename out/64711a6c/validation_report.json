@@ -1,0 +1,87 @@
+{
+  "project_id": "64711a6c",
+  "passed": false,
+  "score": 0.0,
+  "issues": [
+    {
+      "code": "MISSING_GEOMETRY",
+      "severity": "error",
+      "message": "Missing or invalid authoritative width dimension",
+      "affected_fields": [
+        "authoritative_dimensions.width"
+      ],
+      "recommended_action": "Re-read pages with dimension callouts"
+    },
+    {
+      "code": "MISSING_GEOMETRY",
+      "severity": "error",
+      "message": "Missing or invalid authoritative depth dimension",
+      "affected_fields": [
+        "authoritative_dimensions.depth"
+      ],
+      "recommended_action": "Re-read pages with dimension callouts"
+    },
+    {
+      "code": "MISSING_GEOMETRY",
+      "severity": "error",
+      "message": "Missing or invalid authoritative height dimension",
+      "affected_fields": [
+        "authoritative_dimensions.height"
+      ],
+      "recommended_action": "Re-read pages with dimension callouts"
+    },
+    {
+      "code": "MISSING_AUTHORITATIVE_DIMENSIONS",
+      "severity": "error",
+      "message": "Missing authoritative dimensions: width, depth, height.",
+      "affected_fields": [
+        "authoritative_dimensions"
+      ],
+      "recommended_action": "Re-read pages with dimension callouts"
+    },
+    {
+      "code": "MISSING_CRITICAL_SCOPE",
+      "severity": "error",
+      "message": "Missing required scope elements: scope",
+      "affected_fields": [
+        "scope_of_work",
+        "quantity_takeoff"
+      ],
+      "recommended_action": "Re-read drawings or provide manual override for these scope items."
+    }
+  ],
+  "missing_critical_items": [
+    "MISSING_GEOMETRY",
+    "MISSING_GEOMETRY",
+    "MISSING_GEOMETRY",
+    "MISSING_AUTHORITATIVE_DIMENSIONS",
+    "MISSING_CRITICAL_SCOPE"
+  ],
+  "conflicts": {
+    "dimensions": {
+      "issues": [
+        {
+          "code": "MISSING_AUTHORITATIVE_DIMENSIONS",
+          "severity": "error",
+          "message": "Missing authoritative dimensions: width, depth, height.",
+          "affected_fields": [
+            "authoritative_dimensions"
+          ],
+          "recommended_action": "Re-read pages with dimension callouts"
+        }
+      ],
+      "authoritative": {
+        "width": null,
+        "depth": null,
+        "height": null,
+        "confidence": 0.0
+      }
+    }
+  },
+  "rerun_performed": true,
+  "rerun_notes": [
+    "Critical-5 recovery performed for: parapet, lintel, flashing, brick_or_repoint, crack_repair",
+    "Critical-5 recovery failed: _validate_critical_scope() missing 1 required positional argument: 'expected_items'"
+  ],
+  "created_at": "2025-12-31T17:17:17.433138"
+}

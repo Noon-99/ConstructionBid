@@ -1,0 +1,27 @@
+name: Flashing Per Opening
+category: Waterproofing
+description: Flashing installation at opening
+keywords:
+  - flashing opening
+  - lintel flashing
+  - window flashing
+  - door flashing
+  - opening flashing
+unit: LF
+base_unit_cost: 12.0
+material_cost_per_unit: 6.0
+labor_hours_per_unit: 0.15
+labor_rate: 65.0
+equipment_cost_per_unit: 0.0
+waste_factor: 0.10
+multipliers:
+  default: 1.0
+  copper: 2.5
+  aluminum: 1.2
+  galvanized: 1.0
+
+
+
+
+
+

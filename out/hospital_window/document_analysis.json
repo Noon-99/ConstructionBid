@@ -1,0 +1,107 @@
+{
+  "project_type": "row_house",
+  "scope_type": "repair",
+  "sheets": [
+    {
+      "sheet_id": "A-1",
+      "page_number": 1,
+      "sheet_type": "plan",
+      "title": "Window Replacement Plan"
+    },
+    {
+      "sheet_id": "A-2",
+      "page_number": 2,
+      "sheet_type": "detail",
+      "title": null
+    },
+    {
+      "sheet_id": "A-3",
+      "page_number": 3,
+      "sheet_type": "elevation",
+      "title": null
+    },
+    {
+      "sheet_id": "A-4",
+      "page_number": 4,
+      "sheet_type": "elevation",
+      "title": null
+    }
+  ],
+  "where_scope_lives": [
+    {
+      "sheet_id": "A-1",
+      "page_number": 1,
+      "location_type": "general_notes",
+      "evidence": "Window replacement notes included.",
+      "confidence": 0.9
+    }
+  ],
+  "where_quantities_live": [
+    {
+      "sheet_id": "A-1",
+      "page_number": 1,
+      "location_type": "schedule",
+      "evidence": "Window schedule with marks W-1, W-2.",
+      "confidence": 0.95
+    }
+  ],
+  "where_materials_live": [],
+  "building_context": {
+    "building_type": "row_house",
+    "is_row_context": true,
+    "building_ids": [
+      "B-1"
+    ],
+    "addresses": [
+      "123 Main St"
+    ],
+    "evidence": "Project involves a row house at the specified address."
+  },
+  "site_context": {
+    "street_front": "123 Main St",
+    "cross_street_left": null,
+    "cross_street_right": null,
+    "row_condition": "attached",
+    "row_count_estimate": null,
+    "subject_position": "unknown",
+    "provenance": {
+      "street_front": "evidence",
+      "cross_street_left": "unknown",
+      "cross_street_right": "unknown",
+      "row_condition": "inferred",
+      "row_count_estimate": "unknown",
+      "subject_position": "unknown"
+    }
+  },
+  "key_dimensions": {
+    "width": 20.0,
+    "depth": 30.0,
+    "height": 10.0,
+    "area": 600.0,
+    "evidence": "Dimensions found in elevation drawings.",
+    "confidence": 0.85
+  },
+  "critical_expected_items": [
+    {
+      "item": "parapet",
+      "expected_for": "row_house_repair",
+      "found": true,
+      "evidence": "Parapet details included in the elevation.",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": 0.9,
+  "missing_fields": [],
+  "resolved_project_type": "row_house",
+  "resolved_scope_type": "repair",
+  "resolution_notes": [
+    "Row-house indicators detected: Building context evidence contains 'row'",
+    "Extracted site context: row_condition=attached (provenance: inferred)"
+  ],
+  "primary_division": "08",
+  "primary_trade": "windows",
+  "trade_detection_confidence": 0.85,
+  "labor_regime": "standard",
+  "labor_regime_confidence": 0.5,
+  "labor_regime_evidence": "No DOT/public work or union indicators detected. Using standard labor rates."
+}

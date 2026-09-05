@@ -1,0 +1,920 @@
+{
+  "project_id": "826d02dc",
+  "generated_at": "2026-01-07T01:07:02.006661",
+  "trades": [
+    {
+      "trade": "masonry",
+      "csi_division": "04 Masonry",
+      "confidence": 1.0,
+      "total_score": 78.075,
+      "signal_types": [
+        "masonry_detail",
+        "masonry_elevation",
+        "masonry_plan"
+      ],
+      "evidence": [
+        {
+          "page_number": 2,
+          "sheet_id": "A-1",
+          "sheet_title": "Floor Plan",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "masonry_plan"
+          ],
+          "score": 5.1
+        },
+        {
+          "page_number": 3,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "masonry_detail"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 4,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "lintel"
+          ],
+          "signal_types": [
+            "masonry_detail",
+            "masonry_elevation"
+          ],
+          "score": 9.35
+        },
+        {
+          "page_number": 5,
+          "sheet_id": "S-2",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "lintel"
+          ],
+          "signal_types": [
+            "masonry_detail",
+            "masonry_elevation"
+          ],
+          "score": 10.45
+        },
+        {
+          "page_number": 6,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "masonry_detail"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 7,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "masonry_detail"
+          ],
+          "score": 4.75
+        },
+        {
+          "page_number": 8,
+          "sheet_id": "A-1",
+          "sheet_title": "Site Plan",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "masonry_detail"
+          ],
+          "score": 8.1
+        },
+        {
+          "page_number": 9,
+          "sheet_id": "A-1",
+          "sheet_title": "Construction Details",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "masonry_detail"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 10,
+          "sheet_id": "S-2",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "lintel"
+          ],
+          "signal_types": [
+            "masonry_detail",
+            "masonry_elevation"
+          ],
+          "score": 9.9
+        },
+        {
+          "page_number": 11,
+          "sheet_id": "A-1",
+          "sheet_title": "Floor Plan",
+          "signals": [
+            "dimensions",
+            "room_schedule"
+          ],
+          "signal_types": [
+            "masonry_plan"
+          ],
+          "score": 7.225
+        },
+        {
+          "page_number": 12,
+          "sheet_id": "D-3",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "lintel"
+          ],
+          "signal_types": [
+            "masonry_detail",
+            "masonry_elevation"
+          ],
+          "score": 10.45
+        }
+      ]
+    },
+    {
+      "trade": "pavement",
+      "csi_division": "32 Exterior Improvements",
+      "confidence": 0.9295549151456931,
+      "total_score": 72.57499999999999,
+      "signal_types": [
+        "paving_quantity"
+      ],
+      "evidence": [
+        {
+          "page_number": 2,
+          "sheet_id": "A-1",
+          "sheet_title": "Floor Plan",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "paving_quantity"
+          ],
+          "score": 5.1
+        },
+        {
+          "page_number": 3,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "paving_quantity"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 4,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "paving_quantity"
+          ],
+          "score": 7.6499999999999995
+        },
+        {
+          "page_number": 5,
+          "sheet_id": "S-2",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "paving_quantity"
+          ],
+          "score": 8.549999999999999
+        },
+        {
+          "page_number": 6,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "paving_quantity"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 7,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "paving_quantity"
+          ],
+          "score": 4.75
+        },
+        {
+          "page_number": 8,
+          "sheet_id": "A-1",
+          "sheet_title": "Site Plan",
+          "signals": [
+            "site"
+          ],
+          "signal_types": [
+            "paving_quantity"
+          ],
+          "score": 9.9
+        },
+        {
+          "page_number": 9,
+          "sheet_id": "A-1",
+          "sheet_title": "Construction Details",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "paving_quantity"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 10,
+          "sheet_id": "S-2",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "paving_quantity"
+          ],
+          "score": 8.1
+        },
+        {
+          "page_number": 11,
+          "sheet_id": "A-1",
+          "sheet_title": "Floor Plan",
+          "signals": [
+            "dimensions",
+            "room_schedule"
+          ],
+          "signal_types": [
+            "paving_quantity"
+          ],
+          "score": 7.225
+        },
+        {
+          "page_number": 12,
+          "sheet_id": "D-3",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "paving_quantity"
+          ],
+          "score": 8.549999999999999
+        }
+      ]
+    },
+    {
+      "trade": "roofing",
+      "csi_division": "07 Thermal & Moisture Protection",
+      "confidence": 0.9065001601024656,
+      "total_score": 70.775,
+      "signal_types": [
+        "roofing_detail",
+        "roofing_plan",
+        "roofing_quantity"
+      ],
+      "evidence": [
+        {
+          "page_number": 2,
+          "sheet_id": "A-1",
+          "sheet_title": "Floor Plan",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "roofing_plan",
+            "roofing_quantity"
+          ],
+          "score": 5.1
+        },
+        {
+          "page_number": 3,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "roofing_detail",
+            "roofing_quantity"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 4,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "roofing_detail",
+            "roofing_quantity"
+          ],
+          "score": 7.6499999999999995
+        },
+        {
+          "page_number": 5,
+          "sheet_id": "S-2",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "roofing_detail",
+            "roofing_quantity"
+          ],
+          "score": 8.549999999999999
+        },
+        {
+          "page_number": 6,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "roofing_detail",
+            "roofing_quantity"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 7,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "roofing_detail",
+            "roofing_quantity"
+          ],
+          "score": 4.75
+        },
+        {
+          "page_number": 8,
+          "sheet_id": "A-1",
+          "sheet_title": "Site Plan",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "roofing_detail",
+            "roofing_plan",
+            "roofing_quantity"
+          ],
+          "score": 8.1
+        },
+        {
+          "page_number": 9,
+          "sheet_id": "A-1",
+          "sheet_title": "Construction Details",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "roofing_detail",
+            "roofing_quantity"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 10,
+          "sheet_id": "S-2",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "roofing_detail",
+            "roofing_quantity"
+          ],
+          "score": 8.1
+        },
+        {
+          "page_number": 11,
+          "sheet_id": "A-1",
+          "sheet_title": "Floor Plan",
+          "signals": [
+            "dimensions",
+            "room_schedule"
+          ],
+          "signal_types": [
+            "roofing_plan",
+            "roofing_quantity"
+          ],
+          "score": 7.225
+        },
+        {
+          "page_number": 12,
+          "sheet_id": "D-3",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "roofing_detail",
+            "roofing_quantity"
+          ],
+          "score": 8.549999999999999
+        }
+      ]
+    },
+    {
+      "trade": "windows",
+      "csi_division": "08 Openings",
+      "confidence": 0.9065001601024656,
+      "total_score": 70.775,
+      "signal_types": [
+        "window_detail",
+        "windows_plan"
+      ],
+      "evidence": [
+        {
+          "page_number": 2,
+          "sheet_id": "A-1",
+          "sheet_title": "Floor Plan",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "windows_plan"
+          ],
+          "score": 5.1
+        },
+        {
+          "page_number": 3,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "window_detail"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 4,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "window_detail"
+          ],
+          "score": 7.6499999999999995
+        },
+        {
+          "page_number": 5,
+          "sheet_id": "S-2",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "window_detail"
+          ],
+          "score": 8.549999999999999
+        },
+        {
+          "page_number": 6,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "window_detail"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 7,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "window_detail"
+          ],
+          "score": 4.75
+        },
+        {
+          "page_number": 8,
+          "sheet_id": "A-1",
+          "sheet_title": "Site Plan",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "window_detail"
+          ],
+          "score": 8.1
+        },
+        {
+          "page_number": 9,
+          "sheet_id": "A-1",
+          "sheet_title": "Construction Details",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "window_detail"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 10,
+          "sheet_id": "S-2",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "window_detail"
+          ],
+          "score": 8.1
+        },
+        {
+          "page_number": 11,
+          "sheet_id": "A-1",
+          "sheet_title": "Floor Plan",
+          "signals": [
+            "dimensions",
+            "room_schedule"
+          ],
+          "signal_types": [
+            "windows_plan"
+          ],
+          "score": 7.225
+        },
+        {
+          "page_number": 12,
+          "sheet_id": "D-3",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "window_detail"
+          ],
+          "score": 8.549999999999999
+        }
+      ]
+    },
+    {
+      "trade": "structure",
+      "csi_division": "03/05 Concrete & Metals",
+      "confidence": 0.9065001601024656,
+      "total_score": 70.775,
+      "signal_types": [
+        "structure_detail",
+        "structure_plan"
+      ],
+      "evidence": [
+        {
+          "page_number": 2,
+          "sheet_id": "A-1",
+          "sheet_title": "Floor Plan",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "structure_plan"
+          ],
+          "score": 5.1
+        },
+        {
+          "page_number": 3,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "structure_detail"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 4,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "structure_detail"
+          ],
+          "score": 7.6499999999999995
+        },
+        {
+          "page_number": 5,
+          "sheet_id": "S-2",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "structure_detail"
+          ],
+          "score": 8.549999999999999
+        },
+        {
+          "page_number": 6,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "structure_detail"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 7,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "structure_detail"
+          ],
+          "score": 4.75
+        },
+        {
+          "page_number": 8,
+          "sheet_id": "A-1",
+          "sheet_title": "Site Plan",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "structure_detail"
+          ],
+          "score": 8.1
+        },
+        {
+          "page_number": 9,
+          "sheet_id": "A-1",
+          "sheet_title": "Construction Details",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "structure_detail"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 10,
+          "sheet_id": "S-2",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "structure_detail"
+          ],
+          "score": 8.1
+        },
+        {
+          "page_number": 11,
+          "sheet_id": "A-1",
+          "sheet_title": "Floor Plan",
+          "signals": [
+            "dimensions",
+            "room_schedule"
+          ],
+          "signal_types": [
+            "structure_plan"
+          ],
+          "score": 7.225
+        },
+        {
+          "page_number": 12,
+          "sheet_id": "D-3",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "structure_detail"
+          ],
+          "score": 8.549999999999999
+        }
+      ]
+    },
+    {
+      "trade": "interiors",
+      "csi_division": "09 Finishes",
+      "confidence": 0.9065001601024656,
+      "total_score": 70.775,
+      "signal_types": [
+        "interiors_detail",
+        "interiors_plan"
+      ],
+      "evidence": [
+        {
+          "page_number": 2,
+          "sheet_id": "A-1",
+          "sheet_title": "Floor Plan",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "interiors_plan"
+          ],
+          "score": 5.1
+        },
+        {
+          "page_number": 3,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "interiors_detail"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 4,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "interiors_detail"
+          ],
+          "score": 7.6499999999999995
+        },
+        {
+          "page_number": 5,
+          "sheet_id": "S-2",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "interiors_detail"
+          ],
+          "score": 8.549999999999999
+        },
+        {
+          "page_number": 6,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "interiors_detail"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 7,
+          "sheet_id": "A-1",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "interiors_detail"
+          ],
+          "score": 4.75
+        },
+        {
+          "page_number": 8,
+          "sheet_id": "A-1",
+          "sheet_title": "Site Plan",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "interiors_plan"
+          ],
+          "score": 8.1
+        },
+        {
+          "page_number": 9,
+          "sheet_id": "A-1",
+          "sheet_title": "Construction Details",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "interiors_detail"
+          ],
+          "score": 4.25
+        },
+        {
+          "page_number": 10,
+          "sheet_id": "S-2",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "interiors_detail"
+          ],
+          "score": 8.1
+        },
+        {
+          "page_number": 11,
+          "sheet_id": "A-1",
+          "sheet_title": "Floor Plan",
+          "signals": [
+            "dimensions",
+            "room_schedule"
+          ],
+          "signal_types": [
+            "interiors_plan"
+          ],
+          "score": 7.225
+        },
+        {
+          "page_number": 12,
+          "sheet_id": "D-3",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "dimensions",
+            "lintel"
+          ],
+          "signal_types": [
+            "interiors_detail"
+          ],
+          "score": 8.549999999999999
+        }
+      ]
+    }
+  ],
+  "dominant_trades": [
+    "masonry",
+    "roofing",
+    "windows",
+    "structure",
+    "interiors"
+  ]
+}

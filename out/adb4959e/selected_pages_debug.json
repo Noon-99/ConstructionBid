@@ -1,0 +1,209 @@
+{
+  "total_pages": 7,
+  "stage05_indexed_pages_count": 7,
+  "stage1_selected_pages": [
+    {
+      "page_number": 2,
+      "page_index_labels": {
+        "page_types": [
+          "plan"
+        ],
+        "indicators": [
+          "dimensions"
+        ],
+        "confidence": 0.85
+      },
+      "reason": "index: types: plan; indicators: dimensions"
+    },
+    {
+      "page_number": 3,
+      "page_index_labels": {
+        "page_types": [
+          "plan"
+        ],
+        "indicators": [
+          "dimensions"
+        ],
+        "confidence": 0.85
+      },
+      "reason": "index: types: plan; indicators: dimensions"
+    },
+    {
+      "page_number": 5,
+      "page_index_labels": {
+        "page_types": [
+          "elevation"
+        ],
+        "indicators": [
+          "dimensions"
+        ],
+        "confidence": 0.85
+      },
+      "reason": "index: types: elevation; indicators: dimensions"
+    },
+    {
+      "page_number": 6,
+      "page_index_labels": {
+        "page_types": [
+          "elevation",
+          "detail"
+        ],
+        "indicators": [
+          "dimensions"
+        ],
+        "confidence": 0.85
+      },
+      "reason": "index: types: elevation, detail; indicators: dimensions"
+    }
+  ],
+  "stage2_selected_pages": [
+    {
+      "page_number": 2,
+      "page_index_labels": {
+        "page_types": [
+          "plan"
+        ],
+        "indicators": [
+          "dimensions"
+        ],
+        "confidence": 0.85
+      },
+      "reason": "stage2: stage1: sheets, stage1: where_materials_live"
+    },
+    {
+      "page_number": 3,
+      "page_index_labels": {
+        "page_types": [
+          "plan"
+        ],
+        "indicators": [
+          "dimensions"
+        ],
+        "confidence": 0.85
+      },
+      "reason": "stage2: stage1: sheets, stage1: where_quantities_live"
+    },
+    {
+      "page_number": 5,
+      "page_index_labels": {
+        "page_types": [
+          "elevation"
+        ],
+        "indicators": [
+          "dimensions"
+        ],
+        "confidence": 0.85
+      },
+      "reason": "stage2: stage1: sheets, stage1: where_scope_lives"
+    },
+    {
+      "page_number": 6,
+      "page_index_labels": {
+        "page_types": [
+          "elevation",
+          "detail"
+        ],
+        "indicators": [
+          "dimensions"
+        ],
+        "confidence": 0.85
+      },
+      "reason": "stage2: stage1: sheets"
+    }
+  ],
+  "rescue_stage2_selected_pages": [
+    {
+      "page_number": 1,
+      "page_index_labels": {
+        "page_types": [
+          "plan",
+          "notes"
+        ],
+        "indicators": [
+          "compliance"
+        ],
+        "confidence": 0.85
+      },
+      "reason": "rescue: high-signal page_index"
+    },
+    {
+      "page_number": 2,
+      "page_index_labels": {
+        "page_types": [
+          "plan"
+        ],
+        "indicators": [
+          "dimensions"
+        ],
+        "confidence": 0.85
+      },
+      "reason": "rescue: high-signal page_index"
+    },
+    {
+      "page_number": 3,
+      "page_index_labels": {
+        "page_types": [
+          "plan"
+        ],
+        "indicators": [
+          "dimensions"
+        ],
+        "confidence": 0.85
+      },
+      "reason": "rescue: high-signal page_index"
+    },
+    {
+      "page_number": 4,
+      "page_index_labels": {
+        "page_types": [
+          "plan"
+        ],
+        "indicators": [
+          "dimensions"
+        ],
+        "confidence": 0.85
+      },
+      "reason": "rescue: high-signal page_index"
+    },
+    {
+      "page_number": 5,
+      "page_index_labels": {
+        "page_types": [
+          "elevation"
+        ],
+        "indicators": [
+          "dimensions"
+        ],
+        "confidence": 0.85
+      },
+      "reason": "rescue: high-signal page_index"
+    },
+    {
+      "page_number": 6,
+      "page_index_labels": {
+        "page_types": [
+          "elevation",
+          "detail"
+        ],
+        "indicators": [
+          "dimensions"
+        ],
+        "confidence": 0.85
+      },
+      "reason": "rescue: high-signal page_index"
+    },
+    {
+      "page_number": 7,
+      "page_index_labels": {
+        "page_types": [
+          "detail"
+        ],
+        "indicators": [
+          "dimensions"
+        ],
+        "confidence": 0.9
+      },
+      "reason": "rescue: high-signal page_index"
+    }
+  ]
+}

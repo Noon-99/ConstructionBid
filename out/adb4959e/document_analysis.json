@@ -1,0 +1,90 @@
+{
+  "project_type": "unknown",
+  "scope_type": "unknown",
+  "sheets": [
+    {
+      "sheet_id": "A-2",
+      "page_number": 2,
+      "sheet_type": "plan",
+      "title": "Foundation & Lower Floor Framing Plan"
+    },
+    {
+      "sheet_id": "A-3",
+      "page_number": 3,
+      "sheet_type": "plan",
+      "title": "Lower & Upper Floor Plan"
+    },
+    {
+      "sheet_id": "A-5",
+      "page_number": 5,
+      "sheet_type": "elevation",
+      "title": "South, East, & North Elevation"
+    },
+    {
+      "sheet_id": "A-6",
+      "page_number": 6,
+      "sheet_type": "section",
+      "title": "North-South Section"
+    }
+  ],
+  "where_scope_lives": [
+    {
+      "sheet_id": "A-5",
+      "page_number": 5,
+      "location_type": "elevation_notes",
+      "evidence": "Notes on elevation detailing",
+      "confidence": 0.8
+    }
+  ],
+  "where_quantities_live": [
+    {
+      "sheet_id": "A-3",
+      "page_number": 3,
+      "location_type": "room_schedule",
+      "evidence": "Room dimensions listed in the floor plan",
+      "confidence": 0.7
+    }
+  ],
+  "where_materials_live": [
+    {
+      "sheet_id": "A-2",
+      "page_number": 2,
+      "location_type": "specification_section",
+      "evidence": "Material specifications noted in the plan",
+      "confidence": 0.6
+    }
+  ],
+  "building_context": {
+    "building_type": "unknown",
+    "is_row_context": false,
+    "building_ids": [],
+    "addresses": [],
+    "evidence": "No specific building context provided"
+  },
+  "site_context": null,
+  "key_dimensions": {
+    "width": null,
+    "depth": null,
+    "height": null,
+    "area": null,
+    "evidence": "No explicit dimensions visible",
+    "confidence": 0.0
+  },
+  "critical_expected_items": [],
+  "confidence": 0.5,
+  "missing_fields": [
+    "project_type",
+    "scope_type",
+    "key_dimensions",
+    "building_context"
+  ],
+  "resolved_project_type": null,
+  "resolved_scope_type": null,
+  "resolution_notes": [],
+  "primary_division": null,
+  "primary_trade": null,
+  "trade_detection_confidence": null,
+  "labor_regime": "standard",
+  "labor_regime_confidence": 0.5,
+  "labor_regime_evidence": null
+}

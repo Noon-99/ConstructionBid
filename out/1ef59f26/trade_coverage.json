@@ -1,0 +1,379 @@
+{
+  "project_id": "1ef59f26",
+  "generated_at": "2026-01-25T01:37:54.105308",
+  "trades": [
+    {
+      "trade": "masonry",
+      "csi_division": "04 Masonry",
+      "confidence": 1.0,
+      "total_score": 30.200000000000003,
+      "signal_types": [
+        "masonry_detail",
+        "masonry_elevation"
+      ],
+      "evidence": [
+        {
+          "page_number": 3,
+          "sheet_id": "A-1",
+          "sheet_title": "Front Elevation",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "masonry_elevation"
+          ],
+          "score": 5.4
+        },
+        {
+          "page_number": 5,
+          "sheet_id": "Q009011613-11",
+          "sheet_title": "REAR ELEVATION",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "masonry_elevation"
+          ],
+          "score": 5.1
+        },
+        {
+          "page_number": 6,
+          "sheet_id": "D-3",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "lintel"
+          ],
+          "signal_types": [
+            "masonry_detail",
+            "masonry_elevation"
+          ],
+          "score": 10.35
+        },
+        {
+          "page_number": 7,
+          "sheet_id": "Q006/10163-11",
+          "sheet_title": "BRICK COATING PROCEDURE",
+          "signals": [
+            "brick",
+            "lintel"
+          ],
+          "signal_types": [
+            "masonry_detail",
+            "masonry_elevation"
+          ],
+          "score": 9.35
+        }
+      ]
+    },
+    {
+      "trade": "roofing",
+      "csi_division": "07 Thermal & Moisture Protection",
+      "confidence": 0.8278145695364237,
+      "total_score": 25.0,
+      "signal_types": [
+        "roofing_detail",
+        "roofing_quantity"
+      ],
+      "evidence": [
+        {
+          "page_number": 3,
+          "sheet_id": "A-1",
+          "sheet_title": "Front Elevation",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "roofing_quantity"
+          ],
+          "score": 5.4
+        },
+        {
+          "page_number": 5,
+          "sheet_id": "Q009011613-11",
+          "sheet_title": "REAR ELEVATION",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "roofing_quantity"
+          ],
+          "score": 5.1
+        },
+        {
+          "page_number": 6,
+          "sheet_id": "D-3",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "lintel",
+            "window_schedule"
+          ],
+          "signal_types": [
+            "roofing_detail"
+          ],
+          "score": 8.55
+        },
+        {
+          "page_number": 7,
+          "sheet_id": "Q006/10163-11",
+          "sheet_title": "BRICK COATING PROCEDURE",
+          "signals": [
+            "lintel"
+          ],
+          "signal_types": [
+            "roofing_detail"
+          ],
+          "score": 5.95
+        }
+      ]
+    },
+    {
+      "trade": "windows",
+      "csi_division": "08 Openings",
+      "confidence": 0.8278145695364237,
+      "total_score": 25.0,
+      "signal_types": [
+        "window_detail",
+        "window_elevation",
+        "window_schedule"
+      ],
+      "evidence": [
+        {
+          "page_number": 3,
+          "sheet_id": "A-1",
+          "sheet_title": "Front Elevation",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "window_elevation"
+          ],
+          "score": 5.4
+        },
+        {
+          "page_number": 5,
+          "sheet_id": "Q009011613-11",
+          "sheet_title": "REAR ELEVATION",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "window_elevation"
+          ],
+          "score": 5.1
+        },
+        {
+          "page_number": 6,
+          "sheet_id": "D-3",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "lintel",
+            "window_schedule"
+          ],
+          "signal_types": [
+            "window_detail",
+            "window_schedule"
+          ],
+          "score": 8.55
+        },
+        {
+          "page_number": 7,
+          "sheet_id": "Q006/10163-11",
+          "sheet_title": "BRICK COATING PROCEDURE",
+          "signals": [
+            "lintel"
+          ],
+          "signal_types": [
+            "window_detail"
+          ],
+          "score": 5.95
+        }
+      ]
+    },
+    {
+      "trade": "pavement",
+      "csi_division": "32 Exterior Improvements",
+      "confidence": 0.8278145695364237,
+      "total_score": 25.0,
+      "signal_types": [
+        "pavement_detail",
+        "paving_quantity"
+      ],
+      "evidence": [
+        {
+          "page_number": 3,
+          "sheet_id": "A-1",
+          "sheet_title": "Front Elevation",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "paving_quantity"
+          ],
+          "score": 5.4
+        },
+        {
+          "page_number": 5,
+          "sheet_id": "Q009011613-11",
+          "sheet_title": "REAR ELEVATION",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "paving_quantity"
+          ],
+          "score": 5.1
+        },
+        {
+          "page_number": 6,
+          "sheet_id": "D-3",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "lintel",
+            "window_schedule"
+          ],
+          "signal_types": [
+            "pavement_detail"
+          ],
+          "score": 8.55
+        },
+        {
+          "page_number": 7,
+          "sheet_id": "Q006/10163-11",
+          "sheet_title": "BRICK COATING PROCEDURE",
+          "signals": [
+            "lintel"
+          ],
+          "signal_types": [
+            "pavement_detail"
+          ],
+          "score": 5.95
+        }
+      ]
+    },
+    {
+      "trade": "structure",
+      "csi_division": "03/05 Concrete & Metals",
+      "confidence": 0.8278145695364237,
+      "total_score": 25.0,
+      "signal_types": [
+        "structure_detail"
+      ],
+      "evidence": [
+        {
+          "page_number": 3,
+          "sheet_id": "A-1",
+          "sheet_title": "Front Elevation",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [],
+          "score": 5.4
+        },
+        {
+          "page_number": 5,
+          "sheet_id": "Q009011613-11",
+          "sheet_title": "REAR ELEVATION",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [],
+          "score": 5.1
+        },
+        {
+          "page_number": 6,
+          "sheet_id": "D-3",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "lintel",
+            "window_schedule"
+          ],
+          "signal_types": [
+            "structure_detail"
+          ],
+          "score": 8.55
+        },
+        {
+          "page_number": 7,
+          "sheet_id": "Q006/10163-11",
+          "sheet_title": "BRICK COATING PROCEDURE",
+          "signals": [
+            "lintel"
+          ],
+          "signal_types": [
+            "structure_detail"
+          ],
+          "score": 5.95
+        }
+      ]
+    },
+    {
+      "trade": "interiors",
+      "csi_division": "09 Finishes",
+      "confidence": 0.8278145695364237,
+      "total_score": 25.0,
+      "signal_types": [
+        "interiors_detail",
+        "interiors_plan",
+        "interiors_schedule"
+      ],
+      "evidence": [
+        {
+          "page_number": 3,
+          "sheet_id": "A-1",
+          "sheet_title": "Front Elevation",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "interiors_plan"
+          ],
+          "score": 5.4
+        },
+        {
+          "page_number": 5,
+          "sheet_id": "Q009011613-11",
+          "sheet_title": "REAR ELEVATION",
+          "signals": [
+            "dimensions"
+          ],
+          "signal_types": [
+            "interiors_plan"
+          ],
+          "score": 5.1
+        },
+        {
+          "page_number": 6,
+          "sheet_id": "D-3",
+          "sheet_title": "Typical Detail",
+          "signals": [
+            "lintel",
+            "window_schedule"
+          ],
+          "signal_types": [
+            "interiors_schedule"
+          ],
+          "score": 8.55
+        },
+        {
+          "page_number": 7,
+          "sheet_id": "Q006/10163-11",
+          "sheet_title": "BRICK COATING PROCEDURE",
+          "signals": [
+            "lintel"
+          ],
+          "signal_types": [
+            "interiors_detail"
+          ],
+          "score": 5.95
+        }
+      ]
+    }
+  ],
+  "dominant_trades": [
+    "masonry",
+    "roofing",
+    "windows",
+    "pavement",
+    "interiors"
+  ]
+}

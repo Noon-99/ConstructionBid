@@ -1,0 +1,26 @@
+name: Door Replacement
+category: Finishes
+description: Replace existing door with new door
+keywords:
+  - door replacement
+  - replace door
+  - door install
+  - door installation
+unit: EA
+base_unit_cost: 380.0
+material_cost_per_unit: 220.0
+labor_hours_per_unit: 2.0
+labor_rate: 65.0
+equipment_cost_per_unit: 0.0
+waste_factor: 0.05
+multipliers:
+  default: 1.0
+  steel: 1.4
+  wood: 0.9
+  aluminum: 1.1
+
+
+
+
+
+

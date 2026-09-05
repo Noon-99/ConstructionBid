@@ -1,0 +1,88 @@
+{
+  "project_type": "institutional",
+  "scope_type": "renovation",
+  "sheets": [
+    {
+      "sheet_id": "LS-1",
+      "page_number": 1,
+      "sheet_type": "plan",
+      "title": "Life Safety Plan"
+    },
+    {
+      "sheet_id": "C-1.0",
+      "page_number": 2,
+      "sheet_type": "plan",
+      "title": "Site Plan"
+    },
+    {
+      "sheet_id": "SO-1",
+      "page_number": 3,
+      "sheet_type": "detail",
+      "title": "Structural Details"
+    },
+    {
+      "sheet_id": "S1-0",
+      "page_number": 4,
+      "sheet_type": "section",
+      "title": "Structural Section"
+    }
+  ],
+  "where_scope_lives": [
+    {
+      "sheet_id": "LS-1",
+      "page_number": 1,
+      "location_type": "general_notes",
+      "evidence": "Life Safety Information section",
+      "confidence": 0.9
+    }
+  ],
+  "where_quantities_live": [
+    {
+      "sheet_id": "C-1.0",
+      "page_number": 2,
+      "location_type": "area_calculations",
+      "evidence": "Site Plan showing area dimensions",
+      "confidence": 0.8
+    }
+  ],
+  "where_materials_live": [
+    {
+      "sheet_id": "SO-1",
+      "page_number": 3,
+      "location_type": "specification_section",
+      "evidence": "Materials specified in Structural Details",
+      "confidence": 0.85
+    }
+  ],
+  "building_context": {
+    "building_type": "institutional",
+    "is_row_context": false,
+    "building_ids": [],
+    "addresses": [],
+    "evidence": "Institutional project for recreation center"
+  },
+  "site_context": null,
+  "key_dimensions": {
+    "width": null,
+    "depth": null,
+    "height": null,
+    "area": null,
+    "evidence": "No explicit dimensions found",
+    "confidence": 0.0
+  },
+  "critical_expected_items": [],
+  "confidence": 0.9,
+  "missing_fields": [
+    "key_dimensions",
+    "building_context"
+  ],
+  "resolved_project_type": null,
+  "resolved_scope_type": null,
+  "resolution_notes": [],
+  "primary_division": null,
+  "primary_trade": null,
+  "trade_detection_confidence": null,
+  "labor_regime": "standard",
+  "labor_regime_confidence": 0.5,
+  "labor_regime_evidence": null
+}

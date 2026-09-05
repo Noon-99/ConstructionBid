@@ -1,0 +1,62 @@
+[
+  {
+    "package_id": "pkg_parapet_reconstruction",
+    "title": "Parapet Reconstruction",
+    "line_item_ids": [
+      "bid_item_000"
+    ],
+    "subtotal": 4301.0,
+    "keywords_matched": [
+      "parapet",
+      "parapet reconstruction"
+    ],
+    "confidence": 0.7999999999999999
+  },
+  {
+    "package_id": "pkg_lintels_and_windows",
+    "title": "Lintels & Windows",
+    "line_item_ids": [
+      "bid_item_001",
+      "special_inspections_001"
+    ],
+    "subtotal": 2334.0,
+    "keywords_matched": [
+      "steel lintel",
+      "window lintel",
+      "lintel"
+    ],
+    "confidence": 0.8
+  },
+  {
+    "package_id": "pkg_logistics",
+    "title": "Logistics",
+    "line_item_ids": [
+      "scaffold_001",
+      "dumpster_001",
+      "dust_control_001",
+      "scaffold_001",
+      "dumpster_001",
+      "dust_control_001"
+    ],
+    "subtotal": 61600.0,
+    "keywords_matched": [
+      "dumpster",
+      "cleanup",
+      "scaffold"
+    ],
+    "confidence": 0.7000000000000001
+  },
+  {
+    "package_id": "pkg_other",
+    "title": "Other Work",
+    "line_item_ids": [
+      "labor_embedded",
+      "overhead",
+      "profit",
+      "contingency"
+    ],
+    "subtotal": 13941.0,
+    "keywords_matched": [],
+    "confidence": 0.3
+  }
+]

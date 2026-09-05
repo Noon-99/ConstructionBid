@@ -1,0 +1,98 @@
+{
+  "project_type": "row_house",
+  "scope_type": "repair",
+  "sheets": [
+    {
+      "sheet_id": "A-1",
+      "page_number": 1,
+      "sheet_type": "plan",
+      "title": "Site Plan"
+    },
+    {
+      "sheet_id": "A-2",
+      "page_number": 2,
+      "sheet_type": "detail",
+      "title": "Window Details"
+    },
+    {
+      "sheet_id": "A-3",
+      "page_number": 3,
+      "sheet_type": "elevation",
+      "title": "Front Elevation"
+    },
+    {
+      "sheet_id": "A-4",
+      "page_number": 4,
+      "sheet_type": "elevation",
+      "title": "Rear Elevation"
+    }
+  ],
+  "where_scope_lives": [
+    {
+      "sheet_id": "A-2",
+      "page_number": 2,
+      "location_type": "detail_callouts",
+      "evidence": "Window details include notes on repairs.",
+      "confidence": 0.9
+    }
+  ],
+  "where_quantities_live": [
+    {
+      "sheet_id": "A-3",
+      "page_number": 3,
+      "location_type": "elevation_dimensions",
+      "evidence": "Dimensions for window heights are provided.",
+      "confidence": 0.8
+    }
+  ],
+  "where_materials_live": [
+    {
+      "sheet_id": "A-2",
+      "page_number": 2,
+      "location_type": "specification_section",
+      "evidence": "Materials specified in window detail notes.",
+      "confidence": 0.85
+    }
+  ],
+  "building_context": {
+    "building_type": "row_house",
+    "is_row_context": true,
+    "building_ids": [
+      "B-1",
+      "B-2"
+    ],
+    "addresses": [
+      "123 Main St"
+    ],
+    "evidence": "Multiple building IDs and address listed."
+  },
+  "site_context": null,
+  "key_dimensions": {
+    "width": 20.0,
+    "depth": 30.0,
+    "height": 15.0,
+    "area": 600.0,
+    "evidence": "Dimensions found in elevation drawings.",
+    "confidence": 0.75
+  },
+  "critical_expected_items": [
+    {
+      "item": "parapet",
+      "expected_for": "row_house_repair",
+      "found": true,
+      "evidence": "Parapet details included in repair notes.",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": 0.85,
+  "missing_fields": [],
+  "resolved_project_type": null,
+  "resolved_scope_type": null,
+  "resolution_notes": [],
+  "primary_division": "08",
+  "primary_trade": "windows",
+  "trade_detection_confidence": 0.95,
+  "labor_regime": "standard",
+  "labor_regime_confidence": 0.8,
+  "labor_regime_evidence": "Standard labor regime mentioned in notes."
+}

@@ -1,0 +1,46 @@
+{
+  "project_id": "e331ba35",
+  "project_name": null,
+  "location": "02 Central Avenue",
+  "issuing_authority": "City of New York",
+  "bid_submission_date": null,
+  "base_scope_cost": 18805.5,
+  "compliance_total": 695.81,
+  "total_bid": 19501.31,
+  "compliance_delta_pct": 3.7,
+  "compliance_breakdown": {
+    "bond": 470.14,
+    "insurance": 225.67
+  },
+  "compliance_adjustments": [
+    "Prevailing wage multiplier applied: +50% to labor rates (Government/public project detected). Required for public/government projects per Davis-Bacon or state prevailing wage laws.",
+    "Performance & Payment Bonds: +2.50% of base scope ($470.14) (Government/public project detected). Required for public/government contracts to protect the owner.",
+    "Supplemental Insurance: +1.20% of base scope ($225.67) (Government/public project detected). Additional coverage required for public/government projects."
+  ],
+  "prevailing_wage_applied": false,
+  "bonds_required": true,
+  "insurance_applied": true,
+  "procurement_indicators": [
+    "Includes 'City of New York' indicating local government involvement",
+    "Presence of public procurement language",
+    "References to public works and municipal projects"
+  ],
+  "procurement_notes": [
+    "The document appears to be related to a municipal construction project."
+  ],
+  "evidence_references": [
+    {
+      "type": "procurement_pages",
+      "pages": [
+        1
+      ],
+      "description": "Pages flagged for procurement indicators"
+    }
+  ],
+  "confidence_pct": 100.0,
+  "confidence_explanation": "This bid requires review before submission. Some quantities are estimated or evidence is incomplete.",
+  "summary": "This project in 02 Central Avenue moved from a base scope of $18,806 to a compliance-aware total of $19,501. Compliance uplift represented 3.7% of the base scope. Bond requirements were included to satisfy public agency standards. Key compliance cues included: Includes 'City of New York' indicating local government involvement, Presence of public procurement language, References to public works and municipal projects",
+  "recommendations": [
+    "Review procurement notes for additional submission obligations."
+  ]
+}

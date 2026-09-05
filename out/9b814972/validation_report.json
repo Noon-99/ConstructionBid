@@ -1,0 +1,78 @@
+{
+  "project_id": "9b814972",
+  "passed": true,
+  "score": 0.7625,
+  "issues": [
+    {
+      "code": "MISSING_GEOMETRY",
+      "severity": "warning",
+      "message": "Authoritative width missing; using fallback estimate (100.0 ft).",
+      "affected_fields": [
+        "authoritative_dimensions.width"
+      ],
+      "recommended_action": "Re-read pages with dimension callouts"
+    },
+    {
+      "code": "MISSING_GEOMETRY",
+      "severity": "warning",
+      "message": "Authoritative depth missing; using fallback estimate (80.0 ft).",
+      "affected_fields": [
+        "authoritative_dimensions.depth"
+      ],
+      "recommended_action": "Re-read pages with dimension callouts"
+    },
+    {
+      "code": "MISSING_GEOMETRY",
+      "severity": "warning",
+      "message": "Authoritative height missing but treated as advisory for roof-focused scope.",
+      "affected_fields": [
+        "authoritative_dimensions.height"
+      ],
+      "recommended_action": "Re-read pages with dimension callouts"
+    },
+    {
+      "code": "MISSING_AUTHORITATIVE_DIMENSIONS",
+      "severity": "warning",
+      "message": "Missing authoritative dimensions: width, depth, height. Using fallback estimates: {'width': 100.0, 'depth': 80.0}.",
+      "affected_fields": [
+        "authoritative_dimensions"
+      ],
+      "recommended_action": "Re-read pages with dimension callouts"
+    },
+    {
+      "code": "MISSING_CRITICAL_SCOPE",
+      "severity": "warning",
+      "message": "Scope review recommended; could not confirm: parapet, lintel, flashing, brick or repoint, crack repair",
+      "affected_fields": [
+        "scope_of_work",
+        "quantity_takeoff"
+      ],
+      "recommended_action": "Re-read drawings or provide manual override for these scope items."
+    }
+  ],
+  "missing_critical_items": [],
+  "conflicts": {
+    "dimensions": {
+      "issues": [
+        {
+          "code": "MISSING_AUTHORITATIVE_DIMENSIONS",
+          "severity": "warning",
+          "message": "Missing authoritative dimensions: width, depth, height. Using fallback estimates: {'width': 100.0, 'depth': 80.0}.",
+          "affected_fields": [
+            "authoritative_dimensions"
+          ],
+          "recommended_action": "Re-read pages with dimension callouts"
+        }
+      ],
+      "authoritative": {
+        "width": null,
+        "depth": null,
+        "height": null,
+        "confidence": 0.0
+      }
+    }
+  },
+  "rerun_performed": false,
+  "rerun_notes": [],
+  "created_at": "2026-01-23T14:52:23.074520"
+}

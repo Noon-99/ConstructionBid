@@ -1,0 +1,96 @@
+{
+  "project_type": "unknown",
+  "scope_type": "repair",
+  "sheets": [
+    {
+      "sheet_id": "G-002",
+      "page_number": 1,
+      "sheet_type": "notes",
+      "title": "Overview of Site and General Requirements"
+    },
+    {
+      "sheet_id": "A-100",
+      "page_number": 2,
+      "sheet_type": "plan",
+      "title": "Roof Plan"
+    },
+    {
+      "sheet_id": "A-101",
+      "page_number": 3,
+      "sheet_type": "detail",
+      "title": "Roof Edge Detail"
+    },
+    {
+      "sheet_id": "A-112",
+      "page_number": 4,
+      "sheet_type": "detail",
+      "title": "Expansion Joint Detail"
+    }
+  ],
+  "where_scope_lives": [
+    {
+      "sheet_id": "G-002",
+      "page_number": 1,
+      "location_type": "general_notes",
+      "evidence": "General notes outline project requirements.",
+      "confidence": 0.9
+    }
+  ],
+  "where_quantities_live": [
+    {
+      "sheet_id": "A-100",
+      "page_number": 2,
+      "location_type": "area_calculations",
+      "evidence": "Roof plan includes area calculations.",
+      "confidence": 0.8
+    }
+  ],
+  "where_materials_live": [
+    {
+      "sheet_id": "A-101",
+      "page_number": 3,
+      "location_type": "detail_callouts",
+      "evidence": "Detail callouts specify materials for roof edge.",
+      "confidence": 0.85
+    }
+  ],
+  "building_context": {
+    "building_type": "unknown",
+    "is_row_context": false,
+    "building_ids": [],
+    "addresses": [],
+    "evidence": "No specific building context provided."
+  },
+  "site_context": null,
+  "key_dimensions": {
+    "width": null,
+    "depth": null,
+    "height": null,
+    "area": null,
+    "evidence": "No explicit dimensions found.",
+    "confidence": 0.0
+  },
+  "critical_expected_items": [
+    {
+      "item": "parapet",
+      "expected_for": "row_house_repair",
+      "found": true,
+      "evidence": "Parapet detail included in the drawings.",
+      "confidence": 0.9
+    }
+  ],
+  "confidence": 0.8,
+  "missing_fields": [
+    "key_dimensions",
+    "building_context"
+  ],
+  "resolved_project_type": null,
+  "resolved_scope_type": null,
+  "resolution_notes": [],
+  "primary_division": "07",
+  "primary_trade": "roofing",
+  "trade_detection_confidence": 0.9,
+  "labor_regime": "unknown",
+  "labor_regime_confidence": 0.0,
+  "labor_regime_evidence": null
+}

@@ -1,0 +1,88 @@
+{
+  "project_id": "cadb6fb3",
+  "summary": {
+    "total_cost": 19604.97,
+    "cost_by_division": {
+      "08 Openings": 19372.5,
+      "01 General Requirements": 232.47
+    },
+    "base_scope_cost": 19372.5,
+    "allowances_total": 0.0,
+    "compliance_costs": {
+      "insurance": 232.47
+    },
+    "compliance_total": 232.47,
+    "contingency_recommendation_pct": null,
+    "contingency_recommendation_amount": null
+  },
+  "line_items": [
+    {
+      "division": "08 Openings",
+      "description": "Remove existing double-hung windows",
+      "quantity": 20.0,
+      "unit": "ea",
+      "unit_cost": 450.0,
+      "total_cost": 9450.0,
+      "basis": "Remove existing windows and install new thermally broken frames. Qty source: Quantity from schedule. Page 1",
+      "confidence": 0.8,
+      "quantity_source": "from_schedule",
+      "quantity_confidence": 0.85
+    },
+    {
+      "division": "08 Openings",
+      "description": "Install new thermally broken aluminum windows",
+      "quantity": 20.0,
+      "unit": "ea",
+      "unit_cost": 450.0,
+      "total_cost": 9450.0,
+      "basis": "Install new thermally broken aluminum windows with flashing. Qty source: Quantity from schedule. Page 1",
+      "confidence": 0.8,
+      "quantity_source": "from_schedule",
+      "quantity_confidence": 0.85
+    },
+    {
+      "division": "08 Openings",
+      "description": "Reference glazing head/jamb detail",
+      "quantity": 1.0,
+      "unit": "EA",
+      "unit_cost": 450.0,
+      "total_cost": 472.5,
+      "basis": "Glazing detail referenced on sheet A-2. Qty source: Quantity estimated (heuristic)",
+      "confidence": 0.8,
+      "quantity_source": "heuristic",
+      "quantity_confidence": 0.2
+    },
+    {
+      "division": "01 General Requirements",
+      "description": "Supplemental Insurance",
+      "quantity": 1.0,
+      "unit": "lump",
+      "unit_cost": 232.47,
+      "total_cost": 232.47,
+      "basis": "Additional insurance requirements for public project",
+      "confidence": 0.9,
+      "quantity_source": "allowance",
+      "quantity_confidence": 0.9
+    }
+  ],
+  "allowances": [],
+  "alternates": [],
+  "clarifications": [
+    {
+      "text": "Cost data missing: Heuristic quantity used for Reference glazing head/jamb detail: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+      "severity": "warning"
+    },
+    {
+      "text": "Compliance adjustment applied: Supplemental Insurance: +1.20% of base scope ($232.47) (Government/public project detected). Additional coverage required for public/government projects.",
+      "severity": "info"
+    },
+    {
+      "text": "Compliance cost adders included in total: Insurance $232.47",
+      "severity": "info"
+    }
+  ],
+  "generated_at": "2026-01-23T20:28:42.580190",
+  "estimate_mode": "conceptual",
+  "bid_ready": true,
+  "bid_mode": "conceptual"
+}

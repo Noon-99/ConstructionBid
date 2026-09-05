@@ -1,0 +1,18 @@
+{
+  "project_id": "8bd42f93",
+  "final_project_type": "unknown",
+  "original_project_type": "unknown",
+  "overall_confidence": 0.58,
+  "indicators": [
+    {
+      "indicator_type": "sheet_type",
+      "indicator_value": "1 plan sheet(s)",
+      "strength": "moderate",
+      "confidence_contribution": 0.08
+    }
+  ],
+  "routing_decision": "fallback_row_house",
+  "routing_reason": "Uncertain typology (unknown+repair) - falling back to row_house extractor",
+  "was_overridden": false,
+  "override_reasons": []
+}

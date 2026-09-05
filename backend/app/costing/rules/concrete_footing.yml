@@ -1,0 +1,33 @@
+name: Concrete Footing
+keywords:
+  - footing
+  - foundation footing
+  - concrete foundation
+  - spread footing
+  - continuous footing
+
+unit_type: CY  # Cubic Yards
+base_unit_cost: 450.00
+material_cost_per_unit: 120.00  # Concrete mix
+labor_hours_per_unit: 2.5
+labor_rate: 55.00
+equipment_cost_per_unit: 50.00  # Pump, forms
+
+waste_factor: 0.10  # 10% waste for concrete
+
+division: "03 Concrete"
+category: "Concrete"
+
+notes: |
+  Concrete footing includes:
+  - 3000 PSI concrete (or specified strength)
+  - Formwork
+  - Rebar (if specified)
+  - Placement and finishing
+  - Does not include excavation (separate item)
+
+
+
+
+
+

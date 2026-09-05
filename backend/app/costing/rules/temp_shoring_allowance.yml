@@ -1,0 +1,34 @@
+name: Temporary Shoring Allowance
+keywords:
+  - shoring
+  - temporary shoring
+  - temp support
+  - shoring allowance
+  - temporary bracing
+
+unit_type: ALLOWANCE  # Lump sum allowance
+base_unit_cost: 5000.00  # Default allowance amount
+material_cost_per_unit: 0.00
+labor_hours_per_unit: 0.00
+labor_rate: 0.00
+equipment_cost_per_unit: 0.00
+
+waste_factor: 0.00
+
+division: "01 General Requirements"
+category: "General"
+is_allowance: true  # Mark as allowance type
+
+notes: |
+  Temporary shoring allowance covers:
+  - Temporary shoring during construction
+  - Structural support during demo/construction
+  - Engineering if required
+  - Removal after construction
+  - Amount is an allowance and should be adjusted based on project scope
+
+
+
+
+
+

@@ -1,0 +1,78 @@
+{
+  "project_id": "ccb3e5f7",
+  "project_name": null,
+  "project_type": "Row House",
+  "run_id": "ccb3e5f7",
+  "generated_at": "2026-01-03T15:34:34.084727",
+  "bid_ready": false,
+  "overall_confidence": 93.75,
+  "confidence_explanation": "This bid requires review before submission. Some quantities are estimated or evidence is incomplete.",
+  "confidence_breakdown": {
+    "scope_coverage": 1.0,
+    "quantity_confidence": 0.5166666666666667,
+    "evidence_coverage": 0.0,
+    "geometry_quality": "Authoritative"
+  },
+  "verified_items": [],
+  "recovery_applied": false,
+  "recovery_pages": [],
+  "review_recommended_items": [
+    {
+      "item": "Roof edge metal / coping (ASSUMED - review required)",
+      "reason": "Quantity inferred",
+      "quantity_source": "heuristic"
+    },
+    {
+      "item": "Roof base flashing (ASSUMED - review required)",
+      "reason": "Quantity inferred",
+      "quantity_source": "heuristic"
+    },
+    {
+      "item": "roof membrane removal",
+      "reason": "Quantity inferred",
+      "quantity_source": "heuristic"
+    },
+    {
+      "item": "roof membrane installation",
+      "reason": "Quantity inferred",
+      "quantity_source": "heuristic"
+    }
+  ],
+  "evidence_coverage": {
+    "bid_value_coverage_pct": 0.0,
+    "items_with_evidence_pct": 0.0,
+    "orphan_items_count": 6,
+    "referenced_pages": [],
+    "detail_refs": []
+  },
+  "geometry_confidence": {
+    "model_generated": true,
+    "buildings_count": 1,
+    "work_zones_count": 21,
+    "geometry_type": "Dimensional + sectional",
+    "used_for": [
+      "Quantity derivation",
+      "Cost attribution",
+      "Evidence navigation"
+    ]
+  },
+  "included_items": [
+    "Line items with quantities & unit costs",
+    "Drawing references per item",
+    "Scope-level cost breakdown",
+    "Evidence-linked audit trail"
+  ],
+  "excluded_items": [
+    "Field verification",
+    "Permits & filing fees (unless specified)",
+    "Contractor overhead & profit",
+    "Change order contingencies"
+  ],
+  "validation_gates_passed": true,
+  "critical_recovery_applied": false,
+  "cache_reuse_enabled": true,
+  "deterministic_run": true,
+  "mode": "conceptual",
+  "run_timestamp": "2026-01-03T15:34:34.084725",
+  "coverage_declarations": null
+}

@@ -1,0 +1,34 @@
+name: New 8" CMU Wall
+keywords:
+  - cmu wall
+  - block wall
+  - 8 inch cmu
+  - concrete masonry unit
+  - new masonry wall
+
+unit_type: SF  # Square Feet
+base_unit_cost: 18.50
+material_cost_per_unit: 8.50  # CMU blocks, mortar, rebar
+labor_hours_per_unit: 0.15
+labor_rate: 55.00
+equipment_cost_per_unit: 1.00  # Mixer, scaffold
+
+waste_factor: 0.05  # 5% waste
+
+division: "04 Masonry"
+category: "Masonry"
+
+notes: |
+  New 8" CMU wall includes:
+  - 8" CMU blocks
+  - Type N or Type S mortar
+  - Vertical rebar (if specified)
+  - Grout (if specified)
+  - Installation labor
+  - Does not include finishes (paint/stucco - separate item)
+
+
+
+
+
+

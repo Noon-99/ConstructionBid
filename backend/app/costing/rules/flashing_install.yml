@@ -1,0 +1,36 @@
+name: flashing_install
+keywords:
+  - flashing
+  - flashing installation
+  - flashing repair
+  - waterproofing
+
+unit_type: LF  # Linear Feet
+base_unit_cost: 28.00
+material_cost_per_unit: 12.00
+labor_hours_per_unit: 0.25
+labor_rate: 55.00
+equipment_cost_per_unit: 1.00
+
+waste_factor: 0.08  # 8% waste
+
+height_multiplier:
+  "0-20": 1.0
+  "20-30": 1.10
+  "30-40": 1.20
+
+material_multiplier: 1.0
+equipment_multiplier: 1.0
+
+notes: |
+  Flashing installation includes:
+  - Removal of old flashing (if needed)
+  - New flashing material (copper, aluminum, or membrane)
+  - Installation and sealing
+  - Integration with masonry
+
+
+
+
+
+

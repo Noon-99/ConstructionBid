@@ -1,0 +1,12 @@
+{
+  "page_number": 3,
+  "sheet_id": "A-1",
+  "sheet_title": "Front Elevation",
+  "page_types": [
+    "elevation"
+  ],
+  "indicators": [
+    "dimensions"
+  ],
+  "confidence": 0.85
+}

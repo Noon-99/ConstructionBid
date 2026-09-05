@@ -1,0 +1,334 @@
+{
+  "project_type": "institutional",
+  "scope_type": "renovation",
+  "scope_of_work": [],
+  "material_specifications": [],
+  "quantity_takeoff": [],
+  "geometry_for_3d": {
+    "site_context": {
+      "building_type": "institutional",
+      "row_of_buildings": [],
+      "subject_building_id": null,
+      "addresses": [],
+      "evidence": "Project is an addition to a recreation center."
+    },
+    "dimensions": {
+      "width": null,
+      "depth": null,
+      "height": null,
+      "evidence": "From Stage 1 document analysis",
+      "computation_formula": null,
+      "input_pages": [
+        1,
+        2
+      ]
+    },
+    "work_zones": [],
+    "evidence_missing": []
+  },
+  "validation_metadata": {
+    "extraction_method": "institutional_extraction",
+    "room_program_pages": [
+      2,
+      2,
+      2,
+      7
+    ],
+    "structural_notes_pages": [],
+    "rescue_performed": true,
+    "rescue_notes": [
+      "Rescue rerun used 9 pages from page_index",
+      "Rescue rerun also returned empty"
+    ]
+  },
+  "evidence_missing": [
+    "totals",
+    "major_specs",
+    "contractor_readiness"
+  ],
+  "room_program": {
+    "rooms": [
+      {
+        "room_number": "101",
+        "room_name": "Gymnasium",
+        "area_sf": 2500.0,
+        "floor": "Ground",
+        "page_number": 2,
+        "sheet_id": "LS-1",
+        "evidence_snippet": "Gymnasium 2500 SF"
+      },
+      {
+        "room_number": "102",
+        "room_name": "Restroom",
+        "area_sf": 150.0,
+        "floor": "Ground",
+        "page_number": 2,
+        "sheet_id": "LS-1",
+        "evidence_snippet": "Restroom 150 SF"
+      },
+      {
+        "room_number": "103",
+        "room_name": "Storage",
+        "area_sf": 300.0,
+        "floor": "Ground",
+        "page_number": 2,
+        "sheet_id": "LS-1",
+        "evidence_snippet": "Storage 300 SF"
+      },
+      {
+        "room_number": "102",
+        "room_name": "Classroom",
+        "area_sf": 800.0,
+        "floor": "First",
+        "page_number": 7,
+        "sheet_id": "A-3",
+        "evidence_snippet": "Room 102: Classroom, Area: 800 SF, Floor: First"
+      }
+    ],
+    "totals": {
+      "existing_gsf": null,
+      "addition_gsf": null,
+      "total_gsf": null,
+      "existing_gsf_evidence": null,
+      "addition_gsf_evidence": null,
+      "total_gsf_evidence": null
+    },
+    "missing_fields": [
+      "totals"
+    ],
+    "confidence": 0.13333333333333333
+  },
+  "structural_notes": {
+    "concrete_specs": [],
+    "rebar_specs": [],
+    "cmu_specs": [],
+    "steel_specs": [],
+    "light_gauge_specs": [],
+    "design_loads": null,
+    "foundation_requirements": null,
+    "submittals": [],
+    "inspections": [],
+    "code_compliance": [],
+    "missing_fields": [
+      "major_specs",
+      "contractor_readiness"
+    ],
+    "confidence": 0.3
+  },
+  "authoritative_dimensions": null,
+  "institutional_geometry_for_3d": {
+    "coordinate_system": {
+      "unit": "feet",
+      "origin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    "existing_building": {
+      "mass_id": "existing_001",
+      "label": "existing",
+      "dimensions": {
+        "width_ft": null,
+        "depth_ft": null,
+        "height_ft": null
+      },
+      "area_gsf": 0.0,
+      "bbox": null,
+      "placement": {
+        "x_offset_ft": 0.0,
+        "y_offset_ft": 0.0,
+        "relation": "adjacent_unknown"
+      },
+      "evidence": {
+        "page_number": 2,
+        "evidence_snippet": "Building dimensions from extraction"
+      }
+    },
+    "addition_building": null,
+    "room_zones": [
+      {
+        "room_number": "101",
+        "room_name": "Gymnasium",
+        "area_sf": 2500.0,
+        "floor": "Ground",
+        "zone_id": "room_101",
+        "bbox": {
+          "min": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "max": {
+            "x": 61.23724356957945,
+            "y": 40.824829046386306,
+            "z": 10.0
+          }
+        },
+        "assignment_confidence": 0.7,
+        "evidence": {
+          "page_number": 2,
+          "evidence_snippet": "Room schedule area: Gymnasium (2500 SF)"
+        },
+        "notes": "Area-only prism: footprint derived from area using 1.5:1 aspect ratio. No layout evidence available."
+      },
+      {
+        "room_number": "102",
+        "room_name": "Restroom",
+        "area_sf": 150.0,
+        "floor": "Ground",
+        "zone_id": "room_102",
+        "bbox": {
+          "min": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 10.1
+          },
+          "max": {
+            "x": 15.0,
+            "y": 10.0,
+            "z": 20.1
+          }
+        },
+        "assignment_confidence": 0.7,
+        "evidence": {
+          "page_number": 2,
+          "evidence_snippet": "Room schedule area: Restroom (150 SF)"
+        },
+        "notes": "Area-only prism: footprint derived from area using 1.5:1 aspect ratio. No layout evidence available."
+      },
+      {
+        "room_number": "103",
+        "room_name": "Storage",
+        "area_sf": 300.0,
+        "floor": "Ground",
+        "zone_id": "room_103",
+        "bbox": {
+          "min": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 20.2
+          },
+          "max": {
+            "x": 21.213203435596427,
+            "y": 14.142135623730951,
+            "z": 30.2
+          }
+        },
+        "assignment_confidence": 0.7,
+        "evidence": {
+          "page_number": 2,
+          "evidence_snippet": "Room schedule area: Storage (300 SF)"
+        },
+        "notes": "Area-only prism: footprint derived from area using 1.5:1 aspect ratio. No layout evidence available."
+      },
+      {
+        "room_number": "102",
+        "room_name": "Classroom",
+        "area_sf": 800.0,
+        "floor": "First",
+        "zone_id": "room_102",
+        "bbox": {
+          "min": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 30.299999999999997
+          },
+          "max": {
+            "x": 34.64101615137754,
+            "y": 23.094010767585033,
+            "z": 40.3
+          }
+        },
+        "assignment_confidence": 0.7,
+        "evidence": {
+          "page_number": 7,
+          "evidence_snippet": "Room schedule area: Classroom (800 SF)"
+        },
+        "notes": "Area-only prism: footprint derived from area using 1.5:1 aspect ratio. No layout evidence available."
+      }
+    ],
+    "roof_volumes": [],
+    "structural_zones": [],
+    "envelope_layers": [],
+    "opening_cutouts": [],
+    "lintel_bands": [],
+    "flashing_bands": [],
+    "geometry_quality": "missing",
+    "missing_evidence": [
+      "footprint_dimensions",
+      "area_gsf",
+      "height",
+      "room_layout_dimensions",
+      "room_footprints_derived_from_area_only"
+    ]
+  },
+  "room_schedule": {
+    "rooms": [
+      {
+        "room_id": "101",
+        "room_name": "Gymnasium",
+        "area_sf": 2500.0,
+        "level": "Ground",
+        "usage_type": null,
+        "finishes_hint": null,
+        "evidence": {
+          "page_number": 2,
+          "sheet_id": "LS-1",
+          "snippet": "Gymnasium 2500 SF"
+        }
+      },
+      {
+        "room_id": "102",
+        "room_name": "Restroom",
+        "area_sf": 150.0,
+        "level": "Ground",
+        "usage_type": null,
+        "finishes_hint": null,
+        "evidence": {
+          "page_number": 2,
+          "sheet_id": "LS-1",
+          "snippet": "Restroom 150 SF"
+        }
+      },
+      {
+        "room_id": "103",
+        "room_name": "Storage",
+        "area_sf": 300.0,
+        "level": "Ground",
+        "usage_type": null,
+        "finishes_hint": null,
+        "evidence": {
+          "page_number": 2,
+          "sheet_id": "LS-1",
+          "snippet": "Storage 300 SF"
+        }
+      },
+      {
+        "room_id": "102",
+        "room_name": "Classroom",
+        "area_sf": 800.0,
+        "level": "First",
+        "usage_type": null,
+        "finishes_hint": null,
+        "evidence": {
+          "page_number": 7,
+          "sheet_id": "A-3",
+          "snippet": "Room 102: Classroom, Area: 800 SF, Floor: First"
+        }
+      }
+    ],
+    "total_gsf": null,
+    "total_gsf_evidence": null,
+    "missing_fields": [
+      "totals"
+    ],
+    "confidence": 0.13333333333333333
+  },
+  "structural_elements": null,
+  "building_envelope": null,
+  "openings": null,
+  "lintels": null,
+  "detail_graph": null,
+  "warranty_and_insurance": null
+}

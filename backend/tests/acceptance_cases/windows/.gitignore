@@ -1,0 +1,8 @@
+# Ignore sample PDFs and generated artifacts
+*.pdf
+*.png
+*.jpg
+*.json
+*.yaml
+*.yml
+*.zip

@@ -1,0 +1,137 @@
+{
+  "project_type": "row_house",
+  "scope_type": "renovation",
+  "sheets": [
+    {
+      "sheet_id": "A-1",
+      "page_number": 1,
+      "sheet_type": "elevation",
+      "title": "Front Elevation"
+    },
+    {
+      "sheet_id": "A-2",
+      "page_number": 2,
+      "sheet_type": "detail",
+      "title": null
+    },
+    {
+      "sheet_id": "A-3",
+      "page_number": 3,
+      "sheet_type": "elevation",
+      "title": "Rear Elevation"
+    },
+    {
+      "sheet_id": "A-4",
+      "page_number": 4,
+      "sheet_type": "elevation",
+      "title": "Right Side Elevation"
+    }
+  ],
+  "where_scope_lives": [
+    {
+      "sheet_id": "A-1",
+      "page_number": 1,
+      "location_type": "general_notes",
+      "evidence": "Notes regarding storefront and glazing details",
+      "confidence": 0.9
+    },
+    {
+      "sheet_id": "A-2",
+      "page_number": 2,
+      "location_type": "detail_callouts",
+      "evidence": "Detail callouts for window installation",
+      "confidence": 0.8
+    }
+  ],
+  "where_quantities_live": [
+    {
+      "sheet_id": "A-2",
+      "page_number": 2,
+      "location_type": "schedule",
+      "evidence": "Window schedule with marks W-1, WP-101",
+      "confidence": 0.95
+    }
+  ],
+  "where_materials_live": [],
+  "building_context": {
+    "building_type": "row_house",
+    "is_row_context": true,
+    "building_ids": [
+      "B-1"
+    ],
+    "addresses": [
+      "123 Main St"
+    ],
+    "evidence": "Identified as a row house with specific address"
+  },
+  "site_context": {
+    "street_front": "123 Main St",
+    "cross_street_left": null,
+    "cross_street_right": null,
+    "row_condition": "attached",
+    "row_count_estimate": null,
+    "subject_position": "unknown",
+    "provenance": {
+      "street_front": "evidence",
+      "cross_street_left": "unknown",
+      "cross_street_right": "unknown",
+      "row_condition": "inferred",
+      "row_count_estimate": "unknown",
+      "subject_position": "unknown"
+    }
+  },
+  "key_dimensions": {
+    "width": 40.0,
+    "depth": 60.0,
+    "height": 30.0,
+    "area": 2400.0,
+    "evidence": "Dimensions noted in elevation drawings",
+    "confidence": 0.9
+  },
+  "critical_expected_items": [
+    {
+      "item": "parapet",
+      "expected_for": "row_house_repair",
+      "found": true,
+      "evidence": "Parapet details included in the drawings",
+      "confidence": 0.85
+    }
+  ],
+  "confidence": 0.9,
+  "missing_fields": [],
+  "resolved_project_type": "row_house",
+  "resolved_scope_type": "repair",
+  "resolution_notes": [
+    "Government project detected: New York City",
+    "Row-house indicators detected: Building context evidence contains 'row'",
+    "Changed scope_type from 'renovation' to 'repair' because row-house context detected",
+    "Extracted site context: row_condition=attached (provenance: inferred)"
+  ],
+  "primary_division": "08",
+  "primary_trade": "windows",
+  "trade_detection_confidence": 0.85,
+  "labor_regime": "standard",
+  "labor_regime_confidence": 0.5,
+  "labor_regime_evidence": "No DOT/public work or union indicators detected. Using standard labor rates.",
+  "procurement_context": {
+    "is_public_project": true,
+    "detection_confidence": 0.9,
+    "indicators": [
+      "Includes NYC logo and agency references",
+      "Indications of public works project",
+      "References to public procurement language"
+    ],
+    "notes": [
+      "Strong indicators of a public sector project based on agency identification and procurement language."
+    ],
+    "source_pages": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "requires_prevailing_wage": true,
+  "requires_bonds": true,
+  "issuing_authority": "New York City"
+}

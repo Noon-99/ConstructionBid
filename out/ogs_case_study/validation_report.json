@@ -1,0 +1,97 @@
+{
+  "project_id": "ogs_case_study",
+  "passed": false,
+  "score": 0.0,
+  "issues": [
+    {
+      "code": "MISSING_GEOMETRY",
+      "severity": "error",
+      "message": "Missing or invalid authoritative width dimension",
+      "affected_fields": [
+        "authoritative_dimensions.width"
+      ],
+      "recommended_action": "Re-read pages with dimension callouts"
+    },
+    {
+      "code": "MISSING_GEOMETRY",
+      "severity": "error",
+      "message": "Missing or invalid authoritative depth dimension",
+      "affected_fields": [
+        "authoritative_dimensions.depth"
+      ],
+      "recommended_action": "Re-read pages with dimension callouts"
+    },
+    {
+      "code": "MISSING_GEOMETRY",
+      "severity": "warning",
+      "message": "Authoritative height missing but treated as advisory for roof-focused scope.",
+      "affected_fields": [
+        "authoritative_dimensions.height"
+      ],
+      "recommended_action": "Re-read pages with dimension callouts"
+    },
+    {
+      "code": "MISSING_AUTHORITATIVE_DIMENSIONS",
+      "severity": "error",
+      "message": "Missing authoritative dimensions: width, depth, height.",
+      "affected_fields": [
+        "authoritative_dimensions"
+      ],
+      "recommended_action": "Re-read pages with dimension callouts"
+    },
+    {
+      "code": "MISSING_ROOF_AREA",
+      "severity": "error",
+      "message": "Roof trade detected but roof area (SF) not extracted — cannot price roof replacement. Expand page selection or improve roof plan extraction. Look for roof plan dimensions, roof area callouts, or calculate from building footprint.",
+      "affected_fields": [
+        "quantity_takeoff",
+        "geometry_for_3d"
+      ],
+      "recommended_action": "Re-read roof plan pages or supply roof_area_sf via manual override."
+    },
+    {
+      "code": "MISSING_CRITICAL_SCOPE",
+      "severity": "error",
+      "message": "Missing required scope elements: parapet, lintel, flashing, brick or repoint, crack repair",
+      "affected_fields": [
+        "scope_of_work",
+        "quantity_takeoff"
+      ],
+      "recommended_action": "Re-read drawings or provide manual override for these scope items."
+    }
+  ],
+  "missing_critical_items": [
+    "MISSING_GEOMETRY",
+    "MISSING_GEOMETRY",
+    "MISSING_AUTHORITATIVE_DIMENSIONS",
+    "MISSING_ROOF_AREA",
+    "MISSING_CRITICAL_SCOPE"
+  ],
+  "conflicts": {
+    "dimensions": {
+      "issues": [
+        {
+          "code": "MISSING_AUTHORITATIVE_DIMENSIONS",
+          "severity": "error",
+          "message": "Missing authoritative dimensions: width, depth, height.",
+          "affected_fields": [
+            "authoritative_dimensions"
+          ],
+          "recommended_action": "Re-read pages with dimension callouts"
+        }
+      ],
+      "authoritative": {
+        "width": null,
+        "depth": null,
+        "height": null,
+        "confidence": 0.0
+      }
+    }
+  },
+  "rerun_performed": true,
+  "rerun_notes": [
+    "Critical-5 recovery performed for: parapet, lintel, flashing, brick_or_repoint, crack_repair",
+    "Critical-5 recovery failed: _validate_critical_scope() missing 1 required positional argument: 'expected_items'"
+  ],
+  "created_at": "2026-01-23T14:20:34.909904"
+}

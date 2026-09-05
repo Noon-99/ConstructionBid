@@ -1,0 +1,97 @@
+{
+  "project_type": "row_house",
+  "scope_type": "repair",
+  "sheets": [
+    {
+      "sheet_id": "G-002",
+      "page_number": 1,
+      "sheet_type": "notes",
+      "title": "Overview of Project Requirements"
+    },
+    {
+      "sheet_id": "A-100",
+      "page_number": 2,
+      "sheet_type": "plan",
+      "title": "Roof Plan"
+    },
+    {
+      "sheet_id": "A-101",
+      "page_number": 3,
+      "sheet_type": "detail",
+      "title": "Roof Edge Detail"
+    },
+    {
+      "sheet_id": "A-112",
+      "page_number": 4,
+      "sheet_type": "detail",
+      "title": "Expansion Joint Detail"
+    }
+  ],
+  "where_scope_lives": [
+    {
+      "sheet_id": "G-002",
+      "page_number": 1,
+      "location_type": "general_notes",
+      "evidence": "Overview of Project Requirements section",
+      "confidence": 0.9
+    }
+  ],
+  "where_quantities_live": [
+    {
+      "sheet_id": "A-100",
+      "page_number": 2,
+      "location_type": "area_calculations",
+      "evidence": "Roof Plan with area calculations",
+      "confidence": 0.8
+    }
+  ],
+  "where_materials_live": [
+    {
+      "sheet_id": "A-101",
+      "page_number": 3,
+      "location_type": "specification_section",
+      "evidence": "Roof Edge Detail with material specifications",
+      "confidence": 0.85
+    }
+  ],
+  "building_context": {
+    "building_type": "row_house",
+    "is_row_context": true,
+    "building_ids": [
+      "B-1"
+    ],
+    "addresses": [
+      "123 Main St"
+    ],
+    "evidence": "Identified as a row-house in project overview"
+  },
+  "site_context": null,
+  "key_dimensions": {
+    "width": 40.0,
+    "depth": 60.0,
+    "height": 30.0,
+    "area": 2400.0,
+    "evidence": "Dimensions found in Roof Plan",
+    "confidence": 0.9
+  },
+  "critical_expected_items": [
+    {
+      "item": "parapet",
+      "expected_for": "row_house_repair",
+      "found": true,
+      "evidence": "Parapet detail included in Roof Edge Detail",
+      "confidence": 0.95
+    }
+  ],
+  "confidence": 0.9,
+  "missing_fields": [],
+  "resolved_project_type": null,
+  "resolved_scope_type": null,
+  "resolution_notes": [],
+  "primary_division": "07",
+  "primary_trade": "roofing",
+  "trade_detection_confidence": 0.95,
+  "labor_regime": "standard",
+  "labor_regime_confidence": 0.8,
+  "labor_regime_evidence": "Standard labor regime indicated in project notes"
+}

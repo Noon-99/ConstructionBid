@@ -1,0 +1,16 @@
+[
+  {
+    "package_id": "pkg_other",
+    "title": "Other Work",
+    "line_item_ids": [
+      "item_0",
+      "item_1",
+      "item_2",
+      "item_3",
+      "item_4"
+    ],
+    "subtotal": 19501.309999999998,
+    "keywords_matched": [],
+    "confidence": 0.3
+  }
+]

@@ -1,0 +1,275 @@
+{
+  "project_id": "adb4959e",
+  "bid_mode": "contractor",
+  "total_bid": 133438.9732,
+  "subtotals": {
+    "base_scope": 51433.614,
+    "logistics": 30800.0,
+    "permits": 1200.0,
+    "labor": 19211.75,
+    "overhead": 15396.8046,
+    "profit": 10264.5364,
+    "contingency": 5132.2682
+  },
+  "sections": [
+    {
+      "section_id": "base_scope",
+      "title": "Base Scope (from drawings)",
+      "division": null,
+      "line_items": [
+        {
+          "item_id": "bid_item_000",
+          "title": "parapet repair",
+          "division": "04 Masonry",
+          "quantity": 20.0,
+          "unit": "LF",
+          "unit_cost": 97.74999999999999,
+          "total_cost": 2150.5,
+          "basis": "Parapet repair. Qty source: Quantity computed from dimensions. Page 1. Formula: width",
+          "notes": null
+        },
+        {
+          "item_id": "bid_item_001",
+          "title": "brick rebuild",
+          "division": "04 Masonry",
+          "quantity": 600.0,
+          "unit": "SF",
+          "unit_cost": 56.25,
+          "total_cost": 38812.5,
+          "basis": "Brick rebuild. Qty source: Quantity computed from dimensions. Page 1. Formula: width * height",
+          "notes": null
+        },
+        {
+          "item_id": "bid_item_002",
+          "title": "repointing",
+          "division": "04 Masonry",
+          "quantity": 600.0,
+          "unit": "SF",
+          "unit_cost": 15.600000000000001,
+          "total_cost": 9828.0,
+          "basis": "Repointing. Qty source: Quantity computed from dimensions. Page 1. Formula: width * height",
+          "notes": null
+        },
+        {
+          "item_id": "bid_item_003",
+          "title": "lintel replacement",
+          "division": "05 Metals",
+          "quantity": 1.0,
+          "unit": "EA",
+          "unit_cost": 540.0,
+          "total_cost": 567.0,
+          "basis": "Lintel replacement. Qty source: Quantity estimated (heuristic)",
+          "notes": null
+        },
+        {
+          "item_id": "bid_item_004",
+          "title": "crack repairs",
+          "division": "01 General Requirements",
+          "quantity": 1.0,
+          "unit": "EA",
+          "unit_cost": 38.5,
+          "total_cost": 42.35,
+          "basis": "Crack repairs. Qty source: Quantity estimated (heuristic)",
+          "notes": null
+        },
+        {
+          "item_id": "bid_item_005",
+          "title": "flashing installation",
+          "division": "07 Thermal and Moisture Protection",
+          "quantity": 1.0,
+          "unit": "EA",
+          "unit_cost": 30.800000000000004,
+          "total_cost": 33.264,
+          "basis": "Flashing installation. Qty source: Quantity estimated (heuristic)",
+          "notes": null
+        }
+      ],
+      "subtotal": 51433.614
+    },
+    {
+      "section_id": "logistics",
+      "title": "Logistics & Protection",
+      "division": "01",
+      "line_items": [
+        {
+          "item_id": "scaffold_001",
+          "title": "Scaffolding",
+          "division": "01",
+          "quantity": 6.0,
+          "unit": "week",
+          "unit_cost": 1000.0,
+          "total_cost": 6000.0,
+          "basis": "Required for exterior masonry work above 6ft per OSHA requirements",
+          "notes": null
+        },
+        {
+          "item_id": "dumpster_001",
+          "title": "Debris Removal / Dumpster Rental",
+          "division": "01",
+          "quantity": 2.0,
+          "unit": "each",
+          "unit_cost": 400.0,
+          "total_cost": 800.0,
+          "basis": "Required for debris removal from masonry and demo work",
+          "notes": null
+        },
+        {
+          "item_id": "dust_control_001",
+          "title": "Dust Control & Daily Cleanup",
+          "division": "01",
+          "quantity": 40.0,
+          "unit": "day",
+          "unit_cost": 600.0,
+          "total_cost": 24000.0,
+          "basis": "Required for daily cleanup and dust control during masonry work",
+          "notes": null
+        }
+      ],
+      "subtotal": 30800.0
+    },
+    {
+      "section_id": "labor",
+      "title": "Labor (extracted from base scope)",
+      "division": null,
+      "line_items": [
+        {
+          "item_id": "labor_embedded",
+          "title": "Labor (from base scope items)",
+          "division": null,
+          "quantity": null,
+          "unit": null,
+          "unit_cost": null,
+          "total_cost": 19211.75,
+          "basis": "Labor costs embedded in base scope unit costs",
+          "notes": null
+        }
+      ],
+      "subtotal": 19211.75
+    },
+    {
+      "section_id": "overhead_profit",
+      "title": "Overhead & Profit",
+      "division": "01",
+      "line_items": [
+        {
+          "item_id": "overhead",
+          "title": "Overhead",
+          "division": "01",
+          "quantity": null,
+          "unit": null,
+          "unit_cost": null,
+          "total_cost": 15396.8046,
+          "basis": "Overhead at 15.0%",
+          "notes": null
+        },
+        {
+          "item_id": "profit",
+          "title": "Profit",
+          "division": "01",
+          "quantity": null,
+          "unit": null,
+          "unit_cost": null,
+          "total_cost": 10264.5364,
+          "basis": "Profit at 10.0%",
+          "notes": null
+        }
+      ],
+      "subtotal": 25661.341
+    },
+    {
+      "section_id": "contingency",
+      "title": "Contingency",
+      "division": "01",
+      "line_items": [
+        {
+          "item_id": "contingency",
+          "title": "Contingency",
+          "division": "01",
+          "quantity": null,
+          "unit": null,
+          "unit_cost": null,
+          "total_cost": 5132.2682,
+          "basis": "Contingency at 5.0%",
+          "notes": null
+        }
+      ],
+      "subtotal": 5132.2682
+    }
+  ],
+  "schedule": null,
+  "payment_schedule": null,
+  "permits_and_inspections": [
+    {
+      "item_id": "special_inspections_001",
+      "title": "Special Inspections Allowance",
+      "division": "01",
+      "quantity": 1.0,
+      "unit": "LS",
+      "unit_cost": 1200.0,
+      "total_cost": 1200.0,
+      "basis": "Required for structural/lintel work per building code requirements",
+      "notes": null
+    }
+  ],
+  "logistics": [
+    {
+      "item_id": "scaffold_001",
+      "title": "Scaffolding",
+      "division": "01",
+      "quantity": 6.0,
+      "unit": "week",
+      "unit_cost": 1000.0,
+      "total_cost": 6000.0,
+      "basis": "Required for exterior masonry work above 6ft per OSHA requirements",
+      "notes": null
+    },
+    {
+      "item_id": "dumpster_001",
+      "title": "Debris Removal / Dumpster Rental",
+      "division": "01",
+      "quantity": 2.0,
+      "unit": "each",
+      "unit_cost": 400.0,
+      "total_cost": 800.0,
+      "basis": "Required for debris removal from masonry and demo work",
+      "notes": null
+    },
+    {
+      "item_id": "dust_control_001",
+      "title": "Dust Control & Daily Cleanup",
+      "division": "01",
+      "quantity": 40.0,
+      "unit": "day",
+      "unit_cost": 600.0,
+      "total_cost": 24000.0,
+      "basis": "Required for daily cleanup and dust control during masonry work",
+      "notes": null
+    }
+  ],
+  "exclusions": [
+    "Site work not shown on drawings",
+    "Interior finishes not specified",
+    "Mechanical, electrical, and plumbing work (unless specified)",
+    "Hazardous materials abatement",
+    "Permits and fees beyond those listed",
+    "Owner-furnished materials"
+  ],
+  "assumptions": [
+    "Access to site is available during normal working hours",
+    "No hazardous materials are present",
+    "Existing conditions are as shown on drawings",
+    "Weather conditions permit normal construction activities",
+    "Cost data missing: Roof perimeter not explicitly found - inferred from building dimensions: 120.0 LF (formula: 2 × (width + depth)). Review required.. Estimate may be incomplete.",
+    "Cost data missing: Heuristic quantity used for lintel replacement: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+    "Cost data missing: Heuristic quantity used for crack repairs: 1.0 EA (confidence: 20.0%). Estimate may be incomplete.",
+    "Cost data missing: Heuristic quantity used for flashing installation: 1.0 EA (confidence: 20.0%). Estimate may be incomplete."
+  ],
+  "region_resolution": {
+    "region_id": "US_DEFAULT",
+    "confidence": 0.0,
+    "evidence": [
+      "No location signals found, using default region"
+    ]
+  },
+  "created_at": "2025-12-25T13:35:49.117979"
+}

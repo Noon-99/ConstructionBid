@@ -1,0 +1,87 @@
+{
+  "project_id": "a2d624d6",
+  "assemblies": [
+    {
+      "id": "flashing_installation_001",
+      "title": "Flashing Installation",
+      "division": "07 56 00 Flashing",
+      "unit": "LF",
+      "quantity": 360.0,
+      "related_bid_item_ids": [
+        "3"
+      ],
+      "components": [
+        {
+          "name": "Aluminum Flashing (6\" Width)",
+          "unit": "LF",
+          "qty": 378.0,
+          "unit_cost": 8.5,
+          "total_cost": 3213.0,
+          "cost_source": "ruleset",
+          "notes": "Base flashing, 5% waste"
+        },
+        {
+          "name": "Drip Edge",
+          "unit": "LF",
+          "qty": 378.0,
+          "unit_cost": 6.0,
+          "total_cost": 2268.0,
+          "cost_source": "ruleset",
+          "notes": "Drip edge with waste"
+        },
+        {
+          "name": "Flashing Tape",
+          "unit": "LF",
+          "qty": 360.0,
+          "unit_cost": 1.25,
+          "total_cost": 450.0,
+          "cost_source": "ruleset",
+          "notes": "Sealant tape"
+        },
+        {
+          "name": "Fasteners (Stainless Screws)",
+          "unit": "EA",
+          "qty": 720.0,
+          "unit_cost": 0.15,
+          "total_cost": 108.0,
+          "cost_source": "ruleset",
+          "notes": "Fasteners every 6\" (2 per LF)"
+        }
+      ],
+      "labor": [
+        {
+          "trade": "carpenter",
+          "crew": [
+            "carpenter",
+            "laborer"
+          ],
+          "hours": 28.8,
+          "rate": 60.0,
+          "total_cost": 1728.0,
+          "basis": "Productivity: 100 LF/day, 8 hours/day"
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Scaffolding",
+          "unit": "Week",
+          "qty": 1.0,
+          "unit_cost": 450.0,
+          "total_cost": 450.0,
+          "basis": "Scaffold required for flashing work"
+        }
+      ],
+      "assumptions": [
+        "Flashing installed over existing substrate",
+        "Weather permitting"
+      ],
+      "spec_refs": [
+        "07 56 00"
+      ],
+      "evidence_refs": [],
+      "ruleset_used": "row_house_repair.yml"
+    }
+  ],
+  "generated_at": "2026-01-03T17:11:28.872314",
+  "version": "1.0"
+}

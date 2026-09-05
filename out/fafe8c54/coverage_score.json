@@ -1,0 +1,131 @@
+{
+  "project_id": "fafe8c54",
+  "generated_at": "2026-01-03T21:58:01.408877",
+  "coverage_score": 0.0,
+  "dominant_trades": [
+    "masonry",
+    "windows",
+    "roofing",
+    "interiors"
+  ],
+  "matched_trades": [],
+  "missing_trades": [
+    {
+      "trade": "masonry",
+      "confidence": 1.0,
+      "evidence_pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "missing_features": [
+        "detail",
+        "scope"
+      ]
+    },
+    {
+      "trade": "windows",
+      "confidence": 0.9558541266794626,
+      "evidence_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "missing_features": [
+        "detail",
+        "materials",
+        "quantity",
+        "scope"
+      ]
+    },
+    {
+      "trade": "roofing",
+      "confidence": 0.869481765834933,
+      "evidence_pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "missing_features": [
+        "detail",
+        "materials",
+        "quantity",
+        "scope"
+      ]
+    },
+    {
+      "trade": "interiors",
+      "confidence": 0.869481765834933,
+      "evidence_pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "missing_features": [
+        "materials",
+        "quantity",
+        "scope"
+      ]
+    }
+  ],
+  "trade_features": {
+    "masonry": {
+      "expected": [
+        "detail",
+        "scope"
+      ],
+      "matched": []
+    },
+    "windows": {
+      "expected": [
+        "detail",
+        "materials",
+        "quantity",
+        "scope"
+      ],
+      "matched": []
+    },
+    "roofing": {
+      "expected": [
+        "detail",
+        "materials",
+        "quantity",
+        "scope"
+      ],
+      "matched": []
+    },
+    "interiors": {
+      "expected": [
+        "materials",
+        "quantity",
+        "scope"
+      ],
+      "matched": []
+    }
+  }
+}

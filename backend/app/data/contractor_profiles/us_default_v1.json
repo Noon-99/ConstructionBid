@@ -1,0 +1,50 @@
+{
+  "profile_id": "us_default_v1",
+  "region": "US_DEFAULT",
+  "project_type": "row_house_masonry",
+  "labor_rates": {
+    "masonry": 75.0,
+    "laborer": 55.0,
+    "foreman": 95.0,
+    "concrete": 70.0,
+    "steel": 85.0,
+    "carpenter": 65.0,
+    "electrician": null,
+    "plumber": null
+  },
+  "overhead_pct": 15.0,
+  "profit_pct": 10.0,
+  "contingency_pct": 5.0,
+  "allowances_defaults": {
+    "permits": 2000.0,
+    "inspections": 1200.0,
+    "dust_control": 600.0
+  },
+  "logistics_rates": {
+    "scaffold_weekly": 1000.0,
+    "dumpster_each": 400.0,
+    "sidewalk_shed_weekly": 0.0,
+    "hoist_weekly": 700.0,
+    "temp_power_monthly": 250.0
+  },
+  "crew_productivity": {
+    "repointing_sf_per_day": 120.0,
+    "parapet_rebuild_lf_per_day": 10.0,
+    "lintel_each_per_day": 2.0,
+    "brick_rebuild_sf_per_day": 80.0,
+    "cmu_wall_sf_per_day": 150.0,
+    "concrete_footing_cy_per_day": 5.0,
+    "slab_on_grade_sf_per_day": 200.0,
+    "demo_cmu_sf_per_day": 200.0,
+    "flashing_lf_per_day": 50.0,
+    "window_replacement_each_per_day": 3.0,
+    "door_replacement_each_per_day": 2.0
+  },
+  "created_at": "2025-01-01T00:00:00Z"
+}
+
+
+
+
+
+
